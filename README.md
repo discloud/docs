@@ -1,14 +1,14 @@
 ---
-description: Bem-vindo a documentação oficial da DisCloud
+description: Welcome to DisCloud Official Documentation
 ---
 
-# Bem-Vindo
+# Welcome
 
-## 📜 Informações
+## 📜Informations
 
-Somos uma plataforma de nuvem baseada em contêiner flexível, gratuita e fácil de usar, oferecemos aos desenvolvedores uma forma simples e rápida de colocar seus Bots Discord online 24/7.
+DisCloud is a free, easy-to-use, flexible container-based cloud platform, we offer developers a simple and fast way to get their Discord Bots online 24/7.
 
-Contamos com a colaboração de doadores para se manter no ar e melhorar a qualidade de nossos serviços. Não possuímos nenhum tipo de vínculo com a Discord Inc.
+We count on the collaboration of donors to stay in the air and improve the quality of our services. We have no relationship with Discord Inc.
 
 • ![:DiscordStaff:](https://cdn.discordapp.com/emojis/452955567795732480.png?v=1) **`Tech Support:`** support@discloudbot.com   
 • ![:TrustSafety:](https://cdn.discordapp.com/emojis/606720108164939776.png?v=1) **`Trust & Safety:`** abuse@discloudbot.com   
