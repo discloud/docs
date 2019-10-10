@@ -1,52 +1,52 @@
 ---
-description: Aprenda a hospedar seu bot do Discord Bot Maker na DisCloud
+description: Learn how to host your Discord Bot Maker bot on DisCloud
 ---
 
 # Discord Bot Maker
 
 {% hint style="info" %}
-Créditos ao [Cap](https://discordapp.com/users/293860296542388234) pelo tutorial apresentado
+Credits to [Cap] (https://discordapp.com/users/293860296542388234) for the tutorial presented
 {% endhint %}
 
 {% hint style="danger" %}
-**Tutorial apenas para a versão beta do DBM!**
+** Tutorial for DBM beta only! **
 {% endhint %}
 
 {% page-ref page="beta-version-dbm.md" %}
 
-## 📥 Preparando os arquivos
+## 📥 Preparing the files
 
-**1.** Acesse a pasta do seu bot.
+**1.** Go to your bot folder.
 
-**2.** Abra sua Steam e acesse a biblioteca aonde está o Discord Bot Maker.
+**2.** Open your Steam and access the library where Discord Bot Maker is located.
 
-**3.** Clique com o botão direito do mouse sobre **Discord Bot Maker** na sua Steam, e clique em **Propriedades**.
+**3.** Right-click ** Discord Bot Maker ** on your Steam, and click **Properties**.
 
-![Clique em Propriedades](../../../../.gitbook/assets/1.JPG)
+![Click on Properties](../../../../.gitbook/assets/1.JPG)
 
-**4.** Dentro de **Propriedades**, clique em **ARQUIVOS LOCAIS**, e por último, em **NAVEGAR PELOS ARQUIVOS LOCAIS**, e então você deve está na pasta aonde está instalado o Discord Bot Maker.
+**4.** Within **Properties**, click **LOCAL FILES**, and lastly, **NAVIGATE BY LOCAL FILES**, and then you should be in the folder where Discord Bot Maker is installed.
 
-![Clique em ARQUIVOS LOCAIS, por &#xFA;ltimo, NAVEGAR PELOS ARQUIVOS LOCAIS](../../../../.gitbook/assets/2.JPG)
+![Click LOCAL FILES, last, NAVIGATE BY LOCAL FILES](../../../../.gitbook/assets/2.JPG)
 
-**4.** Com a pasta do seu bot aberta, e a do Discord Bot Maker também, copie a pasta **actions** do diretório do seu DBM e cole-á na pasta do seu bot.
+**4.** With your bot folder open, and Discord Bot Maker's too, copy the **actions** folder from your DBM directory and paste it into your bot folder.
 
-**5.** Por fim, compacte os arquivos do seu bot em um `.zip`, e não a pasta do seu bot! Zipe juntos os seguintes arquivos: **actions**, **data**, **fonts**, **resources**, **bot.js** e **package.json**.
+**5.** Finally, compress your bot files into a `.zip`, not your bot folder! Zip together the following files: **actions**, **data**, **fonts**, **resources**, **bot.js** and **package.json**.
 
 ![](../../../../.gitbook/assets/image%20%2836%29.png)
 
-> Caso não saiba compactar os arquivos, visite nossa FAQ:
+> If you don't know how to compress the files, visit our FAQ:
 
 {% page-ref page="../../../../faq/how-to-compact-your-files.md" %}
 
-## ✍ Hospedando o seu Bot na DisCloud
+## ✍ Hosting Your Bot on DisCloud
 
-Você pode aprender a hospedar seu Bot na versão website ou Discord
+You can learn how to host your Bot on the website or Discord version.
 
 {% page-ref page="../../../how-to-host/website.md" %}
 
 {% page-ref page="../../../how-to-host/discord.md" %}
 
-### 🎥 **Vídeo tutorial**:
+### 🎥 **Video tutorial**:
 
 {% embed url="https://www.youtube.com/watch?v=XvnBzJAFH0I" caption="" %}
 
