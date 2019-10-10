@@ -1,18 +1,12 @@
-# Como compactar \(zipar\) os meus arquivos?
+How to zip my files?
+Windows
+Select the required files (said in the tutorials), right-click on them, drag the mouse to Send To, and click Compressed Folder.
 
-## Windows
 
-Selecione os arquivos necessários \(dito nos tutoriais\), aperte com botão direito sobre eles, arraste o mouse para **Enviar para** e clique em **Pasta compactada**.
 
-![](../.gitbook/assets/image%20%2831%29.png)
+{% page-ref page = "../ support / languages ​​/ javascript /"%}
 
-{% page-ref page="../suporte/linguagens/javascript/" %}
+{% page-ref page = "../ support / languages ​​/ python /"%}
 
-{% page-ref page="../suporte/linguagens/python/" %}
-
-## Linux
-
-Selecione os arquivos necessários \(dito nos tutoriais\), aperte com botão direito sobre eles, clique em Comprimir e selecione `.zip`.
-
-![](../.gitbook/assets/3.JPG)
-
+Linux
+Select the required files (said in the tutorials), right click on them, click Compress and select .zip.
