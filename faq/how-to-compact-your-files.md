@@ -1,4 +1,4 @@
-# How to compact your files
+# How to compact your files?
 
 ## Windows
 
