@@ -5,7 +5,7 @@ description: Learn how to host your Discord Bot Maker bot on DisCloud
 # Discord Bot Maker
 
 {% hint style="info" %}
-Credits to [Cap] (https://discordapp.com/users/293860296542388234) for the tutorial presented
+Credits to [Cap](https://discordapp.com/users/293860296542388234) for the tutorial presented
 {% endhint %}
 
 {% hint style="danger" %}
