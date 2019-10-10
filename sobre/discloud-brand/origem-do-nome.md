@@ -1,23 +1,13 @@
----
-description: Significados por traz do nome Discloud
----
-
-# Origem do Nome
-
-![](../../.gitbook/assets/246513.jpg)
-
-## Significados 
-
-O nome vem da junção do prefixo latino **dis-** da língua portuguesa, e da palavra em inglês **cloud** comumente utilizada para fazer analogia a computação nas nuvens.  
+description
+Meanings behind the name Discloud
+Name origin
 
 
-| **Dis-** indica: | **Cloud** traduzida para o português: |
-| :--- | :--- |
-| Dissolver | Nuvem |
+Meanings
+The name is a combination of the Latin prefix dis- in Portuguese, and the English word cloud commonly used to make the analogy cloud computing.
 
-> Estamos **dissolvendo**, **dividindo,** **compartilhando** computação nas nuvens entre pessoas.
+Dis- indicates:	Cloud translated to Portuguese:
+To dissolve	A cloud
+We are dissolving , dividing, sharing cloud computing between people.
 
-{% hint style="success" %}
-Existem também outros significados que podem ser facilmente assimilados como **Dis**~~cord~~ **Cloud** que também expressa a definição do nosso serviço.
-{% endhint %}
-
+{% hint style = "success"%} There are also other meanings that can be easily assimilated as Discord Cloud that also expresses the definition of our service. {% endhint%}
