@@ -20,7 +20,7 @@ Credits to [Cap](https://discordapp.com/users/293860296542388234) for the tutori
 
 **2.** Open your Steam and access the library where Discord Bot Maker is located.
 
-**3.** Right-click ** Discord Bot Maker ** on your Steam, and click **Properties**.
+**3.** Right-click **Discord Bot Maker** on your Steam, and click **Properties**.
 
 ![Click on Properties](../../../../.gitbook/assets/1.JPG)
 
