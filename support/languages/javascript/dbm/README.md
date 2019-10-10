@@ -36,7 +36,7 @@ Créditos ao [Cap](https://discordapp.com/users/293860296542388234) pelo tutoria
 
 > Caso não saiba compactar os arquivos, visite nossa FAQ:
 
-{% page-ref page="../../../../faq/como-compactar-zipar-os-meus-arquivos.md" %}
+{% page-ref page="../../../../faq/how-to-compact-your-files.md" %}
 
 ## ✍ Hospedando o seu Bot na DisCloud
 

@@ -1,5 +1,5 @@
 ---
-description: É importante ler os Termos de Serviço da DisCloud antes de hospedar seu bot.
+description: Make sure to read all Terms of Service of DisCloud before host your bot.
 ---
 
 # Terms of Service

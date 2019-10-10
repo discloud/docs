@@ -1,4 +1,4 @@
-# Como compactar \(zipar\) os meus arquivos?
+# How to compact your files
 
 ## Windows
 

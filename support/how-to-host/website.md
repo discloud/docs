@@ -1,7 +1,5 @@
 ---
-description: >-
-  Não sabe hospedar ou fazer alterações no seu bot pelo nosso website? Confira
-  logo abaixo!
+description: Don't know how to host your bot on DisCloud in our website? Learn below.
 ---
 
 # Website
@@ -48,9 +46,9 @@ Se você tiver alguma dúvida em questão a como preencher corretamente informa�
 
 ![](../../.gitbook/assets/image%20%2838%29.png)
 
-{% page-ref page="../../faq/como-pegar-o-id-do-meu-bot.md" %}
+{% page-ref page="../../faq/how-to-get-my-bot-id.md" %}
 
-{% page-ref page="../../faq/qual-o-arquivo-principal.md" %}
+{% page-ref page="../../faq/what-is-the-main-file.md" %}
 
-{% page-ref page="../../faq/como-compactar-zipar-os-meus-arquivos.md" %}
+{% page-ref page="../../faq/how-to-compact-your-files.md" %}
 

@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 * [Terms of Service](terms.md)
-* [Use Policy](policy.md)
+* [Usage Policy](policy.md)
 
 ## Support
 
@@ -22,9 +22,9 @@
 
 ## FAQ
 
-* [Como pegar o ID do meu Bot?](faq/como-pegar-o-id-do-meu-bot.md)
-* [Como compactar \(zipar\) os meus arquivos?](faq/como-compactar-zipar-os-meus-arquivos.md)
-* [Qual o arquivo principal?](faq/qual-o-arquivo-principal.md)
-* [Doações](faq/doacoes.md)
-* [Site](https://discloudbot.com/)
+* [How to get my bot ID](faq/how-to-get-my-bot-id.md)
+* [How to compact your files](faq/how-to-compact-your-files.md)
+* [What is the main file?](faq/what-is-the-main-file.md)
+* [Donations](faq/doacoes.md)
+* [Website](https://discloudbot.com/)
 
