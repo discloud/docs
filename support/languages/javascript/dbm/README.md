@@ -40,7 +40,7 @@ Credits to [Cap](https://discordapp.com/users/293860296542388234) for the tutori
 
 ## ✍ Hosting Your Bot on DisCloud
 
-You can learn how to host your Bot on the website or Discord version.
+You can learn how to host your Bot on the website or Discord version:
 
 {% page-ref page="../../../how-to-host/website.md" %}
 
