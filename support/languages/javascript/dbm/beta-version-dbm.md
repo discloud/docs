@@ -1,20 +1,20 @@
 ---
-description: Tem dúvidas a como entrar na beta do DBM? Aprenda agora mesmo.
+description: Have questions about entering the DBM beta? Learn it right now.
 ---
 
-# How to join to the beta version of DBM
+# How to join to the beta version of DBM?
 
 {% hint style="info" %}
 Créditos ao [Cap](https://discordapp.com/users/293860296542388234) pelo tutorial apresentado
 {% endhint %}
 
-**1° -** Acesse a biblioteca da **Steam** aonde está instalado o **Discord Bot Maker**.
+**1° -** Access the **Steam** library where **Discord Bot Maker** is installed.
 
-**2° -** Clique com o botão direito do mouse sobre **Discord Bot Maker** e depois clique em **Propriedades**.
+**2° -** Right-click **Discord Bot Maker** and click **Properties**.
 
-**3° -** Por último, clique em **BETAS** e selecione a opção **"beta - For testing new features"**.[ ](https://dbmbr.gitbook.io/docs/faq/como-instalar-e-atualizar-os-mods)
+**3° -** Lastly, click **BETAS** and select the option **"beta - For testing new features"**.
 
 ![](../../../../.gitbook/assets/assets_-lp01j6rr6vzibztsimm_-lph-sgzsqphantj0c9p_-lph-a2niovjrvzog3a9_beta-dbm.gif)
 
-**Fonte**: [DBM-BR Docs](https://dbmbr.gitbook.io/docs/faq/como-entrar-na-beta-do-dbm).
+**Font**: [DBM-BR Docs](https://dbmbr.gitbook.io/docs/faq/como-entrar-na-beta-do-dbm).
 
