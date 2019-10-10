@@ -4,6 +4,10 @@ description: Welcome to DisCloud Official Documentation
 
 # Welcome
 
+{% hint style="info" %}
+We need help to translate the English version of this website. Want to help? [Click here](https://github.com/discloud/docs/blob/en/).
+{% endhint %}
+
 > Documentação é o conjunto de todos **documentos**, que são **todas as fontes** contendo informações que ajudem a tomar decisões, comuniquem decisões tomadas e **registrem assuntos de interesse da organização**.
 
 ## 📜Informations
