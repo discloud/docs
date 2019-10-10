@@ -2,7 +2,7 @@
 description: É importante ler a Política de Uso da DisCloud antes de hospedar seu bot.
 ---
 
-# Política de Uso
+# Use Policy
 
 * Última atualização: 02 de outubro de 2019
 * Efetividade: 1 de junho de 2019

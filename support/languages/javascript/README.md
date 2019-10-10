@@ -17,12 +17,12 @@ Antes de tudo, **não envie todos os arquivos** de uma vez, você precisará col
 ## ✍ Hospedando o seu bot
 
 {% hint style="info" %}
-Você pode aprender a hospedar seu bot na [versão website](../../como-hospedar/website.md) ou [Discord](../../como-hospedar/discord.md)
+Você pode aprender a hospedar seu bot na [versão website](../../how-to-host/website.md) ou [Discord](../../how-to-host/discord.md)
 {% endhint %}
 
-{% page-ref page="../../como-hospedar/website.md" %}
+{% page-ref page="../../how-to-host/website.md" %}
 
-{% page-ref page="../../como-hospedar/discord.md" %}
+{% page-ref page="../../how-to-host/discord.md" %}
 
 ## ✅ Finalizado
 

@@ -25,7 +25,7 @@ As bibliotecas **NÃO SÃO as que você importa**, e sim as que você instala.
 Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo deve ser colocado **pillow** e não **PIL** no seu arquivo `requirements.txt`
 {% endhint %}
 
-{% page-ref page="exemplo-do-requirements.txt.md" %}
+{% page-ref page="example-of-requirements.txt.md" %}
 
 ## Preparando seu Bot para enviar para a Discloud
 
@@ -43,9 +43,9 @@ Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo de
 Escolha o método para hospedar seu Bot na Discloud:
 {% endhint %}
 
-{% page-ref page="../../como-hospedar/website.md" %}
+{% page-ref page="../../how-to-host/website.md" %}
 
-{% page-ref page="../../como-hospedar/discord.md" %}
+{% page-ref page="../../how-to-host/discord.md" %}
 
 ## ✅ Finalizado <a id="finalizado"></a>
 

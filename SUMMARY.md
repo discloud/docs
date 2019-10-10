@@ -1,24 +1,24 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Termos de Serviço](terms.md)
-* [Política de Uso](policy.md)
+* [Terms of Service](terms.md)
+* [Use Policy](policy.md)
 
-## Suporte
+## Support
 
-* [Linguagens](suporte/linguagens/README.md)
-  * [JavaScript](suporte/linguagens/javascript/README.md)
-    * [Discord Bot Maker](suporte/linguagens/javascript/dbm/README.md)
-      * [Como entrar na versão beta do DBM?](suporte/linguagens/javascript/dbm/como-entrar-na-beta-do-dbm.md)
-    * [Discord Bot Controls](suporte/linguagens/javascript/dbc.md)
-  * [Python](suporte/linguagens/python/README.md)
-    * [Criando seu requirements.txt](suporte/linguagens/python/exemplo-do-requirements.txt.md)
-  * [Java](suporte/linguagens/java.md)
-* [Conexões](suporte/conexoes/README.md)
-  * [MongoDB Atlas \(mLab\)](suporte/conexoes/mlab-mongodb-atlas.md)
-* [Como Hospedar](suporte/como-hospedar/README.md)
-  * [Website](suporte/como-hospedar/website.md)
-  * [Discord](suporte/como-hospedar/discord.md)
+* [Languages](support/languages/README.md)
+  * [JavaScript](support/languages/javascript/README.md)
+    * [Discord Bot Maker](support/languages/javascript/dbm/README.md)
+      * [How to join to the beta version of DBM](support/languages/javascript/dbm/beta-version-dbm.md)
+    * [Discord Bot Controls](support/languages/javascript/dbc.md)
+  * [Python](support/languages/python/README.md)
+    * [Creating your requirements.txt](support/languages/python/example-of-requirements.txt.md)
+  * [Java](support/languages/java.md)
+* [Connections](support/connections/README.md)
+  * [MongoDB Atlas \(mLab\)](support/connections/mlab-mongodb-atlas.md)
+* [How to Host](support/how-to-host/README.md)
+  * [Website](support/how-to-host/website.md)
+  * [Discord](support/how-to-host/discord.md)
 
 ## FAQ
 

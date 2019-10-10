@@ -2,7 +2,7 @@
 description: É importante ler os Termos de Serviço da DisCloud antes de hospedar seu bot.
 ---
 
-# Termos de Serviço
+# Terms of Service
 
 * Última atualização: 09 de setembro de 2019
 * Efetividade: 1 de junho de 2019

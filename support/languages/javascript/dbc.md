@@ -47,9 +47,9 @@ Após ter feito isso, serão criados mais arquivos, e então, você apenas selec
 
 Você pode aprender a hospedar seu Bot na versão website ou Discord
 
-{% page-ref page="../../como-hospedar/website.md" %}
+{% page-ref page="../../how-to-host/website.md" %}
 
-{% page-ref page="../../como-hospedar/discord.md" %}
+{% page-ref page="../../how-to-host/discord.md" %}
 
 ## ✅ Finalizado
 

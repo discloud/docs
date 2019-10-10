@@ -2,7 +2,7 @@
 description: Tem dúvidas a como entrar na beta do DBM? Aprenda agora mesmo.
 ---
 
-# Como entrar na versão beta do DBM?
+# How to join to the beta version of DBM
 
 {% hint style="info" %}
 Créditos ao [Cap](https://discordapp.com/users/293860296542388234) pelo tutorial apresentado

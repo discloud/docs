@@ -12,7 +12,7 @@ Créditos ao [Cap](https://discordapp.com/users/293860296542388234) pelo tutoria
 **Tutorial apenas para a versão beta do DBM!**
 {% endhint %}
 
-{% page-ref page="como-entrar-na-beta-do-dbm.md" %}
+{% page-ref page="beta-version-dbm.md" %}
 
 ## 📥 Preparando os arquivos
 
@@ -42,9 +42,9 @@ Créditos ao [Cap](https://discordapp.com/users/293860296542388234) pelo tutoria
 
 Você pode aprender a hospedar seu Bot na versão website ou Discord
 
-{% page-ref page="../../../como-hospedar/website.md" %}
+{% page-ref page="../../../how-to-host/website.md" %}
 
-{% page-ref page="../../../como-hospedar/discord.md" %}
+{% page-ref page="../../../how-to-host/discord.md" %}
 
 ### 🎥 **Vídeo tutorial**:
 

@@ -1,4 +1,4 @@
-# Criando seu requirements.txt
+# Creating your requirements.txt
 
 ## Como Funciona:
 
