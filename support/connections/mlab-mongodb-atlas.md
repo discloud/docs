@@ -14,7 +14,7 @@ Erro ao Conectar na MeuDB: MongoNetworkError: connection 0 to meudb-shard-00-00-
 ```
 {% endhint %}
 
-De acordo com um problema do [Github](https://github.com/meteor/meteor/issues/7492#issuecomment-236562860) que encontrei, você receberá essa mensagem de erro se não tiver incluído na lista branca os endereços do MongoDB Atlas,  o IP de onde seu Bot está hospedado.
+Você receberá essa mensagem de erro se não tiver incluído na lista branca os endereços do MongoDB Atlas,  o IP de onde seu Bot está hospedado.
 
 {% hint style="info" %}
 **Devido ao modo como o DisCloud funciona, não podemos fornecer um endereço IP para você.**

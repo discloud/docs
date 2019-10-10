@@ -4,6 +4,10 @@ description: Welcome to DisCloud Official Documentation
 
 # Welcome
 
+{% hint style="success" %}
+Documentação é o conjunto de todos **documentos**, que são **todas as fontes** contendo informações que ajudem a tomar decisões, comuniquem decisões tomadas e **registrem assuntos de interesse da organização**.
+{% endhint %}
+
 ## 📜Informations
 
 DisCloud is a free, easy-to-use, flexible container-based cloud platform, we offer developers a simple and fast way to get their Discord Bots online 24/7.
