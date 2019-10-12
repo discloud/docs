@@ -9,7 +9,7 @@ Credits to [Cap](https://discordapp.com/users/293860296542388234) for the tutori
 {% endhint %}
 
 {% hint style="danger" %}
-** Tutorial for DBM beta only! **
+ **Tutorial for DBM beta only!** 
 {% endhint %}
 
 {% page-ref page="beta-version-dbm.md" %}
