@@ -28,7 +28,7 @@ pandas>=0.18.1
 
 Você pode usar o próprio **bloco de notas** para criar seu arquivo **`requirements.txt`**
 
-![Criando um novo documento de texto e renomeando para &quot;requirements&quot;](../../../.gitbook/assets/image%20%285%29.png)
+![Criando um novo documento de texto e renomeando para &quot;requirements&quot;](../../../.gitbook/assets/image%20%286%29.png)
 
 ![Exemplo de do arquivo criado com algumas depend&#xEA;ncias j&#xE1; definidas  ](../../../.gitbook/assets/image%20%282%29.png)
 

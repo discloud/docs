@@ -33,7 +33,7 @@ Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo de
 
 {% page-ref page="../../../faq/how-to-compact-your-files.md" %}
 
-![Exemplo no Windows](../../../.gitbook/assets/image%20%2811%29.png)
+![Exemplo no Windows](../../../.gitbook/assets/image%20%2812%29.png)
 
 
 
