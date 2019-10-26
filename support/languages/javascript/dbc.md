@@ -5,7 +5,7 @@ description: Aprenda a hospedar seu bot do Discord Bot Controls na DisCloud
 # Discord Bot Controls
 
 {% hint style="info" %}
-Créditos ao [Vinicio Henrique](https://steempeak.com/@viniciotricolor) pelo tutorial apresentado
+Credits to [Vinicio Henrique](https://steempeak.com/@viniciotricolor) for the tutorial presented
 {% endhint %}
 
 ## 📥 Arquivos principais

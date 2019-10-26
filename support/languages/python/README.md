@@ -4,32 +4,32 @@ description: Aprenda a hospedar seu bot em Python na DisCloud
 
 # Python
 
-## 📥 Arquivos principais
+## 📥 Main Files
 
-**`main.py`** e **`requirements.txt`**
+**`main.py`** and **`requirements.txt`**
 
-![O arquivo principal do seu bot, ou seja, o local onde est&#xE1; o bot.run\(\). GERALMENTE &#xE9; main.py](../../../.gitbook/assets/capturar%20%281%29.PNG)
+![The main file of your bot, that is, the local where is the bot.run\(\). USUALLY is main.py](../../../.gitbook/assets/capturar%20%281%29.PNG)
 
 {% hint style="warning" %}
-**Quaisquer outros arquivos que seja necessário em seu Bot sem ser esses dois podem ser adicionados**. \(Isso vale para as cogs também\).
+**Any other files as necessary in your bot without being these two files can be added.** \(this goes for cogs too\).
 {% endhint %}
 
 {% page-ref page="../../../faq/what-is-the-main-file.md" %}
 
 ## Requirements
 
-O `requirements.txt` deve conter as bibliotecas usadas no seu Bot, por padrão, deve no mínimo conter a livraria `discord.py`, caso use a livraria `disco-py` basta substituir.
+The `requirements.txt` need to have the libraries used in your bot, by default, need to have at least the librarie `discord.py`, in case you use the librarie `disco-py` just replace.
 
 {% hint style="warning" %}
-As bibliotecas **NÃO SÃO as que você importa**, e sim as que você instala.  
-Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo deve ser colocado **pillow** e não **PIL** no seu arquivo `requirements.txt`
+The libraries **IS NOT the ones you import** but the ones you install.  
+Example.: **`import PIL`** but your install using**`pip install pillow`**, should soon be placed the **pillow** and not **PIL** in your `requirements.txt` file
 {% endhint %}
 
 {% page-ref page="example-of-requirements.txt.md" %}
 
-## Preparando seu Bot para enviar para a Discloud
+## Preparing your bot to send to DisCloud
 
-• Faça um **`.zip`** com os arquivos.
+• Zip your files.
 
 {% page-ref page="../../../faq/how-to-compact-your-files.md" %}
 
@@ -37,19 +37,19 @@ Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo de
 
 
 
-## ✍ Hospedando o seu Bot
+## ✍ Hosting your bot
 
 {% hint style="info" %}
-Escolha o método para hospedar seu Bot na Discloud:
+Choose the method to host your bot on DisCloud:
 {% endhint %}
 
 {% page-ref page="../../how-to-host/website.md" %}
 
 {% page-ref page="../../how-to-host/discord.md" %}
 
-## ✅ Finalizado <a id="finalizado"></a>
+## ✅ Finished <a id="finalizado"></a>
 
-Pronto, em alguns segundos ou minutos, o seu Bot estará online.
+Ready, in some seconds or minutes, your bot will be online.
 
 ![](../../../.gitbook/assets/capturar.PNG)
 
