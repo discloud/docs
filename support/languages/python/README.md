@@ -1,5 +1,5 @@
 ---
-description: Aprenda a hospedar seu bot em Python na DisCloud
+description: Learn how to host your bot in Python on DisCloud
 ---
 
 # Python

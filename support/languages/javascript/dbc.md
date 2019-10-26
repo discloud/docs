@@ -1,5 +1,5 @@
 ---
-description: Aprenda a hospedar seu bot do Discord Bot Controls na DisCloud
+description: Learn how to host your Discord Bot Controls on DisCloud
 ---
 
 # Discord Bot Controls
