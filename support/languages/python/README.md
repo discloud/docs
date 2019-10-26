@@ -49,7 +49,7 @@ Choose the method to host your bot on DisCloud:
 
 ## ✅ Finished <a id="finalizado"></a>
 
-Ready, in some seconds or minutes, your bot will be online.
+Finish, in some seconds or minutes, your bot will be online.
 
 ![](../../../.gitbook/assets/capturar.PNG)
 

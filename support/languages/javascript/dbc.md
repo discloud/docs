@@ -8,52 +8,52 @@ description: Aprenda a hospedar seu bot do Discord Bot Controls na DisCloud
 Credits to [Vinicio Henrique](https://steempeak.com/@viniciotricolor) for the tutorial presented
 {% endhint %}
 
-## 📥 Arquivos principais
+## 📥 Main Files
 
-Abra o seu projeto clicando no nome do seu projeto, abaixo de **Current projects**.
+Open your project by clicking in the name of your project below of **Current projects**.
 
 ![](../../../.gitbook/assets/image%20%2841%29.png)
 
 
 
-Clique em **EXPORTS** e faça a exportação dos arquivos do seu projeto em **Windows setup** ou **Ubuntu setup**.
+Click in **EXPORTS** and export your files of your project **Windows setup** or **Ubuntu setup**.
 
 ![](../../../.gitbook/assets/image%20%2824%29.png)
 
 
 
-Após isso, será salvo os arquivos do seu bot em `.zip`.
+After this will be saved the files of yor bot in one `.zip`.
 
 ![](../../../.gitbook/assets/image%20%2839%29.png)
 
 
 
-Apague todos os arquivos, menos `install.bat`, `start.bat`, `bot.js`, `configs.json` e `package.json`. Feito isso, clique em `install.bat` \(apenas se você tiver instalado o [NodeJS](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x86.msi)\)
+Delete all files, but keep the `install.bat`, `start.bat`, `bot.js`, `configs.json` and `package.json`. Done that, click in `install.bat` \(only if you have installed the [NodeJS](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x86.msi)\)
 
 ![](../../../.gitbook/assets/image%20%2828%29.png)
 
 
 
-Seus arquivos serão compilados e o cmd será fechado automaticamente.
+Your files will be compiled and your cmd will be automatically closed.
 
 ![](../../../.gitbook/assets/image%20%2816%29.png)
 
   
-Após ter feito isso, serão criados mais arquivos, e então, você apenas selecionará: `bot.js`, `configs.json`, `package.json` e `package-lock.json` e adicione esses arquivos em uma pasta `.zip`.
+After done this, will be created more files criados and you just need to select: `bot.js`, `configs.json`, `package.json` and `package-lock.json` and zip these files.
 
 ![](../../../.gitbook/assets/image%20%289%29.png)
 
-## ✍ Hospedando o seu bot na DisCloud
+## ✍ Hosting your bot on DisCloud
 
-Você pode aprender a hospedar seu Bot na versão website ou Discord
+You can learn how to host your bot with the Discord and Website version.
 
 {% page-ref page="../../how-to-host/website.md" %}
 
 {% page-ref page="../../how-to-host/discord.md" %}
 
-## ✅ Finalizado
+## ✅ Finished
 
-Pronto, o seu bot já está no ar.
+Finish, your bot will be online.
 
 ![](../../../.gitbook/assets/image%20%288%29.png)
 

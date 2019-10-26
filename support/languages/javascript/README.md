@@ -26,7 +26,7 @@ You can learn how to host your bot in a [website version](../../how-to-host/webs
 
 ## ✅ Finished
 
-In a few seconds your bot will be activated.
+In a few seconds your bot will be online.
 
 ![](../../../.gitbook/assets/image%20%2827%29.png)
 
