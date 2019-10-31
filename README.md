@@ -22,5 +22,5 @@ We count on the collaboration of donors to stay in the air and improve the quali
 • ![:YouTube:](https://cdn.discordapp.com/emojis/430925378681569282.png?v=1) **`YouTube:`** [**https://youtube.com/c/pedroricardor**](https://youtube.com/c/pedroricardor)   
 • ![:discord:](https://cdn.discordapp.com/emojis/274789236421427200.png?v=1) **`Discord:`** [**https://discord.gg/CvxevT5**](https://discord.gg/CvxevT5)
 
-![](.gitbook/assets/icongif.gif)
+![](.gitbook/assets/1.png)
 
