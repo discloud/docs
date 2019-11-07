@@ -13,10 +13,7 @@ Segundo a [documentação do pip sobre arquivos requirements](https://pip.pypa.i
  Considerando esse `requirements.txt` aqui:
 
 ```text
--e git+https://github.com/jtemporal/caipyra.git@master#egg=caipyra
-discord.py
-seaborn==0.8.1
-pandas>=0.18.1
+-e git+https://github.com/jtemporal/caipyra.git@master#egg=caipyradiscord.pyseaborn==0.8.1pandas>=0.18.1
 ```
 
 1.  **-e git+https://github.com/jtemporal/caipyra.git@master\#egg=caipyra**: Dessa forma conseguimos instalar pacotes Python que estejam disponíveis no GitHub mas não no PyPI. Essa é uma dica muito legal quando por exemplo, você precisa da versão em desenvolvimento de um biblioteca ou quando você prefere usar um fork no lugar da versão tradicional do pacote. 
