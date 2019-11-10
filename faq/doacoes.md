@@ -1,4 +1,4 @@
-# Doações
+# Donations
 
 ## 💰 Formas de pagamento
 

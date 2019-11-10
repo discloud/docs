@@ -1,4 +1,4 @@
-# Qual o arquivo principal?
+# What is the main file?
 
 ## Arquivos principais gerais
 
