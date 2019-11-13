@@ -1,26 +1,14 @@
 ---
-description: Welcome to DisCloud Official Documentation
+description: A little information & contact info for DisCloud Services & DisCloud Staff.
 ---
 
-# Welcome
+# Information
 
-{% hint style="info" %}
-We need help to translate the English version of this website. Want to help? [Click here](https://github.com/discloud/docs/tree/en).
-{% endhint %}
 
-> Documentação é o conjunto de todos **documentos**, que são **todas as fontes** contendo informações que ajudem a tomar decisões, comuniquem decisões tomadas e **registrem assuntos de interesse da organização**.
+**As a flexible, free and easy-to-use container-based cloud platform, we offer developers a simple and fast way to get their Discord Bots online 24/7.**
 
-## 📜Informations
+**We count on donor collaboration to stay on the air and improve the quality of our services. We have no ties to Discord Inc.**
 
-DisCloud is a free, easy-to-use, flexible container-based cloud platform, we offer developers a simple and fast way to get their Discord Bots online 24/7.
-
-We count on the collaboration of donors to stay in the air and improve the quality of our services. We have no relationship with Discord Inc.
-
-• ![:DiscordStaff:](https://cdn.discordapp.com/emojis/452955567795732480.png?v=1) **`Tech Support:`** support@discloudbot.com   
-• ![:TrustSafety:](https://cdn.discordapp.com/emojis/606720108164939776.png?v=1) **`Trust & Safety:`** abuse@discloudbot.com   
-• ![:Twitter:](https://cdn.discordapp.com/emojis/556968525261176842.png?v=1) **`Twitter:`** [**https://twitter.com/discloudbot**](https://twitter.com/discloudbot)   
-• ![:YouTube:](https://cdn.discordapp.com/emojis/430925378681569282.png?v=1) **`YouTube:`** [**https://youtube.com/c/pedroricardor**](https://youtube.com/c/pedroricardor)   
-• ![:discord:](https://cdn.discordapp.com/emojis/274789236421427200.png?v=1) **`Discord:`** [**https://discord.gg/CvxevT5**](https://discord.gg/CvxevT5)
-
-![](.gitbook/assets/1.png)
-
+{% tabs %}
+{% tab title="Staff Contact Contact" %}
+_DiscordStaff_: Tech Support:  \|  **support@discloudbot.com**
