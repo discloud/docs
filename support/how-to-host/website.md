@@ -20,11 +20,11 @@ Recomendamos você ler os [Termos de Serviço](../../terms.md) e [Política de U
 
 Entre no site da DisCloud [clicando aqui](https://discloudbot.com) e clique no botão **Entrar**
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 Logo em seguida, o site redirecionará você a esta página, e então clique no botão **Autorizar**.
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
 Pronto, você já foi registrado na DisCloud e poderá hospedar e fazer alterações no seu bot pelo website. Você será automaticamente adicionado ao nosso servidor do Discord para que você possa também fazer as mesmas ações pelo Discord. [Não quer hospedar pelo nosso site? Hospede agora mesmo pelo Discord!](discord.md)
 
@@ -32,11 +32,11 @@ Pronto, você já foi registrado na DisCloud e poderá hospedar e fazer alteraç
 
 Clique na sua foto de perfil no site e clique no botão **Painel de Controle**
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 Aparecerá esta página, e então clique em **Adicionar Bot**.
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 Se você ainda não separou os arquivos do seu bot, entre na aba **Tutoriais** e consulte a linguagem do seu bot. Se você já tiver os arquivos separados em uma pasta compactada \(`.zip`\), arraste para o website e preencha as informações obrigatórias e, para concluir, clique no botão **Adicionar Bot**.
 
@@ -44,7 +44,7 @@ Se você ainda não separou os arquivos do seu bot, entre na aba **Tutoriais** e
 Se você tiver alguma dúvida em questão a como preencher corretamente informações obrigatórias do seu bot na DisCloud, visite a categoria FAQ em nossa documentação!
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 
 {% page-ref page="../../faq/how-to-get-my-bot-id.md" %}
 

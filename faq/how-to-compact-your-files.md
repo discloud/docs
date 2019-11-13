@@ -4,7 +4,7 @@
 
 Selecione os arquivos necessários \(dito nos tutoriais\), aperte com botão direito sobre eles, arraste o mouse para **Enviar para** e clique em **Pasta compactada**.
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 {% page-ref page="../support/languages/javascript/" %}
 
