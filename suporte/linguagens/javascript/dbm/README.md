@@ -36,7 +36,7 @@ Créditos ao [Cap](https://discordapp.com/users/293860296542388234) pelo tutoria
 Na última atualização **1.5.9 do DBM** agora existe também a pasta extensions e events, compacte elas se você usa alguma extension ou event da pasta no seu bot!
 {% endhint %}
 
-![](../../../../.gitbook/assets/image%20%2843%29.png)
+![](../../../../.gitbook/assets/image%20%2842%29.png)
 
 > Caso não saiba compactar os arquivos, visite nossa FAQ:
 

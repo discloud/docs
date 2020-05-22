@@ -12,7 +12,7 @@ Créditos ao [MagnataEffects](https://absolutproject.com) pelo tutorial apresent
 
 Antes de tudo, **não envie todos os arquivos** de uma vez, você precisará colocar os arquivos do seu bot em uma pasta `.zip`. Não é necessário o upload dos arquivos `node_modules` e `package-lock.json`.
 
-![](../../../.gitbook/assets/image%20%2837%29.png)
+![](../../../.gitbook/assets/image%20%2836%29.png)
 
 ## ✍ Hospedando o seu bot
 

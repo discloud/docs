@@ -31,7 +31,7 @@ Para realizar compras via PayPal, acesse o site da [**DisCloud**](https://disclo
 
 ## ![](.gitbook/assets/mercadopago.png) Mercado Pago
 
-Para efetuar compras via Mercado Pago, você deve enviar o valor do plano de sua escolha para o e-mail `pedroricardorn@gmail.com`. Em seguida, mande o comprovante para o DM \(Direct Message\) de um membro da **`@DisCloud Staff`**.
+Para efetuar compras via Mercado Pago, você deve enviar o valor do plano de sua escolha para o e-mail `pedroricardorn@gmail.com`. Em seguida, mande o comprovante para o DM \(Direct Message\) do BOT **`@Mailbox#3226`** \(ou de um membro da **`@DisCloud Staff`** caso o BOT esteja indisponível\).
 
 Para mais informações sobre nossos planos, basta digitar `.planos` no canal de comandos do servidor ou acessar nosso [site](https://discloudbot.com/).
 

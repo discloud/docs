@@ -4,7 +4,7 @@
 
 É bem simples, ative o modo desenvolvedor no seu Discord indo em `Configurações >> Aparência >> Avançado` e ative o **Modo desenvolvedor**.
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2835%29%20%281%29.png)
 
 Aperte com o botão direito em cima do nome do seu bot e na última opção aparecerá o botão **Copiar ID**.
 

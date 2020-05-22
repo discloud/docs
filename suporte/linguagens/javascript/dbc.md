@@ -12,7 +12,7 @@ Créditos ao [Vinicio Henrique](https://steempeak.com/@viniciotricolor) pelo tut
 
 Abra o seu projeto clicando no nome do seu projeto, abaixo de **Current projects**.
 
-![](../../../.gitbook/assets/image%20%2844%29.png)
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 
 
@@ -24,7 +24,7 @@ Clique em **EXPORTS** e faça a exportação dos arquivos do seu projeto em **Wi
 
 Após isso, será salvo os arquivos do seu bot em `.zip`.
 
-![](../../../.gitbook/assets/image%20%2842%29.png)
+![](../../../.gitbook/assets/image%20%2841%29.png)
 
 
 

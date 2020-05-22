@@ -46,7 +46,7 @@ Se você ainda não separou os arquivos do seu bot, entre na aba **Tutoriais** e
 Se você tiver alguma dúvida em questão a como preencher corretamente informações obrigatórias do seu bot na DisCloud, visite a categoria FAQ em nossa documentação!
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 
 {% page-ref page="../../faq/como-pegar-o-id-do-meu-bot.md" %}
 

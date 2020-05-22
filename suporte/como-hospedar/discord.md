@@ -20,7 +20,7 @@ Antes de você já ir jogando os seus arquivos no website, consulte um dos tutor
 Apenas hospede pelo Discord se o seu arquivo for menos que 8 MB. Caso for maior, terá que hospedar na [versão website](website.md).
 {% endhint %}
 
-Se você estiver com o cargo **CloudAccess**, significa que você se registrou com sucesso na DisCloud. Para hospedar, entre no canal de texto `🔌▏cmd-discloud` e digite `.up`.
+Se você estiver com o cargo **CloudAccess**, significa que você se registrou com sucesso na DisCloud. Para hospedar, entre no canal de texto `🔌┃cmd-discloud` e digite `.up`.
 
 ![ ](../../.gitbook/assets/image%20%2833%29.png)
 
