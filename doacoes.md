@@ -13,7 +13,7 @@ description: >-
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ![](.gitbook/assets/free.png) Free | **100mb** | 0.25 | 1 | - | 0 | Não | Não | Sim |
 | ![](.gitbook/assets/booster.png) Booster | **100mb** | 0.25 | 1 | - | 0 | Não | Sim | Não |
-| ![](.gitbook/assets/carbon.png) Carbon | **128mb** | 0.25 | 1 | 1,99 | 0 | Sim | Sim | Não |
+| ![](.gitbook/assets/carbon.png) Carbon | **200mb** | 0.25 | 1 | 1,99 | 0 | Sim | Sim | Não |
 | ![](.gitbook/assets/gold.png) Gold | **512mb** | 0.5 | 5 | 5,99 | 1 | Sim | Sim | Não |
 | ![](.gitbook/assets/platinum.png) Platinum | **1Gb** | 1 | 10 | 10,99 | 2 | Sim | Sim | Não |
 | ![](.gitbook/assets/diamond.png) Diamond | **2Gb** | 2 | 20 | 24,00 | 3 | Sim | Sim | Não |
