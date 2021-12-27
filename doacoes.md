@@ -11,7 +11,7 @@ description: >-
 
 | Benéfico | Memória | CPU | Max. Bots | Preço \(R$\) | Moderadores | Git | Slot ilimitado | Timer |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ![](.gitbook/assets/free.png) Free | **100mb** | 0.25 | 1 | - | 0 | Não | Não | Sim |
+| ![](.gitbook/assets/free.png) Free | **100mb** | 0.25 | 1 | - | 0 | Não | Sim | Sim |
 | ![](.gitbook/assets/booster.png) Booster | **100mb** | 0.25 | 1 | - | 0 | Não | Sim | Não |
 | ![](.gitbook/assets/carbon.png) Carbon | **200mb** | 0.25 | 2 | 1,99 | 0 | Sim | Sim | Não |
 | ![](.gitbook/assets/gold.png) Gold | **512mb** | 0.5 | 5 | 5,99 | 1 | Sim | Sim | Não |
