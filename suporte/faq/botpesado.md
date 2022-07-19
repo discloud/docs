@@ -3,8 +3,8 @@
 > Não consigo enviar o zip no Discord porque é muito pesado
 
 **Como diminuir peso:**\
-&#x20;• Remova o node\_modules se possuir;\
-&#x20;• Remova aplicações(como ffmpeg que já tem na host);\
+&#x20;• Remova o **node\_modules** se possuir;\
+&#x20;• Remova aplicações(como **ffmpeg** que já tem na host);\
 &#x20;• Remova imagens e use links delas.
 
 **Métodos alternativos:**\

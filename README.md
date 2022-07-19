@@ -1,5 +1,5 @@
 ---
-description: Bem-vindo a documentação oficial da DisCloud
+description: Seja Bem-vindo a documentação oficial da DisCloud.
 ---
 
 # Bem-Vindo
@@ -8,15 +8,16 @@ description: Bem-vindo a documentação oficial da DisCloud
 
 ## 📜 Informações
 
-Somos uma plataforma de nuvem baseada em contêiner flexível, gratuita e fácil de usar, oferecemos aos desenvolvedores uma forma simples e rápida de colocar seus Bots Discord online 24/7.
+Somos a <mark style="color:blue;">**primeira plataforma**</mark> em nuvem <mark style="color:blue;">especializada</mark> <mark style="color:blue;"></mark><mark style="color:blue;">****</mark> em aplicações para Discord. Nossos serviços são baseados em contêiner flexível, no qual o <mark style="color:blue;">usuário tem autonomia</mark> para gerenciar seus recursos como desejar.
 
-Contamos com a colaboração de doadores para se manter no ar e melhorar a qualidade de nossos serviços. Não possuímos nenhum tipo de vínculo com a Discord Inc.
+Oferecemos aos desenvolvedores, durante <mark style="color:blue;">24 horas</mark> por dia e <mark style="color:blue;">7 dias</mark> por semana, uma forma <mark style="color:blue;">gratuita</mark>, <mark style="color:blue;">rápida</mark> e <mark style="color:blue;">simples</mark> <mark style="color:blue;"></mark><mark style="color:blue;">****</mark> de hospedar seus sites e bots para Discord. Usando nosso sistema descentralizado, cujo compromisso é promover o <mark style="color:blue;">uso responsável</mark> da API do Discord, você estará em um <mark style="color:blue;">ambiente protegido</mark>, evitando que seus bots hospedados na <mark style="color:blue;">**DisCloud**</mark> infrinjam os termos de serviço e políticas do desenvolvedor, já que atuamos de forma preventiva, antes mesmo que o problema aconteça.
 
-• ![:DiscordStaff:](https://cdn.discordapp.com/emojis/452955567795732480.png?v=1) **`Tech Support:`** support@discloudbot.com  
-• ![:TrustSafety:](https://cdn.discordapp.com/emojis/606720108164939776.png?v=1) **`Trust & Safety:`** abuse@discloudbot.com  
-• ![:Twitter:](https://cdn.discordapp.com/emojis/556968525261176842.png?v=1) **`Twitter:`** [**https://twitter.com/discloudbot**](https://twitter.com/discloudbot)  
-• ![:YouTube:](https://cdn.discordapp.com/emojis/430925378681569282.png?v=1) **`YouTube:`** [**https://youtube.com/c/pedroricardor**](https://youtube.com/c/pedroricardor)  
-• ![:discord:](https://cdn.discordapp.com/emojis/274789236421427200.png?v=1) **`Discord:`** [**https://discord.gg/CvxevT5**](https://discord.gg/CvxevT5)
+Além disso, a <mark style="color:blue;">**DisCloud**</mark> possui uma função social: a <mark style="color:blue;">democratização</mark> da hospedagem de Bots para Discord com sua plataforma sem fins lucrativos. Beneficiando, há mais de 2 anos, milhares de pessoas, cuja estimativa é de **50.000** <mark style="color:blue;">usuários</mark>. Atualmente, por mérito da equipe e carinho dos doadores, nossa plataforma mantém <mark style="color:blue;">milhares de bots online</mark>.
+
+• <img src=".gitbook/assets/842457709378535434.png" alt=":DiscordStaff:" data-size="line"> **`Tech Support:`** support@discloudbot.com\
+• <img src="https://cdn.discordapp.com/emojis/606720108164939776.png?v=1" alt=":TrustSafety:" data-size="line"> **`Trust & Safety:`** abuse@discloudbot.com\
+• <img src=".gitbook/assets/226235.png" alt=":Twitter:" data-size="line"> **`Twitter:`** [**https://twitter.com/discloudbot**](https://twitter.com/discloudbot)\
+• <img src=".gitbook/assets/408757.png" alt=":YouTube:" data-size="line"> **`YouTube:`** [**https://youtube.com/c/pedroricardor**](https://youtube.com/c/pedroricardor)\
+• <img src=".gitbook/assets/4945973.png" alt=":discord:" data-size="line"> **`Discord:`** [**https://discord.gg/CvxevT5**](https://discord.gg/CvxevT5)
 
 ![](.gitbook/assets/1.png)
-

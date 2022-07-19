@@ -13,7 +13,7 @@ Segundo a [documentação do pip sobre arquivos requirements](https://pip.pypa.i
 &#x20;Considerando esse `requirements.txt` aqui:
 
 ```
-git+https://github.com/jtemporal/caipyra.git@master#egg=caipyra
+-e git+https://github.com/jtemporal/caipyra.git@master#egg=caipyra
 discord
 seaborn==0.8.1
 pandas>=0.18.1
@@ -31,9 +31,9 @@ pandas>=0.18.1
 
 Você pode usar o próprio **bloco de notas** para criar seu arquivo **`requirements.txt`**
 
-![Criando um novo documento de texto e renomeando para "requirements"](<../../../.gitbook/assets/image (6).png>)
+![Criando um novo documento de texto e renomeando para "requirements"](<../../../.gitbook/assets/image (32).png>)
 
-![Exemplo de do arquivo criado com algumas dependências já definidas  ](<../../../.gitbook/assets/image (2).png>)
+![Exemplo de do arquivo criado com algumas dependências já definidas  ](<../../../.gitbook/assets/image (33).png>)
 
 ## ✍ Gerando automaticamente o arquivo requirements.txt
 
@@ -45,7 +45,7 @@ pip freeze > requirements.txt
 
 O comando **`pip freeze`** lista no terminal os pacotes **Python** instalados no seu ambiente já no formato que o **pip install** consegue entender, ao associá-lo com o operador de redireção `>` você consegue escrever a mesma lista que aparece no terminal dentro do arquivo de texto.
 
-![](<../../../.gitbook/assets/capturar (4).PNG>)
+![](<../../../.gitbook/assets/Capturar (4).PNG>)
 
 {% hint style="success" %}
 #### Massa né? Agora é só criar arquivos de dependências para todos projetos 😜
