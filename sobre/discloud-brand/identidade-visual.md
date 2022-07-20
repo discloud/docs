@@ -14,11 +14,11 @@ description: >-
 
 {% tabs %}
 {% tab title=" Logotipo horizontal escuro" %}
-![](../../.gitbook/assets/SPOILER\_Discloud\_Dark.png)
+![](../../.gitbook/assets/spoiler\_discloud\_dark.png)
 {% endtab %}
 
 {% tab title=" Logotipo horizontal branco" %}
-![](../../.gitbook/assets/SPOILER\_Discloud\_branco.png)
+![](../../.gitbook/assets/spoiler\_discloud\_branco.png)
 {% endtab %}
 
 {% tab title=" Logotipo horizontal branco sombra" %}
@@ -34,11 +34,11 @@ description: >-
 {% endtab %}
 
 {% tab title="Logotipo Halloween" %}
-![](../../.gitbook/assets/DisCloudHalloween.png)
+![](../../.gitbook/assets/discloudhalloween.png)
 {% endtab %}
 
 {% tab title="Gif Logo" %}
-![](../../.gitbook/assets/icongif.gif)
+![](<../../.gitbook/assets/icongif (1) (1) (1) (1) (1) (1).gif>)
 {% endtab %}
 
 {% tab title="Gif Natal" %}
@@ -50,7 +50,7 @@ description: >-
 {% endtab %}
 
 {% tab title="Gif AnoNovo" %}
-![](<../../.gitbook/assets/ww (1).gif>)
+![](../../.gitbook/assets/ww-1-.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -58,7 +58,7 @@ description: >-
 
 A fonte usada para o logotipo da DisCloud é uma versão modificada do [Uni Sans Heavy](https://www.myfonts.com/fonts/font-fabric/uni-sans/), que foi projetada por Svet Simov em 2009.
 
-{% file src="../../.gitbook/assets/Font_Discloud.otf" %}
+{% file src="../../.gitbook/assets/font_discloud.otf" %}
 
 ![](<../../.gitbook/assets/discloud-background (1) (1) (1) (1) (1).png>)
 

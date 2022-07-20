@@ -8,7 +8,7 @@ description: Aprenda a hospedar seu bot em Python na DisCloud
 
 **`main.py`** e **`requirements.txt`**
 
-![O arquivo principal do seu bot, ou seja, o local onde está o bot.run(). GERALMENTE é main.py](<../../../.gitbook/assets/Capturar (2).PNG>)
+![O arquivo principal do seu bot, ou seja, o local onde está o bot.run(). GERALMENTE é main.py](<../../../.gitbook/assets/capturar (1).PNG>)
 
 {% hint style="warning" %}
 **Quaisquer outros arquivos que seja necessário em seu Bot sem ser esses dois podem ser adicionados**. (Isso vale para as cogs também).
@@ -39,7 +39,7 @@ Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo de
 [como-compactar-zipar-os-meus-arquivos.md](../../faq/como-compactar-zipar-os-meus-arquivos.md)
 {% endcontent-ref %}
 
-![Exemplo no Windows](<../../../.gitbook/assets/image (30).png>)
+![Exemplo no Windows](<../../../.gitbook/assets/image (13).png>)
 
 ## ✍ Hospedando o seu Bot
 
@@ -47,16 +47,16 @@ Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo de
 Escolha o método para hospedar seu Bot na Discloud:
 {% endhint %}
 
-{% content-ref url="../../website/" %}
-[website](../../website/)
+{% content-ref url="../../como-hospedar/website.md" %}
+[website.md](../../como-hospedar/website.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../website/bots/discord.md" %}
-[discord.md](../../website/bots/discord.md)
+{% content-ref url="../../como-hospedar/discord.md" %}
+[discord.md](../../como-hospedar/discord.md)
 {% endcontent-ref %}
 
 ## ✅ Finalizado <a href="#finalizado" id="finalizado"></a>
 
 Pronto, em alguns segundos ou minutos, o seu Bot estará online.
 
-![](<../../../.gitbook/assets/Capturar (3).PNG>)
+![](../../../.gitbook/assets/capturar.PNG)

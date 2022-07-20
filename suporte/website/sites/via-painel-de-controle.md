@@ -12,8 +12,8 @@ description: >-
 
 Antes de você já ir jogando os seus arquivos no painel de controle, consulte um dos tutoriais correspondentes a linguagem do seu **Site**.
 
-{% content-ref url="../../linguagens/javascript.md" %}
-[javascript.md](../../linguagens/javascript.md)
+{% content-ref url="../../linguagens/javascript/" %}
+[javascript](../../linguagens/javascript/)
 {% endcontent-ref %}
 
 {% content-ref url="../../linguagens/python/" %}

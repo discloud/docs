@@ -24,17 +24,17 @@ Através da nossa integração com o **Github** e **Gitlab** você tem a facilid
 
 Primeiro você deve fazer **Login** no site da DisCloud, em seguida, clique na sua foto de perfil e selecione **Painel de Controle**.
 
-![](<../../.gitbook/assets/Bx3UKaF - Imgur.gif>)
+![](../../.gitbook/assets/bx3ukaf-imgur.gif)
 
 Depois selecione o bot que deseja atualizar, em seguida, envie o arquivo `.zip` com os arquivos que serão atualizados. Por fim, clique em **Commitar Alterações**.
 
 ![](https://i.imgur.com/AknNPZ9.png)
 
-### <img src="../../.gitbook/assets/DiscordLogo1.png" alt="" data-size="line"> Discord
+### <img src="../../.gitbook/assets/discordlogo1.png" alt="" data-size="line"> Discord
 
 Vá ao canal `🔌┃cmd-discloud` e digite `.commit` (caso você tenha mais de um bot é necessário informar o ID).
 
-![](<../../.gitbook/assets/foc5si4 - Imgur.gif>)
+![](../../.gitbook/assets/foc5si4-imgur.gif)
 
 Feito isso, aparecerá um canal de texto com o seu Nickname e Tag (exemplo: `#SeuNick-1234`).
 

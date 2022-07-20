@@ -4,11 +4,11 @@ description: >-
   Confira logo abaixo!
 ---
 
-# Discord
+# via Discord
 
 ## 📜 Importante
 
-Antes de você já ir jogando os seus arquivos no website, consulte um dos tutoriais correspondentes a linguagem da sua aplicação **Antes de começar**, faça o seu registro pelo website. Caso não saiba, [clique aqui](website.md).
+Antes de você já ir jogando os seus arquivos no Discord, consulte um dos tutoriais correspondentes a linguagem da sua aplicação **Antes de começar**, faça o seu registro pelo website. Caso não saiba, [clique aqui](website.md).
 
 {% content-ref url="../linguagens/javascript/" %}
 [javascript](../linguagens/javascript/)

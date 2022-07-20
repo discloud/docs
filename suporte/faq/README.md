@@ -6,3 +6,6 @@ description: >-
 
 # ❓ Perguntas Frequentes (FAQ)
 
+{% content-ref url="como-compactar-zipar-os-meus-arquivos.md" %}
+[como-compactar-zipar-os-meus-arquivos.md](como-compactar-zipar-os-meus-arquivos.md)
+{% endcontent-ref %}
