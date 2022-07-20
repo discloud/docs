@@ -47,12 +47,12 @@ Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo de
 Escolha o método para hospedar seu Bot na Discloud:
 {% endhint %}
 
-{% content-ref url="../../como-hospedar/website.md" %}
-[website.md](../../como-hospedar/website.md)
+{% content-ref url="../../website/" %}
+[website](../../website/)
 {% endcontent-ref %}
 
-{% content-ref url="../../como-hospedar/discord.md" %}
-[discord.md](../../como-hospedar/discord.md)
+{% content-ref url="../../website/bots/discord.md" %}
+[discord.md](../../website/bots/discord.md)
 {% endcontent-ref %}
 
 ## ✅ Finalizado <a href="#finalizado" id="finalizado"></a>

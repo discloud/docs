@@ -20,7 +20,7 @@ Logo em seguida, o site redirecionará você a esta página, e então clique no 
 
 ![](<../../.gitbook/assets/image (28).png>)
 
-Pronto, você já foi registrado na DisCloud e poderá hospedar e fazer alterações no seu bot pelo website. Você será automaticamente adicionado ao nosso servidor do Discord para que você possa também fazer as mesmas ações pelo Discord. [Não quer hospedar pelo nosso site? Hospede agora mesmo pelo Discord!](discord.md)
+Pronto, você já foi registrado na DisCloud e poderá hospedar e fazer alterações no seu bot pelo website. Você será automaticamente adicionado ao nosso servidor do Discord para que você possa também fazer as mesmas ações pelo Discord. [Não quer hospedar pelo nosso site? Hospede agora mesmo pelo Discord!](bots/discord.md)
 
 ## 📥 Como hospedar seu bot
 

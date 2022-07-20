@@ -4,13 +4,13 @@
 
 ## Suporte
 
-* [☁ Como Hospedar](suporte/como-hospedar/website.md)
+* [☁ Como Hospedar](suporte/website/README.md)
   * [🌎 Sites](suporte/website/sites/README.md)
     * [via Painel de Controle](suporte/website/sites/via-painel-de-controle.md)
     * [via Discord](suporte/website/sites/via-discord.md)
   * [🤖 Bots](suporte/website/bots/README.md)
     * [via Painel de Controle](suporte/website/bots/via-painel-de-controle.md)
-    * [via Discord](suporte/como-hospedar/discord.md)
+    * [via Discord](suporte/website/bots/discord.md)
 * [⌨ Linguagens](suporte/linguagens/README.md)
   * [📦 JavaScript](suporte/linguagens/javascript/README.md)
   * [🐍 Python](suporte/linguagens/python/README.md)

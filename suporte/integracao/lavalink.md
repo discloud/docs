@@ -26,7 +26,7 @@ Os requisitos para hospedar o Lavalink são os mesmo que hospedar um site, pode 
 
 > ```json
 > {
->   "host": "serginho.discloud.app",
+>   "host": "exemplo.discloud.app",
 >   "port": 443,
 >   "secure": true,
 >   "password": "youshallnotpass"

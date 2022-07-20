@@ -21,15 +21,15 @@ Para mais detalhes sobre como **Compactar os seus Arquivos** e de acordo com o s
 ## ✍ Hospedando o seu bot
 
 {% hint style="info" %}
-Você pode aprender a hospedar seu bot na [versão website](../../como-hospedar/website.md) ou [Discord](../../como-hospedar/discord.md)
+Você pode aprender a hospedar seu bot na [versão website](../../website/) ou [Discord](../../website/bots/discord.md)
 {% endhint %}
 
 {% content-ref url="../../website/bots/via-painel-de-controle.md" %}
 [via-painel-de-controle.md](../../website/bots/via-painel-de-controle.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../como-hospedar/discord.md" %}
-[discord.md](../../como-hospedar/discord.md)
+{% content-ref url="../../website/bots/discord.md" %}
+[discord.md](../../website/bots/discord.md)
 {% endcontent-ref %}
 
 ## :earth\_americas: Hospedando o Seu Site
