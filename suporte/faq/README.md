@@ -9,3 +9,7 @@ description: >-
 {% content-ref url="como-compactar-zipar-os-meus-arquivos.md" %}
 [como-compactar-zipar-os-meus-arquivos.md](como-compactar-zipar-os-meus-arquivos.md)
 {% endcontent-ref %}
+
+{% content-ref url="como-utilizar-o-arquivo-discloud.config.md" %}
+[como-utilizar-o-arquivo-discloud.config.md](como-utilizar-o-arquivo-discloud.config.md)
+{% endcontent-ref %}

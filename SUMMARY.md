@@ -20,8 +20,7 @@
   * [🐿 Go](suporte/linguagens/java-2.md)
   * [🐘 Php](suporte/linguagens/java-3.md)
 * [⛓ Integrações](suporte/integracao/README.md)
-  * [Lavalink](suporte/integracao/lavalink/README.md)
-    * [NodeJS](suporte/integracao/lavalink/nodejs.md)
+  * [Lavalink](suporte/integracao/lavalink.md)
   * [Módulos Status](suporte/integracao/modulos-status.md)
   * [GitHub e GitLab](suporte/integracao/github-e-gitlab/README.md)
     * [Como usar o Github](suporte/integracao/github-e-gitlab/como-usar-o-github.md)
@@ -44,6 +43,8 @@
   * [Bot muito pesado](suporte/faq/botpesado.md)
   * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
   * [A host aceita o arquivo .env?](suporte/faq/env.md)
+* [⚒ Comandos](suporte/comandos/README.md)
+  * [api](suporte/comandos/api.md)
 
 ***
 
