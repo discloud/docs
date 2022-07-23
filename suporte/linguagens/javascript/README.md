@@ -12,8 +12,8 @@ Antes de tudo, **não envie todos os arquivos** de uma vez, você precisará col
 
 Para mais detalhes sobre como **Compactar os seus Arquivos** e de acordo com o seu Sistema Operativo, pode consultar aqui abaixo:
 
-{% content-ref url="../../faq/como-compactar-zipar-os-meus-arquivos.md" %}
-[como-compactar-zipar-os-meus-arquivos.md](../../faq/como-compactar-zipar-os-meus-arquivos.md)
+{% content-ref url="../../faq/zip.md" %}
+[zip.md](../../faq/zip.md)
 {% endcontent-ref %}
 
 
@@ -21,32 +21,32 @@ Para mais detalhes sobre como **Compactar os seus Arquivos** e de acordo com o s
 ## ✍ Hospedando o seu bot
 
 {% hint style="info" %}
-Você pode aprender a hospedar seu bot na [versão website](../../website/) ou [Discord](../../website/bots/discord.md)
+Você pode aprender a hospedar seu bot na [versão website](../../hospedar/) ou [Discord](../../hospedar/bots/discord.md)
 {% endhint %}
 
-{% content-ref url="../../website/bots/via-painel-de-controle.md" %}
-[via-painel-de-controle.md](../../website/bots/via-painel-de-controle.md)
+{% content-ref url="../../hospedar/bots/via-painel-de-controle.md" %}
+[via-painel-de-controle.md](../../hospedar/bots/via-painel-de-controle.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../website/bots/discord.md" %}
-[discord.md](../../website/bots/discord.md)
+{% content-ref url="../../hospedar/bots/discord.md" %}
+[discord.md](../../hospedar/bots/discord.md)
 {% endcontent-ref %}
 
 ## :earth\_americas: Hospedando o Seu Site
 
 {% hint style="info" %}
-Esta funcionalidade necessita de alguns requisitos básicos para poder ser utilizada, por favor consulte os requisitos [aqui](../../website/sites/#requisitos) antes de continuar
+Esta funcionalidade necessita de alguns requisitos básicos para poder ser utilizada, por favor consulte os requisitos [aqui](../../hospedar/sites/#requisitos) antes de continuar
 {% endhint %}
 
-{% content-ref url="../../website/sites/" %}
-[sites](../../website/sites/)
+{% content-ref url="../../hospedar/sites/" %}
+[sites](../../hospedar/sites/)
 {% endcontent-ref %}
 
 ### Utilizando o Express
 
 O **Express** é uma framework muito utilizada na construção de Sites e APIs.
 
-Por padrão o **Express** está configurado para ouvir a porta **`3000`**, você precisa de configurar para ouvir a porta **`8080`**, procure pela seguinte linha geralmente se encontra no seu [arquivo principal](../../faq/qual-o-arquivo-principal.md).
+Por padrão o **Express** está configurado para ouvir a porta **`3000`**, você precisa de configurar para ouvir a porta **`8080`**, procure pela seguinte linha geralmente se encontra no seu [arquivo principal](../../faq/arquivo-principal.md).
 
 ```javascript
 app.listen(8080);

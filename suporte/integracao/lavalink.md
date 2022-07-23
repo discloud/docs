@@ -5,7 +5,7 @@
 ### :pencil: Requisitos
 
 {% hint style="info" %}
-Os requisitos para hospedar o Lavalink são os mesmo que hospedar um site, pode consultar [aqui](../website/sites/#requisitos)
+Os requisitos para hospedar o Lavalink são os mesmo que hospedar um site, pode consultar [aqui](../hospedar/sites/#requisitos)
 {% endhint %}
 
 ## Introdução

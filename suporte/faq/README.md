@@ -6,22 +6,22 @@ description: >-
 
 # ❓ Perguntas Frequentes (FAQ)
 
-{% content-ref url="como-compactar-zipar-os-meus-arquivos.md" %}
-[como-compactar-zipar-os-meus-arquivos.md](como-compactar-zipar-os-meus-arquivos.md)
+{% content-ref url="zip.md" %}
+[zip.md](zip.md)
 {% endcontent-ref %}
 
-{% content-ref url="como-utilizar-o-arquivo-discloud.config.md" %}
-[como-utilizar-o-arquivo-discloud.config.md](como-utilizar-o-arquivo-discloud.config.md)
+{% content-ref url="discloud.config.md" %}
+[discloud.config.md](discloud.config.md)
 {% endcontent-ref %}
 
-{% content-ref url="modmail.md" %}
-[modmail.md](modmail.md)
+{% content-ref url="ticket.md" %}
+[ticket.md](ticket.md)
 {% endcontent-ref %}
 
 {% content-ref url="report.md" %}
 [report.md](report.md)
 {% endcontent-ref %}
 
-{% content-ref url="qual-o-arquivo-principal.md" %}
-[qual-o-arquivo-principal.md](qual-o-arquivo-principal.md)
+{% content-ref url="arquivo-principal.md" %}
+[arquivo-principal.md](arquivo-principal.md)
 {% endcontent-ref %}

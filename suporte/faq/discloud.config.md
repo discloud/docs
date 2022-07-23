@@ -53,14 +53,14 @@ APT=tools
 {% endtabs %}
 
 {% hint style="info" %}
-Coloque o `discloud.config` na raiz do seu projeto e nao se esqueça de incluir no seu [.zip](como-compactar-zipar-os-meus-arquivos.md)
+Coloque o `discloud.config` na raiz do seu projeto e nao se esqueça de incluir no seu [.zip](zip.md)
 {% endhint %}
 
 ![](../../.gitbook/assets/vscode-discloud.config.png)
 
 ## :cloud: Fazendo o Upload
 
-Com o seu [.zip ](como-compactar-zipar-os-meus-arquivos.md)criado com o `discloud.config` chegou a hora do Upload, para utilizar é muito simples!
+Com o seu [.zip ](zip.md)criado com o `discloud.config` chegou a hora do Upload, para utilizar é muito simples!
 
 > * No canal de comandos digite `.upconfig` (ou abreviaçao `.upc`)
 > * Entre no canal que o bot acabou de criar e coloque o seu .zip

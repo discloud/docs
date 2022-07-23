@@ -40,14 +40,14 @@ Se você tiver alguma dúvida em questão a como preencher corretamente informa�
 
 ![](<../../.gitbook/assets/image (44).png>)
 
-{% content-ref url="../faq/como-pegar-o-id-do-meu-bot.md" %}
-[como-pegar-o-id-do-meu-bot.md](../faq/como-pegar-o-id-do-meu-bot.md)
+{% content-ref url="../faq/id-bot.md" %}
+[id-bot.md](../faq/id-bot.md)
 {% endcontent-ref %}
 
-{% content-ref url="../faq/qual-o-arquivo-principal.md" %}
-[qual-o-arquivo-principal.md](../faq/qual-o-arquivo-principal.md)
+{% content-ref url="../faq/arquivo-principal.md" %}
+[arquivo-principal.md](../faq/arquivo-principal.md)
 {% endcontent-ref %}
 
-{% content-ref url="../faq/como-compactar-zipar-os-meus-arquivos.md" %}
-[como-compactar-zipar-os-meus-arquivos.md](../faq/como-compactar-zipar-os-meus-arquivos.md)
+{% content-ref url="../faq/zip.md" %}
+[zip.md](../faq/zip.md)
 {% endcontent-ref %}
