@@ -12,7 +12,7 @@ MAIN=index.js    // Nome ou caminho do arquivo principal, index.js ou src/index.
 RAM=100          // Quantidade de memória RAM em MB
 AUTORESTART=false// Se a sua aplicação cair e desejar que reinicie novamente coloque true
 VERSION=latest   // Muda a versao da linguagem. Use o comando .version para consultar
-APT=ffmpeg       // Instale pacotes na instância Linux da sua Aplicação. Use .apt para consultar a lista de pacotes
+APT=tools        // Instale pacotes na instância Linux da sua Aplicação. Use .apt para consultar a lista de pacotes
 ```
 {% endcode %}
 
@@ -28,6 +28,7 @@ MAIN=index.js
 RAM=100
 AUTORESTART=false
 VERSION=latest
+APT=tools
 ```
 {% endcode %}
 {% endtab %}
@@ -45,6 +46,7 @@ MAIN=index.js
 RAM=512
 AUTORESTART=false
 VERSION=latest
+APT=tools
 ```
 {% endcode %}
 {% endtab %}
