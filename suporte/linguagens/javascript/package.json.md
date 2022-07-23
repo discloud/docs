@@ -17,7 +17,7 @@ npm init -y
 ![](../../../.gitbook/assets/npm-init.gif)
 
 {% hint style="info" %}
-Você precisa do **NodeJS** instalado no seu computador, caso não instalado siga as instruções abaixo.
+Você precisa do **NodeJS** instalado no seu computador, caso não esteja instalado siga as instruções abaixo.
 {% endhint %}
 
 ### Instale o Nodejs no seu computador
@@ -50,11 +50,20 @@ Se retornar a versão do **nodejs**, então está instalado corretamente!
 
 Se você usa **Ubuntu** ou alguma distro baseada nele saiba que nem sempre a versão **nodejs LTS** dos [repositórios](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all) do **Ubuntu** é a mais recente, por isso recomendo seguir as instruções abaixo:
 
-{% embed url="https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions" %}
+```
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+
+{% hint style="info" %}
+O pacote **nodejs** já instala o **npm**
+{% endhint %}
+
+Outras versões consulte [aqui](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
 
 ### Fedora
 
-A versão do **nodejs LTS** presente nos [repositórios](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/) custuma ter bem recente, pode instalalar digitando no Terminal:
+A versão do **nodejs LTS** presente nos [repositórios](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/) custuma ser bem recente, pode instalalar digitando no Terminal:
 
 ```
 sudo dnf install nodejs npm -y

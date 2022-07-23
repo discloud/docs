@@ -9,9 +9,10 @@ description: Aprenda a hospedar seu bot em JavaScript na DisCloud
 **Não envie todos os arquivos** de uma vez, você precisará colocar apenas os arquivos necessários do seu bot em um arquivo compactado`.zip`.&#x20;
 
 ```diff
-Necessários
+Arquivos Mínimos Necessários
 + Arquivo Principal (Exemplo: index.js, bot.js...)
 + Arquivo package.json
++ Outros (Se o seu bot depender de outros arquivos deve incluir)
 Não Necessários
 - Pasta node_modules
 - Arquivo package-lock.json

@@ -7,9 +7,10 @@ description: Aprenda a hospedar seu bot em Python na DisCloud
 ## :file\_folder: Arquivos
 
 ```diff
-Necessários
+Arquivos Mínimos Necessários
 + Arquivo principal (Exemplo: main.py)
 + Arquivo requirements.txt
++ Outros (Se o seu bot depender de outros arquivos deve incluir)
 ```
 
 ![O arquivo principal do seu bot, ou seja, o local onde está o bot.run(). GERALMENTE é main.py](<../../../.gitbook/assets/capturar (1).PNG>)
