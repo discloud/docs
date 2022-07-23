@@ -4,19 +4,37 @@ description: Aprenda a hospedar seu bot em JavaScript na DisCloud
 
 # 📦 JavaScript
 
-## :file\_folder: Arquivos principais
+## :file\_folder: Arquivos
 
-Antes de tudo, **não envie todos os arquivos** de uma vez, você precisará colocar os arquivos do seu bot em uma pasta `.zip`. Não é necessário o upload dos arquivos `node_modules` e `package-lock.json`.
+**Não envie todos os arquivos** de uma vez, você precisará colocar apenas os arquivos necessários do seu bot em um arquivo compactado`.zip`.&#x20;
+
+```diff
+Necessários
++ Arquivo Principal (Exemplo: index.js, bot.js...)
++ Arquivo package.json
+Não Necessários
+- Pasta node_modules
+- Arquivo package-lock.json
+```
+
+> * Dúvidas para encontrar o seu arquivo principal? [Clique aqui](../../faq/arquivo-principal.md#arquivos-principais-gerais)
+> * Dúvidas em criar o seu  arquivo `package.json`? [Clique aqui](package.json.md)
+
+{% content-ref url="package.json.md" %}
+[package.json.md](package.json.md)
+{% endcontent-ref %}
+
+### :compression: Compactando os Arquivos
+
+Selecione apenas os arquivos necessários, como mencionado em cima e crie o seu **.zip**
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
-Para mais detalhes sobre como **Compactar os seus Arquivos** e de acordo com o seu Sistema Operativo, pode consultar aqui abaixo:
+Para mais detalhes sobre como **Compactar os seus Arquivos** e de acordo com o seu **Sistema Operativo**, pode consultar em baixo:
 
 {% content-ref url="../../faq/zip.md" %}
 [zip.md](../../faq/zip.md)
 {% endcontent-ref %}
-
-
 
 ## ✍ Hospedando o seu bot
 
@@ -37,10 +55,6 @@ Você pode aprender a hospedar seu bot na [versão website](../../hospedar/) ou 
 {% hint style="info" %}
 Esta funcionalidade necessita de alguns requisitos básicos para poder ser utilizada, por favor consulte os requisitos [aqui](../../hospedar/sites/#requisitos) antes de continuar
 {% endhint %}
-
-{% content-ref url="../../hospedar/sites/" %}
-[sites](../../hospedar/sites/)
-{% endcontent-ref %}
 
 ### Utilizando o Express
 

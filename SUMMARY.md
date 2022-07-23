@@ -13,6 +13,7 @@
     * [via Discord](suporte/hospedar/bots/discord.md)
 * [⌨ Linguagens](suporte/linguagens/README.md)
   * [📦 JavaScript](suporte/linguagens/javascript/README.md)
+    * [📦 Criar o package.json](suporte/linguagens/javascript/package.json.md)
   * [🐍 Python](suporte/linguagens/python/README.md)
     * [Criando seu requirements.txt](suporte/linguagens/python/exemplo-do-requirements.txt.md)
   * [☕ Java](suporte/linguagens/java.md)

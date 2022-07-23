@@ -10,7 +10,7 @@ Se o seu Bot utilizar **arquivos ocultos** como o `.env` para armazenar por exem
 
 </details>
 
-## Compactando os seus Arquivos
+## :compression: Compactando os seus Arquivos
 
 {% hint style="info" %}
 Selecione os arquivos necessários (dito nos tutoriais das linguagens), pois nem todos os arquivos são necessários.
