@@ -22,7 +22,6 @@
   * [🐘 Php](suporte/linguagens/php.md)
 * [⛓ Integrações](suporte/integracao/README.md)
   * [Lavalink](suporte/integracao/lavalink.md)
-  * [Módulos Status](suporte/integracao/modulos-status.md)
   * [GitHub e GitLab](suporte/integracao/github-e-gitlab/README.md)
     * [Como usar o Github](suporte/integracao/github-e-gitlab/como-usar-o-github.md)
   * [Banco de Dados](suporte/integracao/banco-de-dados/README.md)
