@@ -20,7 +20,7 @@ Arquivos Mínimos Necessários
 [criar-requirements.txt.md](criar-requirements.txt.md)
 {% endcontent-ref %}
 
-## :compression: Compactando os aqruivos
+## :compression: Compactando os arquivos
 
 Selecione apenas os arquivos necessários, como mencionado em cima e crie o seu **.zip**
 

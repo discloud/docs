@@ -1,6 +1,6 @@
 # 📄 Criar o requirements.txt
 
-É um **simples arquivo de texto** que salva uma lista de **pacotes** necessários pelo o seu projeto.&#x20;
+É um **simples arquivo de texto** que salva uma lista de **pacotes** necessários pelo seu projeto.&#x20;
 
 ### Como criar o arquivo `requirements.txt?`?
 
@@ -8,7 +8,7 @@ Comece por entrar no diretório do seu projeto e criar um novo arquivo **txt** e
 
 ![](../../../.gitbook/assets/create-requirements.png)
 
-### Colocando pacotes dentro do seu `requirements.txt`
+### Colocando pacotes no seu `requirements.txt`
 
 {% hint style="warning" %}
 As bibliotecas não são as que você **importa** no seu código, e sim as que você instala pelo **pip install**.
@@ -42,20 +42,20 @@ discord.py
 ```
 {% endcode %}
 
-Quando não especificamos uma versão, o **pip** sempre tentará instalar a versão mais recente do pacote especificado. Podemos especificar versões especificas das seguintes maneiras:
+Quando não especificamos uma versão, o **pip** sempre tentará instalar a versão mais recente do pacote especificado. Podemos especificar versões das seguintes maneiras:
 
 > * `discord.py==1.7.3` - Define uma versão específica a ser instalada. Fixar a versão dessa forma garante que o seu projeto vai sempre estar funcionando, caso o seu codigo ainda não esteja adaptado para uma versão superior
 > * `discord.py>=1.7.3`: Quando usamos o sinal de **`>=`** estamos dizendo que queremos instalar qualquer versão superior ou igual da biblioteca.
 
 ### Colocando todos os pacotes do seu computador
 
-Se você tiver o **Python** instalado no seu computador pode executar um simples comando no seu Terminal para colocar todas as **bibliotecas** e as **suas versões especificas** em um `requirements.txt`
+Se você tiver o **Python** instalado no seu computador pode executar um simples comando no seu Terminal para colocar todas as **bibliotecas** e as **suas versões** em um `requirements.txt`
 
 {% hint style="warning" %}
 `Certifique-se de ter todos os pacotes necessários pelo seu projeto instalados no seu computador antes de executar`
 {% endhint %}
 
-Abra o Terminal no diretorio do seu projeto (Windows use: **Shift+Botão Direito** e clique em **Open PowerShell**) e digite:
+Abra o Terminal no diretório do seu projeto (Windows use: **Shift+Botão Direito** e clique em **Open PowerShell**) e digite:
 
 ```
 pip freeze > requirements.txt
