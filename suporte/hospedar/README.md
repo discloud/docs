@@ -8,46 +8,34 @@ description: >-
 
 ## ✍ Registro
 
-O primeiro passo é fazer o seu registo. Entre no site da [DisCloud](https://discloudbot.com) e clique no botão **Entrar**
+O primeiro passo é fazer o seu **registro**. Entre no site da [DisCloud](https://discloudbot.com) e clique no botão **Registrar**
+
+![](../../.gitbook/assets/discloud-registro.png) ![](../../.gitbook/assets/discord.authorize.png)
 
 {% hint style="info" %}
 Recomendamos você ler os [Termos de Serviço](broken-reference) e [Política de Uso](broken-reference) antes de hospedar seu bot na DisCloud para evitar a suspensão da sua conta de nossos serviços ou problemas relacionados.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (15).png>)
+### :earth\_americas: Hospedar Sites
 
-Logo em seguida, o site redirecionará você a esta página, e então clique no botão **Autorizar**.
+Escolha um método para hospedar o seu site:
 
-![](<../../.gitbook/assets/image (28).png>)
-
-Pronto, você já foi registrado na DisCloud e poderá hospedar e fazer alterações no seu bot pelo website. Você será automaticamente adicionado ao nosso servidor do Discord para que você possa também fazer as mesmas ações pelo Discord. [Não quer hospedar pelo nosso site? Hospede agora mesmo pelo Discord!](bots/discord.md)
-
-## 📥 Como hospedar seu bot
-
-Clique na sua foto de perfil no site e clique no botão **Painel de Controle**
-
-![](<../../.gitbook/assets/image (14).png>)
-
-Aparecerá esta página, e então clique em **Adicionar Bot**.
-
-![](<../../.gitbook/assets/image (27).png>)
-
-Se você ainda não separou os arquivos de sua aplicação, entre na aba **Tutoriais** e consulte a linguagem do seu bot. Se você já tiver os arquivos separados em uma pasta compactada (`.zip`), arraste para o website e preencha as informações obrigatórias e, para concluir, clique no botão **Adicionar Bot**.
-
-{% hint style="info" %}
-Se você tiver alguma dúvida em questão a como preencher corretamente informações obrigatórias do seu bot na DisCloud, visite a categoria FAQ em nossa documentação!
-{% endhint %}
-
-![](<../../.gitbook/assets/image (44).png>)
-
-{% content-ref url="../faq/id-bot.md" %}
-[id-bot.md](../faq/id-bot.md)
+{% content-ref url="sites/via-painel-de-controle.md" %}
+[via-painel-de-controle.md](sites/via-painel-de-controle.md)
 {% endcontent-ref %}
 
-{% content-ref url="../faq/arquivo-principal.md" %}
-[arquivo-principal.md](../faq/arquivo-principal.md)
+{% content-ref url="sites/discord.md" %}
+[discord.md](sites/discord.md)
 {% endcontent-ref %}
 
-{% content-ref url="../faq/zip.md" %}
-[zip.md](../faq/zip.md)
+### ****:robot: **Hospedar Bots**
+
+Escolha um método para hospedar o seu bot:
+
+{% content-ref url="bots/via-painel-de-controle.md" %}
+[via-painel-de-controle.md](bots/via-painel-de-controle.md)
+{% endcontent-ref %}
+
+{% content-ref url="bots/discord.md" %}
+[discord.md](bots/discord.md)
 {% endcontent-ref %}

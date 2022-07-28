@@ -2,7 +2,7 @@
 
 É um **simples arquivo de texto** que salva uma lista de **pacotes** necessários pelo seu projeto.&#x20;
 
-### Como criar o arquivo `requirements.txt?`?
+### Como criar o arquivo `requirements.txt`?
 
 Comece por entrar no diretório do seu projeto e criar um novo arquivo **txt** e certifique-se de que seja **nomeado para** `requirements.txt`
 

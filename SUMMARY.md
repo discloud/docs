@@ -7,7 +7,7 @@
 * [☁ Como Hospedar](suporte/hospedar/README.md)
   * [🌎 Sites](suporte/hospedar/sites/README.md)
     * [via Painel de Controle](suporte/hospedar/sites/via-painel-de-controle.md)
-    * [via Discord](suporte/hospedar/sites/via-discord.md)
+    * [via Discord](suporte/hospedar/sites/discord.md)
   * [🤖 Bots](suporte/hospedar/bots/README.md)
     * [via Painel de Controle](suporte/hospedar/bots/via-painel-de-controle.md)
     * [via Discord](suporte/hospedar/bots/discord.md)

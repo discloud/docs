@@ -62,7 +62,7 @@ Coloque o `discloud.config` na raiz do seu projeto e nao se esqueça de incluir 
 
 Com o seu [.zip ](zip.md)criado com o `discloud.config` chegou a hora do Upload, para utilizar é muito simples!
 
-> * No canal de comandos digite `.upconfig` (ou abreviaçao `.upc`)
+> * No canal de comandos digite `,upconfig` (ou abreviaçao `.upc`)
 > * Entre no canal que o bot acabou de criar e coloque o seu .zip
 
-![](../../.gitbook/assets/upc.png)
+![](../../.gitbook/assets/command-upconfig.png) ![](../../.gitbook/assets/upc.png)
