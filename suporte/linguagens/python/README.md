@@ -11,6 +11,9 @@ Arquivos Mínimos Necessários
 + Arquivo principal (Exemplo: main.py)
 + Arquivo requirements.txt
 + Outros (Se o seu bot depender de outros arquivos deve incluir)
+Não Necessários
+- Pasta .git
+- Arquivo LICENSE
 ```
 
 > * Dúvidas para encontrar o seu arquivo principal? [Clique aqui](../../faq/arquivo-principal.md#arquivos-principais-gerais)

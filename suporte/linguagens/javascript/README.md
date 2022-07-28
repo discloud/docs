@@ -16,6 +16,8 @@ Arquivos Mínimos Necessários
 Não Necessários
 - Pasta node_modules
 - Arquivo package-lock.json
+- Pasta .git
+- Arquivo LICENSE
 ```
 
 > * Dúvidas para encontrar o seu arquivo principal? [Clique aqui](../../faq/arquivo-principal.md#arquivos-principais-gerais)

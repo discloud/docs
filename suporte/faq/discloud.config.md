@@ -11,10 +11,12 @@ TYPE=bot            // Tipo de aplicaçao: bot ou site
 MAIN=index.js       // Nome ou caminho do arquivo principal, index.js ou src/index.js
 RAM=100             // Quantidade de memória RAM em MB
 AUTORESTART=false   // Se a sua aplicação cair e desejar que reinicie novamente coloque true
-VERSION=latest      // Muda a versao da linguagem. Use o comando .version para consultar
-APT=tools, ffmpeg   // Instale um pacote ou varios separados por virgula, na instância Linux da sua Aplicação. Use .apt para consultar a lista de pacotes
+VERSION=latest      // Muda a versão da imagem do container
+APT=tools, ffmpeg   // Instale um pacote ou vários separados por virgula, na instância Linux da sua Aplicação.
 ```
 {% endcode %}
+
+> Consulte a lista de opções para: [VERSION](discloud.config.md#versoes-disponiveis-no-version), [APT](discloud.config.md#pacotes-disponiveis-no-apt)
 
 > Se estiver fazendo um `bot` ou um `site` pode se basear nos exemplos abaixo:
 
@@ -66,3 +68,63 @@ Com o seu [.zip ](zip.md)criado com o `discloud.config` chegou a hora do Upload,
 > * Entre no canal que o bot acabou de criar e coloque o seu .zip
 
 ![](../../.gitbook/assets/command-upconfig.png) ![](../../.gitbook/assets/upc.png)
+
+### Pacotes disponíveis no APT
+
+<table><thead><tr><th>Nome Do Pacote</th><th data-type="select" data-multiple>Dependências</th></tr></thead><tbody><tr><td>canvas</td><td></td></tr><tr><td>puppeteer</td><td></td></tr><tr><td>java</td><td></td></tr><tr><td>ffmpeg</td><td></td></tr><tr><td>libgl</td><td></td></tr><tr><td>tools</td><td></td></tr></tbody></table>
+
+### Versões disponíveis no VERSION
+
+> Selecione uma Linguagem para consultar
+
+{% tabs %}
+{% tab title="📦 JavaScript" %}
+| Versões Disponiveis |   |
+| ------------------- | - |
+| latest              |   |
+| current             |   |
+| 16.13.2             |   |
+| 14.18.3             |   |
+| suja                |   |
+{% endtab %}
+
+{% tab title="🐍 Python" %}
+| Versões Disponiveis |
+| ------------------- |
+| latest              |
+| 3.9.10              |
+| 2.7.18              |
+| suja                |
+{% endtab %}
+
+{% tab title="☕ Java" %}
+| Versões Disponiveis |
+| ------------------- |
+| latest              |
+| 18.x.x              |
+| 17.x.x              |
+| 16.x.x              |
+{% endtab %}
+
+{% tab title="💎 Ruby" %}
+| Versões Disponiveis |
+| ------------------- |
+| latest              |
+| 3.1.0               |
+| 2.7.5               |
+{% endtab %}
+
+{% tab title="🐿️ Go" %}
+| Versões Disponíveis |
+| ------------------- |
+| latest              |
+| 1.17.6              |
+| 1.16.13             |
+{% endtab %}
+
+{% tab title="Php" %}
+| Versões Disponiveis |
+| ------------------- |
+| latest              |
+{% endtab %}
+{% endtabs %}

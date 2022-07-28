@@ -20,16 +20,6 @@ Através da nossa integração com o **Github** e **Gitlab** você tem a facilid
 
 ## Commit com Deploy Manual
 
-### <img src="../../.gitbook/assets/discloudlogo.png" alt="" data-size="line"> Website
-
-Primeiro você deve fazer **Login** no site da DisCloud, em seguida, clique na sua foto de perfil e selecione **Painel de Controle**.
-
-![](../../.gitbook/assets/bx3ukaf-imgur.gif)
-
-Depois selecione o bot que deseja atualizar, em seguida, envie o arquivo `.zip` com os arquivos que serão atualizados. Por fim, clique em **Commitar Alterações**.
-
-![](https://i.imgur.com/AknNPZ9.png)
-
 ### <img src="../../.gitbook/assets/discordlogo1.png" alt="" data-size="line"> Discord
 
 Vá ao canal `🔌┃cmd-discloud` e digite `.commit` (caso você tenha mais de um bot é necessário informar o ID).
