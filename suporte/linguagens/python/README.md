@@ -13,8 +13,6 @@ Arquivos Mínimos Necessários
 + Outros (Se o seu bot depender de outros arquivos deve incluir)
 ```
 
-![O arquivo principal do seu bot, ou seja, o local onde está o bot.run(). GERALMENTE é main.py](<../../../.gitbook/assets/capturar (1).PNG>)
-
 > * Dúvidas para encontrar o seu arquivo principal? [Clique aqui](../../faq/arquivo-principal.md#arquivos-principais-gerais)
 > * Dúvidas em criar o seu  arquivo `requirements.txt`? [Clique aqui](criar-requirements.txt.md)
 
