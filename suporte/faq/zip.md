@@ -52,7 +52,7 @@ Após selecionar os arquivos necessários, aperte com o boto direito sobre eles,
 Nos dispositivos **Android** as fabricantes costumam enviar o sistema com **Gerenciadores de Arquivos** próprios e podem ser ligeiramente diferentes, tente replicar os seguites passos no seu dispositivo.
 {% endhint %}
 
-Aperte por algum tempo um arquivo para desbloquear a seleção, depois vá marcando apenas os **arquivos necessários**, agora procure por um ícone geralmente semelhante a 3 pontos ou traços, e por fim procure pela opção Comprimir
+Aperte por algum tempo um arquivo para desbloquear a seleção, depois vá marcando apenas os **arquivos necessários**, agora procure por um ícone geralmente semelhante a 3 pontos ou traços, e por fim procure pela opção **Comprimir**
 
 ![Seleçao de Arquivos](../../.gitbook/assets/android\_files\_step1.jpg) ![Clique em mais, Comprimir](../../.gitbook/assets/android\_files\_step2.jpg)
 {% endtab %}

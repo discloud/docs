@@ -10,7 +10,7 @@
 
 Aperte com o botão direito em cima do nome do seu bot e na última opção aparecerá o botão **Copiar ID**.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
 
 ## <img src="../../.gitbook/assets/discordlogo1.png" alt="" data-size="line"> Pelo Discord Developer Portal
 

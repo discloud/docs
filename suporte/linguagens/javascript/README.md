@@ -19,10 +19,10 @@ Não Necessários
 ```
 
 > * Dúvidas para encontrar o seu arquivo principal? [Clique aqui](../../faq/arquivo-principal.md#arquivos-principais-gerais)
-> * Dúvidas em criar o seu  arquivo `package.json`? [Clique aqui](package.json.md)
+> * Dúvidas em criar o seu  arquivo `package.json`? [Clique aqui](criar-package.json.md)
 
-{% content-ref url="package.json.md" %}
-[package.json.md](package.json.md)
+{% content-ref url="criar-package.json.md" %}
+[criar-package.json.md](criar-package.json.md)
 {% endcontent-ref %}
 
 ### :compression: Compactando os Arquivos
@@ -31,7 +31,7 @@ Selecione apenas os arquivos necessários, como mencionado em cima e crie o seu 
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
-Para mais detalhes sobre como **Compactar os seus Arquivos** e de acordo com o seu **Sistema Operativo**, pode consultar em baixo:
+Para mais detalhes sobre como **Compactar os seus Arquivos** de acordo com o seu **Sistema Operativo**, pode consultar em baixo:
 
 {% content-ref url="../../faq/zip.md" %}
 [zip.md](../../faq/zip.md)
@@ -40,7 +40,7 @@ Para mais detalhes sobre como **Compactar os seus Arquivos** e de acordo com o s
 ## ✍ Hospedando o seu bot
 
 {% hint style="info" %}
-Você pode aprender a hospedar seu bot na [versão website](../../hospedar/) ou [Discord](../../hospedar/bots/discord.md)
+Escolha o método para hospedar seu Bot na Discloud:
 {% endhint %}
 
 {% content-ref url="../../hospedar/bots/via-painel-de-controle.md" %}

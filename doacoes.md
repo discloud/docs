@@ -7,3 +7,8 @@ description: >-
 
 # 🤲 Doações
 
+## <img src=".gitbook/assets/paypal.png" alt="" data-size="line"> PayPal
+
+
+
+## <img src=".gitbook/assets/mercadopago.png" alt="" data-size="line"> Mercado Pago
