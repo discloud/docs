@@ -25,10 +25,6 @@ As bibliotecas **NÃO SÃO as que você importa**, e sim as que você instala.\
 Ex.: **`import PIL`** mas você instala usando **`pip install pillow`**, logo deve ser colocado **pillow** e não **PIL** no seu arquivo `requirements.txt`
 {% endhint %}
 
-{% content-ref url="criar-requirements.txt.md" %}
-[criar-requirements.txt.md](criar-requirements.txt.md)
-{% endcontent-ref %}
-
 ## :compression: Compactando os aqruivos
 
 Selecione apenas os arquivos necessários, como mencionado em cima e crie o seu **.zip**
