@@ -2,8 +2,6 @@
 
 #### O `discloud.config` é um arquivo de configurações predefinidas, para que você possa enviar as suas aplicações mais rapidamente, sem ter que digitar manualmente estas informações sempre que desejar fazer upload.
 
-![Criando o discloud.config](../../.gitbook/assets/discloud-config.gif) ![Criando o .zip](../../.gitbook/assets/pr-zip.gif)
-
 ## :gear: Como Utilizar
 
 {% code title="discloud.config" %}
