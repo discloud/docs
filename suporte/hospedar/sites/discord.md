@@ -24,9 +24,9 @@ Consulte a documentação da linguagem utilizada pelo seu site.
 
 ### :earth\_americas: Hospedando o Seu Site
 
-Se você estiver com o cargo `Beta Tester`, significa que você se registrou com sucesso na **DisCloud**.&#x20;
+Se você estiver com o cargo `Verified pt-br`, significa que você se registrou com sucesso na **DisCloud**.&#x20;
 
-Para hospedar, entre no canal de texto `🤎┃beta-teste` e digite `,up`.
+Para hospedar, entre no canal de texto `🤎┃commands-v2` e digite `.up`.
 
 ![](../../../.gitbook/assets/upsite.png)
 

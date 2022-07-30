@@ -10,7 +10,7 @@ description: >-
 
 O primeiro passo é fazer o seu **registro**. Entre no site da [DisCloud](https://discloudbot.com) e clique no botão **Registrar**
 
-![](../../.gitbook/assets/discloud-registro.png) ![](../../.gitbook/assets/discord.authorize.png)
+![](../../.gitbook/assets/log-in.gif)
 
 {% hint style="info" %}
 Recomendamos você ler os [Termos de Serviço](broken-reference) e [Política de Uso](broken-reference) antes de hospedar seu bot na DisCloud para evitar a suspensão da sua conta de nossos serviços ou problemas relacionados.

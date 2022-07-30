@@ -16,9 +16,9 @@ Antes de hospedar recomendo consultar a documentação da linguagem utilizada pe
 
 ### :robot: Hospedando o Seu Bot
 
-Se você estiver com o cargo **Beta Tester**, significa que você se registrou com sucesso na **DisCloud**.&#x20;
+Se você estiver com o cargo `Verified pt-br`, significa que você se registrou com sucesso na **DisCloud**.&#x20;
 
-Para hospedar, entre no canal de texto `🤎┃beta-teste` e digite `,up`.
+Para hospedar, entre no canal de texto `🤎┃commands-v2` e digite `.up`.
 
 ![](../../../.gitbook/assets/,up.png)
 

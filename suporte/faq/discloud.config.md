@@ -2,6 +2,8 @@
 
 #### O `discloud.config` é um arquivo de configurações predefinidas, para que você possa enviar as suas aplicações mais rapidamente, sem ter que digitar manualmente estas informações sempre que desejar fazer upload.
 
+![Criando o discloud.config](../../.gitbook/assets/discloud-config.gif) ![Criando o .zip](../../.gitbook/assets/pr-zip.gif)
+
 ## :gear: Como Utilizar
 
 {% code title="discloud.config" %}
@@ -55,7 +57,7 @@ APT=tools
 {% endtabs %}
 
 {% hint style="info" %}
-Coloque o `discloud.config` na raiz do seu projeto e nao se esqueça de incluir no seu [.zip](zip.md)
+Coloque o `discloud.config` na raiz do seu projeto e não se esqueça de incluir no seu [.zip](zip.md)
 {% endhint %}
 
 ![](../../.gitbook/assets/vscode-discloud.config.png)
@@ -64,22 +66,22 @@ Coloque o `discloud.config` na raiz do seu projeto e nao se esqueça de incluir 
 
 Com o seu [.zip ](zip.md)criado com o `discloud.config` chegou a hora do Upload, para utilizar é muito simples!
 
-> * No canal de comandos digite `,upconfig` (ou abreviaçao `.upc`)
+> * No canal de comandos digite `.upconfig` (ou abreviação `.upc`)
 > * Entre no canal que o bot acabou de criar e coloque o seu .zip
 
-![](../../.gitbook/assets/command-upconfig.png) ![](../../.gitbook/assets/upc.png)
+![](../../.gitbook/assets/pr-upc.gif)
 
-### Pacotes disponíveis no APT
+### Pacotes disponíveis no `APT`
 
 <table><thead><tr><th>Nome Do Pacote</th><th data-type="select" data-multiple>Dependências</th></tr></thead><tbody><tr><td>canvas</td><td></td></tr><tr><td>puppeteer</td><td></td></tr><tr><td>java</td><td></td></tr><tr><td>ffmpeg</td><td></td></tr><tr><td>libgl</td><td></td></tr><tr><td>tools</td><td></td></tr></tbody></table>
 
-### Versões disponíveis no VERSION
+### Versões disponíveis no `VERSION`
 
 > Selecione uma Linguagem para consultar
 
 {% tabs %}
 {% tab title="📦 JavaScript" %}
-| Versões Disponiveis |   |
+| Versões Disponíveis |   |
 | ------------------- | - |
 | latest              |   |
 | current             |   |
@@ -89,7 +91,7 @@ Com o seu [.zip ](zip.md)criado com o `discloud.config` chegou a hora do Upload,
 {% endtab %}
 
 {% tab title="🐍 Python" %}
-| Versões Disponiveis |
+| Versões Disponíveis |
 | ------------------- |
 | latest              |
 | 3.9.10              |
@@ -98,7 +100,7 @@ Com o seu [.zip ](zip.md)criado com o `discloud.config` chegou a hora do Upload,
 {% endtab %}
 
 {% tab title="☕ Java" %}
-| Versões Disponiveis |
+| Versões Disponíveis |
 | ------------------- |
 | latest              |
 | 18.x.x              |
@@ -107,7 +109,7 @@ Com o seu [.zip ](zip.md)criado com o `discloud.config` chegou a hora do Upload,
 {% endtab %}
 
 {% tab title="💎 Ruby" %}
-| Versões Disponiveis |
+| Versões Disponíveis |
 | ------------------- |
 | latest              |
 | 3.1.0               |
@@ -122,8 +124,8 @@ Com o seu [.zip ](zip.md)criado com o `discloud.config` chegou a hora do Upload,
 | 1.16.13             |
 {% endtab %}
 
-{% tab title="Php" %}
-| Versões Disponiveis |
+{% tab title="🐘 Php" %}
+| Versões Disponíveis |
 | ------------------- |
 | latest              |
 {% endtab %}

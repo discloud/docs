@@ -9,3 +9,7 @@ description: >-
 {% hint style="danger" %}
 #### O painel de controle ainda não está disponível no momento
 {% endhint %}
+
+{% content-ref url="discord.md" %}
+[discord.md](discord.md)
+{% endcontent-ref %}

@@ -10,6 +10,8 @@ Se o seu Bot utilizar **arquivos ocultos** como o `.env` para armazenar por exem
 
 </details>
 
+![](../../.gitbook/assets/pr-zip.gif)
+
 ## :compression: Compactando os seus Arquivos
 
 {% hint style="info" %}
