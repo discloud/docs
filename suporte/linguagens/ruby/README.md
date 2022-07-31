@@ -73,7 +73,7 @@ Consulte a documentação oficial abaixo.
 Você precisa de adicionar o seu **subdomínio** (ou **domínio**) nos hosts permitidos do `Rails`.
 
 > * Edite o arquivo `config/application.rb`
-> * Modifique a **linha 21**, com o seu dominio
+> * Modifique a **linha 19**, com o seu dominio
 
 {% code title="config/application.rb" %}
 ```ruby
