@@ -8,7 +8,7 @@ O arquivo `package.json` é uma espécie de manifesto para seu projeto. Ele pode
 
 ### Como criar o arquivo `package.json`?
 
-Na pasta do seu bot, abra o **PowerShell** (**Shift+Botão Direito**) e digite:
+Abra o Terminal no diretório do seu projeto (Windows use: **Shift+Botão Direito** e clique em **Open PowerShell**) e digite:
 
 ```
 npm init -y
@@ -21,6 +21,8 @@ Você precisa do **NodeJS e npm** instalado no seu computador, caso não esteja 
 {% endhint %}
 
 ### Instale o Nodejs e npm no seu computador
+
+> **npm** - Gerenciador de pacotes oficial do NodeJS
 
 > Selecione o seu Sistema Operacional
 
@@ -42,7 +44,7 @@ node -v
 
 ### Verifique a Instalação do npm
 
-Abra o cmd ou PowerShell e digite:
+Abra o **cmd** ou **PowerShell** e digite:
 
 ```
 npm -v
@@ -56,7 +58,7 @@ Se retornar a versão de ambos então está instalado corretamente!
 {% tab title="🐧 Linux" %}
 ### Instalação do Nodejs e Npm
 
-### Ubuntu
+### <img src="../../../.gitbook/assets/ubuntu.png" alt="" data-size="line"> Ubuntu
 
 Se você usa **Ubuntu** ou alguma distro baseada nele saiba que nem sempre a versão **nodejs LTS** dos [repositórios](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all) do **Ubuntu** é a mais recente, por isso recomendo seguir as instruções abaixo:
 
@@ -73,7 +75,7 @@ Outras versões consulte [aqui](https://github.com/nodesource/distributions/blob
 
 Informações dos pacotes dos Repositórios: [nodejs](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all), [npm](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=npm\&searchon=names)
 
-### Fedora
+### <img src="../../../.gitbook/assets/fedora.png" alt="" data-size="line"> Fedora
 
 A versão do **nodejs LTS** presente nos [repositórios](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/) custuma ser bem recente, pode instalalar digitando no Terminal:
 
@@ -83,7 +85,7 @@ sudo dnf install nodejs npm -y
 
 Informações dos pacotes dos Repositórios: [nodejs](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/), [npm](https://packages.fedoraproject.org/pkgs/nodejs/npm/)
 
-### Arch Linux
+### <img src="../../../.gitbook/assets/arch.png" alt="" data-size="line"> Arch Linux
 
 Os repositórios dos Arch Linux e derivados dele, têm os mais recentes pacotes, está disponivel o **nodejs LTS e** **node latest.**&#x20;
 
@@ -117,7 +119,7 @@ Se retornar a versão de ambos então está instalado corretamente!
 {% endtab %}
 {% endtabs %}
 
-### Colocando dependências dentro do seu `package.json`
+### Colocando dependências no seu `package.json`
 
 #### Instalando o [discord.js](https://www.npmjs.com/package/discord.js?source=post\_page-----7b5fe27cb6fa----------------------)
 
@@ -127,7 +129,7 @@ Para instalar digite
 npm install discord.js
 ```
 
-O seu `package.json` deve estar com a seguinte aparência
+O seu `package.json` deve estar com a seguinte aparência.
 
 {% code title="package.json" %}
 ```json
