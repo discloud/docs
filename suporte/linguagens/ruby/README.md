@@ -1,5 +1,5 @@
 ---
-description: Aprenda a hospedar seu bot em JavaScript na DisCloud
+description: Aprenda a hospedar seu bot, site, api com Ruby na DisCloud!
 ---
 
 # 💎 Ruby
