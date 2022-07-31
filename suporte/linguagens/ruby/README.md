@@ -10,7 +10,7 @@ description: Aprenda a hospedar seu bot, site, api com Ruby na DisCloud!
 
 ```diff
 Arquivos Mínimos Necessários
-+ Arquivo Principal (Exemplo: index.rb, bot.rb...)
++ Arquivo Principal (Exemplo: main.rb, bot.rb...)
 + Arquivo Gemfile
 + Outros (Se o seu bot depender de outros arquivos deve incluir)
 Não Necessários
@@ -100,5 +100,23 @@ module RailsOnDiscloud
   end
 end
 
+```
+{% endcode %}
+
+#### Exemplo `discloud.config` para `Rails`
+
+{% content-ref url="../../faq/discloud.config.md" %}
+[discloud.config.md](../../faq/discloud.config.md)
+{% endcontent-ref %}
+
+{% code title="discloud.config" %}
+```typescript
+ID=subdomino
+TYPE=site
+MAIN=config/application.rb
+RAM=512
+AUTORESTART=false
+VERSION=latest
+APT=tools
 ```
 {% endcode %}
