@@ -13,6 +13,8 @@ description: >-
 
 ### <img src=".gitbook/assets/discloudlogo (1).png" alt="" data-size="line"> Comprar via Site
 
+Acesse o site [discloudbot.com/plans](https://discloudbot.com/plans) e escolha o seu plano.
+
 ![](.gitbook/assets/buy-carbon.gif)
 
 ### <img src=".gitbook/assets/ticket-logo.webp" alt="" data-size="line"> Comprar via Ticket
