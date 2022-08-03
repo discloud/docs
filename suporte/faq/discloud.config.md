@@ -16,6 +16,10 @@ APT=tools, ffmpeg   // Instale um pacote ou vários separados por virgula, na in
 ```
 {% endcode %}
 
+{% hint style="warning" %}
+Se precisar cópiar use os **exemplos abaixo** para evitar espaços nos valores.
+{% endhint %}
+
 > Consulte a lista de opções para: [VERSION](discloud.config.md#versoes-disponiveis-no-version), [APT](discloud.config.md#pacotes-disponiveis-no-apt)
 
 > Se estiver fazendo um `bot` ou um `site` pode se basear nos exemplos abaixo:
