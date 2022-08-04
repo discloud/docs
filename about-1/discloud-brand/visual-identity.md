@@ -14,11 +14,11 @@ description: >-
 
 {% tabs %}
 {% tab title=" Logotipo horizontal escuro" %}
-![](../../.gitbook/assets/spoiler\_discloud\_dark.png)
+![](../../.gitbook/assets/SPOILER\_Discloud\_Dark.png)
 {% endtab %}
 
 {% tab title=" Logotipo horizontal branco" %}
-![](../../.gitbook/assets/spoiler\_discloud\_branco.png)
+![](../../.gitbook/assets/SPOILER\_Discloud\_branco.png)
 {% endtab %}
 
 {% tab title=" Logotipo horizontal branco sombra" %}
@@ -30,15 +30,15 @@ description: >-
 
 {% tabs %}
 {% tab title="Logotipo Normal" %}
-![](<../../.gitbook/assets/discloudlogo (1).png>)
+![](../../.gitbook/assets/discloudlogo.png)
 {% endtab %}
 
 {% tab title="Logotipo Halloween" %}
-![](../../.gitbook/assets/discloudhalloween.png)
+![](../../.gitbook/assets/DisCloudHalloween.png)
 {% endtab %}
 
 {% tab title="Gif Logo" %}
-![](<../../.gitbook/assets/icongif (1) (1) (1) (1) (1) (1).gif>)
+![](../../.gitbook/assets/icongif.gif)
 {% endtab %}
 
 {% tab title="Gif Natal" %}
@@ -50,7 +50,7 @@ description: >-
 {% endtab %}
 
 {% tab title="Gif AnoNovo" %}
-![](../../.gitbook/assets/ww-1-.gif)
+![](<../../.gitbook/assets/ww (1).gif>)
 {% endtab %}
 {% endtabs %}
 
