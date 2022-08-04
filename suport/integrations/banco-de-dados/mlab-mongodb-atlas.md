@@ -22,4 +22,4 @@ You will receive this error message if you have not included the MongoDB Atlas a
 
 So according to the [documentation ](https://docs.atlas.mongodb.com/security-whitelist/)MongoDB Atlas, the **only way to get DisCloud** instances to connect to your bank, is to add **0.0.0.0/0** (that is, **all addresses**) to your MongoDB Atlas **whitelist**.
 
-![](<../../../.gitbook/assets/Capturar (3).PNG>)
+![](<../../../.gitbook/assets/Capturar (2).PNG>)

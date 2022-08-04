@@ -28,7 +28,7 @@ You need **NodeJS** and **npm** installed on your computer, if it is not install
 
 ### [Download the Nodejs Here](https://nodejs.org/en/)
 
-![](<../../../.gitbook/assets/image (30).png>)
+![](<../../../.gitbook/assets/image (1).png>)
 
 ### Check the NodeJS Installation
 

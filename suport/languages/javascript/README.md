@@ -31,7 +31,7 @@ Not Required
 
 Select only the necessary files as mentioned above and create your `.zip`
 
-![](<../../../.gitbook/assets/image (27).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
 For more details on how to **Compress your Files** according to your **Operating System**, you can see below:
 
