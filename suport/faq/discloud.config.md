@@ -28,7 +28,7 @@ If you need to copy, use the **examples below** to avoid spaces in the values.
 {% tab title="🤖 Bot Example" %}
 {% code title="discloud.config" %}
 ```tsconfig
-ID=584499142902939691
+ID=584499142902939692
 TYPE=bot
 MAIN=index.js
 RAM=100
