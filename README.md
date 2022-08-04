@@ -1,23 +1,33 @@
 ---
-description: Welcome to official DisCloud documentation
+description: Welcome to the official DisCloud documentation.
 ---
 
 # Welcome
 
-> Documentation is the set of all **documents**, which are **all sources** containing information to help make decisions, communicate decisions made and **record matters of interest to the organization**.
+{% hint style="warning" %}
+#### Translation in progress
+{% endhint %}
 
-## 📜 Information <a id="informacoes"></a>
+## 📜 About This Documentation
 
-We are a flexible, free and easy to use container-based cloud platform, we offer developers a simple and quick way to get their Bots Discord online 24/7. 
+### Objectives
 
-We rely on donor collaboration to stay on the airservices.  
-We have no relationship with Discord Inc.
+The primary goal of **DisCloud Docs** is to provide the **DisCloud** user community with the most complete, comprehensive, and accessible documentation.
 
-• ![:DiscordStaff:](https://cdn.discordapp.com/emojis/452955567795732480.png?v=1) **`Tech Support:`** support@discloudbot.com  
-• ![:TrustSafety:](https://cdn.discordapp.com/emojis/606720108164939776.png?v=1) **`Trust & Safety:`** abuse@discloudbot.com  
-• ![:Twitter:](https://cdn.discordapp.com/emojis/556968525261176842.png?v=1) **`Twitter:`** [**https://twitter.com/discloudbot**](https://twitter.com/discloudbot)  
-• ![:YouTube:](https://cdn.discordapp.com/emojis/430925378681569282.png?v=1) **`YouTube:`** [**https://youtube.com/c/pedroricardor**](https://youtube.com/c/pedroricardor)  
-• ![:discord:](https://cdn.discordapp.com/emojis/274789236421427200.png?v=1) **`Discord:`** [**https://discord.gg/CvxevT5**](https://discord.gg/CvxevT5)
+**DisCloud Docs** is constantly evolving and thrives on collaboration; there is always room for improvement.
 
-![](https://gblobscdn.gitbook.com/assets%2F-LmveSmUr3rXxq5cvnW5%2F-LsUyjcqJcJlmbSY8OTc%2F-LsUylQpdA4-uCgD5am4%2F1.png?alt=media&token=46da3e50-c7c4-4d77-b694-814e4becdbdb)
+### Comprehensive
 
+One of the primary goals of **DisCloud Docs** is to cover all the necessary aspects. From preparing your files to hosting your application, anything **DisCloud** can accomplish is within the scope of **Discloud Docs**
+
+### Accessible
+
+**Discloud Docs** should provide a simple and intuitive way to access all the information you need most.
+
+![](.gitbook/assets/grupodev.svg)
+
+> • <img src=".gitbook/assets/842457709378535434.png" alt=":DiscordStaff:" data-size="line"> **`Tech Support:`** [Ticket](suport/faq/ticket.md), support@discloudbot.com\
+> • <img src="https://cdn.discordapp.com/emojis/606720108164939776.png?v=1" alt=":TrustSafety:" data-size="line"> **`Trust & Safety:`** [Ticket](suport/faq/ticket.md), abuse@discloudbot.com                                                                                   \
+> • <img src=".gitbook/assets/226235.png" alt=":Twitter:" data-size="line"> **`Twitter:`** [**https://twitter.com/discloudbot**](https://twitter.com/discloudbot)\
+> • <img src=".gitbook/assets/408757.png" alt=":YouTube:" data-size="line"> **`YouTube:`** [**https://youtube.com/c/pedroricardor**](https://youtube.com/c/pedroricardor)\
+> • <img src=".gitbook/assets/4945973.png" alt=":discord:" data-size="line"> **`Discord:`** [**https://discord.gg/CvxevT5**](https://discord.gg/CvxevT5)

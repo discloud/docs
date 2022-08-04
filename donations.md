@@ -1,40 +1,29 @@
 ---
 description: >-
-  Upgrade your plan to gain access to exclusive features and services, in
-  addition to supporting development and maintaining our dedicated operations.
+  Upgrade your plan to get access to exclusive features and services, as well as
+  support development and keep our dedicated people up and running.
 ---
 
-# Donations
+# 🤲 Donations
 
-## 💎 Beneficial
+### :dollar: Payment Methods
 
-| Beneficial | Memory | CPU | Max. Bots | Price \($\) | Moderators | Git | Unlimited slot | Timer |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ![](.gitbook/assets/free.png) Free | **100mb** | 0.25 | 1 | - | 0 | No | No | Yes |
-| ![](.gitbook/assets/booster.png) Booster | **100mb** | 0.25 | 1 | - | 0 | No | Yes | No |
-| ![](.gitbook/assets/carbon.png) Carbon | **200mb** | 0.25 | 2 | 0,99 | 0 | Yes | Yes | No |
-| ![](.gitbook/assets/gold.png) Gold | **512mb** | 0.5 | 5 | 2,00 | 1 | Yes | Yes | No |
-| ![](.gitbook/assets/platinum.png) Platinum | **1Gb** | 1 | 10 | 3,00 | 2 | Yes | Yes | No |
-| ![](.gitbook/assets/diamond.png) Diamond | **2Gb** | 2 | 20 | 6,00 | 3 | Yes | Yes | No |
-| ![](.gitbook/assets/diamond.png) Diamond | **4Gb** | 3 | 40 | 12,00 | 4 | Yes | Yes | No |
-| ![](.gitbook/assets/sapphire.png) Sapphire | **8Gb** | 4 | 80 | 24,00 | 5 | Yes | Yes | No |
-| ![](.gitbook/assets/sapphire.png) Sapphire | **16Gb** | 4 | 160 | 48,00 | 6 | Yes | Yes | No |
+<table><thead><tr><th>Payment Method</th><th data-type="checkbox">Available via Website</th><th data-type="checkbox">Available via Ticket</th></tr></thead><tbody><tr><td><img src=".gitbook/assets/PayPal.png" alt="" data-size="line"> PayPal</td><td>true</td><td>true</td></tr><tr><td><img src=".gitbook/assets/MercadoPago.png" alt="" data-size="line"> Mercado Pago</td><td>true</td><td>true</td></tr><tr><td><img src=".gitbook/assets/pix.png" alt="" data-size="line"> Pix</td><td>false</td><td>true</td></tr></tbody></table>
 
-## ​ ![](.gitbook/assets/paypal.png) PayPal <a id="paypal"></a>
+### <img src=".gitbook/assets/discloudlogo.png" alt="" data-size="line"> Buy via WebSite
 
-To make a donation via PayPal, go to the [DisCloud ](https://discloudbot.com/)website and select the beneficiary you want. Then, a pop-up will appear for you to fill in your information and continue the donation.
+Go to [discloudbot.com/plans](https://discloudbot.com/plans) and choose your plan.
 
-{% hint style="success" %}
-🤩 **Note:** The benefit will **be activated immediately** after the payment is completed.
+![](.gitbook/assets/buy-carbon.gif)
+
+### <img src=".gitbook/assets/ticket-logo.webp" alt="" data-size="line"> Buy via Ticket
+
+{% hint style="info" %}
+If your desired payment method is available [via the website](donations.md#comprar-via-site) use only **Ticket** if you are experiencing **payment problems** or when the website is **unavailable**.
 {% endhint %}
 
-## ​ ![](.gitbook/assets/mercadopago.png) Mercado Pago <a id="mercado-pago"></a>
+See below for more details:
 
-To make a donation via Mercado Pago, you must send the benefit amount of your choice to the email **pedroricardorn@gmail.com**. Then send the receipt to the DM \(Direct Message\) of BOT @ Mailbox \# 3226 \(or a member of @DisCloud Staff **if the BOT is unavailable**\).
-
-For more information about our benefits, just type .plans in the server's command channel or access our [website](https://discloudbot.com/).
-
-{% hint style="success" %}
-👨💻 **Note**: The benefit will **be activated manually** by some Staff.
-{% endhint %}
-
+{% content-ref url="suport/faq/ticket.md" %}
+[ticket.md](suport/faq/ticket.md)
+{% endcontent-ref %}

@@ -1,44 +1,54 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Service Terms](service-terms.md)
-* [Usage Policy](usage-policy.md)
 
-## Support
+## Suport
 
-* [How to Host](support/how-to-host/README.md)
-  * [Website](support/how-to-host/website.md)
-  * [Discord](support/how-to-host/discord.md)
-* [Languages](support/languages/README.md)
-  * [📦JavaScript](support/languages/javascript/README.md)
-    * [Discord Bot Maker](support/languages/javascript/discord-bot-maker.md)
-    * [Discord Bot Controls](support/languages/javascript/discord-bot-controls.md)
-  * [🐍Python](support/languages/python/README.md)
-    * [Creating your requirements.txt](support/languages/python/creating-your-requirements.txt.md)
-  * [☕Java](support/languages/java.md)
-* [Integrations](support/integrations/README.md)
-  * [Lavalink](support/integrations/lavalink/README.md)
-    * [NodeJS](support/integrations/lavalink/nodejs.md)
-  * [Module Status](support/integrations/modulos-status.md)
-  * [GitHub and GitLab](support/integrations/github-and-gitlab/README.md)
-    * [How to use Github](support/integrations/github-and-gitlab/how-to-use-github.md)
-  * [Database](support/integrations/database/README.md)
-    * [MongoDB Atlas \(mLab\)](support/integrations/database/mongodb-atlas-mlab.md)
-* [Frequently Asked Questions \(FAQ\)](support/faq/README.md)
-  * [Commands](support/faq/commands.md)
-  * [How to compress \(zip\) my files?](support/faq/how-to-compress-zip-my-files.md)
-  * [How to make a Commit?](support/faq/how-to-make-a-commit.md)
-  * [How do I get my Bot ID?](support/faq/how-do-i-get-my-bot-id.md)
-  * [What is the main file?](support/faq/what-is-the-main-file.md)
+* [☁ How to Host](suport/host/README.md)
+  * [🌎 Sites](suport/host/sites/README.md)
+    * [via Dashboard](suport/host/sites/via-dashboard.md)
+    * [via Discord](suport/host/sites/discord.md)
+  * [🤖 Bots](suport/host/bots/README.md)
+    * [via Dashboard](suport/host/bots/via-dashboard.md)
+    * [via Discord](suport/host/bots/discord.md)
+* [⌨ Languages](suport/languages/README.md)
+  * [📦 JavaScript](suport/languages/javascript/README.md)
+    * [📄 Create the package.json](suport/languages/javascript/package.json.md)
+  * [🐍 Python](suport/languages/python/README.md)
+    * [📄 Create the requirements.txt](suport/languages/python/requirements.txt.md)
+  * [☕ Java](suport/languages/java.md)
+  * [💎 Ruby](suport/languages/ruby/README.md)
+    * [📄 Criar o Gemfile](suport/languages/ruby/gemfile.md)
+  * [🐿 Go](suport/languages/go.md)
+  * [🐘 Php](suport/languages/php.md)
+* [⛓ Integrations](suport/integrations/README.md)
+  * [Lavalink](suport/integrations/lavalink.md)
+  * [GitHub e GitLab](suport/integrations/github-e-gitlab/README.md)
+    * [How to use Github](suport/integrations/github-e-gitlab/como-usar-o-github.md)
+  * [Database](suport/integrations/banco-de-dados/README.md)
+    * [MongoDB Atlas (mLab)](suport/integrations/banco-de-dados/mlab-mongodb-atlas.md)
+* [❓ Frequently Asked Questions (FAQ)](suport/faq/README.md)
+  * [How to compress my files?](suport/faq/zip.md)
+  * [How to use the discloud.config file?](suport/faq/discloud.config.md)
+  * [DisCloud ModMail (Ticket)](suport/faq/ticket.md)
+  * [How do I get my bot's ID?](suport/faq/id-bot.md)
+  * [What is the main file?](suport/faq/arquivo-principal.md)
+  * [How to report an offender?](suport/faq/report.md)
+* [⚒ Commands](suport/commands/README.md)
+  * [api](suport/commands/api.md)
 
----
+***
 
-* [Donations](donations.md)
+* [🤲 Donations](donations.md)
 
-## About <a id="about-1"></a>
+## About
 
-* [Discloud Brand](about-1/discloud-brand/README.md)
-  * [Name origin](about-1/discloud-brand/name-origin.md)
-  * [Visual identity](about-1/discloud-brand/visual-identity.md)
-  * [Website](https://discloudbot.com/)
+* [Discloud Brand](about/discloud-brand/README.md)
+  * [Name origin](about/discloud-brand/name-origin.md)
+  * [Identidade Visual](about/discloud-brand/identidade-visual.md)
+  * [Site](https://discloudbot.com/)
 
+## 📜 Legal
+
+* [Terms of Service](https://discloudbot.com/legal/terms)
+* [Usage Policy](https://discloudbot.com/legal/policy)
