@@ -16,7 +16,7 @@ description: Aprenda a hospedar seu bot em JavaScript na DisCloud
 
 ### [Baixe o Nodejs Aqui](https://nodejs.org/en/)
 
-![](<../../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 ### Verifique a Instalação do NodeJS
 

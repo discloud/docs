@@ -1,10 +1,10 @@
 # Table of contents
 
-* [👋 Bienvenue](README.md)
+* [👋 Bem-Vindo](README.md)
 
 ## Suporte
 
-* [☁ Hospedar](suporte/hospedar/README.md)
+* [☁ Como Hospedar](suporte/hospedar/README.md)
   * [🤖 Bots](suporte/hospedar/bots/README.md)
     * [🎛 via Painel de Controle (em breve)](suporte/hospedar/bots/dashboard.md)
     * [🔌 via Discord](suporte/hospedar/bots/discord.md)

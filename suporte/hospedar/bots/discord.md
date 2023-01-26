@@ -18,7 +18,7 @@ Se você estiver com o cargo `Verified pt-br`, significa que você se registou c
 
 #### 2. Cole o ID do seu bot.
 
-![](../../../.gitbook/assets/up-ip.png)
+![](../../../.gitbook/assets/up-id.png)
 
 {% content-ref url="../../faq/id-bot.md" %}
 [id-bot.md](../../faq/id-bot.md)
