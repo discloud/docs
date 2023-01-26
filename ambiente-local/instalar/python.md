@@ -1,91 +1,95 @@
+---
+description: Apprenez à héberger votre bot fait Python avec DisCloud
+---
+
 # 🐍 Python
 
-## Instale o `Python` no seu computador
+## Installez `Python` sur votre ordinateur
 
-> **pip** - Instalador de pacotes oficial para Python.
+> **pip** - Installateur de package officiel pour Python.
 
-> Selecione o seu Sistema Operacional
+> Sélectionnez votre système d'exploitation
 
 {% tabs %}
 {% tab title="🪟 Windows" %}
-### Instalando o `Python`
+### Installation de `Python`
 
-### [Baixe o Python Aqui](https://www.python.org/downloads/)
+### [Télécharger Python ici](https://www.python.org/downloads/)
 
 ![](../../.gitbook/assets/py-win-download.png)
 
-### Verifique a instalação do `Python`
+### Vérifiez l'installation de `Python`
 
-Abra o **cmd** ou **PowerShell** e digite**:**
+Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
 ```
 python --version
 ```
 
-### Verifique a instalação do `pip`
+### Vérifiez l'installation de `pip`
 
-Abra o **cmd** ou **PowerShell** e digite**:**
+Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
 ```
 pip -V
 ```
 
 {% hint style="success" %}
-Se retornar a versão de ambos então está instalado corretamente!
+Si la réponse est la version dans les deux cas, cela voudra dire que c'est installé correctement!
 {% endhint %}
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
-### Instalando o `Python`
+### Installation de `Python`
 
 ### <img src="../../.gitbook/assets/ubuntu.png" alt="" data-size="line"> Ubuntu
 
-Se você usa **Ubuntu** ou alguma distro baseada, digite o seguinte comando no Terminal:
+Si vous utilisez **Ubuntu** ou une distribution basée sur, tapez la commande suivante dans votre Terminal:
 
 ```
 sudo apt install python3 python3-pip
 ```
 
-Informações dos pacotes dos Repositórios: [python](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=python3\&searchon=names), [pip](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=python3-pip\&searchon=names)
+Informations sur le package des répositoires: [Python](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=python3\&searchon=names), [pip](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=python3-pip\&searchon=names)
 
 ### <img src="../../.gitbook/assets/fedora.png" alt="" data-size="line"> Fedora
 
-Se você utiliza **Fedora** digite o seguinte comando no Terminal
+Si vous utilisez **Fedora** tapez la commande suivante dans votre Terminal:
 
 ```
 sudo dnf install python3 python3-pip
 ```
 
-Informações dos pacotes dos Repositórios: [python](https://packages.fedoraproject.org/pkgs/python3.10/python3/), [pip](https://packages.fedoraproject.org/pkgs/python-pip/python3-pip/)
+Informations sur le package des répositoires: [Python](https://packages.fedoraproject.org/pkgs/python3.10/python3/), [pip](https://packages.fedoraproject.org/pkgs/python-pip/python3-pip/)
 
 ### <img src="../../.gitbook/assets/arch.png" alt="" data-size="line"> Arch Linux
 
-Se você utiliza **Arch Linux** ou alguma distro baseada, digite o seguinte comando no Terminal:
+Si vous utilisez **Arch Linux** ou toute autre distribution basée, tapez la commande suivante dans votre Terminal:
 
 ```
 sudo pacman -S python python-pip
 ```
 
-Informações dos pacotes dos Repositórios: [python](https://archlinux.org/packages/core/x86\_64/python/), [pip](https://archlinux.org/packages/extra/any/python-pip/)
+Informations sur le package des répositoires: [Python](https://archlinux.org/packages/core/x86\_64/python/), [pip](https://archlinux.org/packages/extra/any/python-pip/)
 
 ### Verifique a instalação do `Python`
 
-Abra o **Terminal** e digite:
+Ouvrez votre **Terminal** et tapez:
 
 ```
 python --version
 ```
 
-### Verifique a instalação do `Pip`
+### Vérifiez l'installation de `Pip`
 
-Abra o **Terminal** e digite:
+Ouvrez votre **Terminal** et tapez:
 
 ```
 pip -V
 ```
 
 {% hint style="success" %}
-Se retornar a versão de ambos então está instalado corretamente!
+Si la réponse est la version dans les deux cas, cela voudra dire que c'est installé correctement!
 {% endhint %}
 {% endtab %}
 {% endtabs %}
