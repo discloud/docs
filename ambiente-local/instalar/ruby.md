@@ -1,44 +1,48 @@
+---
+description: Apprenez à héberger votre bot fait Ruby avec DisCloud
+---
+
 # 💎 Ruby
 
-### Instale o Ruby no seu computador
+### Installez Ruby sur votre ordinateur
 
-> **Rubygems** - É um gerenciador de pacotes para módulos Ruby (chamados de gems)
+> **Rubygems** - C'est un gestionnaire de paquets pour les modules Ruby (appelés gems)
 >
-> **Bundler** - Permite especificar de quais gems seu projeto depende
+> **Bundler** - Vous permet de spécifier de quelles gemmes dépend votre projet
 
-> Selecione o seu Sistema Operacional
+> Sélectionnez votre système d'exploitation
 
 {% tabs %}
 {% tab title="🪟 Windows" %}
-### Instalação do `Ruby`
+### Installation de `Ruby`
 
-### [Baixe o Ruby Aqui](https://rubyinstaller.org/downloads/)
+### [Télécharger Ruby ici](https://rubyinstaller.org/downloads/)
 
 ![](../../.gitbook/assets/win-ruby.png)
 
-### Verifique a Instalação do `Ruby`
+### Vérifier l'installation de `Ruby`
 
-Abra o **cmd** ou **PowerShell** e digite**:**
+Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
 ```
 ruby -v
 ```
 
-### Verifique a Instalação do `Rubygems`
+### Vérifier l'installation de `Rubygems`
 
-Abra o **cmd** ou **PowerShell** e digite:
+Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
 ```
 gem -v
 ```
 
 {% hint style="success" %}
-Se retornar a versão de ambos então está instalado corretamente!
+Si la réponse est la version dans les deux cas, cela voudra dire que c'est installé correctement!
 {% endhint %}
 
-### Instalação do `bundler`
+### Installation du `bundler`
 
-Abra o **cmd** ou **PowerShell** e digite:
+Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
 ```
 gem install bundler
@@ -46,41 +50,41 @@ gem install bundler
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
-### Instalação do `Ruby`
+### Installation de `Ruby`
 
 ### <img src="../../.gitbook/assets/ubuntu.png" alt="" data-size="line"> Ubuntu
 
-Se você usa **Ubuntu** ou alguma distro baseada, digite o seguinte comando no Terminal:
+Si vous utilisez **Ubuntu** ou une distribution basée sur, tapez la commande suivante dans votre Terminal:
 
 ```
 sudo apt install ruby-dev
 ```
 
-Informações dos pacotes dos Repositórios: [ruby](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=ruby-dev\&searchon=names)
+Informations sur le package des répositoires: [ruby](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=ruby-dev\&searchon=names)
 
 ### <img src="../../.gitbook/assets/fedora.png" alt="" data-size="line"> Fedora
 
-Se você utiliza **Fedora** digite o seguinte comando no Terminal
+Si vous utilisez **Fedora** tapez la commande suivante dans votre Terminal:
 
 ```
 sudo dnf install ruby-devel
 ```
 
-Informações dos pacotes dos Repositórios: [ruby](https://packages.fedoraproject.org/pkgs/ruby/ruby-devel/)
+Informations sur le package des répositoires: [ruby](https://packages.fedoraproject.org/pkgs/ruby/ruby-devel/)
 
 ### <img src="../../.gitbook/assets/arch.png" alt="" data-size="line"> Arch Linux
 
-Se você utiliza **Arch Linux** ou alguma distro baseada, digite o seguinte comando no Terminal:
+Si vous utilisez **Arch Linux** ou toute autre distribution basée, tapez la commande suivante dans votre Terminal:
 
 ```
 sudo pacman -S ruby rubygems
 ```
 
-Informações dos pacotes dos Repositórios: [ruby](https://archlinux.org/packages/community/x86\_64/ruby/), [rubygems](https://archlinux.org/packages/community/any/rubygems/)
+Informations sur le package des répositoires: [ruby](https://archlinux.org/packages/community/x86\_64/ruby/), [rubygems](https://archlinux.org/packages/community/any/rubygems/)
 
 ### Verifique a Instalação do `Ruby`
 
-Digite no Terminal o seguinte comando.
+Tapez la commande suivante dans votre Terminal.
 
 ```
 ruby -v
@@ -88,19 +92,19 @@ ruby -v
 
 ### Verifique a Instalação do `Rubygems`
 
-Digite no Terminal o seguinte comando.
+Tapez la commande suivante dans votre Terminal.
 
 ```
 gem -v
 ```
 
 {% hint style="success" %}
-Se retornar a versão de ambos então está instalado corretamente!
+Si la réponse est la version dans les deux cas, cela voudra dire que c'est installé correctement!
 {% endhint %}
 
 ### Instalação do `bundler`
 
-Digite no Terminal o seguinte comando.
+Tapez la commande suivante dans votre Terminal.
 
 ```
 sudo gem install bundler
@@ -108,13 +112,13 @@ sudo gem install bundler
 {% endtab %}
 {% endtabs %}
 
-### Colocando dependências no seu `Gemfile`
+### Mettre des dépendances dans votre `Gemfile`
 
 ![Exemplo](../../.gitbook/assets/ruby-example.png)
 
 ### [discordrb](https://rubygems.org/gems/discordrb) (rubygems)
 
-Adicione a seguinte linha no seu `Gemfile`
+Ajoutez la ligne suivante à votre `Gemfile`
 
 {% code title="Gemfile" %}
 ```ruby
@@ -126,7 +130,7 @@ gem "discordrb"
 ### [discordrb](https://github.com/shardlab/discordrb) (github)
 
 {% hint style="warning" %}
-Se você quiser executar a versão mais recente do **`discordrb`**, fornece funcionalidades mais recentes, mas pode apresentar instabilidades.
+Si vous souhaitez exécuter la dernière version de **`discordrb`**, elle fournit des fonctionnalités plus récentes mais peut être instable.
 {% endhint %}
 
 {% code title="Gemfile" %}

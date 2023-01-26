@@ -1,8 +1,8 @@
 ---
-description: Bienvenue à la documentation officielle de DisCloud.
+description: Bienvenu(e) à la documentation officielle de DisCloud.
 ---
 
-# 👋 Bienvenue
+# 👋 Bienvenu(e)
 
 ## 📜 À propos de cette documentation
 
