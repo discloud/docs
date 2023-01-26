@@ -15,7 +15,7 @@ Pode Tratar de assuntos delicados e particulares que necessitam da intervenção
 > * Caso precise de comprar um plano  por metodos alternativos ou caso o site não esteja a funcionar corretamente (aceitamos PayPal, MercadoPago, e Pix)
 > * Se precisar de reportar um usuário
 
-![Como abrir um ticket](../../.gitbook/assets/podemeajudar.gif)
+![Como abrir um ticket](<../../.gitbook/assets/podemeajudar (1).gif>)
 
 {% hint style="danger" %}
 **Apenas mande DM para um membro da Equipe caso o bot esteja indisponível.**

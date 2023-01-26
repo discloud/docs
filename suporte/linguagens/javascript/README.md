@@ -25,7 +25,7 @@ Você não deve enviar todos os arquivos de sua aplicação para o `.zip`, exist
 
 Selecione apenas os arquivos necessários, como mencionado em cima e crie o seu **.zip**
 
-![](<../../../.gitbook/assets/image (27).png>)
+![](<../../../.gitbook/assets/image (6).png>)
 
 Para mais detalhes sobre como **Compactar os seus Arquivos** de acordo com o seu **Sistema Operativo**, pode consultar em baixo:
 
@@ -39,8 +39,8 @@ Para mais detalhes sobre como **Compactar os seus Arquivos** de acordo com o seu
 Escolha o método para hospedar seu Bot na Discloud:
 {% endhint %}
 
-{% content-ref url="../../hospedar/sites/dashboard.md" %}
-[dashboard.md](../../hospedar/sites/dashboard.md)
+{% content-ref url="../../hospedar/bots/dashboard.md" %}
+[dashboard.md](../../hospedar/bots/dashboard.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../hospedar/bots/discord.md" %}

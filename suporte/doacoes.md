@@ -11,7 +11,7 @@ description: >-
 
 <table><thead><tr><th>Método de Pagamento</th><th data-type="checkbox">Disponível via Site</th><th data-type="checkbox">Disponível via Ticket</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/PayPal.png" alt="" data-size="line"> PayPal</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/MercadoPago.png" alt="" data-size="line"> Mercado Pago</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/pix.png" alt="" data-size="line"> Pix</td><td>false</td><td>true</td></tr></tbody></table>
 
-### <img src="../.gitbook/assets/discloudlogo (1).png" alt="" data-size="line"> Comprar via Site
+### <img src="../.gitbook/assets/discloudlogo.png" alt="" data-size="line"> Comprar via Site
 
 Acesse o site [discloudbot.com/plans](https://discloudbot.com/plans) e escolha o seu plano.
 

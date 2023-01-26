@@ -30,7 +30,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Logotipo Normal" %}
-![](<../../.gitbook/assets/discloudlogo (1).png>)
+![](../../.gitbook/assets/discloudlogo.png)
 {% endtab %}
 
 {% tab title="Logotipo Halloween" %}
@@ -38,7 +38,7 @@ description: >-
 {% endtab %}
 
 {% tab title="Gif Logo" %}
-![](../../.gitbook/assets/icongif.gif)
+![](<../../.gitbook/assets/icongif (1) (1) (1) (1) (1).gif>)
 {% endtab %}
 
 {% tab title="Gif Natal" %}

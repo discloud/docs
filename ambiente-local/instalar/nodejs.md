@@ -1,50 +1,50 @@
 ---
-description: Apprenez à héberger votre bot fait Javascript avec DisCloud
+description: Aprenda a hospedar seu bot em JavaScript na DisCloud
 ---
 
 # 🟨 JavaScript (nodejs)
 
-### Installez NodeJS et npm dans votre ordinateur
+### Instale o Nodejs e npm no seu computador
 
-> **npm** - Gestionnaire de paquets officiel NodeJS
+> **npm** - Gerenciador de pacotes oficial do NodeJS
 
-> Sélectionnez votre système d'exploitation
+> Selecione o seu Sistema Operacional
 
 {% tabs %}
 {% tab title="🪟 Windows" %}
-### Installation de Nodejs et Npm
+### Instalação do Nodejs e Npm
 
-### [Télécharger Nodejs ici](https://nodejs.org/en/)
+### [Baixe o Nodejs Aqui](https://nodejs.org/en/)
 
 ![](<../../.gitbook/assets/image (39).png>)
 
-### Vérifier l'installation de NodeJS
+### Verifique a Instalação do NodeJS
 
-Ouvrez **cmd** ou **PowerShell** et tapez:
+Abra o **cmd** ou **PowerShell** e digite**:**
 
 ```
 node -v
 ```
 
-### Vérifier l'installation de npm
+### Verifique a Instalação do npm
 
-Ouvrez **cmd** ou **PowerShell** et tapez:
+Abra o **cmd** ou **PowerShell** e digite:
 
 ```
 npm -v
 ```
 
 {% hint style="success" %}
-Si la réponse est la version dans les deux cas, cela voudra dire que c'est installé correctement!
+Se retornar a versão de ambos então está instalado corretamente!
 {% endhint %}
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
-### Installation de Nodejs et Npm
+### Instalação do Nodejs e Npm
 
 ### <img src="../../.gitbook/assets/ubuntu.png" alt="" data-size="line"> Ubuntu
 
-Si vous utilisez **Ubuntu** ou toute distribution basée dessus, sachez que la version **NodeJS** du [répositoires](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all) d'**Ubuntu** est la version la plus récente (principalement des versions LTS), je vous recommande donc de suivre les instructions ci-dessous :
+Se você usa **Ubuntu** ou alguma distro baseada nele, saiba que nem sempre a versão do **NodeJS** dos [repositórios](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all) do **Ubuntu** é a mais recente (principalmente as versões LTS), por esse motivo, recomendo seguir as instruções abaixo:
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
@@ -52,53 +52,53 @@ sudo apt install -y nodejs
 ```
 
 {% hint style="info" %}
-Le package **NodeJS** installe déjà **npm**
+O pacote **nodejs** já instala o **npm**
 {% endhint %}
 
-Autres versions, cliquez [ici](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
+Outras versões, consulte [aqui](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
 
-Informations sur le package des répositoires: [NodeJS](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all), [npm](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=npm\&searchon=names)
+Informações dos pacotes dos Repositórios: [nodejs](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all), [npm](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=npm\&searchon=names)
 
 ### <img src="../../.gitbook/assets/fedora.png" alt="" data-size="line"> Fedora
 
-La version **NodeJS** du [répositoire](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/) oficial est généralement très récent, vous pouvez l'installer avec la commande suivante dans votre Terminal :
+A versão do **NodeJS** dos [repositórios](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/) oficiais costuma ser bem recente, pode instalar com seguinte comando no Terminal:
 
 ```
 sudo dnf install nodejs npm -y
 ```
 
-Informations sur le package des répositoires: [NodeJS](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/), [npm](https://packages.fedoraproject.org/pkgs/nodejs/npm/)
+Informações dos pacotes dos Repositórios: [nodejs](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/), [npm](https://packages.fedoraproject.org/pkgs/nodejs/npm/)
 
 ### <img src="../../.gitbook/assets/arch.png" alt="" data-size="line"> Arch Linux
 
-Les répertoires d'Arch Linux et leurs dérivés, ont les derniers packages, sont disponibles **NodeJS LTS** et **Node latest**.&#x20;
+Os repositórios dos Arch Linux e derivados dele, têm os mais recentes pacotes, está disponível o **nodejs LTS e** **Node Latest.**&#x20;
 
-Tapez la commande ci-dessous pour installer la **v18.x** _(pour plus de détails, consultez [Arch Wiki](https://wiki.archlinux.org/title/Node.js#Installation))_
+Digite o seguinte comando para instalar a **v18.x.** _(mais detalhes consulte_ [_Arch Wiki_](https://wiki.archlinux.org/title/Node.js#Installation)_)_
 
 ```
 sudo pacman -S nodejs-lts-hydrogen npm
 ```
 
-Informations sur le package des répositoires: [NodeJS](https://archlinux.org/packages/?sort=\&q=nodejs\&maintainer=\&flagged=), [npm](https://archlinux.org/packages/community/any/npm/)
+Informações dos pacotes dos Repositórios: [nodejs](https://archlinux.org/packages/?sort=\&q=nodejs\&maintainer=\&flagged=), [npm](https://archlinux.org/packages/community/any/npm/)
 
-### Vérifier l'installation de NodeJS
+### Verifique a Instalação do NodeJS
 
-Tapez la commande suivante dans votre Terminal:
+Digite no Terminal o seguinte comando.
 
 ```
 node -v
 ```
 
-### Vérifier l'installation de npm
+### Verifique a Instalação do npm
 
-Tapez la commande suivante dans votre Terminal:
+Digite no Terminal o seguinte comando.
 
 ```
 npm -v
 ```
 
 {% hint style="success" %}
-Si la réponse est la version dans les deux cas, cela voudra dire que c'est installé correctement!
+Se retornar a versão de ambos então está instalado corretamente!
 {% endhint %}
 {% endtab %}
 {% endtabs %}
