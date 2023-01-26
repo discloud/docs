@@ -22,7 +22,7 @@ description: >-
 {% endtab %}
 
 {% tab title=" Logotipo horizontal branco sombra" %}
-![](<../../.gitbook/assets/discloud2 (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/discloud2 (1) (1) (1) (1).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -60,7 +60,7 @@ A fonte usada para o logotipo da DisCloud é uma versão modificada do [Uni Sans
 
 {% file src="../../.gitbook/assets/Font_Discloud.otf" %}
 
-![](<../../.gitbook/assets/discloud-background (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/discloud-background (1) (1) (1) (1) (1).png>)
 
 {% hint style="danger" %}
 **Não faça qualquer tipo de modificação na logotipo do DisCloud.**

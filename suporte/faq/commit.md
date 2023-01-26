@@ -22,7 +22,7 @@ Vá ao canal `🔌┃commands-v2` e digite `.c`(abreviação de `.commit`)
 
 Selecione os arquivos e pastas, clique com o botão direto do mouse, `DisCloud > Commit`
 
-<figure><img src="../../.gitbook/assets/commit.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vscode-commit.gif" alt=""><figcaption></figcaption></figure>
 
 ## :cat: Commit (automático)
 

@@ -1,3 +1,3 @@
-# ⚙ Isntaller
+# ⚙ Instalar
 
-#### Dans ce groupe de pages, nous vous aidons à installer et à configurer votre environnement sur votre ordinateur de bureau ou portable
+#### Neste Grupo de páginas ajudamos você a instalar e configurar o seu ambiente no seu Desktop ou Laptop
