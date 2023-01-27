@@ -16,7 +16,7 @@ description: Apprenez à héberger votre bot fait Python avec DisCloud
 
 ### [Télécharger Python ici](https://www.python.org/downloads/)
 
-![](../../.gitbook/assets/py-win-download.png)
+![](https://i.imgur.com/3AqmPF3.png)
 
 ### Vérifiez l'installation de `Python`
 
@@ -42,7 +42,7 @@ Si la réponse est la version dans les deux cas, cela voudra dire que c'est inst
 {% tab title="🐧 Linux" %}
 ### Installation de `Python`
 
-### <img src="../../.gitbook/assets/ubuntu.png" alt="" data-size="line"> Ubuntu
+### <img src="https://i.imgur.com/fLL0Q4I.png" alt="" data-size="line"> Ubuntu
 
 Si vous utilisez **Ubuntu** ou une distribution basée sur, tapez la commande suivante dans votre Terminal:
 
@@ -52,7 +52,7 @@ sudo apt install python3 python3-pip
 
 Informations sur le package des répositoires: [Python](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=python3\&searchon=names), [pip](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=python3-pip\&searchon=names)
 
-### <img src="../../.gitbook/assets/fedora.png" alt="" data-size="line"> Fedora
+### <img src="https://i.imgur.com/xr2DTSh.png" alt="" data-size="line"> Fedora
 
 Si vous utilisez **Fedora** tapez la commande suivante dans votre Terminal:
 
@@ -62,7 +62,7 @@ sudo dnf install python3 python3-pip
 
 Informations sur le package des répositoires: [Python](https://packages.fedoraproject.org/pkgs/python3.10/python3/), [pip](https://packages.fedoraproject.org/pkgs/python-pip/python3-pip/)
 
-### <img src="../../.gitbook/assets/arch.png" alt="" data-size="line"> Arch Linux
+### <img src="https://i.imgur.com/tjbRR9R.png" alt="" data-size="line"> Arch Linux
 
 Si vous utilisez **Arch Linux** ou toute autre distribution basée, tapez la commande suivante dans votre Terminal:
 

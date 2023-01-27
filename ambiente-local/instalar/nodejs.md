@@ -14,9 +14,9 @@ description: Apprenez à héberger votre bot fait Javascript avec DisCloud
 {% tab title="🪟 Windows" %}
 ### Installation de Nodejs et Npm
 
-### [Télécharger Nodejs ici](https://nodejs.org/en/)
+### [Télécharger Nodejs ici](https://nodejs.org/fr/download/)
 
-![](<../../.gitbook/assets/image (39).png>)
+![](https://i.imgur.com/Kktya3X.png)
 
 ### Vérifier l'installation de NodeJS
 
@@ -42,7 +42,7 @@ Si la réponse est la version dans les deux cas, cela voudra dire que c'est inst
 {% tab title="🐧 Linux" %}
 ### Installation de Nodejs et Npm
 
-### <img src="../../.gitbook/assets/ubuntu.png" alt="" data-size="line"> Ubuntu
+### <img src="https://i.imgur.com/fLL0Q4I.png" alt="" data-size="line"> Ubuntu
 
 Si vous utilisez **Ubuntu** ou toute distribution basée dessus, sachez que la version **NodeJS** du [répositoires](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all) d'**Ubuntu** est la version la plus récente (principalement des versions LTS), je vous recommande donc de suivre les instructions ci-dessous :
 
@@ -59,7 +59,7 @@ Autres versions, cliquez [ici](https://github.com/nodesource/distributions/blob/
 
 Informations sur le package des répositoires: [NodeJS](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all), [npm](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=npm\&searchon=names)
 
-### <img src="../../.gitbook/assets/fedora.png" alt="" data-size="line"> Fedora
+### <img src="https://i.imgur.com/xr2DTSh.png" alt="" data-size="line"> Fedora
 
 La version **NodeJS** du [répositoire](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/) oficial est généralement très récent, vous pouvez l'installer avec la commande suivante dans votre Terminal :
 
@@ -69,7 +69,7 @@ sudo dnf install nodejs npm -y
 
 Informations sur le package des répositoires: [NodeJS](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/), [npm](https://packages.fedoraproject.org/pkgs/nodejs/npm/)
 
-### <img src="../../.gitbook/assets/arch.png" alt="" data-size="line"> Arch Linux
+### <img src="https://i.imgur.com/tjbRR9R.png" alt="" data-size="line"> Arch Linux
 
 Les répertoires d'Arch Linux et leurs dérivés, ont les derniers packages, sont disponibles **NodeJS LTS** et **Node latest**.&#x20;
 
