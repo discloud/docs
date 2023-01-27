@@ -1,15 +1,15 @@
-# 📦 APT (Instale Pacotes)
+# 📦 APT (Installez de packages)
 
-O **APT (Advanced package tool**), faz referência ao instalador de pacotes utilizado em distribuições Linux baseadas em Debian ou Ubuntu.\
+**APT (Advanced package tool**), fait référence à l'installeur de packages utilisant les distributions Lixnus basées en Debien et Ubuntu.\
 \
-Na **DisCloud**, você pode adicionar alguns pacotes listados abaixo no container da sua aplicação em caso de necessidade.
+sur **DisCloud**, vous pouvez additionner quelques packages listés ci-dessous dans le container de votre application en cas de nécessité.
 
-## :gear: Como Utilizar
+## :gear: Comment utiliser
 
-Consulte o pacote[^1] necessário para o seu projeto e coloque em `APT=`
+Consultez le package[^1] nécessaire pour votre projet e insérez-le dans `APT=`
 
 {% hint style="info" %}
-Se você necessitar de utilizar mais de **1 pacote**, separe por `vírgulas e espaços`, como no exemplo abaixo
+Si vous avez besoin de plus que **1 package**, séparez-les par des `virgules et espaces`, comme dans l'exemple ci-dessous:
 {% endhint %}
 
 ```typescript
@@ -18,10 +18,10 @@ APT=tools, ffmpeg
 ...
 ```
 
-### Pacotes disponíveis
+### Packages disponibles
 
-<table><thead><tr><th>Nome Do Pacote</th><th data-type="select" data-multiple>Dependências</th></tr></thead><tbody><tr><td>canvas</td><td></td></tr><tr><td>puppeteer</td><td></td></tr><tr><td>java</td><td></td></tr><tr><td>ffmpeg</td><td></td></tr><tr><td>libgl</td><td></td></tr><tr><td>tools</td><td></td></tr><tr><td>openssl</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Nom du package</th><th data-type="select" data-multiple>Dépendances</th></tr></thead><tbody><tr><td>canvas</td><td></td></tr><tr><td>puppeteer</td><td></td></tr><tr><td>java</td><td></td></tr><tr><td>ffmpeg</td><td></td></tr><tr><td>libgl</td><td></td></tr><tr><td>tools</td><td></td></tr><tr><td>openssl</td><td></td></tr></tbody></table>
 
-[^1]: Coloque apenas os pacotes abaixo de "Nome Do Pacote" no seu "APT=".&#x20;
+[^1]: Insérez uniquement les packages sous "Nom Du Package" dans votre "APT=".&#x20;
 
-    As dependências são apenas o que será instalado pela DisCloud
+    Les dépendances sont juste ce qui sera installé par DisCloud
