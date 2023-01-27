@@ -3,32 +3,32 @@ cover: ../.gitbook/assets/api-banner.png
 coverY: 683.9595959595961
 ---
 
-# 📡 Usar a API
+# 📡 Utiliser l'API
 
-## :pencil: Requisitos
+## :pencil: Exigences
 
-#### Obter o token
+#### Obtenir le token
 
-Para obter o seu token use o comando [api](../suporte/comandos/api.md).
+Pour obtenir votre token, utilisez la commande [api](../suporte/comandos/api.md).
 
 <figure><img src="../.gitbook/assets/api-cmd.png" alt=""><figcaption></figcaption></figure>
 
-## Começar
+## Commencer
 
-[Acesse as rotas da API](https://discloud.github.io/apidoc/)\
-Clique em `Authorize` e cole o seu Token da API
+[Accédez aux routes de l'API](https://discloud.github.io/apidoc/)\
+Cliquez sur `Authorize` et collez votre jeton API
 
-<figure><img src="../.gitbook/assets/api-login.png" alt=""><figcaption><p>Colocando o token</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/api-login.png" alt=""><figcaption><p>Placer le token</p></figcaption></figure>
 
-## Comece a usar a API
+## Commencez à utiliser l'API
 
-exemplo com a rota `/user`
+exemple avec la route `/user`
 
-<figure><img src="../.gitbook/assets/api-getuser-example.png" alt=""><figcaption><p>Exemplo da responta da rota /user</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/api-getuser-example.png" alt=""><figcaption><p>Exemple de la réponse de la route /user</p></figcaption></figure>
 
-Você pode importar o código `curl` em aplicativos como o [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/downloads/), e a partir deles gerar o código para a linguagem que desejar
+Vous pouvez importer le code `curl` dans des applications telles que [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/downloads/), puis générer le code dans la langue de votre choix à partir de celles-ci
 
-> Exemplos:
+> Exemples:
 
 {% tabs %}
 {% tab title="Insomnia" %}
@@ -58,9 +58,9 @@ Você pode importar o código `curl` em aplicativos como o [Insomnia](https://in
 {% endtab %}
 {% endtabs %}
 
-Exemplo com a rota `/upload`
+Exemple avec la route`/upload`
 
-* O seu arquivo `.zip` deve incluir o [discloud.config](../discloud.config/configurar/)
-* O seu arquivo `.zip` deve ter um tamanho `<=100MB`
+* Votre fichier `.zip` doit inclure [discloud.config](../discloud.config/configurar/)
+* Votre fichier `.zip` doit avoir une taille `<=100MB`
 
 <figure><img src="../.gitbook/assets/api-upload-example.png" alt=""><figcaption></figcaption></figure>
