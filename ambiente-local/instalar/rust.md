@@ -44,7 +44,7 @@ Si la réponse est la version dans les deux cas, cela voudra dire que c'est inst
 {% tab title="🐧 Linux" %}
 ### Installation de Rust et Cargo
 
-### <img src="../../.gitbook/assets/ubuntu.png" alt="" data-size="line"> <img src="../../.gitbook/assets/fedora.png" alt="" data-size="line"> <img src="../../.gitbook/assets/arch.png" alt="" data-size="line">&#x20;
+### <img src="https://i.imgur.com/fLL0Q4I.png" alt="" data-size="line"> <img src="https://i.imgur.com/xr2DTSh.png" alt="" data-size="line"> <img src="https://i.imgur.com/tjbRR9R.png" alt="" data-size="line">&#x20;
 
 Si vous utilisez une distribution **Linux**, **Mac OS** ou une autre distribution **Unix-like**, exécutez la commande suivante dans votre terminal :
 
