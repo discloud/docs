@@ -1,8 +1,8 @@
-# 🏗 VERSION (Alterne entre Versões)
+# 🏗 VERSION (Basculer entre les versions)
 
 Altere a versão da linguagem da sua aplicação sempre que necessário, seja da mais antiga à mais recente.
 
-## :gear: Como Utilizar
+## :gear: Comment utiliser
 
 ```typescript
 ...
@@ -10,17 +10,17 @@ VERSION=current
 ...
 ```
 
-### Versões disponíveis
+### Versions disponibles
 
-> Selecione uma Linguagem para consultar
+> Sélectionnez une langue à consulter
 
 {% tabs %}
 {% tab title=" 🟨 JavaScript" %}
-<table><thead><tr><th>Versões Disponíveis</th><th data-hidden></th></tr></thead><tbody><tr><td>latest</td><td></td></tr><tr><td>current</td><td></td></tr><tr><td>16.13.2</td><td></td></tr><tr><td>14.18.3</td><td></td></tr><tr><td>suja</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Versions Disponibles</th><th data-hidden></th></tr></thead><tbody><tr><td>latest</td><td></td></tr><tr><td>current</td><td></td></tr><tr><td>16.13.2</td><td></td></tr><tr><td>14.18.3</td><td></td></tr><tr><td>suja</td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="🐍 Python" %}
-| Versões Disponíveis |
+| Versions Disponibles |
 | ------------------- |
 | latest              |
 | 3.9.10              |
@@ -29,7 +29,7 @@ VERSION=current
 {% endtab %}
 
 {% tab title="☕ Java" %}
-| Versões Disponíveis |
+| Versions Disponibles |
 | ------------------- |
 | latest              |
 | 18.x.x              |
@@ -38,7 +38,7 @@ VERSION=current
 {% endtab %}
 
 {% tab title="💎 Ruby" %}
-| Versões Disponíveis |
+| Versions Disponibles |
 | ------------------- |
 | latest              |
 | 3.1.0               |
@@ -46,7 +46,7 @@ VERSION=current
 {% endtab %}
 
 {% tab title="🐿️ Go" %}
-| Versões Disponíveis |
+| Versions Disponibles |
 | ------------------- |
 | latest              |
 | 1.17.6              |
@@ -54,13 +54,13 @@ VERSION=current
 {% endtab %}
 
 {% tab title="🐘 Php" %}
-| Versões Disponíveis |
+| Versions Disponibles |
 | ------------------- |
 | latest              |
 {% endtab %}
 
 {% tab title="🦀 Rust" %}
-| Versões Disponíveis |
+| Versions Disponibles |
 | ------------------- |
 | latest              |
 | suja                |
@@ -68,8 +68,8 @@ VERSION=current
 {% endtabs %}
 
 {% hint style="danger" %}
-A versão `suja`, é uma versão pesada, pois fornece mais pacotes [APT](apt.md) pré instalados por padrão, recomendamos que utilize apenas em ultimo recurso.
+La version `suja`, est une version lourde car elle fournit plus de packages [APT](apt.md) pré-installés par défaut, nous vous recommandons de les utiliser uniquement en dernier recours.
 
 \
-A maioria das aplicações não necessita desta versão, se faltar algum pacote, por favor consulte a [nossa lista APT](apt.md), e instale o pacote em falta.
+La plupart des applications n'ont pas besoin de cette version, si des packages manquent, veuillez consulter [notre liste APT](apt.md) et installer le package manquant.
 {% endhint %}

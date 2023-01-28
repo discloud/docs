@@ -18,7 +18,7 @@ description: Apprenez à héberger votre bot fait Rust avec DisCloud
 
 > [Autres méthodes d'installation](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
-![](../../.gitbook/assets/rust-win.png)
+![](https://i.imgur.com/SOKCYVI.png)
 
 ### Vérifiez l'installation de la rouille
 

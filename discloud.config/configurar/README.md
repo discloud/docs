@@ -1,27 +1,27 @@
-# ⚙ Configurar
+# ⚙ Configurer
 
-O `discloud.config` é um arquivo de configurações, que agiliza o processo de upload de suas aplicações para a DisCloud.
+`discloud.config` est une archive de configurations, qui facilite le processus de téléchargement de vos applications sur DisCloud.
 
-## :gear: Como Utilizar
+## :gear: Comment Utiliser
 
-Detalhes para cada opção
+Détails pour chaque option
 
-![](../../.gitbook/assets/discloud-config-pt.png)
+![](https://i.imgur.com/rZg0uCF.png)
 
-> Consulte a lista de opções para: [VERSION](version.md), [APT](apt.md)
+> Consultez la liste des options pour: [VERSION](version.md), [APT](apt.md)
 
-> Se estiver fazendo um `bot` ou um `site` pode se basear nos exemplos abaixo:
+> Si vous créez un `bot` ou un `site web` vous pouvez utiliser les exemples ci-dessous :
 
 {% tabs %}
-{% tab title="🤖 Exemplo para Bot" %}
+{% tab title="🤖 Exemple pour des bots" %}
 {% hint style="info" %}
-Para hospedar um bot precisa de **100MB** de RAM no mínimo
+Pour héberger un bot, vous avez besoin de **100MB** de RAM minimum!
 {% endhint %}
 
 {% code title="discloud.config" %}
 ```tsconfig
-NAME=Meubot
-AVATAR=https://...
+NAME=MonApplication 
+AVATAR=https://... 
 TYPE=bot
 MAIN=index.js
 RAM=100
@@ -32,14 +32,14 @@ APT=tools
 {% endcode %}
 {% endtab %}
 
-{% tab title="🌎 Exemplo para Site" %}
+{% tab title="🌎 Exemple pour des sites web" %}
 {% hint style="info" %}
-Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platina](https://discloudbot.com/plans)
+Pour héberger un site web, vous avez besoin de **512MB** de RAM minimum et d'un  [Forfait Platine](https://discloudbot.com/plans)
 {% endhint %}
 
 {% code title="discloud.config" %}
 ```tsconfig
-NAME=MeuSite
+NAME=MonSiteWeb
 AVATAR=https://...
 ID=subdomain
 TYPE=site
@@ -54,16 +54,16 @@ APT=tools
 {% endtabs %}
 
 {% hint style="info" %}
-Coloque o `discloud.config` na raiz do seu projeto e não se esqueça de incluir no seu [.zip](../../suporte/faq/zip.md)
+Insérez votre `discloud.config` à la racine de votre projet et noubliez pas de l'inclure dans votre [.zip](../../suporte/faq/zip.md)
 {% endhint %}
 
-![](../../.gitbook/assets/vscode-discloud.config.png)
+![](https://i.imgur.com/fvNQBkc.png)
 
-## :cloud: Fazendo o Upload
+## :cloud: Hébergement
 
-Com o seu [.zip ](../../suporte/faq/zip.md)criado com o `discloud.config` chegou a hora do Upload, para utilizar é muito simples!
+Avec votre [.zip ](../../suporte/faq/zip.md) créé avec `discloud.config` il est temps de l'héberger, c'est très simple à utiliser!
 
-> * No canal de comandos digite `.upconfig` (ou abreviação `.upc`)
-> * Entre no canal que o bot acabou de criar e coloque o seu .zip
+> * Dans le chat de commandes, utilisez `.upconfig` (ou l'abréviation `.upc`)
+> * Envoyez votre zip dans le chat créé par le bot.
 
-![](../../.gitbook/assets/pr-upc.gif)
+![](https://i.imgur.com/TQewttF.gif)
