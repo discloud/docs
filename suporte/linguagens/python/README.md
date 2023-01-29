@@ -10,6 +10,8 @@ Você não deve enviar todos os arquivos de sua aplicação para o `.zip`, exist
 
 ```diff
 - Pasta .git
+- Pasta venv
+- Pasta .cache
 ```
 
 > * Dúvidas para encontrar o seu arquivo principal? [Clique aqui](../../faq/arquivo-principal.md#arquivos-principais-gerais)
