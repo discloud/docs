@@ -1,4 +1,4 @@
-# 🏗 VERSION (Basculer entre les versions)
+# 🏗 VERSION (Alterne entre Versões)
 
 Altere a versão da linguagem da sua aplicação sempre que necessário, seja da mais antiga à mais recente.
 
@@ -21,49 +21,50 @@ VERSION=current
 
 {% tab title="🐍 Python" %}
 | Versions Disponibles |
-| ------------------- |
-| latest              |
-| 3.9.10              |
-| 2.7.18              |
-| suja                |
+| -------------------- |
+| latest               |
+| 3.10                 |
+| 3.9.10               |
+| 2.7.18               |
+| suja                 |
 {% endtab %}
 
 {% tab title="☕ Java" %}
 | Versions Disponibles |
-| ------------------- |
-| latest              |
-| 18.x.x              |
-| 17.x.x              |
-| 16.x.x              |
+| -------------------- |
+| latest               |
+| 18.x.x               |
+| 17.x.x               |
+| 16.x.x               |
 {% endtab %}
 
 {% tab title="💎 Ruby" %}
 | Versions Disponibles |
-| ------------------- |
-| latest              |
-| 3.1.0               |
-| 2.7.5               |
+| -------------------- |
+| latest               |
+| 3.1.0                |
+| 2.7.5                |
 {% endtab %}
 
 {% tab title="🐿️ Go" %}
 | Versions Disponibles |
-| ------------------- |
-| latest              |
-| 1.17.6              |
-| 1.16.13             |
+| -------------------- |
+| latest               |
+| 1.17.6               |
+| 1.16.13              |
 {% endtab %}
 
 {% tab title="🐘 Php" %}
 | Versions Disponibles |
-| ------------------- |
-| latest              |
+| -------------------- |
+| latest               |
 {% endtab %}
 
 {% tab title="🦀 Rust" %}
 | Versions Disponibles |
-| ------------------- |
-| latest              |
-| suja                |
+| -------------------- |
+| latest               |
+| suja                 |
 {% endtab %}
 {% endtabs %}
 
