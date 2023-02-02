@@ -6,7 +6,7 @@
 
 Détails pour chaque option
 
-![](https://i.imgur.com/rZg0uCF.png)
+![](../../.gitbook/assets/discloud-config_patern.png)
 
 > Consultez la liste des options pour: [VERSION](version.md), [APT](apt.md)
 
@@ -57,7 +57,7 @@ APT=tools
 Insérez votre `discloud.config` à la racine de votre projet et noubliez pas de l'inclure dans votre [.zip](../../suporte/faq/zip.md)
 {% endhint %}
 
-![](https://i.imgur.com/fvNQBkc.png)
+![](../../.gitbook/assets/discloud-config_path.png)
 
 ## :cloud: Hébergement
 
@@ -66,4 +66,4 @@ Avec votre [.zip ](../../suporte/faq/zip.md) créé avec `discloud.config` il es
 > * Dans le chat de commandes, utilisez `.upconfig` (ou l'abréviation `.upc`)
 > * Envoyez votre zip dans le chat créé par le bot.
 
-![](https://i.imgur.com/TQewttF.gif)
+![](../../.gitbook/assets/upload_with_discloud-config.gif)

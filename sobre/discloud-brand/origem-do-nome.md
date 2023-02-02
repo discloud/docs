@@ -1,22 +1,22 @@
 ---
-description: Significados por trás do nome Discloud
+description: Significations derrière le nom Discloud
 ---
 
-# Origem do Nome
+# Origine du nom
 
-![](../../.gitbook/assets/246513.jpg)
+![](../../.gitbook/assets/turbobm_gyro.jpg)
 
-## Significados
+## Significations
 
-O nome vem da junção do prefixo latino **dis-** da língua portuguesa, e da palavra em inglês **cloud** comumente utilizada para fazer analogia a computação nas nuvens.
+Le nom vient de la jonction du préfixe latin **dis-** de la langue portugaise et du mot anglais **cloud** couramment utilisé pour faire une analogie avec l'informatique dans les nuages.
 
-| **Dis-** indica: | **Cloud** traduzida para o português: |
-| :--- | :--- |
-| Dissolver | Nuvem |
+| **Dis-** indique: | **Cloud** traduit en portugais: |
+| :---------------: | :-----------------------------: |
+| Dissoudre         | Nuage                           |
 
-> Estamos **dissolvendo**, **dividindo,** **compartilhando** computação nas nuvens entre pessoas.
+> Nous **dissolvons**, **divisons**, **partageons** l'informatique dans les nuages entre les personnes.
 
 {% hint style="success" %}
-Existem também outros significados que podem ser facilmente assimilados como **Dis**~~cord~~ **Cloud** que também expressa a definição do nosso serviço.
+Il existe également d'autres significations facilement assimilables comme **Dis**~~cord~~ **Cloud** qui exprime également la définition de notre service.
 {% endhint %}
 
