@@ -18,7 +18,7 @@ description: Apprenez à héberger votre bot fait Ruby avec DisCloud
 
 ### [Télécharger Ruby ici](https://rubyinstaller.org/downloads/)
 
-![](https://i.imgur.com/kkCyP2M.png)
+![](../../.gitbook/assets/ruby_download.png)
 
 ### Vérifier l'installation de `Ruby`
 
@@ -52,7 +52,7 @@ gem install bundler
 {% tab title="🐧 Linux" %}
 ### Installation de `Ruby`
 
-### <img src="https://i.imgur.com/fLL0Q4I.png" alt="" data-size="line"> Ubuntu
+### <img src="../../.gitbook/assets/ubuntu_logo.png" alt="" data-size="line"> Ubuntu
 
 Si vous utilisez **Ubuntu** ou une distribution basée sur, tapez la commande suivante dans votre Terminal:
 
@@ -62,7 +62,7 @@ sudo apt install ruby-dev
 
 Informations sur le package des répositoires: [ruby](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=ruby-dev\&searchon=names)
 
-### <img src="https://i.imgur.com/xr2DTSh.png" alt="" data-size="line"> Fedora
+### <img src="../../.gitbook/assets/fedora_logo.png" alt="" data-size="line"> Fedora
 
 Si vous utilisez **Fedora** tapez la commande suivante dans votre Terminal:
 
@@ -72,7 +72,7 @@ sudo dnf install ruby-devel
 
 Informations sur le package des répositoires: [ruby](https://packages.fedoraproject.org/pkgs/ruby/ruby-devel/)
 
-### <img src="https://i.imgur.com/tjbRR9R.png" alt="" data-size="line"> Arch Linux
+### <img src="../../.gitbook/assets/arch-linux_logo.png" alt="" data-size="line"> Arch Linux
 
 Si vous utilisez **Arch Linux** ou toute autre distribution basée, tapez la commande suivante dans votre Terminal:
 
@@ -114,7 +114,7 @@ sudo gem install bundler
 
 ### Mettre des dépendances dans votre `Gemfile`
 
-![Exemplo](https://i.imgur.com/ZiVUbDL.png)
+![Exemplo](../../.gitbook/assets/gem-file_example.png)
 
 ### [discordrb](https://rubygems.org/gems/discordrb) (rubygems)
 

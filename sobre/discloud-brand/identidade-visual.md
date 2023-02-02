@@ -1,67 +1,67 @@
 ---
 description: >-
-  Você pode usar o logotipo ou o nome DisCloud para criar um link para nosso
-  site, desde que seu uso atenda às diretrizes contidas nesse documento.
+  Vous pouvez utiliser le logo ou le nom DisCloud pour créer un lien vers notre
+  site web, à condition que son utilisation soit conforme aux directives contenues dans ce document.
 ---
 
-# Identidade Visual
+# Identité visuelle
 
 {% hint style="warning" %}
-**Em geral, não use o nome ou logotipos da DisCloud de maneiras que possam ser confusas, enganosas ou sugerir nosso patrocínio, endosso ou afiliação.**
+**En général, n'utilisez pas le nom ou les logos DisCloud d'une manière qui pourrait prêter à confusion, induire en erreur ou suggérer notre parrainage, notre approbation ou notre affiliation.**
 {% endhint %}
 
 ## Logo
 
 {% tabs %}
-{% tab title=" Logotipo horizontal escuro" %}
-![](../../.gitbook/assets/SPOILER\_Discloud\_Dark.png)
+{% tab title="Logo horizontal foncé" %}
+![](../../.gitbook/assets/logo_dark.png)
 {% endtab %}
 
-{% tab title=" Logotipo horizontal branco" %}
-![](../../.gitbook/assets/SPOILER\_Discloud\_branco.png)
+{% tab title="Logo horizontal blanc" %}
+![](../../.gitbook/assets/logo_white.png)
 {% endtab %}
 
-{% tab title=" Logotipo horizontal branco sombra" %}
-![](<../../.gitbook/assets/discloud2 (1) (1) (1) (1).png>)
+{% tab title="Logo horizontal blanc sombre" %}
+![](../../.gitbook/assets/logo_white-shadow.png)
 {% endtab %}
 {% endtabs %}
 
 ## Icon
 
 {% tabs %}
-{% tab title="Logotipo Normal" %}
-![](../../.gitbook/assets/discloudlogo.png)
+{% tab title="Logo normal" %}
+![](../../.gitbook/assets/logo_main.png)
 {% endtab %}
 
-{% tab title="Logotipo Halloween" %}
-![](../../.gitbook/assets/DisCloudHalloween.png)
+{% tab title="Logo halloween" %}
+![](../../.gitbook/assets/logo_halloween.png)
 {% endtab %}
 
 {% tab title="Gif Logo" %}
-![](<../../.gitbook/assets/icongif (1) (1) (1) (1) (1).gif>)
+![](../../.gitbook/assets/logo_main.gif)
 {% endtab %}
 
-{% tab title="Gif Natal" %}
-![](../../.gitbook/assets/natal.gif)
+{% tab title="Gif noël" %}
+![](../../.gitbook/assets/logo_christmas.gif)
 {% endtab %}
 
-{% tab title="Gif Halloween" %}
-![](../../.gitbook/assets/gif1.gif)
+{% tab title="Gif halloween" %}
+![](../../.gitbook/assets/logo_halloween.gif)
 {% endtab %}
 
-{% tab title="Gif AnoNovo" %}
-![](<../../.gitbook/assets/ww (1).gif>)
+{% tab title="Gif nouvelle année" %}
+![](../../.gitbook/assets/logo_new-year.gif)
 {% endtab %}
 {% endtabs %}
 
-## Fonte
+## Police
 
-A fonte usada para o logotipo da DisCloud é uma versão modificada do [Uni Sans Heavy](https://www.myfonts.com/fonts/font-fabric/uni-sans/), que foi projetada por Svet Simov em 2009.
+La police utilisée pour le logo DisCloud est une version modifiée de [Uni Sans Heavy](https://www.myfonts.com/fonts/font-fabric/uni-sans/), qui a été conçue par Svet Simov en 2009.
 
-{% file src="../../.gitbook/assets/Font_Discloud.otf" %}
+{% file src="../../.gitbook/assets/font.otf" %}
 
-![](<../../.gitbook/assets/discloud-background (1) (1) (1) (1) (1).png>)
+![](../../.gitbook/assets/banner_main.png)
 
 {% hint style="danger" %}
-**Não faça qualquer tipo de modificação na logotipo do DisCloud.**
+**N'apportez aucune modification au logo de DisCloud.**
 {% endhint %}
