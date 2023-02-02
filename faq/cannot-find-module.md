@@ -1,19 +1,19 @@
-## **__Como resolver o seguinte erro?__** `` Error: cannot find module...``
+## **__Comment résoudre l'erreur suivante?__** `` Error: cannot find module...``
  ### JavaScript
-* Geralmente nos logs/terminal informa o arquivo que deu o erro, e as possíveis linhas que o erro pode estar, verifique se nesse arquivo se realmente ele precisa do módulo informado.
+* Habituellement, dans les logs/terminaux est informé le fichier qui a géré l'erreur, et les lignes possibles que l'erreur peut être, vérifiez si dans ce fichier, il a vraiment besoin du module informé.
 
-* Se não precisar remova o modulo que esta listado no comando.
+* Si vous n'en avez pas besoin, supprimez le module répertorié dans la commande.
 
-* Se precisar instale o modulo executando o seguinte comando no VSC/IDE que é ``npm i (nome_do_modulo) --save``.
-  * **exemplo:** ``npm i moment --save``.
+* Si vous avez besoin, installez le module en exécutant la commande suivante dans votre VSC/IDE: ``npm i (nome_do_modulo) --save``.
+  * **exemple:** ``npm i moment --save``.
 
-* Verifique se o módulo se encontra listado no arquivo ``package.json`` antes de hospedar a aplicação na DisCloud. 
+* Assurez-vous que le module est listé dans le fichier ``package.json`` avant d'héberger l'application sur DisCloud.
 
-* Não coloque nomes com acentuações, letras grandes em seu projeto para não dar conflito no arquivo `package.json`, na parte `"name"`  caso tiver letra maiúscula, caracteres especiais dentre outro, deixa as informações mais simples possível. 
-  * **exemplo:** `"name": "meubot",`
+* Ne mettez pas de noms avec des accents, des grosses lettres dans votre projet afin de ne pas provoquer de conflit dans le fichier `package.json`, dans la partie `"name"` s'il comporte des majuscules, des caractères spéciaux entre autres, informez des informations le plus simple possible.
+  * **exemple:** `"name": "monbot",`
 
-* O erro também pode ser por causa que você tenha definido um caminho de leitura errada (`./`, `../` , `../../`, e assim por diante) , quando vai puxar as informações do arquivo caso tiver especificado o caminho de leitura de forma errada, ele não vai conseguir ler.
+* L'erreur peut également être due au fait que vous avez défini un chemin de lecture incorrect (`./`, `../` , `../../`, etc.) lors de l'extraction des informations du fichier si vous avez spécifié le chemin de lecture à tort, il ne pourra pas être lu.
  
 {% hint style="info" %}
- 💻 Nota:  Para verificar os logs/terminal, basta ir no canal ``#🔌┃commands`` e executar o comando ``.t`` ou ``.t (ID_DO_BOT)``, alguns módulos pode ter conflito com algumas versões da lib do discord então verifique se tem alguma que não é compatível, Se o erro continuar vá ao canal ``#💻┃javascript`` e peça ajuda.
+ 💻 Note: Pour vérifier les logs/terminal, allez simplement sur le chat de ``#🔌┃commands`` et exécutez la commande ``.t`` ou ``.t (ID_DU_BOT)``, certains modules peuvent entrer en conflit avec certaines versions de lib discord alors vérifiez s'il y en a qui ne sont pas compatibles, si l'erreur persiste, allez sur le chat ``#dev-help`` et demandez de l'aide.
 {% endhint %}

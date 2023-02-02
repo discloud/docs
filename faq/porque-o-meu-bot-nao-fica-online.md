@@ -1,15 +1,14 @@
-# Porque o meu bot não fica online?
+# Pourquoi mon bot n'est-il pas en ligne?
+## Si votre bot ne démarre pas, il y a 3 raisons pour que cela arrive:
+1. Il n'y a plus de place pour l'bébérgement dans le plan gratuit.
+2. Votre bot a une erreur dans le code qui le fait planter peu de temps après le démarrage (utilisez `.terminal` et cliquez dans les buttons, le premier pour voir les logs dans le serveur e le deuxième pour voir les logs dans votre MP).
+3. Vous avez enregistré un autre compte sur le site DisCloud, même si ce n'est pas le vôtre, avec la même adresse IP que vous vous êtes connecté. Pour résoudre ce problème, contactez via MP **`@DisCloud ModMail#6424`** (ou un membre de **`@DisCloud Staff`** si le bot n'est pas disponible).
 
-## Se seu bot não iniciar, há 3 motivos para isso:
-1. Não há vagas no plano free. É possível vê-las no 4° canal de voz do servidor.
-2. Seu bot possui erro no código que faz que ele caia logo após a inicialização (Use `.terminal` e reaja com ![:file:](https://cdn.discordapp.com/emojis/628284247827939359.png) para ver os últimos 2000 caracteres, e com ![:enviar:](https://cdn.discordapp.com/emojis/590334436130684930.png) para ver tudo pelo hastebin).
-3. Você registrou outra conta no site dá DisCloud ou outra conta, mesmo que não seja sua, com mesmo ip fez login. Para resolver contate via DM de **`@MailBox#3226`** (ou para um membro da **`@DisCloud Staff`** caso o bot esteja indisponível).
-
-## Se seu bot cair, há 3 motivos para isso:
-1. Falta de memória RAM. Pode exceder o limite de RAM ao ligar ao bot, ou ao usar um comando que exiga muito (especialmente os de música)
-2. Erro em alguma parte específica do código do seu bot (Use `.terminal` e reaja com ![:file:](https://cdn.discordapp.com/emojis/628284247827939359.png) para ver os últimos 2000 caracteres, e com ![:enviar:](https://cdn.discordapp.com/emojis/590334436130684930.png) para ver tudo pelo hastebin).
-3. Você ficou 7 dias sem usar algum comando que reinicie o timer de 7 dias para seu bot cair na DisCloud (`.reiniciar` `.resetweek` `.commit`).
+## Si votre bot plante, il y a 3 raisons pour que cela arrive:
+1. Manque de mémoire RAM. Peut dépasser la limite de RAM lors de la connexion au bot ou de l'utilisation d'une commande qui nécessite beaucoup (en particulier celles de la musique)
+2. Erreur dans une partie spécifique du code de votre bot (utilisez `.terminal` et cliquez dans les buttons, le premier pour voir les logs dans le serveur e le deuxième pour voir les logs dans votre MP).
+3. Vous avez passé 7 jours sans utiliser une commande qui réinitialise le minuteur de 7 jours pour que votre bot soit éteint dans DisCloud (`.reboot` `.resetweek` `.commit`).
 
 {% hint style="warning" %}
-💻 **Obs:** Todos os comandos citados devem ser usados no chat **`#🔌┃cmd-discloud`** do nosso servidor.
+💻 **OBS:** Toutes les commandes mentionnées doivent être utilisées dans le chat **`#🔌・commands`** sur notre serveur.
 {% endhint %}
