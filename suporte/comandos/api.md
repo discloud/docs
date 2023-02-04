@@ -1,23 +1,23 @@
 # api
 
-**Gera um token para o uso da API da DisCloud.**
+**Génère un token pour utiliser l'API de DisCloud.**
 
-## **Como Usar?**
+## **Comment utiliser?**
 
-#### Entre no canal de texto `#🔌・commands` e digite `.api`
+#### Allez dans le canal de texte `#🔌・commands` et tapez `.api`
 
-<figure><img src="../../.gitbook/assets/api-cmd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/api_cmd.png" alt=""><figcaption></figcaption></figure>
 
-#### O seu token será enviado para a sua DM.
+#### Votre token personnel sera envoyé dans votre MP.
 
-<figure><img src="../../.gitbook/assets/api-dm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/api_dm.png" alt=""><figcaption></figcaption></figure>
 
-### Como resetar o meu token?
+### Comment réinitialiser mon token?
 
-Digite novamente o comando e obtenha o seu novo token, os tokens criados anteriormente ficarão **inválidos e não poderão ser usados**.
+Exécutez la commande à nouveau et obtenez votre nouveau token, les tokens créés précédemment seront **invalides et ne pourront pas être utilisés**.
 
 {% hint style="danger" %}
-**Não revele o token para ninguém**, se isso acontecer você deve resetar o mais rápido possivel.
+**Ne révélez votre token à personne**, si cela se produit, vous devez réinitialiser dès que possible.
 
-**Nota:** Qualquer pessoa com o seu token tem acesso total à sua conta da DisCloud.
+**Remarque:** Toute personne disposant de votre token, aura un accès complet à votre compte DisCloud.
 {% endhint %}
