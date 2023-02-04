@@ -20,7 +20,7 @@ Un des objectifs principaux de **DisCloud Docs** est de couvrir tous les aspects
 
 **Discloud Docs** doit offrir une méthode simple et intuitive pour accéder à toutes les informations dont vous avez besoin.
 
-![](.gitbook/assets/grupodev.svg)
+![](.gitbook/assets/programing_languages.svg)
 
 > • <img src=".gitbook/assets/paper_airplane.png" alt=":DiscordStaff:" data-size="line" height="17px"> **`Tech Support:`** [Ticket](suporte/faq/ticket.md), support@discloudbot.com\
 > • <img src=".gitbook/assets/shield.png" alt=":TrustSafety:" data-size="line" height="17px"> **`Trust & Safety:`** [Ticket](suporte/faq/ticket.md), abuse@discloudbot.com\
