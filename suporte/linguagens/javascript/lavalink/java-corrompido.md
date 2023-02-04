@@ -1,2 +1,0 @@
-# O OpenJDK/Lavalink está/estãos corrompido(s) o que eu faço agora?
-De maneira mais rapida de resolver é deletando o diretório `java` (que é o diretório onde se localiza os arquivos do OpenJDK e do LavaLink) e iniciando o BOT de novo que irá baixar tudo de novo
