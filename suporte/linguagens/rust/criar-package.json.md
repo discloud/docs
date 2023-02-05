@@ -22,7 +22,7 @@ cargo init
 Modifique **botrs** para o nome do seu projeto seguindo a estrutura **snake\_case** ou **kebab-case**
 {% endhint %}
 
-![](../../../.gitbook/assets/cargo\_init.png)
+![](broken-reference)
 
 {% hint style="info" %}
 Você precisa do **Rust e Cargo** instalado no seu computador, caso não esteja instalado siga as instruções abaixo.

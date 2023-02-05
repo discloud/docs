@@ -6,7 +6,7 @@
 
 Comece por entrar no diretório do seu projeto e criar um novo arquivo **txt** e certifique-se de que seja **nomeado para** `requirements.txt`
 
-![](../../../.gitbook/assets/create-requirements.png)
+![](broken-reference)
 
 ## Colocando pacotes no seu `requirements.txt`
 
@@ -57,7 +57,7 @@ pip freeze --user > requirements.txt
 
 > **--user** - Apenas a saída de pacotes instaladas pelo usuário
 
-![Todas as dependências foram colocadas automaticamente em requirements.txt](../../../.gitbook/assets/pip.png)
+![Todas as dependências foram colocadas automaticamente em requirements.txt](broken-reference)
 
 {% hint style="info" %}
 Você precisa do **python e pip** instalado no seu computador, caso não esteja instalado siga as instruções abaixo.

@@ -12,13 +12,13 @@ description: Apprenez à héberger votre bot fait Javascript avec DisCloud
 
 {% tabs %}
 {% tab title="🪟 Windows" %}
-### Installation de Nodejs et Npm
+#### Installation de Nodejs et Npm
 
-### [Télécharger Nodejs ici](https://nodejs.org/fr/download/)
+#### [Télécharger Nodejs ici](https://nodejs.org/fr/download/)
 
-![](../../.gitbook/assets/nodejs_download.png)
+![](../../.gitbook/assets/nodejs\_download.png)
 
-### Vérifier l'installation de NodeJS
+#### Vérifier l'installation de NodeJS
 
 Ouvrez **cmd** ou **PowerShell** et tapez:
 
@@ -26,7 +26,7 @@ Ouvrez **cmd** ou **PowerShell** et tapez:
 node -v
 ```
 
-### Vérifier l'installation de npm
+#### Vérifier l'installation de npm
 
 Ouvrez **cmd** ou **PowerShell** et tapez:
 
@@ -40,11 +40,11 @@ Si la réponse est la version dans les deux cas, cela voudra dire que c'est inst
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
-### Installation de Nodejs et Npm
+#### Installation de Nodejs et Npm
 
-### <img src="../../.gitbook/assets/ubuntu_logo.png" alt="" data-size="line"> Ubuntu
+#### <img src="../../.gitbook/assets/ubuntu_logo.png" alt="" data-size="line"> Ubuntu
 
-Si vous utilisez **Ubuntu** ou toute distribution basée dessus, sachez que la version **NodeJS** du [répositoires](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all) d'**Ubuntu** est la version la plus récente (principalement des versions LTS), je vous recommande donc de suivre les instructions ci-dessous :
+Si vous utilisez **Ubuntu** ou toute distribution basée dessus, sachez que la version **NodeJS** du [répositoires](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all) d'**Ubuntu** est la version la plus récente (principalement des versions LTS), je vous recommande donc de suivre les instructions ci-dessous :
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
@@ -59,7 +59,7 @@ Autres versions, cliquez [ici](https://github.com/nodesource/distributions/blob/
 
 Informations sur le package des répositoires: [NodeJS](https://packages.ubuntu.com/search?keywords=nodejs\&searchon=names\&suite=all\&section=all), [npm](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=npm\&searchon=names)
 
-### <img src="../../.gitbook/assets/fedora_logo.png" alt="" data-size="line"> Fedora
+#### <img src="../../.gitbook/assets/fedora_logo.png" alt="" data-size="line"> Fedora
 
 La version **NodeJS** du [répositoire](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/) oficial est généralement très récent, vous pouvez l'installer avec la commande suivante dans votre Terminal :
 
@@ -69,11 +69,11 @@ sudo dnf install nodejs npm -y
 
 Informations sur le package des répositoires: [NodeJS](https://packages.fedoraproject.org/pkgs/nodejs/nodejs/), [npm](https://packages.fedoraproject.org/pkgs/nodejs/npm/)
 
-### <img src="../../.gitbook/assets/arch-linux_logo.png" alt="" data-size="line"> Arch Linux
+#### <img src="../../.gitbook/assets/arch-linux_logo.png" alt="" data-size="line"> Arch Linux
 
-Les répertoires d'Arch Linux et leurs dérivés, ont les derniers packages, sont disponibles **NodeJS LTS** et **Node latest**.&#x20;
+Les répertoires d'Arch Linux et leurs dérivés, ont les derniers packages, sont disponibles **NodeJS LTS** et **Node latest**.
 
-Tapez la commande ci-dessous pour installer la **v18.x** _(pour plus de détails, consultez [Arch Wiki](https://wiki.archlinux.org/title/Node.js#Installation))_
+Tapez la commande ci-dessous pour installer la **v18.x** _(pour plus de détails, consultez_ [_Arch Wiki_](https://wiki.archlinux.org/title/Node.js#Installation)_)_
 
 ```
 sudo pacman -S nodejs-lts-hydrogen npm
@@ -81,7 +81,7 @@ sudo pacman -S nodejs-lts-hydrogen npm
 
 Informations sur le package des répositoires: [NodeJS](https://archlinux.org/packages/?sort=\&q=nodejs\&maintainer=\&flagged=), [npm](https://archlinux.org/packages/community/any/npm/)
 
-### Vérifier l'installation de NodeJS
+#### Vérifier l'installation de NodeJS
 
 Tapez la commande suivante dans votre Terminal:
 
@@ -89,7 +89,7 @@ Tapez la commande suivante dans votre Terminal:
 node -v
 ```
 
-### Vérifier l'installation de npm
+#### Vérifier l'installation de npm
 
 Tapez la commande suivante dans votre Terminal:
 

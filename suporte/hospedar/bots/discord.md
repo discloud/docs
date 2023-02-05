@@ -54,6 +54,7 @@ Si votre fichier principal est dans un sous-dossier, vous devrez utiliser **disc
 
 #### Hébergez votre application encore plus rapide!
 
-{% content-ref url="../../../discloud.config/configurar/" %}
-[Configurer](../../../discloud.config/configurar/)
+{% content-ref url="../../../discloud.config/configurer/" %}
+[configurer](../../../discloud.config/configurer/)
+
 {% endcontent-ref %}

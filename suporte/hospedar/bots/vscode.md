@@ -12,14 +12,16 @@ description: Hébergez et gérez votre application sans quitter votre VSCode !
 
 #### 2. Configurez votre `discloud.config`
 
-{% content-ref url="../../../discloud.config/configurar/" %}
-[Configurer](../../../discloud.config/configurar/)
+{% content-ref url="../../../discloud.config/configurer/" %}
+[configurer](../../../discloud.config/configurer/)
+
 {% endcontent-ref %}
 
 ## :jigsaw: Installation de l'extension
 
 &#x20;     [`VSCode Marketplace`](https://marketplace.visualstudio.com/items?itemName=discloud.discloud)        |        [`Open VSX Registry`](https://open-vsx.org/extension/Discloud/discloud)  \
 &#x20;                    VSCode                              VSCodium, Code OSS
+
 
 <figure><img src="../../../.gitbook/assets/extension_install.png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +34,9 @@ description: Hébergez et gérez votre application sans quitter votre VSCode !
 ### :cloud: Hébergement avec l'extension
 
 {% hint style="info" %}
+
 Assurez-vous d'avoir le fichier [discloud.config](../../../discloud.config/configurar/#example-to-bot) avant de continuer.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/extension_upload.png" alt=""><figcaption><p>Réalisation de l'upload avec l'extension</p></figcaption></figure>
+

@@ -12,13 +12,13 @@ description: Apprenez à héberger votre bot fait Python avec DisCloud
 
 {% tabs %}
 {% tab title="🪟 Windows" %}
-### Installation de `Python`
+#### Installation de `Python`
 
-### [Télécharger Python ici](https://www.python.org/downloads/)
+#### [Télécharger Python ici](https://www.python.org/downloads/)
 
-![](../../.gitbook/assets/py_download.png)
+![](../../.gitbook/assets/py\_download.png)
 
-### Vérifiez l'installation de `Python`
+#### Vérifiez l'installation de `Python`
 
 Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
@@ -26,7 +26,7 @@ Ouvrez votre **cmd** ou **PowerShell** et tapez:
 python --version
 ```
 
-### Vérifiez l'installation de `pip`
+#### Vérifiez l'installation de `pip`
 
 Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
@@ -40,9 +40,9 @@ Si la réponse est la version dans les deux cas, cela voudra dire que c'est inst
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
-### Installation de `Python`
+#### Installation de `Python`
 
-### <img src="../../.gitbook/assets/ubuntu_logo.png" alt="" data-size="line"> Ubuntu
+#### <img src="../../.gitbook/assets/ubuntu_logo.png" alt="" data-size="line"> Ubuntu
 
 Si vous utilisez **Ubuntu** ou une distribution basée sur, tapez la commande suivante dans votre Terminal:
 
@@ -52,7 +52,7 @@ sudo apt install python3 python3-pip
 
 Informations sur le package des répositoires: [Python](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=python3\&searchon=names), [pip](https://packages.ubuntu.com/search?suite=all\&section=all\&arch=any\&keywords=python3-pip\&searchon=names)
 
-### <img src="../../.gitbook/assets/fedora_logo.png" alt="" data-size="line"> Fedora
+#### <img src="../../.gitbook/assets/fedora_logo.png" alt="" data-size="line"> Fedora
 
 Si vous utilisez **Fedora** tapez la commande suivante dans votre Terminal:
 
@@ -62,7 +62,7 @@ sudo dnf install python3 python3-pip
 
 Informations sur le package des répositoires: [Python](https://packages.fedoraproject.org/pkgs/python3.10/python3/), [pip](https://packages.fedoraproject.org/pkgs/python-pip/python3-pip/)
 
-### <img src="../../.gitbook/assets/arch-linux_logo.png" alt="" data-size="line"> Arch Linux
+#### <img src="../../.gitbook/assets/arch-linux_logo.png" alt="" data-size="line"> Arch Linux
 
 Si vous utilisez **Arch Linux** ou toute autre distribution basée, tapez la commande suivante dans votre Terminal:
 
@@ -72,7 +72,7 @@ sudo pacman -S python python-pip
 
 Informations sur le package des répositoires: [Python](https://archlinux.org/packages/core/x86\_64/python/), [pip](https://archlinux.org/packages/extra/any/python-pip/)
 
-### Verifique a instalação do `Python`
+#### Verifique a instalação do `Python`
 
 Ouvrez votre **Terminal** et tapez:
 
@@ -80,7 +80,7 @@ Ouvrez votre **Terminal** et tapez:
 python --version
 ```
 
-### Vérifiez l'installation de `Pip`
+#### Vérifiez l'installation de `Pip`
 
 Ouvrez votre **Terminal** et tapez:
 

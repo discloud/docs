@@ -22,31 +22,32 @@ Votre application doit déjà être hébergée sur DisCloud.
 
 {% tabs %}
 {% tab title="Github" %}
+
 ## URL du répertoire
 
 Allez dans les MP du bot DisCloud et collez l'URL du répertoire git pour votre application.
 
 <figure><img src="../../.gitbook/assets/git_url.png" alt=""><figcaption><p>Coller l'URL du répertoire</p></figcaption></figure>
 
-## Configurer le token d'accès ([Abrir Github](https://github.com/settings/personal-access-tokens/new))
+### Configurer le token d'accès ([Abrir Github](https://github.com/settings/personal-access-tokens/new))
 
 Il est important que l'accès soit disponible pour tous les répertoires _(surtout si vous souhaitez activer la synchronisation pour plus d'une application)_
 
 <figure><img src="../../.gitbook/assets/github_token.png" alt=""><figcaption></figcaption></figure>
 
-### Configuration des permissions
+#### Configuration des permissions
 
 Définissez `Webhooks` en lecture seule et générez votre jeton.
 
 <figure><img src="../../.gitbook/assets/github_token_permissions.png" alt=""><figcaption></figcaption></figure>
 
-## Webhook
+### Webhook
 
 Ouvrez le répertoire de votre application et créez un `webhook`
 
 <figure><img src="../../.gitbook/assets/github_add-webhook.png" alt=""><figcaption></figcaption></figure>
 
-### Configurer le Webhook
+#### Configurer le Webhook
 
 Assurez-vous de changer le `type de contenu` en `application/json`
 

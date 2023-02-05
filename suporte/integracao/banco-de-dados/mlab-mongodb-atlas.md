@@ -4,7 +4,7 @@ description: Configurando seu Banco Mongo em um Bot hospedado na Discloud.
 
 # MongoDB Atlas (mLab)
 
-![](../../../.gitbook/assets/maxresdefault.jpg)
+![](broken-reference)
 
 ## Ao conectar seu banco [MongoDB](https://mlab.com/) a um Bot Discord hospedado na DisCloud você pode se deparar com o possível erro:
 
@@ -22,4 +22,4 @@ Você receberá essa mensagem de erro se não tiver incluído na lista branca os
 
 Então de acordo com o [documentação](https://docs.atlas.mongodb.com/security-whitelist/) do MongoDB Atlas, a única maneira de fazer com que as instâncias da DisCloud se conecte ao seu banco, é adicionar **`0.0.0.0/0`**(ou seja, todos os endereços) à sua lista de permissões do MongoDB Atlas.
 
-![](<../../../.gitbook/assets/Capturar (4).PNG>)
+![](broken-reference)

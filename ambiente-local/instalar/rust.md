@@ -12,15 +12,15 @@ description: Apprenez à héberger votre bot fait Rust avec DisCloud
 
 {% tabs %}
 {% tab title="🪟 Windows" %}
-### Installation de Rust et Cargo
+#### Installation de Rust et Cargo
 
-### [Téléchargez Rust ici](https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe)
+#### [Téléchargez Rust ici](https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe)
 
 > [Autres méthodes d'installation](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
-![](../../.gitbook/assets/rust_installation.png)
+![](../../.gitbook/assets/rust\_installation.png)
 
-### Vérifiez l'installation de la rouille
+#### Vérifiez l'installation de la rouille
 
 Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
@@ -28,7 +28,7 @@ Ouvrez votre **cmd** ou **PowerShell** et tapez:
 rustc --version
 ```
 
-### Vérifier l'installation de la cargaison
+#### Vérifier l'installation de la cargaison
 
 Ouvrez votre **cmd** ou **PowerShell** et tapez:
 
@@ -42,17 +42,17 @@ Si la réponse est la version dans les deux cas, cela voudra dire que c'est inst
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
-### Installation de Rust et Cargo
+#### Installation de Rust et Cargo
 
-### <img src="../../.gitbook/assets/ubuntu_logo.png" alt="" data-size="line"> <img src="../../.gitbook/assets/fedora_logo.png" alt="" data-size="line"> <img src="../../.gitbook/assets/arch-linux_logo.png" alt="" data-size="line">&#x20;
+#### <img src="../../.gitbook/assets/ubuntu_logo.png" alt="" data-size="line"> <img src="../../.gitbook/assets/fedora_logo.png" alt="" data-size="line"> <img src="../../.gitbook/assets/arch-linux_logo.png" alt="" data-size="line">
 
-Si vous utilisez une distribution **Linux**, **Mac OS** ou une autre distribution **Unix-like**, exécutez la commande suivante dans votre terminal :
+Si vous utilisez une distribution **Linux**, **Mac OS** ou une autre distribution **Unix-like**, exécutez la commande suivante dans votre terminal :
 
 ```shell
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-### Vérifier l'installation de Rust
+#### Vérifier l'installation de Rust
 
 Tapez la commande suivante dans votre Terminal.
 
@@ -60,7 +60,7 @@ Tapez la commande suivante dans votre Terminal.
 rustc --version
 ```
 
-### Vérifier l'installation de Cargo
+#### Vérifier l'installation de Cargo
 
 Tapez la commande suivante dans votre Terminal.
 

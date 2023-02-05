@@ -4,7 +4,7 @@
 
 O primeiro passo é fazer o seu **registro**. Entre no site da [DisCloud](https://discloudbot.com) e clique no botão **Entrar**
 
-![](../../.gitbook/assets/login.gif)
+![](broken-reference)
 
 {% hint style="info" %}
 Recomendamos você ler os [Termos de Serviço](broken-reference) e [Política de Uso](broken-reference) antes de hospedar seu bot na DisCloud para evitar a suspensão da sua conta de nossos serviços ou problemas relacionados.

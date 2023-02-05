@@ -10,7 +10,7 @@ Abra o Terminal no diretório do seu projeto (Windows use: **Shift+Botão Direit
 bundle init
 ```
 
-![ Abrir o Terminal](../../../.gitbook/assets/ruby-open-terminal.png) ![Executando o comando](../../../.gitbook/assets/ruby-bundle-init.png)
+![ Abrir o Terminal](broken-reference) ![Executando o comando](broken-reference)
 
 {% hint style="info" %}
 Você precisa do **Ruby** instalado no seu computador, caso não esteja instalado siga as instruções abaixo.
@@ -22,7 +22,7 @@ Você precisa do **Ruby** instalado no seu computador, caso não esteja instalad
 
 ### Colocando dependências no seu `Gemfile`
 
-![Exemplo](../../../.gitbook/assets/ruby-example.png)
+![Exemplo](broken-reference)
 
 ### [discordrb](https://rubygems.org/gems/discordrb) (rubygems)
 

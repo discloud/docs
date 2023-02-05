@@ -24,7 +24,7 @@ Você não deve enviar todos os arquivos de sua aplicação para o `.zip`, exist
 
 Selecione apenas os arquivos necessários, como mencionado em cima e crie o seu **.zip**
 
-![](../../../.gitbook/assets/ruby-zip.png)
+![](broken-reference)
 
 Para mais detalhes sobre como **Compactar os seus Arquivos** de acordo com o seu **Sistema Operativo**, pode consultar em baixo:
 
@@ -107,8 +107,8 @@ end
 
 #### Exemplo `discloud.config` para `Rails`
 
-{% content-ref url="../../../discloud.config/configurar/" %}
-[configurar](../../../discloud.config/configurar/)
+{% content-ref url="../../../discloud.config/configurer/" %}
+[configurer](../../../discloud.config/configurer/)
 {% endcontent-ref %}
 
 {% code title="discloud.config" %}
