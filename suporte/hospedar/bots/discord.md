@@ -1,60 +1,59 @@
-# 🔌 via Discord
+# 🔌 Via Discord
 
-## :cloud:Antes de Hospedar
+## :cloud: Avant d'héberger
 
-Antes de hospedar recomendo consultar a documentação da linguagem utilizada pelo seu bot.
+Avant d'héberger, je vous recommande de consulter la documentation du langage utilisé par votre bot.
 
 {% content-ref url="../../linguagens/" %}
-[linguagens](../../linguagens/)
+[langages](../../linguagens/)
 {% endcontent-ref %}
 
-### :robot:Hospedando o Seu Bot
+### :robot: Hébergement de votre bot
 
-Se você estiver com o cargo `Verified pt-br`, significa que você se registou com sucesso na **DisCloud**.&#x20;
+Si vous avez la rôle `Verified en-us new`, cela signifie que vous vous êtes inscrit avec succès sur **DisCloud**.
 
-#### 1. Para hospedar, entre no canal de texto `#🔌・commands` e digite `.up`( ou `.upc` para usar o [discloud.config](broken-reference)).
+#### 1. Pour héberger, entrez le canal de texte `#🔌・commands` et tapez `.up`( ou `.upc` pour utiliser [discloud.config](../../../discloud.config/configurar/README.md)).
 
-![](../../../.gitbook/assets/up.png)
+![](../../../.gitbook/assets/up_cmd.png)
 
-#### 2. Cole o ID do seu bot.
+#### 2. Collez l'ID de votre bot.
 
-![](../../../.gitbook/assets/up-id.png)
+![](../../../.gitbook/assets/up_inform-id.png)
 
 {% content-ref url="../../faq/id-bot.md" %}
 [id-bot.md](../../faq/id-bot.md)
 {% endcontent-ref %}
 
-#### 3. Digite o nome ou caminho do seu arquivo principal.
+#### 3. Entrez le nom de votre fichier principal.
 
-![](../../../.gitbook/assets/up-main.png)
+![](../../../.gitbook/assets/up_inform-main-file.png)
 
 {% hint style="info" %}
-Se o seu arquivo principal estiver dentro de uma **subpasta**, por favor indique o caminho completo.\
-Exemplo: `src/index.js`
+Si votre fichier principal est dans un sous-dossier, vous devrez utiliser **discloud.config** indiquant come cet exemple: `src/index.js`
 {% endhint %}
 
 {% content-ref url="../../faq/arquivo-principal.md" %}
 [arquivo-principal.md](../../faq/arquivo-principal.md)
 {% endcontent-ref %}
 
-#### 4. Digite a quantidade de RAM (em MB) para o seu bot.
+#### 4. Entrez la quantité de RAM (en MB) pour votre bot.
 
-![](../../../.gitbook/assets/up-ram.png)
+![](../../../.gitbook/assets/up_inform-ram.png)
 
-#### 5.  Envie o .zip do seu bot.
+#### 5. Envoyez le .zip de votre bot.
 
-![](../../../.gitbook/assets/up-zip.png)
+![](../../../.gitbook/assets/up_send-zip.png)
 
 {% content-ref url="../../faq/zip.md" %}
 [zip.md](../../faq/zip.md)
 {% endcontent-ref %}
 
-> Você pode consultar os comandos utilizando `.help` ou `.help <comando>` para saber como utilizar o comando mencionado.
+> Vous pouvez vous référer aux commandes en utilisant `.help` ou `.help <command>` pour savoir comment utiliser la commande mentionnée.
 
-### :gear: Utilizando o arquivo `discloud.config`
+### :gear: Utilisant le fichier `discloud.config`
 
-#### Envie as suas aplicações mais rapidamente!
+#### Hébergez votre application encore plus rapide!
 
 {% content-ref url="../../../discloud.config/configurar/" %}
-[configurar](../../../discloud.config/configurar/)
+[Configurer](../../../discloud.config/configurar/)
 {% endcontent-ref %}

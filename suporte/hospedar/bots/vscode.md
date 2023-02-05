@@ -1,38 +1,38 @@
 ---
-description: Hospede e gerencie a sua aplicação sem sair do seu VSCode!
+description: Hébergez et gérez votre application sans quitter votre VSCode !
 ---
 
-# 🧩 via VSCode
+# 🧩 Via VSCode
 
-## :pencil: Requisitos
+## :pencil: Exigences
 
-#### 1. Você precisa de usar o comando [**api**](../../comandos/api.md)**, para obter o seu token da API da DisCloud**.
+#### 1. Vous devez utiliser la commande [**api**](../../comandos/api.md)**, pour obtenir votre token de l'API de DisCloud**.
 
-<figure><img src="../../../.gitbook/assets/api-cmd.png" alt=""><figcaption><p>Usando o comando .api</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api_cmd.png" alt=""><figcaption><p>Utilisation de la commande .api</p></figcaption></figure>
 
-#### 2. Configure o seu `discloud.config`
+#### 2. Configurez votre `discloud.config`
 
 {% content-ref url="../../../discloud.config/configurar/" %}
-[configurar](../../../discloud.config/configurar/)
+[Configurer](../../../discloud.config/configurar/)
 {% endcontent-ref %}
 
-## :jigsaw:Instalando a Extensão
+## :jigsaw: Installation de l'extension
 
 &#x20;     [`VSCode Marketplace`](https://marketplace.visualstudio.com/items?itemName=discloud.discloud)        |        [`Open VSX Registry`](https://open-vsx.org/extension/Discloud/discloud)  \
 &#x20;                    VSCode                              VSCodium, Code OSS
 
-<figure><img src="../../../.gitbook/assets/install-discloud-vscode-extention.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/extension_install.png" alt=""><figcaption></figcaption></figure>
 
-### :gear:Configurando a Extensão
+### :gear: Configuration de l'extension
 
-#### Coloque o seu Token da `API da DisCloud`
+#### Informez votre token de `l'API de DisCloud`
 
-<figure><img src="../../../.gitbook/assets/discloud-extention-settings-token.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/extension_inform-token.png" alt=""><figcaption></figcaption></figure>
 
-### :cloud:Hospedando com a Extensão
+### :cloud: Hébergement avec l'extension
 
 {% hint style="info" %}
-Certifique-se de ter o arquivo [discloud.config](../../../discloud.config/configurar/#exemplo-para-bot), antes de prosseguir
+Assurez-vous d'avoir le fichier [discloud.config](../../../discloud.config/configurar/#example-to-bot) avant de continuer.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/discloud-extention-upload.png" alt=""><figcaption><p>Fazendo o Upload pela Extensão</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/extension_upload.png" alt=""><figcaption><p>Réalisation de l'upload avec l'extension</p></figcaption></figure>

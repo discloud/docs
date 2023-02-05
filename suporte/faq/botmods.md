@@ -1,30 +1,30 @@
 # Bot Mods
 
-> Sistema de Moderadores
+> Système modérateurs
 
-O que é? Esse sistema permite adicionar outra pessoa para iniciar/reiniciar/parar/ver o terminal de um bot(futuramente será adicionado para poder fazer alteração)
+Qu'est-ce que c'est? Ce système permet d'ajouter une autre personne pour démarrer/redémarrer/arrêter/voir le terminal d'un bot (sera ajouté dans le futur pour pouvoir apporter des modifications)
 
-**Como usar?**\
-&#x20;_**COMANDOS PARA DONOS**_\
+**Comment utiliser?**\
+&#x20;_**COMMANDES POUR LES PROPRIÉTAIRES**_\
 
 
-> .mod add   - Para adicionar um membro como moderador do bot\
+> .mod add   - Pour ajouter un membre en tant que modérateur du bot\
 > &#x20;**EX: .mod add 584499142902939691 419994652343533579**
 >
-> .mod remove   - Para remover um membro de moderador do bot\
+> .mod remove   - Pour supprimer un membre modérateur du bot\
 > &#x20;**EX: .mod remove 584499142902939691 419994652343533579**
 >
-> .mod perm    - Para adicionar/remover a permissão do uso de um comando a um moderador no bot\
+> .mod perm    - Pour ajouter/supprimer des permissions d'utiliser une commande à un modérateur dans le bot\
 > &#x20;**EX: .mod perm 584499142902939691 419994652343533579 iniciar**
 >
-> .mod logs  - Para ver as últimas ações dos moderadores no seu bot\
+> .mod logs  - Pour voir les dernières actions des modérateurs sur votre bot\
 > &#x20;**EX: .mod logs 584499142902939691**
 >
-> .mod list  - Para ver todos os moderadores do bot\
+> .mod list  - Pour voir tous les modérateurs du bot\
 > &#x20;**EX: .mod list 584499142902939691**
 
-_**COMANDOS PARA MODERADORES**_\
+_**COMMANDES POUR LES MODÉRATEURS**_\
 
 
-> .mod \<iniciar / parar / reiniciar / terminal>  - Para executar um desses comandos no bot\
-> &#x20;**EX: .mod iniciar 584499142902939691**
+> .mod \<start / stop / restart / terminal>  - Pour exécuter l'une de ces commandes sur le bot\
+> &#x20;**EX: .mod start 584499142902939691**

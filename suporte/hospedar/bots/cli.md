@@ -1,26 +1,26 @@
 ---
-description: Hospede e gerencie a sua aplicação sem sair do seu VSCode!
+description: Hébergez et gérez votre application sans quitter votre VSCode !
 ---
 
 # ⌨ DisCloud CLI
 
-Um **CLI (Command-line interface)** é um programa baseado em comandos de texto.
+Une **CLI (Command-line Interface)** est un programme basé sur des commandes textuelles.
 
-## :pencil: Requisitos
+## :pencil: Exigences
 
-#### 1. Você precisa de usar o comando [**api**](../../comandos/api.md)**, para obter o seu token da API da DisCloud**.
+#### 1. Vous devez utiliser la commande [**api**](../../comandos/api.md)**, pour obtenir votre token de l'API de DisCloud**.
 
-<figure><img src="../../../.gitbook/assets/api-cmd.png" alt=""><figcaption><p>Usando o comando .api</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api_cmd.png" alt=""><figcaption><p>Utilisation de la commande .api</p></figcaption></figure>
 
 ## :keyboard: DisCloud CLI
 
-A DisCloud mantém oficialmente **2 projetos CLI** em **2 linguagens diferentes**, use a que for mais conveniente.
+DisCloud gère officiellement **2 projets CLI** dans **2 languages différentes**, utilisez celle qui vous convient le mieux.
 
 {% tabs %}
 {% tab title="🟨JavaScript" %}
 ## 1. Download
 
-> Necessita do [NodeJS](../../../ambiente-local/instalar/nodejs.md) instalado
+> Besoin de [NodeJS](../../../ambiente-local/instalar/nodejs.md) installé
 
 ### Windows / Linux
 
@@ -28,29 +28,29 @@ A DisCloud mantém oficialmente **2 projetos CLI** em **2 linguagens diferentes*
 npm i -g discloud-cli
 ```
 
-## 2. Reabra o Terminal
+## 2. Rouvrez le terminal
 
-## 3. Verifique a Instalação
+## 3. Vérifiez l'installation
 
 ```shell
 discloud --version
 ```
 
 {% hint style="success" %}
-Se aparecer a versão, significa que foi instalado corretamente
+Si la version apparaît, cela signifie qu'elle a été installée correctement.
 {% endhint %}
 
-## 4.  Fazer Login
+## 4. Connexion
 
 ```
 discloud login
 ```
 
-[Link para o repositório do projeto](https://github.com/discloud/cli)
+[Lien du répertoire du projet](https://github.com/discloud/cli)
 {% endtab %}
 
 {% tab title="🦀Rust (NEW)" %}
-## 1. Download do Instalador
+## 1. Téléchargement du programme d'installation
 
 ### Windows
 
@@ -64,31 +64,30 @@ discloud login
 curl -L https://discloud.github.io/cli-rust/installer/linux | bash
 ```
 
-## 2. Reabra o seu Terminal
+## 2. Rouvrez le terminal
 
-## 3. Verifique a instalação
+## 3. Vérifiez l'installation
 
 ```
 discloud --version
 ```
 
 {% hint style="success" %}
-Se aparecer a versão, significa que foi instalado corretamente
+Si la version apparaît, cela signifie qu'elle a été installée correctement.
 {% endhint %}
 
-## 4. Fazer Login
+## 4. Connexion
 
 ```shell
-discloud login TOKEN_AQUI
+discloud login TOKEN_ICI
 ```
 
-[Link para o repositório do projeto](https://github.com/discloud/cli-rust)
+[Lien du répertoire du projet](https://github.com/discloud/cli-rust)
 {% endtab %}
 {% endtabs %}
 
-## :thumbsup: Dicas e Truques
+## :thumbsup: Astuces
 
 ### Init
 
-Use o comando `discloud init` para criar o seu **discloud.config** de uma forma fácil, intuitiva, e rápida!
-
+Utilisez la commande `discloud init` pour créer votre **discloud.config** de manière simple, intuitive et rapide!

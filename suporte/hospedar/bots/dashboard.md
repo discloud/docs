@@ -1,11 +1,11 @@
 ---
 description: >-
-  Não sabe hospedar ou fazer alterações em sua aplicação em nosso painel de
-  controle? Confira logo abaixo!
+  Vous ne savez pas comment héberger ou modifier votre application dans notre tableau de bord
+  contrôle? Découvrez-le juste ci-dessous!
 ---
 
-# 🎛 via Painel de Controle (em breve)
+# 🎛 Via le panneau de configuration (à venir)
 
 {% hint style="danger" %}
-#### O painel de controle da Discloud V2 ainda não está disponível no momento
+#### Le panneau de contrôle Discloud V2 n'est actuellement pas disponible...
 {% endhint %}

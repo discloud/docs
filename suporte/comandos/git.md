@@ -1,8 +1,8 @@
 # git
 
-Synchronisez un repositoire git avec votre application pour des mises à jour automatiques _(commits)_.
+Synchronisez un répertoire git avec votre application pour des mises à jour automatiques _(commits)_.
 
-Chaque fois qu'un commit est envoyé dans le repositoire de votre application, DisCloud mettra automatiquement à jour vos fichiers d'application.
+Chaque fois qu'un commit est envoyé dans le répertoire de votre application, DisCloud mettra automatiquement à jour vos fichiers d'application.
 
 <figure><img src="../../.gitbook/assets/git-logs_example.png" alt=""><figcaption><p>Exemple de git logs sur DisCloud lors d'un déploiement</p></figcaption></figure>
 
@@ -22,15 +22,15 @@ Votre application doit déjà être hébergée sur DisCloud.
 
 {% tabs %}
 {% tab title="Github" %}
-## URL du repositoire
+## URL du répertoire
 
-Allez dans les MP du bot DisCloud et collez l'URL du repositoire git pour votre application.
+Allez dans les MP du bot DisCloud et collez l'URL du répertoire git pour votre application.
 
-<figure><img src="../../.gitbook/assets/git_url.png" alt=""><figcaption><p>Coller l'URL du repositoire</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/git_url.png" alt=""><figcaption><p>Coller l'URL du répertoire</p></figcaption></figure>
 
 ## Configurer le token d'accès ([Abrir Github](https://github.com/settings/personal-access-tokens/new))
 
-Il est important que l'accès soit disponible pour tous les repositoires _(surtout si vous souhaitez activer la synchronisation pour plus d'une application)_
+Il est important que l'accès soit disponible pour tous les répertoires _(surtout si vous souhaitez activer la synchronisation pour plus d'une application)_
 
 <figure><img src="../../.gitbook/assets/github_token.png" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +42,7 @@ Définissez `Webhooks` en lecture seule et générez votre jeton.
 
 ## Webhook
 
-Ouvrez le repositoire de votre application et créez un `webhook`
+Ouvrez le répertoire de votre application et créez un `webhook`
 
 <figure><img src="../../.gitbook/assets/github_add-webhook.png" alt=""><figcaption></figcaption></figure>
 
