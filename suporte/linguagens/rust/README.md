@@ -16,7 +16,7 @@ Você não deve enviar todos os arquivos de sua aplicação para o `.zip`, exist
 
 ## :compression: Compactando os arquivos
 
-![](../../../.gitbook/assets/zip-botrs.png)
+![](broken-reference)
 
 Para mais detalhes sobre como **Compactar os seus Arquivos** de acordo com o seu **Sistema Operativo**, pode consultar em baixo:
 

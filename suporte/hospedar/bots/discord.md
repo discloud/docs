@@ -14,11 +14,11 @@ Se você estiver com o cargo `Verified pt-br`, significa que você se registou c
 
 #### 1. Para hospedar, entre no canal de texto `#🔌・commands` e digite `.up`( ou `.upc` para usar o [discloud.config](broken-reference)).
 
-![](../../../.gitbook/assets/up.png)
+![](broken-reference)
 
 #### 2. Cole o ID do seu bot.
 
-![](../../../.gitbook/assets/up-id.png)
+![](broken-reference)
 
 {% content-ref url="../../faq/id-bot.md" %}
 [id-bot.md](../../faq/id-bot.md)
@@ -26,7 +26,7 @@ Se você estiver com o cargo `Verified pt-br`, significa que você se registou c
 
 #### 3. Digite o nome ou caminho do seu arquivo principal.
 
-![](../../../.gitbook/assets/up-main.png)
+![](broken-reference)
 
 {% hint style="info" %}
 Se o seu arquivo principal estiver dentro de uma **subpasta**, por favor indique o caminho completo.\
@@ -39,11 +39,11 @@ Exemplo: `src/index.js`
 
 #### 4. Digite a quantidade de RAM (em MB) para o seu bot.
 
-![](../../../.gitbook/assets/up-ram.png)
+![](broken-reference)
 
 #### 5.  Envie o .zip do seu bot.
 
-![](../../../.gitbook/assets/up-zip.png)
+![](broken-reference)
 
 {% content-ref url="../../faq/zip.md" %}
 [zip.md](../../faq/zip.md)
@@ -55,6 +55,6 @@ Exemplo: `src/index.js`
 
 #### Envie as suas aplicações mais rapidamente!
 
-{% content-ref url="../../../discloud.config/configurar/" %}
-[configurar](../../../discloud.config/configurar/)
+{% content-ref url="../../../discloud.config/configurer/" %}
+[configurer](../../../discloud.config/configurer/)
 {% endcontent-ref %}

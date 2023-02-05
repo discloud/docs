@@ -22,11 +22,11 @@ Se você estiver com o cargo `Verified pt-br`, significa que você se registrou 
 
 Para hospedar, entre no canal de texto `commands-v2` e digite `.upsite` ( ou `.upc` para usar o [discloud.config](broken-reference)).
 
-![](../../../.gitbook/assets/upsite.png)
+![](broken-reference)
 
 Dentro desse chat aparecerá as instruções que deverão ser preenchidas corretamente para evitar problemas.
 
-![](../../../.gitbook/assets/escolhendo-subdominio.png)
+![](broken-reference)
 
 > Você pode consultar os comandos utilizando `.help` ou `.help <comando>` para saber como utilizar o comando mencionado.
 
@@ -34,8 +34,8 @@ Dentro desse chat aparecerá as instruções que deverão ser preenchidas corret
 
 #### Envie as suas aplicações mais rapidamente!
 
-{% content-ref url="../../../discloud.config/configurar/" %}
-[configurar](../../../discloud.config/configurar/)
+{% content-ref url="../../../discloud.config/configurer/" %}
+[configurer](../../../discloud.config/configurer/)
 {% endcontent-ref %}
 
 ### :mag\_right: Problemas Comuns

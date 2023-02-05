@@ -4,7 +4,7 @@ Se verificou que o seu site foi hospedado corretamente e que não aparece nenhum
 
 ### :map: Propagação de DNS
 
-![](../../.gitbook/assets/world\_map.png)
+![](broken-reference)
 
 A **propagação de DNS** é o tempo que as alterações de DNS levam para serem atualizadas na Internet em todo o mundo.
 

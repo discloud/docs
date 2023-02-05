@@ -10,7 +10,7 @@ Um **CLI (Command-line interface)** é um programa baseado em comandos de texto.
 
 #### 1. Você precisa de usar o comando [**api**](../../comandos/api.md)**, para obter o seu token da API da DisCloud**.
 
-<figure><img src="../../../.gitbook/assets/api-cmd.png" alt=""><figcaption><p>Usando o comando .api</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api_cmd.png" alt=""><figcaption><p>Usando o comando .api</p></figcaption></figure>
 
 ## :keyboard: DisCloud CLI
 

@@ -1,9 +1,9 @@
 ---
-cover: ../../.gitbook/assets/api_routes_bg.png
+cover: ../.gitbook/assets/api_routes_bg.png
 coverY: 683.9595959595961
 ---
 
-# 📡 Utiliser l'API
+# 📡 Usar a API
 
 ## :pencil: Exigences
 
@@ -36,12 +36,11 @@ Vous pouvez importer le code `curl` dans des applications telles que [Insomnia](
 
 <figure><img src="../.gitbook/assets/insomnia_generate_code.png" alt=""><figcaption><p>1</p></figcaption></figure>
 
+ 
 
 <figure><img src="../.gitbook/assets/insomnia_code.png" alt=""><figcaption><p>2</p></figcaption></figure>
 
 </div>
-
-
 {% endtab %}
 
 {% tab title="Postman" %}
@@ -59,7 +58,7 @@ Vous pouvez importer le code `curl` dans des applications telles que [Insomnia](
 
 Exemple avec du chemin: `/upload`
 
-* Votre fichier `.zip` doit inclure [discloud.config](../discloud.config/configurar/)
+* Votre fichier `.zip` doit inclure [discloud.config](../discloud.config/configurer/)
 * Votre fichier `.zip` doit avoir une taille inférieure ou égale à `100MB`
 
 <figure><img src="../.gitbook/assets/api_upload_example.png" alt=""><figcaption></figcaption></figure>

@@ -1,10 +1,11 @@
 ---
 description: >-
   Vous pouvez utiliser le logo ou le nom DisCloud pour créer un lien vers notre
-  site web, à condition que son utilisation soit conforme aux directives contenues dans ce document.
+  site web, à condition que son utilisation soit conforme aux directives
+  contenues dans ce document.
 ---
 
-# Identité visuelle
+# Identidade Visual
 
 {% hint style="warning" %}
 **En général, n'utilisez pas le nom ou les logos DisCloud d'une manière qui pourrait prêter à confusion, induire en erreur ou suggérer notre parrainage, notre approbation ou notre affiliation.**
@@ -14,15 +15,15 @@ description: >-
 
 {% tabs %}
 {% tab title="Logo horizontal foncé" %}
-![](../../.gitbook/assets/logo_dark.png)
+![](../../.gitbook/assets/logo\_dark.png)
 {% endtab %}
 
 {% tab title="Logo horizontal blanc" %}
-![](../../.gitbook/assets/logo_white.png)
+![](../../.gitbook/assets/logo\_white.png)
 {% endtab %}
 
 {% tab title="Logo horizontal blanc sombre" %}
-![](../../.gitbook/assets/logo_white-shadow.png)
+![](<../../.gitbook/assets/logo\_white-shadow (1).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -30,27 +31,27 @@ description: >-
 
 {% tabs %}
 {% tab title="Logo normal" %}
-![](../../.gitbook/assets/logo_main.png)
+![](../../.gitbook/assets/logo\_main.png)
 {% endtab %}
 
 {% tab title="Logo halloween" %}
-![](../../.gitbook/assets/logo_halloween.png)
+![](../../.gitbook/assets/logo\_halloween.png)
 {% endtab %}
 
 {% tab title="Gif Logo" %}
-![](../../.gitbook/assets/logo_main.gif)
+![](<../../.gitbook/assets/logo\_main (1).gif>)
 {% endtab %}
 
 {% tab title="Gif noël" %}
-![](../../.gitbook/assets/logo_christmas.gif)
+![](../../.gitbook/assets/logo\_christmas.gif)
 {% endtab %}
 
 {% tab title="Gif halloween" %}
-![](../../.gitbook/assets/logo_halloween.gif)
+![](../../.gitbook/assets/logo\_halloween.gif)
 {% endtab %}
 
 {% tab title="Gif nouvelle année" %}
-![](../../.gitbook/assets/logo_new-year.gif)
+![](../../.gitbook/assets/logo\_new-year.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -60,7 +61,7 @@ La police utilisée pour le logo DisCloud est une version modifiée de [Uni Sans
 
 {% file src="../../.gitbook/assets/font.otf" %}
 
-![](../../.gitbook/assets/banner_main.png)
+![](../../.gitbook/assets/banner\_main.png)
 
 {% hint style="danger" %}
 **N'apportez aucune modification au logo de DisCloud.**

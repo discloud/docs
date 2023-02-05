@@ -1,4 +1,4 @@
-# Como compactar (zipar) os meus arquivos?
+# Como Compactar?
 
 <details>
 
@@ -10,7 +10,7 @@ Se o seu Bot utilizar **arquivos ocultos** como o `.env` para armazenar por exem
 
 </details>
 
-![](../../.gitbook/assets/pr-zip.gif)
+![](broken-reference)
 
 ## :compression: Compactando os seus Arquivos
 
@@ -24,7 +24,7 @@ Selecione os arquivos necessários (dito nos tutoriais das linguagens), pois nem
 {% tab title="🪟 Windows" %}
 Após selecionar os arquivos necessários, aperte com botão direito sobre eles, arraste o mouse para **Enviar para** e clique em **Pasta compactada**.
 
-![](../../.gitbook/assets/exemplo.gif)
+![](broken-reference)
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
@@ -36,7 +36,7 @@ Incluindo outras distribuições que utilizam a interface **Gnome**
 
 Após selecionar os arquivos necessários, aperte com botão direito sobre eles, clique em **Comprimir**, escolha um nome para o arquivo e clique em **Criar**.
 
-![Passo 1](../../.gitbook/assets/ubuntu-step1.png) ![Passo 2](../../.gitbook/assets/ubuntu\_step2.png)
+![Passo 1](broken-reference) ![Passo 2](broken-reference)
 
 ## Kubuntu
 
@@ -46,7 +46,7 @@ Incluindo outras distribuições com interface **Kde** Plasma.
 
 Após selecionar os arquivos necessários, aperte com o boto direito sobre eles, Clique em **Comprimir** > **Aqui (como ZIP)**.
 
-![](../../.gitbook/assets/kubuntu-zip.png)
+![](broken-reference)
 {% endtab %}
 
 {% tab title="📱Android" %}
@@ -56,12 +56,12 @@ Nos dispositivos **Android** as fabricantes costumam enviar o sistema com **Gere
 
 Aperte por algum tempo um arquivo para desbloquear a seleção, depois vá marcando apenas os **arquivos necessários**, agora procure por um ícone geralmente semelhante a 3 pontos ou traços, e por fim procure pela opção **Comprimir**
 
-![Seleçao de Arquivos](../../.gitbook/assets/android\_files\_step1.jpg) ![Clique em mais, Comprimir](../../.gitbook/assets/android\_files\_step2.jpg)
+![Seleçao de Arquivos](broken-reference) ![Clique em mais, Comprimir](broken-reference)
 {% endtab %}
 
 {% tab title="💻 ChromeOS" %}
 Após selecionar os arquivos necessários, aperte com botão direito sobre eles, e clique em **Zip Selection** (Seleção de Zip)
 
-![](../../.gitbook/assets/chromeos-files.gif)
+![](broken-reference)
 {% endtab %}
 {% endtabs %}

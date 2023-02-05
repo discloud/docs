@@ -50,9 +50,9 @@
 
 ## discloud.config
 
-* [⚙ Configurar](discloud.config/configurar/README.md)
-  * [📦 APT (Instale Pacotes)](discloud.config/configurar/apt.md)
-  * [🏗 VERSION (Alterne entre Versões)](discloud.config/configurar/version.md)
+* [⚙ Configurer](discloud.config/configurer/README.md)
+  * [📦 APT (Instale Pacotes)](discloud.config/configurer/apt.md)
+  * [🏗 VERSION (Alterne entre Versões)](discloud.config/configurer/version.md)
 
 ## 🖥 ambiente local
 

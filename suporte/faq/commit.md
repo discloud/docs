@@ -12,17 +12,17 @@ Um **commit**, é uma alteração de um ou vários arquivos da sua aplicação n
 
 Selecione os arquivos e pastas que deseja atualizar para realizar o commit, e compacte em um arquivo [`.zip`](zip.md).
 
-### <img src="../../.gitbook/assets/DiscordLogo1.png" alt="" data-size="line"> Discord
+### <img src="broken-reference" alt="" data-size="line"> Discord
 
 Vá ao canal `🔌┃commands-v2` e digite `.c`(abreviação de `.commit`)
 
-![](<../../.gitbook/assets/foc5si4 - Imgur.gif>)
+![](broken-reference)
 
 ### :jigsaw: VSCode
 
 Selecione os arquivos e pastas, clique com o botão direto do mouse, `DisCloud > Commit`
 
-<figure><img src="../../.gitbook/assets/vscode-commit.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 ## :cat: Commit (automático)
 
