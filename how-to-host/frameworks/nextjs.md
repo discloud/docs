@@ -120,6 +120,7 @@ Nesta opção, você usa somente o servidor interno do Next (`next start`), sem 
 
 ```
 TYPE=site
+MAIN=index.ts
 BUILD=npm run build
 START=npm run start
 RAM=512
