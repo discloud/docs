@@ -119,6 +119,7 @@ In this option you only use the internal Next server (`next start`), without nee
 **⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(example)**
 
 ```
+MAIN=index.ts
 TYPE=site
 BUILD=npm run build
 START=npm run start
@@ -183,8 +184,8 @@ Update your scripts to use `server.js` in production:
 **⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(custom server)**
 
 ```
-TYPE=site
 MAIN=server.js
+TYPE=site
 BUILD=npm run build
 START=npm run start
 RAM=512
@@ -219,6 +220,7 @@ If your project does not depend on **SSR** or **API Routes**, you can use `next 
 **⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(static)**
 
 ```
+MAIN=out/index.html
 TYPE=site
 BUILD=npm run build
 START=npm run start

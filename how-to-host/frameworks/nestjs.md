@@ -144,6 +144,7 @@ Inside your [`package.json`](../../development-environment/supported-languages/j
 Here's a typical configuration for a NestJS app:
 
 ```
+MAIN=src/main.ts
 TYPE=site
 BUILD=npm run build
 START=npm run start
