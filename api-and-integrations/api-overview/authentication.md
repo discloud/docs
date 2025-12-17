@@ -118,9 +118,5 @@ Você também pode atualizar a localidade do usuário (ex. `en-US`) através de 
 As operações abaixo requerem o cabeçalho `api-token`:
 
 {% openapi-operation spec="api-endpoints-pt-v2" path="/user" method="get" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/735bdc862891ec3813ec832d01829f8a8758889f0a9a342771e83529bfae3299.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20251016%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251016T081024Z&X-Amz-Expires=172800&X-Amz-Signature=1407237cff4a13d24cd1d9f2030a9d9d809dee1bd03d5757899d1db3304f24ce&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="api-endpoints-pt-v2" path="/locale/{locale}" method="put" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/735bdc862891ec3813ec832d01829f8a8758889f0a9a342771e83529bfae3299.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20251016%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251016T081024Z&X-Amz-Expires=172800&X-Amz-Signature=1407237cff4a13d24cd1d9f2030a9d9d809dee1bd03d5757899d1db3304f24ce&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/6d9561cf0e39505b24379281aa9b4cf280bc2fee4acdf0042f2f920a6c72c898.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20251217%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251217T180337Z&X-Amz-Expires=172800&X-Amz-Signature=634915534e0158b1eeac0ac6a02b0ef6f8c725e205d3ae67b2cb83421b28b5f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
