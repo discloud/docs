@@ -64,9 +64,9 @@
 
 * [Visão Geral da API](api-and-integrations/api-overview/README.md)
   * [Autenticação](api-and-integrations/api-overview/authentication.md)
-  * [Endpoints de Usuário](api-and-integrations/api-overview/user-endpoints.md)
-  * [Endpoints de Aplicações](api-and-integrations/api-overview/applications-endpoints.md)
-  * [Gerenciamento de Equipe](api-and-integrations/api-overview/team-management.md)
+  * [Usuário](api-and-integrations/api-overview/user-endpoints.md)
+  * [Aplicações](api-and-integrations/api-overview/applications-endpoints.md)
+  * [Membro da Equipe](api-and-integrations/api-overview/team-management.md)
   * [Equipe](api-and-integrations/api-overview/team.md)
 * [Integração com GitHub](api-and-integrations/github-integration.md)
 * [Domínio Personalizado](api-and-integrations/custom-domain.md)
