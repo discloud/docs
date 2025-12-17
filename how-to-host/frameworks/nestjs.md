@@ -144,6 +144,7 @@ Dentro do seu [`package.json`](../../development-environment/supported-languages
 Aqui está uma configuração típica para uma aplicação NestJS:
 
 ```
+MAIN=src/main.ts
 TYPE=site
 BUILD=npm run build
 START=npm run start
