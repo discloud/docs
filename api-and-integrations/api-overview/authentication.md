@@ -118,9 +118,5 @@ You can also update the user locale (e.g. `en-US`) through `/locale/{locale}` to
 The operations below require the `api-token` header:
 
 {% openapi-operation spec="api-endpoints-en-v2" path="/user" method="get" %}
-[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250928T192039Z&X-Amz-Expires=172800&X-Amz-Signature=7b7eec7042fa758318523858b9ce0b5ee3609b902b71360e354742fb09ab6d36&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="api-endpoints-en-v2" path="/locale/{locale}" method="put" %}
-[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250928T192039Z&X-Amz-Expires=172800&X-Amz-Signature=7b7eec7042fa758318523858b9ce0b5ee3609b902b71360e354742fb09ab6d36&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/41c8d5c020ac67f8c4cb14e4b8840c53e4f27c9fff2f3ad8695b3f6142367932.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20251217%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251217T180149Z&X-Amz-Expires=172800&X-Amz-Signature=ac815d53ff7170aa894cd2b4470e67a3e75651b0fe993bbd2c92665cb7d8821a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
