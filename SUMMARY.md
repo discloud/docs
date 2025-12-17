@@ -67,7 +67,7 @@
   * [Usuário](api-and-integrations/api-overview/user-endpoints.md)
   * [Aplicações](api-and-integrations/api-overview/applications-endpoints.md)
   * [Gerenciamento de Equipe](api-and-integrations/api-overview/team-management.md)
-  * [Membro da Equipe](api-and-integrations/api-overview/team.md)
+  * [Membros da Equipe](api-and-integrations/api-overview/team.md)
 * [Integração com GitHub](api-and-integrations/github-integration.md)
 * [Domínio Personalizado](api-and-integrations/custom-domain.md)
 * [Bancos de Dados](api-and-integrations/databases.md)
