@@ -118,7 +118,7 @@ For Java applications, you **must** build locally and upload the `.jar` file. [S
 You can upload your project using any of our supported methods:
 
 * 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
-* ⌨️ [**CLI**](../how-to-host-using/cli.md) (`discloud up`)
+* ⌨️ [**CLI**](../how-to-host-using/cli.md)
 * 🟦 [**VS Code Extension**](../how-to-host-using/visual-studio-code.md)
 * 🤖 [**Discord Bot**](../how-to-host-using/discord-bot.md)
 * 🐙 [**GitHub Integration**](../api-and-integrations/github-integration.md)
