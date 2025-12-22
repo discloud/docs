@@ -1,103 +1,107 @@
 ---
-description: Learn how to host Discord bots on Discloud.
+description: Aprenda como hospedar bots de Discord na Discloud.
 icon: robot
 ---
 
 # Bots
 
-## 🤖 What is a "Bot" on Discloud?
+## 🤖 O que é um "Bot" na Discloud?
 
-On **Discloud**, a **Bot** is any application that runs continuously but does **not** require an external port for access. This typically includes:
+Na **Discloud**, um **Bot** é qualquer aplicação que roda continuamente mas **não** requer uma porta externa para acesso. Isso normalmente inclui:
 
-* 🤖 **Discord Bots** (discord.js, discord.py, JDA, etc.)
-* 💬 **Telegram Bots**
-* ⚙️ **Automation Scripts**
+- 🤖 **Bots de Discord** (discord.js, discord.py, JDA, etc.)
+- 💬 **Bots de Telegram**
+- ⚙️ **Scripts de Automação**
 
-***
+---
 
-## ✅ Requirements
+## ✅ Requisitos
 
-To host a bot, you must meet these criteria:
+Para hospedar um bot, você deve atender a estes critérios:
 
 {% hint style="success" %}
-**Any Plan** – Bots can be hosted on any plan, including the Free plan (with limitations).
+**Qualquer Plano** – Bots podem ser hospedados em qualquer plano, incluindo o plano Grátis (com limitações).
 {% endhint %}
 
 {% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
+[**`discloud.config`**](../configurations/discloud.config/) – Necessário para a maioria dos métodos de implantação. Se estiver usando o [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide) do Bot do Discord, o bot irá guiá-lo através da configuração.
 {% endhint %}
 
 {% hint style="success" %}
-**RAM** – Ensure you allocate enough RAM for your bot's needs (min. 100MB).
+**RAM** – Certifique-se de alocar RAM suficiente para as necessidades do seu bot (mín. 100MB).
 {% endhint %}
 
-***
+---
 
-## 🚀 Step-by-Step Hosting Guide
+## 🚀 Guia de Hospedagem Passo a Passo
 
 {% stepper %}
 {% step %}
-#### 📝 Configure `discloud.config`
+
+#### 📝 Configurar `discloud.config`
 
 {% hint style="info" %}
-If you are using the Discord Bot's **Quick Setup**, you don't need to create this file manually, the Discord bot will ask for the information during the process.
+Se você estiver usando o **Quick Setup** do Bot do Discord, não precisa criar este arquivo manualmente, o bot do Discord solicitará as informações durante o processo.
 {% endhint %}
 
 ```ini
-NAME=MyCoolBot
+NAME=MeuBotLegal
 TYPE=bot
 MAIN=index.js
 RAM=100
 VERSION=latest
 ```
 
-* **`TYPE=bot`**: Identifies the app as a bot/background service.
-* **`MAIN`**: The entry point of your application. [Learn more about the main file.](../faq/general-questions/wip-what-is-the-main-file.md)
-* **`RAM`**: Allocated memory (min. 100MB).
-{% endstep %}
+- **`TYPE=bot`**: Identifica a aplicação como um bot/serviço de segundo plano.
+- **`MAIN`**: O ponto de entrada da sua aplicação. [Saiba mais sobre o arquivo principal.](../faq/general-questions/wip-what-is-the-main-file.md)
+- **`RAM`**: Memória alocada (mín. 100MB).
+  {% endstep %}
 
 {% step %}
-#### 🏗️ Handling Build Processes
 
-If your bot requires a build step (like TypeScript or Java), you have two options:
+#### 🏗️ Lidando com Processos de Build
+
+Se o seu bot exigir uma etapa de build (como TypeScript ou Java), você tem duas opções:
 
 {% tabs %}
-{% tab title="Discloud Build (Recommended)" %}
-Let Discloud handle the build process during deployment. Add the `BUILD` command to your `discloud.config`.
+{% tab title="Discloud Build (Recomendado)" %}
+Deixe a Discloud lidar com o processo de build durante a implantação. Adicione o comando `BUILD` ao seu `discloud.config`.
 
 ```ini
 BUILD=npm run build
 START=npm run start
 ```
+
 {% endtab %}
 
-{% tab title="Local Build" %}
-Build your project locally and upload the resulting files.
+{% tab title="Build Local" %}
+Faça o build do seu projeto localmente e envie os arquivos resultantes.
 
 {% hint style="danger" %}
-**Do not use a folder named `dist`** for your local build output. Discloud reserves the `dist` directory for its internal build process. Use a different name like `build`, `out`, or `output`.
+**Não use uma pasta chamada `dist`** para a saída do seu build local. A Discloud reserva o diretório `dist` para seu processo de build interno. Use um nome diferente como `build`, `out` ou `output`.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
-For Java applications, you **must** build locally and upload the `.jar` file. [See the Java build guide](../faq/general-questions/how-to-build-and-package-a-java-application.md).
+Para aplicações Java, você **deve** fazer o build localmente e enviar o arquivo `.jar`. [Veja o guia de build Java](../faq/general-questions/how-to-build-and-package-a-java-application.md).
 {% endhint %}
 {% endstep %}
 
 {% step %}
-#### 🚀 Upload and Deploy
 
-You can upload your project using any of our supported methods:
+#### 🚀 Upload e Implantação
 
-* 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
-* ⌨️ [**CLI**](../how-to-host-using/cli.md)
-* 🟦 [**VS Code Extension**](../how-to-host-using/visual-studio-code.md)
-* 🤖 [**Discord Bot**](../how-to-host-using/discord-bot.md)
-* 🐙 [**GitHub Integration**](../api-and-integrations/github-integration.md)
+Você pode enviar seu projeto usando qualquer um de nossos métodos suportados:
+
+- 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
+- ⌨️ [**CLI**](../how-to-host-using/cli.md)
+- 🟦 [**Extensão do VS Code**](../how-to-host-using/visual-studio-code.md)
+- 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot.md)
+- 🐙 [**Integração com GitHub**](../api-and-integrations/github-integration.md)
 
 {% hint style="info" %}
-Before uploading, make sure to [compress your project correctly](../faq/general-questions/wip-how-to-compress.md) and exclude unnecessary files using a [`.discloudignore`](../configurations/.discloudignore.md) file.
+Antes de enviar, certifique-se de [comprimir seu projeto corretamente](../faq/general-questions/wip-how-to-compress.md) e excluir arquivos desnecessários usando um arquivo [`.discloudignore`](../configurations/.discloudignore.md).
 {% endhint %}
 {% endstep %}
 {% endstepper %}
