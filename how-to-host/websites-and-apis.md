@@ -122,5 +122,9 @@ You can upload your project using any of our supported methods:
 * 🟦 [**VS Code Extension**](../how-to-host-using/visual-studio-code.md)
 * 🤖 [**Discord Bot**](../how-to-host-using/discord-bot.md)
 * 🐙 [**GitHub Integration**](../api-and-integrations/github-integration.md)
+
+{% hint style="info" %}
+Before uploading, make sure to [compress your project correctly](../faq/general-questions/wip-how-to-compress.md) and exclude unnecessary files using a [`.discloudignore`](../configurations/.discloudignore.md) file.
+{% endhint %}
 {% endstep %}
 {% endstepper %}
