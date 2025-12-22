@@ -7,7 +7,7 @@ icon: robot
 
 ## 🤖 What is a "Bot" on Discloud?
 
-On **Discloud**, a **Bot** is any application that runs continuously but does **not** require an external port for access (unless it also has a web interface). This typically includes:
+On **Discloud**, a **Bot** is any application that runs continuously but does **not** require an external port for access. This typically includes:
 
 * 🤖 **Discord Bots** (discord.js, discord.py, JDA, etc.)
 * 💬 **Telegram Bots**
