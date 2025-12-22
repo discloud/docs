@@ -7,7 +7,7 @@ icon: globe
 
 ## 🧭 Overview
 
-You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's [Discloud subdomain](../faq/general-questions/wip-how-to-create-a-subdomain.md) using a CNAME record and validates ownership via TXT records.
+You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's [Discloud subdomain](/broken/pages/tOZppdIRGABWAzzGcvLs) using a CNAME record and validates ownership via TXT records.
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
 
