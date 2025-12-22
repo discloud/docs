@@ -81,7 +81,7 @@
 * [General Questions](faq/general-questions/README.md)
   * [What is the root of the project?](faq/general-questions/what-is-the-root-of-the-project.md)
   * [\[WIP\] .env file](faq/general-questions/wip-.env-file.md)
-  * [\[WIP\] What is the main file?](faq/general-questions/wip-what-is-the-main-file.md)
+  * [What is the main file?](faq/general-questions/what-is-the-main-file.md)
   * [How to create a subdomain?](faq/general-questions/how-to-create-a-subdomain.md)
   * [\[WIP\] How can I get my bot's ID?](faq/general-questions/wip-how-can-i-get-my-bots-id.md)
   * [\[WIP\] How to compress?](faq/general-questions/wip-how-to-compress.md)
