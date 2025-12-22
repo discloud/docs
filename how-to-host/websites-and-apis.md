@@ -33,11 +33,11 @@ To host a website or API, you must meet these criteria:
 {% endhint %}
 
 {% hint style="success" %}
-**Subdomain** – You must register a unique subdomain on Discloud. (Required for most methods; the Discord Bot can guide you through this using [`.upsite`](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide)).
+[**Subdomain**](../faq/general-questions/how-to-create-a-subdomain.md) – You must register a unique subdomain on Discloud.
 {% endhint %}
 
 {% hint style="success" %}
-**`discloud.config`** – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), the bot will guide you through the configuration. [Learn more about discloud.config here](../configurations/discloud.config/).
+[**`discloud.config`**](../configurations/discloud.config/) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
 {% endhint %}
 
 {% hint style="success" %}
@@ -53,8 +53,6 @@ To host a website or API, you must meet these criteria:
 #### 📡 Register a Subdomain
 
 Before deploying, you need to reserve your unique address on the `.discloud.app` domain.
-
-👉 [**Learn how to create a subdomain here**](../faq/general-questions/how-to-create-a-subdomain.md)
 {% endstep %}
 
 {% step %}

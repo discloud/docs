@@ -24,7 +24,7 @@ To host a bot, you must meet these criteria:
 {% endhint %}
 
 {% hint style="success" %}
-**`discloud.config`** – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), the bot will guide you through the configuration. [Learn more about discloud.config here.](../configurations/discloud.config/)
+[**`discloud.config`**](../configurations/discloud.config/) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
 {% endhint %}
 
 {% hint style="success" %}
