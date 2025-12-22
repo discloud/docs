@@ -20,7 +20,7 @@ Você pode mapear seu próprio domínio (ex. `seudominio.com`) ou um subdomínio
 {% endhint %}
 
 {% hint style="success" %}
-[App já hospedada](../how-to-host/websites-e-apis.md) usando um subdomínio Discloud (ex. `exemplo.discloud.app`)
+[App já hospedada](/broken/pages/RRMHVrAsVQMAN5Hsmrz8) usando um subdomínio Discloud (ex. `exemplo.discloud.app`)
 {% endhint %}
 
 {% hint style="success" %}
