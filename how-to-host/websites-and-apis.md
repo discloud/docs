@@ -5,20 +5,20 @@ description: >-
 icon: globe-pointer
 ---
 
-# Sites & APIs
+# Websites e APIs
 
 ## 🌐 O que é um "Site" na Discloud?
 
 Na **Discloud**, qualquer aplicação que use uma **porta de rede** e requeira **acesso externo** é considerada um **Site**. Isso inclui:
 
-- 🖥️ **Websites** (Estáticos ou Dinâmicos)
-- 🔌 **APIs** (REST, GraphQL, etc.)
-- 📊 **Dashboards** (para Bots ou independentes)
-- 🤖 **Bots com Interfaces Web**
+* 🖥️ **Websites** (Estáticos ou Dinâmicos)
+* 🔌 **APIs** (REST, GraphQL, etc.)
+* 📊 **Dashboards** (para Bots ou independentes)
+* 🤖 **Bots com Interfaces Web**
 
 Para permitir o acesso externo, a Discloud roteia o tráfego através de um proxy para a **porta 8080** e **host 0.0.0.0** da sua aplicação usando um **subdomínio** (ex: `minhaapp.discloud.app`).
 
----
+***
 
 ## ✅ Requisitos
 
@@ -44,21 +44,19 @@ Para hospedar um site ou API, você deve atender a estes critérios:
 **RAM** – Um mínimo de **512MB** é recomendado para aplicações web.
 {% endhint %}
 
----
+***
 
 ## 🚀 Guia de Hospedagem Passo a Passo
 
 {% stepper %}
 {% step %}
-
-#### 📡 Registrar um Subdomínio
+**📡 Registrar um Subdomínio**
 
 Antes de implantar, você precisa reservar seu endereço único no domínio `.discloud.app`.
 {% endstep %}
 
 {% step %}
-
-#### 📝 Configurar `discloud.config`
+**📝 Configurar `discloud.config`**
 
 Seu arquivo [`discloud.config`](../configurations/discloud.config/) diz à Discloud como lidar com seu site. Você deve definir `TYPE=site` e incluir seu `ID`.
 
@@ -75,28 +73,25 @@ RAM=512
 VERSION=latest
 ```
 
-- **`TYPE=site`**: Identifica a aplicação como um serviço web.
-- **`ID`**: O nome do seu subdomínio registrado. **Não** inclua `.discloud.app` (ex: use `minha-app`, não `minha-app.discloud.app`).
-- **`MAIN`**: O ponto de entrada da sua aplicação.
-- **`RAM`**: Memória alocada (mín. 512MB para sites).
-  {% endstep %}
+* **`TYPE=site`**: Identifica a aplicação como um serviço web.
+* **`ID`**: O nome do seu subdomínio registrado. **Não** inclua `.discloud.app` (ex: use `minha-app`, não `minha-app.discloud.app`).
+* **`MAIN`**: O ponto de entrada da sua aplicação.
+* **`RAM`**: Memória alocada (mín. 512MB para sites).
+{% endstep %}
 
 {% step %}
-
-#### 🏗️ Lidando com Processos de Build
+**🏗️ Lidando com Processos de Build**
 
 Se a sua aplicação exigir uma etapa de build (como React, Next.js ou TypeScript), você tem duas opções:
 
 {% tabs %}
 {% tab title="Discloud Build (Recomendado)" %}
-
 Deixe a Discloud lidar com o processo de build durante a implantação. Adicione o comando `BUILD` ao seu `discloud.config`.
 
 ```ini
 BUILD=npm run build
 START=npm run start
 ```
-
 {% endtab %}
 
 {% tab title="Build Local" %}
@@ -116,19 +111,18 @@ Para aplicações Java, você **deve** fazer o build localmente e enviar o arqui
 {% endstep %}
 
 {% step %}
-
-#### 🚀 Upload e Implantação
+**🚀 Upload e Implantação**
 
 Você pode enviar seu projeto usando qualquer um de nossos métodos suportados:
 
-- 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
-- ⌨️ [**CLI**](../how-to-host-using/cli.md)
-- 🟦 [**Extensão do VS Code**](../how-to-host-using/visual-studio-code.md)
-- 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot.md)
-- 🐙 [**Integração com GitHub**](../api-and-integrations/github-integration.md)
+* 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
+* ⌨️ [**CLI**](../how-to-host-using/cli.md)
+* 🟦 [**Extensão do VS Code**](../how-to-host-using/visual-studio-code.md)
+* 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot.md)
+* 🐙 [**Integração com GitHub**](../api-and-integrations/github-integration.md)
 
 {% hint style="info" %}
-Antes de enviar, certifique-se de [comprimir seu projeto corretamente](../faq/general-questions/wip-how-to-compress.md) e excluir arquivos desnecessários usando um arquivo [`.discloudignore`](../configurations/.discloudignore.md).
+Antes de enviar, certifique-se de [comprimir seu projeto corretamente](../faq/general-questions/em-andamento-como-comprimir.md) e excluir arquivos desnecessários usando um arquivo [`.discloudignore`](../configurations/.discloudignore.md).
 {% endhint %}
 {% endstep %}
 {% endstepper %}

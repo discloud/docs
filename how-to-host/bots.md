@@ -9,11 +9,11 @@ icon: robot
 
 Na **Discloud**, um **Bot** é qualquer aplicação que roda continuamente mas **não** requer uma porta externa para acesso. Isso normalmente inclui:
 
-- 🤖 **Bots de Discord** (discord.js, discord.py, JDA, etc.)
-- 💬 **Bots de Telegram**
-- ⚙️ **Scripts de Automação**
+* 🤖 **Bots de Discord** (discord.js, discord.py, JDA, etc.)
+* 💬 **Bots de Telegram**
+* ⚙️ **Scripts de Automação**
 
----
+***
 
 ## ✅ Requisitos
 
@@ -31,14 +31,13 @@ Para hospedar um bot, você deve atender a estes critérios:
 **RAM** – Certifique-se de alocar RAM suficiente para as necessidades do seu bot (mín. 100MB).
 {% endhint %}
 
----
+***
 
 ## 🚀 Guia de Hospedagem Passo a Passo
 
 {% stepper %}
 {% step %}
-
-#### 📝 Configurar `discloud.config`
+**📝 Configurar `discloud.config`**
 
 {% hint style="info" %}
 Se você estiver usando o **Quick Setup** do Bot do Discord, não precisa criar este arquivo manualmente, o bot do Discord solicitará as informações durante o processo.
@@ -52,14 +51,13 @@ RAM=100
 VERSION=latest
 ```
 
-- **`TYPE=bot`**: Identifica a aplicação como um bot/serviço de segundo plano.
-- **`MAIN`**: O ponto de entrada da sua aplicação. [Saiba mais sobre o arquivo principal.](../faq/general-questions/wip-what-is-the-main-file.md)
-- **`RAM`**: Memória alocada (mín. 100MB).
-  {% endstep %}
+* **`TYPE=bot`**: Identifica a aplicação como um bot/serviço de segundo plano.
+* **`MAIN`**: O ponto de entrada da sua aplicação. [Saiba mais sobre o arquivo principal.](../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md)
+* **`RAM`**: Memória alocada (mín. 100MB).
+{% endstep %}
 
 {% step %}
-
-#### 🏗️ Lidando com Processos de Build
+**🏗️ Lidando com Processos de Build**
 
 Se o seu bot exigir uma etapa de build (como TypeScript ou Java), você tem duas opções:
 
@@ -71,7 +69,6 @@ Deixe a Discloud lidar com o processo de build durante a implantação. Adicione
 BUILD=npm run build
 START=npm run start
 ```
-
 {% endtab %}
 
 {% tab title="Build Local" %}
@@ -89,19 +86,18 @@ Para aplicações Java, você **deve** fazer o build localmente e enviar o arqui
 {% endstep %}
 
 {% step %}
-
-#### 🚀 Upload e Implantação
+**🚀 Upload e Implantação**
 
 Você pode enviar seu projeto usando qualquer um de nossos métodos suportados:
 
-- 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
-- ⌨️ [**CLI**](../how-to-host-using/cli.md)
-- 🟦 [**Extensão do VS Code**](../how-to-host-using/visual-studio-code.md)
-- 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot.md)
-- 🐙 [**Integração com GitHub**](../api-and-integrations/github-integration.md)
+* 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
+* ⌨️ [**CLI**](../how-to-host-using/cli.md)
+* 🟦 [**Extensão do VS Code**](../how-to-host-using/visual-studio-code.md)
+* 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot.md)
+* 🐙 [**Integração com GitHub**](../api-and-integrations/github-integration.md)
 
 {% hint style="info" %}
-Antes de enviar, certifique-se de [comprimir seu projeto corretamente](../faq/general-questions/wip-how-to-compress.md) e excluir arquivos desnecessários usando um arquivo [`.discloudignore`](../configurations/.discloudignore.md).
+Antes de enviar, certifique-se de [comprimir seu projeto corretamente](../faq/general-questions/em-andamento-como-comprimir.md) e excluir arquivos desnecessários usando um arquivo [`.discloudignore`](../configurations/.discloudignore.md).
 {% endhint %}
 {% endstep %}
 {% endstepper %}
