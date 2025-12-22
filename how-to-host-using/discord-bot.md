@@ -42,7 +42,7 @@ There are **two ways** to deploy an application using the Discloud Bot:
 {% hint style="warning" %}
 #### **Important Notes**
 
-* If your [**main file**](../faq/general-questions/wip-what-is-the-main-file.md) **is not in the** [**root directory**](../faq/general-questions/what-is-the-root-of-the-project.md), you **must** use Advanced Setup or move it to the root.
+* If your [**main file**](../faq/general-questions/what-is-the-main-file.md) **is not in the** [**root directory**](../faq/general-questions/what-is-the-root-of-the-project.md), you **must** use Advanced Setup or move it to the root.
 * If you are hosting a **bot without an ID** (e.g., WhatsApp or Telegram), use Advanced Setup and Discloud will generate the ID automatically.
 {% endhint %}
 
@@ -101,7 +101,7 @@ Upload your project.
 Provide the Required Information.
 
 * **Enter the** [**Application ID**](../faq/general-questions/wip-how-can-i-get-my-bots-id.md) (for Discord bots).
-* **Enter the** [**Main File Name**](../faq/general-questions/wip-what-is-the-main-file.md) (e.g., `index.js`, `main.py`, `main.go`).
+* **Enter the** [**Main File Name**](../faq/general-questions/what-is-the-main-file.md) (e.g., `index.js`, `main.py`, `main.go`).
 * **Specify the RAM** for your bot (e.g., `100` for 100MB).
 
 {% hint style="info" %}
@@ -143,7 +143,7 @@ Upload your project.
 Provide the Required Information.
 
 * **Choose a** [**Subdomain**](../faq/general-questions/how-to-create-a-subdomain.md).
-* **Enter the** [**Main File Name**](../faq/general-questions/wip-what-is-the-main-file.md) (e.g., `index.html`, `index.php`).
+* **Enter the** [**Main File Name**](../faq/general-questions/what-is-the-main-file.md) (e.g., `index.html`, `index.php`).
 * **Specify the RAM** for your bot (e.g., `512` for 512MB).
 
 {% hint style="info" %}

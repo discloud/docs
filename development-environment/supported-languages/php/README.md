@@ -27,7 +27,7 @@ Exclude items that are not required for runtime:
 Include `vendor/` ONLY if: you have patched libraries locally or you rely on extensions or binaries compiled during install that must match your dev environment. Otherwise excluding it keeps uploads smaller and lets Discloud perform a fresh, reproducible install.
 {% endhint %}
 
-🔗 Need to define your **main file**? See: [**Main File FAQ**](../../../faq/general-questions/wip-what-is-the-main-file.md)
+🔗 Need to define your **main file**? See: [**Main File FAQ**](../../../faq/general-questions/what-is-the-main-file.md)
 
 ***
 
@@ -73,7 +73,7 @@ Before deploying your website or API on Discloud, ensure that you meet the follo
 {% endhint %}
 
 {% hint style="success" %}
-[A subdomain must be created](../../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.
+[A subdomain must be created](/broken/pages/tOZppdIRGABWAzzGcvLs) before deployment.
 {% endhint %}
 
 {% hint style="danger" %}

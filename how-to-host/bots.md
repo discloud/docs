@@ -52,7 +52,7 @@ VERSION=latest
 ```
 
 * **`TYPE=bot`**: Identifies the app as a bot/background service.
-* **`MAIN`**: The entry point of your application. [Learn more about the main file.](../faq/general-questions/wip-what-is-the-main-file.md)
+* **`MAIN`**: The entry point of your application. [Learn more about the main file.](../faq/general-questions/what-is-the-main-file.md)
 * **`RAM`**: Allocated memory (min. 100MB).
 {% endstep %}
 

@@ -22,7 +22,7 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 
 📌 **Use a** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **file** to automatically exclude these files.
 
-🔗 **Need help setting up your** [**`Gemfile`**](gemfile.md) **or find** [**main file**](../../../faq/general-questions/wip-what-is-the-main-file.md)**?**
+🔗 **Need help setting up your** [**`Gemfile`**](gemfile.md) **or find** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
 
 ***
 
@@ -35,7 +35,7 @@ Before deploying your website or API on Discloud, ensure that you meet the follo
 {% endhint %}
 
 {% hint style="success" %}
-[A subdomain must be created](../../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.
+[A subdomain must be created](/broken/pages/tOZppdIRGABWAzzGcvLs) before deployment.
 {% endhint %}
 
 {% hint style="danger" %}

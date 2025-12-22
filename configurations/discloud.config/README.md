@@ -73,7 +73,7 @@ VERSION=latest
 </code></pre>
 
 * `TYPE` - can have two values: **bot** or **site**.
-* `MAIN` - should contain the path to the [main file](../../faq/general-questions/wip-what-is-the-main-file.md) of your application.
+* `MAIN` - should contain the path to the [main file](../../faq/general-questions/what-is-the-main-file.md) of your application.
 * `RAM` - determines the maximum amount of RAM available for the application.
 * `VERSION` - specifies the [language version](versions.md) of your project.
 
