@@ -81,7 +81,7 @@ Build your project locally and upload the resulting files.
 {% endtabs %}
 
 {% hint style="info" %}
-For Java applications, you **must** build locally and upload the `.jar` file. [See the Java build guide](/broken/pages/fmLw5aDsdNpGE6rlm101).
+For Java applications, you **must** build locally and upload the `.jar` file. [See the Java build guide](../faq/general-questions/how-to-build-and-package-a-java-application.md).
 {% endhint %}
 {% endstep %}
 
