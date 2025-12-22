@@ -21,7 +21,7 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 
 📌 **Use um arquivo** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **para excluir automaticamente esses arquivos.**
 
-🔗 **Precisa de ajuda para configurar seu** [**`requirements.txt`**](requirements.txt.md) **ou encontrar o** [**arquivo principal**](../../../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md)**?**
+🔗 **Precisa de ajuda para configurar seu** [**`requirements.txt`**](requirements.txt.md) **ou encontrar o** [**arquivo principal**](../../../faq/general-questions/what-is-the-main-file.md)**?**
 
 ***
 

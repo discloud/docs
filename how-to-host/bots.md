@@ -52,7 +52,7 @@ VERSION=latest
 ```
 
 * **`TYPE=bot`**: Identifica a aplicação como um bot/serviço de segundo plano.
-* **`MAIN`**: O ponto de entrada da sua aplicação. [Saiba mais sobre o arquivo principal.](../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md)
+* **`MAIN`**: O ponto de entrada da sua aplicação. [Saiba mais sobre o arquivo principal.](../faq/general-questions/what-is-the-main-file.md)
 * **`RAM`**: Memória alocada (mín. 100MB).
 {% endstep %}
 

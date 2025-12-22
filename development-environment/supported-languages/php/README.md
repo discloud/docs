@@ -27,7 +27,7 @@ Exclua itens que não são necessários para execução:
 Inclua `vendor/` APENAS se: você tem bibliotecas corrigidas localmente ou depende de extensões ou binários compilados durante a instalação que devem corresponder ao seu ambiente de desenvolvimento. Caso contrário, excluí-lo mantém os uploads menores e permite que a Discloud faça uma instalação fresca e reprodutível.
 {% endhint %}
 
-🔗 **Precisa de ajuda para encontrar o** [**arquivo principal**](../../../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md)**?**
+🔗 **Precisa de ajuda para encontrar o** [**arquivo principal**](../../../faq/general-questions/what-is-the-main-file.md)**?**
 
 ***
 

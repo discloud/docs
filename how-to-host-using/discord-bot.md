@@ -42,7 +42,7 @@ Há **duas maneiras** de fazer o upload de uma aplicação usando o Bot da Discl
 {% hint style="warning" %}
 #### **Notas Importantes**
 
-* Se seu [**arquivo principal**](../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md) **não estiver no** [**diretório raiz**](../faq/general-questions/what-is-the-root-of-the-project.md), você **deve** usar Configuração Avançada ou movê-lo para a raiz.
+* Se seu [**arquivo principal**](../faq/general-questions/what-is-the-main-file.md) **não estiver no** [**diretório raiz**](../faq/general-questions/what-is-the-root-of-the-project.md), você **deve** usar Configuração Avançada ou movê-lo para a raiz.
 * Se você estiver hospedando um **bot sem ID** (ex.: WhatsApp ou Telegram), use Configuração Avançada e a Discloud gerará o ID automaticamente.
 {% endhint %}
 
@@ -101,7 +101,7 @@ Faça upload do seu projeto.
 Forneça as Informações Necessárias.
 
 * **Digite o** [**ID da Aplicação**](../faq/general-questions/em-andamento-como-posso-obter-o-id-do-meu-bot.md) (para bots do Discord).
-* **Digite o** [**Nome do Arquivo Principal**](../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md) (ex.: `index.js`, `main.py`, `main.go`).
+* **Digite o** [**Nome do Arquivo Principal**](../faq/general-questions/what-is-the-main-file.md) (ex.: `index.js`, `main.py`, `main.go`).
 * **Especifique a RAM** para seu bot (ex.: `100` para 100MB).
 
 {% hint style="info" %}
@@ -143,7 +143,7 @@ Faça upload do seu projeto.
 Forneça as Informações Necessárias.
 
 * **Escolha um** [**Subdomínio**](../faq/general-questions/how-to-create-a-subdomain.md).
-* **Digite o** [**Nome do Arquivo Principal**](../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md) (ex.: `index.html`, `index.php`).
+* **Digite o** [**Nome do Arquivo Principal**](../faq/general-questions/what-is-the-main-file.md) (ex.: `index.html`, `index.php`).
 * **Especifique a RAM** para seu bot (ex.: `512` para 512MB).
 
 {% hint style="info" %}

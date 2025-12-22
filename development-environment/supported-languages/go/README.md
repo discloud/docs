@@ -21,7 +21,7 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 
 📌 **Use um arquivo** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **para excluir automaticamente esses arquivos. Não** exclua `go.mod` ou `go.sum`.
 
-🔗 **Precisa de ajuda para configurar seu** [**`go.mod`**](go.mod.md) **ou encontrar o** [**arquivo principal**](../../../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md)**?**
+🔗 **Precisa de ajuda para configurar seu** [**`go.mod`**](go.mod.md) **ou encontrar o** [**arquivo principal**](../../../faq/general-questions/what-is-the-main-file.md)**?**
 
 ***
 
