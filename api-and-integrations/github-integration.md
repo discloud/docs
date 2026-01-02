@@ -78,7 +78,7 @@ Must exist in your repository's **root directory.**
 {% hint style="info" %}
 #### 🔐 Secure Environment Variables
 
-Use [`.env`](../faq/general-questions/wip-.env-file.md) files locally for development, but ensure they're added to `.gitignore` to prevent accidental exposure on GitHub. When deploying via Discloud's GitHub integration, **add production secrets directly in the "Environment Variables" section** during configuration.
+Use [`.env`](../faq/general-questions/.env-file.md) files locally for development, but ensure they're added to `.gitignore` to prevent accidental exposure on GitHub. When deploying via Discloud's GitHub integration, **add production secrets directly in the "Environment Variables" section** during configuration.
 {% endhint %}
 {% endstep %}
 {% endstepper %}

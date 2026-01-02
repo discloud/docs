@@ -80,7 +80,7 @@
 * [Where to Get Help](faq/where-to-get-help.md)
 * [General Questions](faq/general-questions/README.md)
   * [What is the root of the project?](faq/general-questions/what-is-the-root-of-the-project.md)
-  * [\[WIP\] .env file](faq/general-questions/wip-.env-file.md)
+  * [.env file](faq/general-questions/.env-file.md)
   * [What is the main file?](faq/general-questions/what-is-the-main-file.md)
   * [How to create a subdomain?](faq/general-questions/how-to-create-a-subdomain.md)
   * [\[WIP\] How can I get my bot's ID?](faq/general-questions/wip-how-can-i-get-my-bots-id.md)

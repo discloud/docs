@@ -91,7 +91,7 @@ async function validateToken() {
 ## 🛡 Securing the Token
 
 {% hint style="warning" %}
-Never commit your token (e.g. to Git). Store it in environment variables ([`.env`](../../faq/general-questions/wip-.env-file.md), CI/CD secrets, etc.).
+Never commit your token (e.g. to Git). Store it in environment variables ([`.env`](../../faq/general-questions/.env-file.md), CI/CD secrets, etc.).
 {% endhint %}
 
 📌 Best practices:
@@ -118,5 +118,5 @@ You can also update the user locale (e.g. `en-US`) through `/locale/{locale}` to
 The operations below require the `api-token` header:
 
 {% openapi-operation spec="api-endpoints-en-v2" path="/user" method="get" %}
-[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/41c8d5c020ac67f8c4cb14e4b8840c53e4f27c9fff2f3ad8695b3f6142367932.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20251217%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251217T180149Z&X-Amz-Expires=172800&X-Amz-Signature=ac815d53ff7170aa894cd2b4470e67a3e75651b0fe993bbd2c92665cb7d8821a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/2fe1ae6bb01e7177441814c088d228bc4a185c280ab9cd56e6570a1a04e6ad1a.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260102%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260102T191533Z&X-Amz-Expires=172800&X-Amz-Signature=1ee65f06260887b3e4c9f99101bc8bf1befd0f54b0337c3b7af1bdf54563f911&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}

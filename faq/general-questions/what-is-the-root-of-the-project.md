@@ -8,7 +8,7 @@ description: >-
 
 ## 🧾 Overview
 
-The project root ("root directory") is the **top-level folder of your application,** the place you compress and upload to Discloud. It contains the configuration file ([`discloud.config`](../../configurations/discloud.config/)), dependency manifest (e.g. [`package.json`](../../development-environment/supported-languages/javascript/package.json.md), [`requirements.txt`](../../development-environment/supported-languages/python/requirements.txt.md), [`Cargo.toml`](../../development-environment/supported-languages/rust/cargo.toml.md), [`Gemfile`](../../development-environment/supported-languages/ruby/gemfile.md)), optional [`.env`](wip-.env-file.md), and the folders with your source code (e.g. `src/`).
+The project root ("root directory") is the **top-level folder of your application,** the place you compress and upload to Discloud. It contains the configuration file ([`discloud.config`](../../configurations/discloud.config/)), dependency manifest (e.g. [`package.json`](../../development-environment/supported-languages/javascript/package.json.md), [`requirements.txt`](../../development-environment/supported-languages/python/requirements.txt.md), [`Cargo.toml`](../../development-environment/supported-languages/rust/cargo.toml.md), [`Gemfile`](../../development-environment/supported-languages/ruby/gemfile.md)), optional [`.env`](.env-file.md), and the folders with your source code (e.g. `src/`).
 
 If the structure is wrong (for example, you zip a folder that contains another single folder that actually holds the files), Discloud may fail to detect the main file or dependencies.
 
@@ -28,5 +28,5 @@ The green zone represents the **root** you should compress. Yellow shows a neste
 | ------------------------------ | ---------------------------------- | --------------------------------------------------------------------------------------------- |
 | Zipping parent of actual root  | Missing config / main file         | Zip the folder containing [`discloud.config`](../../configurations/discloud.config/) directly |
 | Including `node_modules`       | Large upload, possible size issues | Remove; let Discloud install                                                                  |
-| Hardcoding tokens in code      | Security exposure                  | Use [`.env`](wip-.env-file.md) and environment variables                                      |
+| Hardcoding tokens in code      | Security exposure                  | Use [`.env`](.env-file.md) and environment variables                                          |
 | Multiple entry files ambiguous | Startup failure                    | Define `MAIN` in [`discloud.config`](../../configurations/discloud.config/) explicitly        |
