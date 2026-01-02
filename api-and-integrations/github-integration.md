@@ -78,7 +78,7 @@ Configurar Acesso ao Repositório
 {% hint style="info" %}
 #### **🔐 Variáveis de Ambiente Seguras**
 
-Use arquivos [`.env`](../faq/general-questions/arquivo-.env.md) localmente para desenvolvimento, mas certifique-se de que eles sejam adicionados ao `.gitignore` para evitar exposição acidental no GitHub. Ao fazer o upload via integração GitHub da Discloud, **adicione segredos de produção diretamente na seção "Variáveis de Ambiente"** durante a configuração.
+Use arquivos [`.env`](../faq/general-questions/.env-file.md) localmente para desenvolvimento, mas certifique-se de que eles sejam adicionados ao `.gitignore` para evitar exposição acidental no GitHub. Ao fazer o upload via integração GitHub da Discloud, **adicione segredos de produção diretamente na seção "Variáveis de Ambiente"** durante a configuração.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
