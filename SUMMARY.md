@@ -79,7 +79,7 @@
 * [Onde Obter Ajuda](faq/where-to-get-help.md)
 * [Perguntas Gerais](faq/general-questions/README.md)
   * [O que é a raiz do projeto?](faq/general-questions/what-is-the-root-of-the-project.md)
-  * [\[EM ANDAMENTO\] Arquivo .env](faq/general-questions/em-andamento-arquivo-.env.md)
+  * [Arquivo .env](faq/general-questions/arquivo-.env.md)
   * [Qual é o arquivo principal?](faq/general-questions/what-is-the-main-file.md)
   * [Como criar um subdomínio?](faq/general-questions/how-to-create-a-subdomain.md)
   * [\[EM ANDAMENTO\] Como posso obter o ID do meu bot?](faq/general-questions/em-andamento-como-posso-obter-o-id-do-meu-bot.md)

@@ -91,7 +91,7 @@ async function validateToken() {
 ## 🛡 Protegendo o Token
 
 {% hint style="warning" %}
-Nunca commite seu token (ex. no Git). Armazene-o em variáveis de ambiente ([`.env`](../../faq/general-questions/em-andamento-arquivo-.env.md), segredos CI/CD, etc.).
+Nunca commite seu token (ex. no Git). Armazene-o em variáveis de ambiente ([`.env`](../../faq/general-questions/arquivo-.env.md), segredos CI/CD, etc.).
 {% endhint %}
 
 📌 Melhores práticas:
@@ -118,5 +118,5 @@ Você também pode atualizar a localidade do usuário (ex. `en-US`) através de 
 As operações abaixo requerem o cabeçalho `api-token`:
 
 {% openapi-operation spec="api-endpoints-pt-v2" path="/user" method="get" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/6d9561cf0e39505b24379281aa9b4cf280bc2fee4acdf0042f2f920a6c72c898.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20251217%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251217T180337Z&X-Amz-Expires=172800&X-Amz-Signature=634915534e0158b1eeac0ac6a02b0ef6f8c725e205d3ae67b2cb83421b28b5f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/e78856f9bde8d3464b7f1d366b807a369ac58ec2613607d036d41b1e42bd400d.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260102%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260102T192837Z&X-Amz-Expires=172800&X-Amz-Signature=17f6cf1e51cc6f83cee3b8b9aeb3670b352a84f8ee10e25af12f249f59e10548&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}

@@ -1,0 +1,148 @@
+---
+description: >-
+  Aprenda os fundamentos do arquivo .env, incluindo sintaxe, melhores práticas
+  de segurança e como gerenciar com segurança variáveis de ambiente em seus
+  projetos.
+---
+
+# Arquivo .env
+
+## Arquivo .env
+
+### 📄 O que é um arquivo `.env`?
+
+Um **arquivo `.env`** é um arquivo de texto simples usado para armazenar **variáveis de ambiente**. É o padrão da indústria para manter informações sensíveis, como tokens de API, senhas de banco de dados e chaves secretas, separadas do código-fonte da sua aplicação.
+
+Ao usar um arquivo `.env`, você garante que seus segredos não sejam codificados, tornando sua aplicação mais segura e fácil de configurar em diferentes ambientes (desenvolvimento, staging, produção).
+
+***
+
+## 🛠️ Como Funciona
+
+O arquivo consiste em **pares Chave-Valor**, onde cada linha representa uma variável.
+
+#### Regras de Sintaxe:
+
+* **Formato:** `CHAVE=VALOR`
+* **Sem Espaços:** Não coloque espaços ao redor do sinal `=`.
+* **Aspas:** Valores com espaços devem ser envoltos em aspas duplas (`"`).
+* **Comentários:** Use `#` para adicionar comentários.
+
+{% code title=".env" %}
+```
+# Este é um comentário
+DISCORD_TOKEN=seu_token_aqui
+DATABASE_URL="mongodb+srv://user:pass@cluster.mongodb.net/myFirstDatabase"
+PORT=8080
+```
+{% endcode %}
+
+***
+
+## 🔒 Melhores Práticas de Segurança
+
+<details>
+
+<summary>Nunca Faça Commit no Git</summary>
+
+Seu arquivo `.env` contém dados sensíveis. **Nunca** faça upload para GitHub, GitLab ou qualquer repositório público. Se fizer, qualquer pessoa com acesso ao repositório pode roubar suas credenciais.
+
+</details>
+
+<details>
+
+<summary>Use <code>.gitignore</code></summary>
+
+Para evitar uploads acidentais, adicione `.env` ao seu arquivo `.gitignore`:
+
+{% code title=".gitignore" %}
+```
+.env
+```
+{% endcode %}
+
+</details>
+
+<details>
+
+<summary>Crie um Modelo</summary>
+
+Como você não compartilhará seu arquivo `.env`, é útil fornecer um arquivo `.env.example` com as chaves, mas sem valores reais. Isso ajuda outros desenvolvedores (ou você mesmo no futuro) a saber quais variáveis são necessárias.
+
+</details>
+
+<details>
+
+<summary>Evite Hardcoding</summary>
+
+Codar informações sensíveis diretamente no código-fonte é um grande risco de segurança. Quando você "hordcoda" um segredo, ele se torna parte permanente do seu código-base, mesmo se você o deletar depois, ele permanece visível no histórico do Git.
+
+**Por que você deve evitar:**
+
+* **Exposição de Segurança:** Qualquer pessoa com acesso ao seu código (ou ao histórico do repositório) pode ver seus segredos.
+* **Falta de Flexibilidade:** Você precisaria modificar e reimplantar seu código toda vez que quisesse alterar um token ou URL de banco de dados.
+* **Vazamentos Acidentais:** É muito fácil acidentalmente enviar segredos codificados para plataformas públicas como GitHub.
+
+Em vez disso, sempre referencie variáveis de ambiente. Isso mantém seus segredos em um arquivo separado (`.env`) que nunca é commitado no controle de versão, garantindo que seu código permaneça limpo e seguro.
+
+**Exemplo:**
+
+* **❌ Prática Ruim:** `const token = "MTIzNDU2Nzg5MDEyMzQ1Njc4.GbX123.abcde...";`
+* **✅ Prática Boa:** `const token = process.env.DISCORD_TOKEN;`
+
+</details>
+
+***
+
+## ☁️ Uso na Discloud
+
+Na Discloud, o arquivo `.env` é a principal forma de gerenciar os segredos da sua aplicação.
+
+* **Localização:** Seus arquivos de ambiente **devem** estar localizados na **raiz do seu projeto**, ao lado do seu `discloud.config`.
+* **Carregamento:** Embora `.env` seja o nome padrão para a maioria das bibliotecas, a Discloud permite o uso de nomes de arquivo personalizados (ex.: `.env.prod`), desde que seu código da aplicação esteja configurado para carregá-los.
+
+***
+
+## 📝 Exemplos de Linguagens
+
+Aqui está como você pode acessar variáveis de ambiente em diferentes linguagens de programação:
+
+{% tabs %}
+{% tab title="Node.js" %}
+No Node.js, você normalmente usa o pacote `dotenv`. Por padrão, ele procura por `.env`, mas você pode especificar um caminho.
+
+```javascript
+// Padrão (.env)
+require('dotenv').config();
+
+const token = process.env.DISCORD_TOKEN;
+```
+{% endtab %}
+
+{% tab title="Python" %}
+No Python, você pode usar `python-dotenv`.
+
+```python
+import os
+from dotenv import load_dotenv
+
+# Padrão (.env)
+load_dotenv()
+
+token = os.getenv("DISCORD_TOKEN")
+```
+{% endtab %}
+
+{% tab title="Java" %}
+No Java, você pode usar `System.getenv()`.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        String token = System.getenv("DISCORD_TOKEN");
+        System.out.println("Token: " + token);
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
