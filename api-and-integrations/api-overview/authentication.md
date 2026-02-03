@@ -72,11 +72,9 @@ async function getCurrentUser() {
 // Install first: npm i discloud.app
 const { discloud } = require("discloud.app");
 
-discloud.login("DISCLOUD_API_TOKEN");
-
 async function validateToken() {
   try {
-    const user = await discloud.user.fetch();
+    const user = await discloud.login("DISCLOUD_API_TOKEN");
     console.log("Authenticated user:", user);
   } catch (e) {
     console.error("Invalid token or network error:", e.message);
