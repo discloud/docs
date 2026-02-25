@@ -80,7 +80,7 @@ Multiple subdomains (e.g. `api`, `app`) repeat this pattern independently.
 {% hint style="warning" %}
 #### 🛡️ Cloudflare Proxy
 
-If you use **Cloudflare**, it is mandatory to disable the **Proxy** (ensure it is set to **DNS Only** / **Grey Cloud** ☁️, not the Orange one). This ensures correct SSL certificate issuance and faster propagation.
+If you use **Cloudflare**, it is mandatory to disable the **Proxy** (ensure it is set to **DNS Only** / **Grey Cloud**, not the Orange one). This ensures correct SSL certificate issuance.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Cloudflare-Custom-Domain-DNS.png" alt="Cloudflare dashboard showing DNS Only (Grey Cloud) for A records"><figcaption></figcaption></figure>
