@@ -49,7 +49,7 @@ Click **Register** and then the **DNS** button. When you click it, you will see 
 {% endstep %}
 {% endstepper %}
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS-A.png" alt="List of A records showing 75.2.96.173 and 99.83.186.151"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS-A.png" alt="Lista de registros A mostrando 75.2.96.173 e 99.83.186.151"><figcaption></figcaption></figure></div>
 
 ***
 
