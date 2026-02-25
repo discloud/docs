@@ -49,7 +49,7 @@ Clique em **Registrar** e depois no botão **DNS**. Ao clicar nele, você verá 
 {% endstep %}
 {% endstepper %}
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS-A.png" alt="Lista de registros A mostrando 75.2.96.173 e 99.83.186.151"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS-A.png" alt="List of A records showing 75.2.96.173 and 99.83.186.151"><figcaption></figcaption></figure></div>
 
 ***
 
@@ -66,7 +66,6 @@ Embora qualquer provedor de DNS funcione, abaixo estão cenários com abas para 
 | A                   | `@` (ou raiz do provedor) | `75.2.96.173`        |
 | A                   | `@` (ou raiz do provedor) | `99.83.186.151`      |
 | TXT _(se mostrado)_ | `@` / fornecido           | Token de verificação |
-
 {% endtab %}
 
 {% tab title="Subdomínio" %}
@@ -79,15 +78,14 @@ Múltiplos subdomínios (ex. `api`, `app`) repetem este padrão independentement
 {% endtabs %}
 
 {% hint style="warning" %}
-
-#### 🛡️ Proxy do Cloudflare
+#### **🛡️ Proxy do Cloudflare**
 
 Se você usar **Cloudflare**, é obrigatório desabilitar o **Proxy** (certifique-se de que está definido como **DNS Only** / **Nuvem Cinza**, não a Laranja). Isso garante a emissão correta do certificado SSL.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Cloudflare-Custom-Domain-DNS.png" alt="Dashboard do Cloudflare mostrando DNS Only (Nuvem Cinza) para registros A"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cloudflare-Custom-Domain-DNS.png" alt=""><figcaption></figcaption></figure>
 
----
+***
 
 ### 📡 **Propagação DNS**
 
