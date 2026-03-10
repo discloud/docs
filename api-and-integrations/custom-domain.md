@@ -7,7 +7,7 @@ icon: globe
 
 ## 🧭 Overview
 
-You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's [Discloud subdomain](/broken/pages/tOZppdIRGABWAzzGcvLs) using a CNAME record and validates ownership via TXT records.
+You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's [Discloud subdomain](../faq/general-questions/how-to-create-a-subdomain.md) using two A records pointing to our IPv4 addresses and validates ownership via TXT records.
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
 
@@ -24,11 +24,11 @@ You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.y
 {% endhint %}
 
 {% hint style="success" %}
-A registered domain you control (Cloudflare, GoDaddy, Namecheap, etc.)
+A registered domain you control (Cloudflare, Hostinger, GoDaddy, Namecheap, etc.)
 {% endhint %}
 
 {% hint style="success" %}
-Ability to add / modify CNAME and TXT records
+Ability to add / modify A and TXT records
 {% endhint %}
 
 ***
@@ -45,11 +45,11 @@ Enter your domain (e.g. `yourdomain.com`). Optionally specify a subdomain (e.g. 
 {% endstep %}
 
 {% step %}
-Click **Register** and then the **DNS** button. When you click it, you will see the records you need to configure (CNAME and, if required, TXT tokens).
+Click **Register** and then the **DNS** button. When you click it, you will see the records you need to configure (A and, if required, TXT tokens).
 {% endstep %}
 {% endstepper %}
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS-A.png" alt="List of A records showing 75.2.96.173 and 99.83.186.151"><figcaption></figcaption></figure></div>
 
 ***
 
@@ -61,32 +61,31 @@ Although any DNS provider works, below are tabbed scenarios for clarity.
 {% tab title="Root Domain" %}
 **Records**
 
-| Type             | Name                   | Value                  |
-| ---------------- | ---------------------- | ---------------------- |
-| CNAME            | `@` (or provider root) | `hosting.discloud.app` |
-| TXT _(if shown)_ | `@` / provided         | Verification token     |
-
-If your DNS provider disallows root CNAME, use:
-
-{% stepper %}
-{% step %}
-CNAME `www` → `hosting.discloud.app`
-{% endstep %}
-
-{% step %}
-Redirect / ALIAS root → `www.yourdomain.com`
-{% endstep %}
-{% endstepper %}
+| Type             | Name                   | Value              |
+| ---------------- | ---------------------- | ------------------ |
+| A                | `@` (or provider root) | `75.2.96.173`      |
+| A                | `@` (or provider root) | `99.83.186.151`    |
+| TXT _(if shown)_ | `@` / provided         | Verification token |
 {% endtab %}
 
 {% tab title="Subdomain" %}
 **Example: `dash.yourdomain.com`**
 
-<table><thead><tr><th width="144">Type</th><th width="353">Name</th><th>Value</th></tr></thead><tbody><tr><td>CNAME</td><td><code>dash</code></td><td><code>hosting.discloud.app</code></td></tr><tr><td>TXT <em>(if shown)</em></td><td>Provided (<code>dash</code> / <code>_discloud-verification</code>)</td><td>Verification token</td></tr></tbody></table>
+<table><thead><tr><th width="144">Type</th><th width="353">Name</th><th>Value</th></tr></thead><tbody><tr><td>A</td><td><code>dash</code></td><td><code>75.2.96.173</code></td></tr><tr><td>A</td><td><code>dash</code></td><td><code>99.83.186.151</code></td></tr><tr><td>TXT <em>(if shown)</em></td><td>Provided (<code>dash</code> / <code>_discloud-verification</code>)</td><td>Verification token</td></tr></tbody></table>
 
 Multiple subdomains (e.g. `api`, `app`) repeat this pattern independently.
 {% endtab %}
 {% endtabs %}
+
+{% hint style="warning" %}
+#### **🛡️ Cloudflare Proxy**
+
+If you use **Cloudflare**, it is mandatory to disable the **Proxy** (ensure it is set to **DNS Only** / **Grey Cloud**, not the Orange one). This ensures correct SSL certificate issuance.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/Cloudflare-Custom-Domain-DNS.png" alt="Cloudflare dashboard showing DNS Only (Grey Cloud) for A records"><figcaption></figcaption></figure>
+
+***
 
 ### 📡 **DNS Propagation**
 

@@ -17,7 +17,7 @@ It is a configuration file that streamlines the process of deploying your applic
 
 **✅ Correct Placement**
 
-The `discloud.config` file <mark style="color:yellow;">**must be in the**</mark> [<mark style="color:yellow;">**root**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">of your project</mark>](../../faq/general-questions/what-is-the-root-of-the-project.md).
+The `discloud.config` file <mark style="color:yellow;">**must be in the**</mark> [<mark style="color:yellow;">**root**</mark> <mark style="color:yellow;">of your project</mark>](../../faq/general-questions/what-is-the-root-of-the-project.md).
 
 ```bash
 your-project/           # ← ROOT DIRECTORY
@@ -116,7 +116,7 @@ APT=tools
 {% endtabs %}
 
 {% hint style="warning" %}
-## Mandatory options in your **`discloud.config`**
+### Mandatory options in your **`discloud.config`**
 
 **Only one field is required**:
 
