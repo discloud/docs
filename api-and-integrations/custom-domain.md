@@ -71,19 +71,27 @@ Embora qualquer provedor de DNS funcione, abaixo estão cenários com abas para 
 {% tab title="Subdomínio" %}
 **Exemplo: `dash.seudominio.com`**
 
-<table><thead><tr><th width="144">Tipo</th><th width="353">Nome</th><th>Valor</th></tr></thead><tbody><tr><td>A</td><td><code>dash</code></td><td><code>75.2.96.173</code></td></tr><tr><td>A</td><td><code>dash</code></td><td><code>99.83.186.151</code></td></tr><tr><td>TXT <em>(se mostrado)</em></td><td>Fornecido (<code>dash</code> / <code>_discloud-verification</code>)</td><td>Token de verificação</td></tr></tbody></table>
+<table><thead><tr><th width="169">Tipo</th><th width="383">Nome</th><th>Valor</th></tr></thead><tbody><tr><td>A</td><td><code>dash</code></td><td><code>75.2.96.173</code></td></tr><tr><td>A</td><td><code>dash</code></td><td><code>99.83.186.151</code></td></tr><tr><td>TXT <em>(se mostrado)</em></td><td>Fornecido (<code>dash</code> / <code>_discloud-verification</code>)</td><td>Token de verificação</td></tr></tbody></table>
 
 Múltiplos subdomínios (ex. `api`, `app`) repetem este padrão independentemente.
 {% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
-#### **🛡️ Proxy do Cloudflare**
+#### **Proxy do Cloudflare**
 
 Se você usar **Cloudflare**, é obrigatório desabilitar o **Proxy** (certifique-se de que está definido como **DNS Only** / **Nuvem Cinza**, não a Laranja). Isso garante a emissão correta do certificado SSL.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Cloudflare-Custom-Domain-DNS.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## 🔄 Reconstruir a Aplicação
+
+Após o DNS resolver e os tokens validarem, abra a aplicação vinculada e acione a Reconstrução para que a vinculação se torne ativa.
+
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="Lista de aplicações mostrando domínio personalizado"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Applications_Rebuild.png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -95,11 +103,3 @@ Se você usar **Cloudflare**, é obrigatório desabilitar o **Proxy** (certifiqu
 * Se alguns POPs ainda exibirem registros antigos, aguarde e verifique novamente mais tarde.
 
 <figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
-
-***
-
-## 🔄 Reconstruir a Aplicação
-
-Após o DNS resolver e os tokens validarem, abra a aplicação vinculada e acione a Reconstrução para que a vinculação se torne ativa.
-
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="Lista de aplicações mostrando domínio personalizado"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Applications_Rebuild.png" alt=""><figcaption></figcaption></figure></div>
