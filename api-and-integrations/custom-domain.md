@@ -78,12 +78,20 @@ Multiple subdomains (e.g. `api`, `app`) repeat this pattern independently.
 {% endtabs %}
 
 {% hint style="warning" %}
-#### **🛡️ Cloudflare Proxy**
+#### **Cloudflare Proxy**
 
 If you use **Cloudflare**, it is mandatory to disable the **Proxy** (ensure it is set to **DNS Only** / **Grey Cloud**, not the Orange one). This ensures correct SSL certificate issuance.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Cloudflare-Custom-Domain-DNS.png" alt="Cloudflare dashboard showing DNS Only (Grey Cloud) for A records"><figcaption></figcaption></figure>
+
+***
+
+## 🔄 Rebuild the App
+
+After DNS resolves and tokens validate, open the linked app and trigger Rebuild so the binding becomes active.
+
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="App list showing custom domain"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Applications_Rebuild.png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -95,11 +103,3 @@ If you use **Cloudflare**, it is mandatory to disable the **Proxy** (ensure it i
 * If some POPs still display old records, wait and re-check later.
 
 <figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
-
-***
-
-## 🔄 Rebuild the App
-
-After DNS resolves and tokens validate, open the linked app and trigger Rebuild so the binding becomes active.
-
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="App list showing custom domain"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Applications_Rebuild.png" alt=""><figcaption></figcaption></figure></div>
