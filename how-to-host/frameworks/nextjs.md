@@ -96,9 +96,76 @@ Dentro do seu [`package.json`](../../development-environment/supported-languages
 
 ***
 
-<details>
+### 📦 Requisito do TypeScript (importante)
 
-<summary>✅ Opção A – Deploy sem servidor custom (Next.js "built-in")</summary>
+Se o seu projeto usa TypeScript, certifique-se de instalá-lo em `dependencies` e não em `devDependencies`.
+
+Alguns ambientes de deploy instalam apenas dependências de produção, o que pode causar falhas no build se o TypeScript não estiver disponível.
+
+#### ✅ Exemplo correto
+
+```json
+{
+  "dependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+```
+
+#### ❌ Exemplo incorreto
+
+```json
+{
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+```
+
+***
+
+## 📦 Alterando a pasta de build do Next.js (`.next` → `dist`)
+
+Por padrão, o **Next.js** gera os arquivos de build na pasta `.next`.\
+Mas em alguns cenários (deploy, padrões de projeto, integração com outras ferramentas), você pode querer usar uma pasta como `dist`.
+
+O Next.js permite alterar a pasta de saída usando a configuração `distDir`.
+
+#### 1. Edite o arquivo `next.config.js`
+
+```js
+const nextConfig = {
+  distDir: 'dist',
+}
+```
+
+#### 2. Rode o build normalmente
+
+```bash
+npm run build
+```
+
+#### 📁 Resultado
+
+Antes:
+
+```
+.next/
+```
+
+Depois:
+
+```
+dist/
+```
+
+***
+
+
+
+<details open>
+
+<summary>✅ Deploy sem servidor custom (Next.js "built-in")</summary>
 
 Nesta opção, você usa somente o servidor interno do Next (`next start`), sem precisar de `server.js`.
 
@@ -127,75 +194,6 @@ RAM=512
 VERSION=latest
 ID=meu-nextjs-app
 ```
-
-</details>
-
-<details>
-
-<summary>🧩 Opção B – Custom server com Express</summary>
-
-Se você precisa de **rotas customizadas**, **middlewares** ou integrar outras libs antes de delegar ao Next, pode usar um **servidor Express** que usa o Next internamente.
-
-**🧾 `server.js`**
-
-Crie um arquivo `server.js` na raiz do projeto com o seguinte conteúdo:
-
-```js
-const express = require("express");
-const next = require("next");
-
-const dev = process.env.NODE_ENV !== "production";
-const app = next({ dev });
-const handle = app.getRequestHandler();
-
-const PORT = process.env.PORT || 8080;
-
-app.prepare().then(() => {
-  const server = express();
-
-  server.get("/hello", (req, res) => {
-    return res.send("Olá, Discloud!");
-  });
-
-  server.all("*", (req, res) => {
-    return handle(req, res);
-  });
-
-  server.listen(PORT, () => {
-    console.log(`Servidor rodando na porta ${PORT}`);
-  });
-});
-```
-
-**📦** [**`package.json`**](../../development-environment/supported-languages/javascript/package.json.md) **(com servidor custom)**
-
-Atualize seus scripts para utilizar o `server.js` em produção:
-
-```json
-{
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "node server.js"
-  }
-}
-```
-
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(custom server)**
-
-```
-MAIN=server.js
-TYPE=site
-BUILD=npm run build
-START=npm run start
-RAM=512
-VERSION=latest
-ID=meu-nextjs-app-custom-server
-```
-
-{% hint style="info" %}
-Use esta opção apenas se realmente precisar de um servidor custom. Para a maioria dos projetos, a **Opção A** (sem servidor custom) é mais simples e suficiente.
-{% endhint %}
 
 </details>
 
