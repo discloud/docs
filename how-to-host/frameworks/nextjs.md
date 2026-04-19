@@ -96,10 +96,6 @@ It is important that the **`start` script uses port `8080`** (`next start -p 808
 
 ***
 
-Aqui está a versão em **inglês (Markdown)** 👇
-
-***
-
 ## 📦 Changing Next.js build folder (`.next` → `dist`)
 
 By default, Next.js outputs build files into the `.next` directory.\
@@ -132,10 +128,6 @@ After:
 ```
 dist/
 ```
-
-***
-
-Aqui está só a parte do **TypeScript**, separada em Markdown 👇
 
 ***
 
