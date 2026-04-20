@@ -116,7 +116,7 @@ APT=tools
 {% endtabs %}
 
 {% hint style="warning" %}
-### Mandatory options in your **`discloud.config`**
+#### Mandatory options in your **`discloud.config`**
 
 **Only one field is required**:
 
