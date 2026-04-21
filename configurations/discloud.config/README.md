@@ -161,8 +161,9 @@ Bot made in TypeScript where the entry point is the **index** file inside the **
 ```properties
 NAME=Mee8
 TYPE=bot
-MAIN=build/index.js
+MAIN=src/index.ts
 START=npm run start
+BUILD=npm run build
 RAM=200
 VERSION=latest
 ```
