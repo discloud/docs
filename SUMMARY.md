@@ -74,8 +74,6 @@
 * [Integração com GitHub](api-and-integrations/github-integration.md)
 * [Domínio Personalizado](api-and-integrations/custom-domain.md)
 * [Bancos de Dados](api-and-integrations/databases.md)
-* [Templates](api-and-integrations/templates/README.md)
-  * [n8n](api-and-integrations/templates/n8n.md)
 
 ## FAQ
 
