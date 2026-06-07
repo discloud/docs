@@ -84,7 +84,7 @@
   * [.env file](faq/general-questions/.env-file.md)
   * [What is the main file?](faq/general-questions/what-is-the-main-file.md)
   * [How to create a subdomain?](faq/general-questions/how-to-create-a-subdomain.md)
-  * [\[WIP\] How can I get my bot's ID?](faq/general-questions/wip-how-can-i-get-my-bots-id.md)
+  * [How can I get my Discord bot ID?](faq/general-questions/how-can-i-get-my-discord-bot-id.md)
   * [\[WIP\] How to compress?](faq/general-questions/wip-how-to-compress.md)
   * [\[WIP\] How to commit?](faq/general-questions/wip-how-to-commit.md)
   * [\[WIP\] Bot too heavy](faq/general-questions/wip-bot-too-heavy.md)

@@ -104,7 +104,7 @@ Upload your project.
 {% step %}
 Provide the Required Information.
 
-* **Enter the** [**Application ID**](../faq/general-questions/wip-how-can-i-get-my-bots-id.md) (for Discord bots).
+* **Enter the** [**Application ID**](../faq/general-questions/how-can-i-get-my-discord-bot-id.md) (for Discord bots).
 * **Enter the** [**Main File Name**](../faq/general-questions/what-is-the-main-file.md) (e.g., `index.js`, `main.py`, `main.go`).
 * **Specify the RAM** for your bot (e.g., `100` for 100MB).
 
