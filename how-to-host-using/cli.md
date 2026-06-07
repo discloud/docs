@@ -170,4 +170,4 @@ If you want to **exclude certain files or directories** from being uploaded, you
 
 ## **❓ Still need help?**
 
-Check the [**FAQ Section**](/broken/pages/XnfTZsmKo9RRBUwNSPYU) or join our [**Discord Server**](https://discord.discloudbot.com/) for support.
+Check the [**FAQ Section**](https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/faq) or join our [**Discord Server**](https://discord.discloudbot.com/) for support.
