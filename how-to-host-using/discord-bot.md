@@ -104,7 +104,7 @@ Faça upload do seu projeto.
 {% step %}
 Forneça as Informações Necessárias.
 
-* **Digite o** [**ID da Aplicação**](../faq/general-questions/em-andamento-como-posso-obter-o-id-do-meu-bot.md) (para bots do Discord).
+* **Digite o** [**ID da Aplicação**](../faq/general-questions/how-can-i-get-my-discord-bot-id.md) (para bots do Discord).
 * **Digite o** [**Nome do Arquivo Principal**](../faq/general-questions/what-is-the-main-file.md) (ex.: `index.js`, `main.py`, `main.go`).
 * **Especifique a RAM** para seu bot (ex.: `100` para 100MB).
 

@@ -83,7 +83,7 @@
   * [Arquivo .env](faq/general-questions/.env-file.md)
   * [Qual é o arquivo principal?](faq/general-questions/what-is-the-main-file.md)
   * [Como criar um subdomínio?](faq/general-questions/how-to-create-a-subdomain.md)
-  * [\[EM ANDAMENTO\] Como posso obter o ID do meu bot?](faq/general-questions/em-andamento-como-posso-obter-o-id-do-meu-bot.md)
+  * [Como posso obter o ID do meu bot do Discord?](faq/general-questions/how-can-i-get-my-discord-bot-id.md)
   * [\[EM ANDAMENTO\] Como comprimir?](faq/general-questions/em-andamento-como-comprimir.md)
   * [\[EM ANDAMENTO\] Como fazer commit?](faq/general-questions/em-andamento-como-fazer-commit.md)
   * [\[EM ANDAMENTO\] Bot muito pesado](faq/general-questions/em-andamento-bot-muito-pesado.md)
