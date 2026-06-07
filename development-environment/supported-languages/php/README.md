@@ -73,7 +73,7 @@ Before deploying your website or API on Discloud, ensure that you meet the follo
 {% endhint %}
 
 {% hint style="success" %}
-[A subdomain must be created](/broken/pages/tOZppdIRGABWAzzGcvLs) before deployment.
+[A subdomain must be created](../../../faq/general-questions/how-to-create-a-subdomain.md) before deployment.
 {% endhint %}
 
 {% hint style="danger" %}

@@ -99,8 +99,8 @@ Example:
 
 After updating `discloud.config`, **deploy your application** for the changes to take effect.
 
-{% content-ref url="https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/how-to-host-using" %}
-[How to Host, Using](https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/how-to-host-using)
+{% content-ref url="https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/how-to-host" %}
+[How To Host](https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/how-to-host)
 {% endcontent-ref %}
 
 ***
