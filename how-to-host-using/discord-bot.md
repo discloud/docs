@@ -13,22 +13,26 @@ Discloud allows you to **host applications directly from Discord**, making deplo
 
 ## 🔑 Account Verification
 
-{% hint style="warning" %}
-#### **Verification System Under Maintenance**
+Before deploying applications using the **Discloud Bot**, you must first **verify your account** on the Discloud Discord server.
 
-Our account verification system is temporarily unavailable, and **we are not performing manual verification during this period**.
+#### **🤔 How to Verify Your Account:**
 
-If you are **already verified**, you can ignore this notice and continue using the Bot normally.
+{% stepper %}
+{% step %}
+Join the [**Discloud Discord Server**](https://discord.discloudbot.com/).
+{% endstep %}
 
-If you are **NOT yet verified**, you can upload and manage your applications using other methods:
+{% step %}
+Follow the instructions in the verification channel.
+{% endstep %}
 
-* [Control Panel](dashboard.md)
-* [CLI](cli.md)
-* [Visual Studio Code Extension](visual-studio-code.md)
+{% step %}
+Once verified, you will be assigned the **`Verified en-us`** role.
+{% endstep %}
+{% endstepper %}
 
-Need help? Open a **support ticket** by sending a message to the [**Ticket Bot DM**](https://discord.com/channels/@me/930852077045940224/). Make sure you are in the [Discloud Discord Server](https://discord.discloudbot.com/).
-
-Stay in the server to be notified when your ticket is answered and when the verification system is back.
+{% hint style="info" %}
+After verification, you will gain access to the [**`#🔌・commands`**](https://discord.com/channels/584490943034425391/1051126795883261962) channel, where you can manage your applications.
 {% endhint %}
 
 ***
