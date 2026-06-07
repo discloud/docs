@@ -172,4 +172,4 @@ Se você quiser **excluir certos arquivos ou diretórios** do upload, você pode
 
 ## **❓ Ainda precisa de ajuda?**
 
-Verifique a [**Seção FAQ**](/broken/pages/PabrKrMAkYAE49RxJRU6) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.
+Verifique a [**Seção FAQ**](https://app.gitbook.com/s/vUqkKIFudeQ2TQOirm35/faq) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.

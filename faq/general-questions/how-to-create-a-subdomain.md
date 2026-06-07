@@ -4,7 +4,7 @@ description: >-
   suas aplicações.
 ---
 
-# Como Criar um Subdomínio?
+# Como criar um subdomínio?
 
 ## 🌐 O que é um Subdomínio da Discloud?
 
@@ -99,8 +99,8 @@ Exemplo:
 
 Após atualizar o `discloud.config`, **faça o deploy da sua aplicação** para que as alterações entrem em vigor.
 
-{% content-ref url="/broken/pages/Ag26vcjOXVPlfmI7oBS1" %}
-[Broken link](/broken/pages/Ag26vcjOXVPlfmI7oBS1)
+{% content-ref url="https://app.gitbook.com/s/vUqkKIFudeQ2TQOirm35/how-to-host" %}
+[Como Hospedar](https://app.gitbook.com/s/vUqkKIFudeQ2TQOirm35/how-to-host)
 {% endcontent-ref %}
 
 ***
