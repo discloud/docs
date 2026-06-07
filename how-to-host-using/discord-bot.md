@@ -13,22 +13,26 @@ A Discloud permite que você **hospede aplicações diretamente do Discord**, to
 
 ## 🔑 Verificação de Conta
 
-{% hint style="warning" %}
-#### **Sistema de Verificação em Manutenção**
+Antes de implementar aplicações utilizando o **Discloud Bot**, é necessário **verificar a sua conta** no servidor Discord da Discloud.
 
-Nosso sistema de verificação de contas está temporariamente indisponível **e não estamos realizando verificação manual neste período**.
+#### **🤔 Como verificar a sua conta:**
 
-Se você **já** é verificado, pode ignorar este aviso e continuar usando o Bot normalmente.
+{% stepper %}
+{% step %}
+Entre no [**Servidor Discord da Discloud**](https://discord.discloudbot.com/).
+{% endstep %}
 
-Se você **AINDA não** é verificado, enquanto isso, você pode fazer o upload e gerenciar suas aplicações por outros meios:
+{% step %}
+Siga as instruções disponíveis no canal de verificação.
+{% endstep %}
 
-* [Painel de Controle](dashboard.md)
-* [CLI](cli.md)
-* [Extensão para Visual Studio Code](visual-studio-code.md)
+{% step %}
+Após concluir a verificação, receberá o cargo **`Verified pt-br`**.
+{% endstep %}
+{% endstepper %}
 
-Precisa de ajuda? Abra um **ticket de suporte** enviando uma mensagem na [**DM do Bot de Tickets**](https://discord.com/channels/@me/930852077045940224/). Certifique-se de estar no [Servidor Discord da Discloud](https://discord.discloudbot.com/).
-
-Fique no servidor para ser notificado quando o seu ticket for respondido e ser notificado quando o sistema de verificação voltar.
+{% hint style="info" %}
+Depois da verificação, terá acesso ao canal [**`#🔌・commands`**](https://discord.com/channels/584490943034425391/1051126795883261962), onde poderá gerir as suas aplicações.
 {% endhint %}
 
 ***
