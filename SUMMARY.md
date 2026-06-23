@@ -74,6 +74,7 @@
 * [Integração com GitHub](api-and-integrations/github-integration.md)
 * [Domínio Personalizado](api-and-integrations/custom-domain.md)
 * [Bancos de Dados](api-and-integrations/databases.md)
+* [Lavalink](api-and-integrations/lavalink.md)
 
 ## FAQ
 

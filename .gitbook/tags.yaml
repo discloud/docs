@@ -1,0 +1,4 @@
+- tag: novo
+  label: Novo
+  icon: rocket-launch
+  color: $success
