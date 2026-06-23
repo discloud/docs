@@ -1,86 +1,110 @@
 ---
-description: Deploy apps from GitHub to Discloud in 3 steps.
+description: Connect your GitHub repository to Discloud and deploy directly from your code.
 icon: github
 ---
 
 # GitHub Integration
 
-## ✅ **Prerequisites**
+### 🧭 Overview
 
-{% stepper %}
-{% step %}
-**GitHub Account Consistency**
+The **GitHub Integration** allows you to deploy applications directly from a GitHub repository to Discloud, no manual ZIP uploads required. Discloud pulls the code from your repository, reads the [`discloud.config`](../configurations/discloud.config/) at the root, and builds and starts your application automatically.
+
+This is the recommended workflow for teams and anyone using version control as part of their development process.
+
+***
+
+### ✅ Prerequisites
+
+Before connecting GitHub, make sure the following are in place:
 
 {% hint style="warning" %}
-The GitHub account used for **Discloud login** AND **Repository ownership, must be the same.**
+**Same GitHub account** - The GitHub account you use to **log in to Discloud** must be the **same account that owns the repository**. If you log in with a different GitHub account, your repositories will not appear in the integration.
 {% endhint %}
 
-> **Consequences of mismatch**:
->
-> * Repositories won't appear
-> * Deployment failures
-> * Permission errors
-{% endstep %}
+{% hint style="success" %}
+[**`discloud.config`**](../configurations/discloud.config/) **at the root** - This file must exist at the root of your repository. Without it, the upload will fail validation. Learn more about the root of the project.
+{% endhint %}
 
-{% step %}
-**Valid** [**`discloud.config`**](../configurations/discloud.config/) **File**
-
-Must exist in your repository's **root directory.**
-
-> ⚠️ **Validation fails if**:
->
-> * File missing
-> * Invalid syntax
-{% endstep %}
-{% endstepper %}
+{% hint style="danger" %}
+**Never commit** [**`.env`**](../faq/general-questions/.env-file.md) **files** - Your `.env` file must be listed in `.gitignore`. Production secrets are set directly in Discloud during the upload step, not through the repository.
+{% endhint %}
 
 ***
 
-## 🔄 **Connect GitHub & Configure Access**
+### 🔗 Connect your GitHub account
 
 {% stepper %}
 {% step %}
-**Initiate GitHub Connection**
+**🔑 Open the GitHub Integration tab**
 
-* Go to [Discloud Dashboard](https://discloud.com/dashboard) → **GitHub Integration** tab
-*   Click **Login** → Authorize Discloud via GitHub OAuth
+Go to the [Discloud Dashboard](https://discloud.com/dashboard) and open the **GitHub Integration** tab.
 
-    <figure><img src="../.gitbook/assets/GitHub-Integration_Login.png" alt=""><figcaption></figcaption></figure>
+Click **Login** and authorize Discloud via GitHub OAuth. This allows Discloud to read your repositories.
+
+<figure><img src="../.gitbook/assets/GitHub-Integration_Login.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Configure Repository Access**
+**⚙️ Configure repository access**
 
-* Return to **GitHub Integration** → Click **Configure**
-* Choose installation target.
-* Set permissions:
-  * 🔓 _All repositories_
-  * 🔒 _Select specific repositories_
-{% endstep %}
-{% endstepper %}
+After authorizing, click **Configure** on the GitHub Integration page. GitHub will ask you to choose which repositories Discloud can access:
 
-***
-
-## 🚀 **Deploy from GitHub**
-
-{% stepper %}
-{% step %}
-**Start Deployment**
-
-* Go to [Discloud Dashboard](https://discloud.com/dashboard)
-* Click "**+ Upload"** (top-right corner)
-* Select "**GitHub"** from the menu
-{% endstep %}
-
-{% step %}
-#### **Configuration & Upload**
+* 🔓 **All repositories** - Discloud can access every repository in your account
+* 🔒 **Selected repositories** - Choose only the specific repositories you want to deploy
 
 {% hint style="info" %}
-#### 🔐 Secure Environment Variables
-
-Use [`.env`](../faq/general-questions/.env-file.md) files locally for development, but ensure they're added to `.gitignore` to prevent accidental exposure on GitHub. When deploying via Discloud's GitHub integration, **add production secrets directly in the "Environment Variables" section** during configuration.
+You can change this at any time by returning to the **GitHub Integration** tab and clicking **Configure** again, or by managing the Discloud GitHub App directly from your GitHub account settings.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
 
+***
+
+### 🚀 Deploy from GitHub
+
+{% stepper %}
+{% step %}
+**🚀 Start a new upload**
+
+Go to the [Discloud Dashboard](https://discloud.com/dashboard), click **+ Upload** in the top-right corner, and select **GitHub** from the menu.
+
+<figure><img src="../.gitbook/assets/GitHub-Integration_Upload-Menu.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+**🛠️ Configure your deployment**
+
+**Repository & branch** - Choose the repository and the branch you want to deploy from. Discloud will pull the latest commit from that branch.
+
+**Environment variables** - Add your production secrets here as `KEY=VALUE` pairs, one per line.
+
+<figure><img src="../.gitbook/assets/GitHub-Integration_Repository-Select.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+**This is the only place to set production secrets.** `.env` files must not be committed to GitHub. Discloud stores these values securely and generates a `.env` file at the root of your application at runtime, keeping them out of your repository entirely.
+{% endhint %}
+
+{% hint style="warning" %}
+If you forget to add a variable here, your application will start without it and may crash or behave incorrectly. To update environment variables later, you can edit them directly in the dashboard if you have a [paid plan](https://discloud.com/plans). Otherwise, you will need to do a new commit manually upload with the complete updated `.env` content.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+**✅ Confirm and deploy**
+
+Review your settings and click **Upload**. Discloud will:
+
+1. Pull the code from your selected repository and branch
+2. Validate your `discloud.config`
+3. Install dependencies and run the build command (if configured)
+4. Start your application
+
 <figure><img src="../.gitbook/assets/GitHub-Integration_Upload.gif" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+***
+
+### 🔁 Updating your application
+
+Discloud automatically redeploys your application whenever you push new commits to the branch configured during the initial upload. No manual action is required.
