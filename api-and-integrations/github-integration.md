@@ -99,7 +99,7 @@ Revise suas configurações e clique em **Upload**. A Discloud irá:
 3. Instalar dependências e executar o comando de build (se configurado)
 4. Iniciar sua aplicação
 
-<figure><img src="../.gitbook/assets/GitHub-Integration_Upload (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/GitHub-Integration_Upload.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
