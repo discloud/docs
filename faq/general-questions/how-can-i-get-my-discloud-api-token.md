@@ -28,8 +28,6 @@ Abra o Dashboard: [https://discloud.com/dashboard](https://discloud.com/dashboar
 
 {% step %}
 Clique na aba **API Key** (na parte superior da sua área de perfil).
-
-<figure><img src="../../.gitbook/assets/chrome_C6akiEngPO.png" alt="Aba API Key no Dashboard"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

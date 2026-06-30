@@ -39,7 +39,7 @@ Para obter mais ajuda, você pode nos contatar através dos seguintes canais:
 ### 🌍 Siga-nos nas Redes Sociais
 
 * <img src=".gitbook/assets/instagram-icon.png" alt="" data-size="line"> **Instagram**: [@discloudbot](https://www.instagram.com/discloudbot/)
-* <img src=".gitbook/assets/github.png" alt="" data-size="line"> **GitHub**: [Discloud](https://github.com/discloud)
-* <img src=".gitbook/assets/twitterx.png" alt="" data-size="line"> **Twitter (X)**: [@discloudbot](https://twitter.com/discloudbot)
+* <img src=".gitbook/assets/image.png" alt="" data-size="line"> **GitHub**: [Discloud](https://github.com/discloud)
+* <img src=".gitbook/assets/image (1).png" alt="" data-size="line"> **Twitter (X)**: [@discloudbot](https://twitter.com/discloudbot)
 * <img src=".gitbook/assets/youtube-icon.png" alt="" data-size="line"> **YouTube**: [Pedro Ricardo](https://youtube.com/c/pedroricardor)
 * <img src=".gitbook/assets/discord-icon.png" alt="" data-size="line"> **Discord**: [Discloud](https://discord.discloudbot.com/)
