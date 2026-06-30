@@ -97,6 +97,7 @@
   * [How to build and package a Java application?](faq/general-questions/how-to-build-and-package-a-java-application.md)
   * [Subscription Management](faq/general-questions/subscription-management.md)
   * [How can I get my Discloud API token?](faq/general-questions/how-can-i-get-my-discloud-api-token.md)
+  * [How can I get my Discloud Account ID?](faq/general-questions/how-can-i-get-my-discloud-account-id.md)
 * [Troubleshooting Solutions](faq/troubleshooting-solutions/README.md)
   * [Diagnosing Offline Applications](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
 
