@@ -50,5 +50,5 @@ Uma resposta `200 OK` com seus dados de usuário confirma que a autenticação e
 {% endstepper %}
 
 {% hint style="warning" %}
-Nunca exponha seu token em código público ou repositórios Git. Armazene-o em variáveis de ambiente. Consulte Autenticação para boas práticas de segurança.
+Nunca exponha seu token em código público ou repositórios Git. Armazene-o em variáveis de ambiente. Consulte [Autenticação](./#autenticacao) para boas práticas de segurança.
 {% endhint %}
