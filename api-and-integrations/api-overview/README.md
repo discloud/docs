@@ -50,5 +50,5 @@ A `200 OK` response with your user data confirms authentication is working.
 {% endstepper %}
 
 {% hint style="warning" %}
-Never expose your token in public code or Git repositories. Store it in environment variables. See Authentication for security best practices.
+Never expose your token in public code or Git repositories. Store it in environment variables. See [Authentication](./#authentication) for security best practices.
 {% endhint %}
