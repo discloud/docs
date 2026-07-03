@@ -31,7 +31,7 @@ To register and use a Discloud subdomain, you must meet the following requiremen
 {% endhint %}
 
 {% hint style="success" %}
-**Discloud Config** – Your app must include a properly configured [`discloud.config`](../../configurations/discloud.config/) file
+**Discloud Config** – Your app must include a properly configured [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file
 {% endhint %}
 
 ***
@@ -44,13 +44,13 @@ Open the [**Discloud Dashboard**](https://discloud.com/dashboard).
 {% endstep %}
 
 {% step %}
-Click on the `Subdomain` tab at the top of the application page.
+Click the `Domains` tab in the side menu of your account page.
 
 <figure><img src="../../.gitbook/assets/dashboard-subdomain-tab.png" alt="Dashboard Subdomain tab"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-Click the `+ Subdomain` button to create a new subdomain.
+Click the `+ Create Subdomain` button to create a new subdomain.
 
 <figure><img src="../../.gitbook/assets/dashboard-subdomain-button.png" alt="Add Subdomain button"><figcaption></figcaption></figure>
 {% endstep %}
@@ -74,7 +74,7 @@ Your subdomain is now registered and its state will show as **Available**.
 
 ***
 
-## 📝 Configure Your [discloud.config](../../configurations/discloud.config/)
+## 📝 Configure Your [discloud.config](https://github.com/discloud/docs/blob/english/configurations/discloud.config)
 
 Once your subdomain is registered, you **must** add it to your `discloud.config` file so Discloud routes traffic to the correct app.
 
