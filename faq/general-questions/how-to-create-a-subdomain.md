@@ -31,7 +31,7 @@ Para registrar e usar um subdomínio da Discloud, você precisa atender aos segu
 {% endhint %}
 
 {% hint style="success" %}
-**Discloud Config** – Seu app deve incluir um arquivo [discloud.config](../../configurations/discloud.config/) devidamente configurado.
+**Discloud Config** – Seu app deve incluir um arquivo [discloud.config](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) devidamente configurado.
 {% endhint %}
 
 ***
@@ -44,13 +44,13 @@ Abra o [Discloud Dashboard](https://discloud.com/dashboard).
 {% endstep %}
 
 {% step %}
-Clique na aba `Subdomínio` no topo da página da aplicação.
+Clique na aba `Domínios` no menu lateral da página da sua conta.
 
 <figure><img src="../../.gitbook/assets/dashboard-subdomain-tab.png" alt="Dashboard Subdomain tab"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-Clique no botão `+ Subdomínio` para criar um novo subdomínio.
+Clique no botão `+ Criar subdomínio` para criar um novo subdomínio.
 
 <figure><img src="../../.gitbook/assets/dashboard-subdomain-button.png" alt="Add Subdomain button"><figcaption></figcaption></figure>
 {% endstep %}
@@ -74,7 +74,7 @@ Seu subdomínio agora está registrado e seu estado aparecerá como **Disponíve
 
 ***
 
-## 📝 Configure seu [discloud.config](../../configurations/discloud.config/)
+## 📝 Configure seu [discloud.config](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config)
 
 Depois que o seu subdomínio estiver registrado, você deve adicioná-lo ao arquivo `discloud.config` para que a Discloud possa direcionar o tráfego para o aplicativo correto.
 
