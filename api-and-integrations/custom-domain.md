@@ -37,7 +37,7 @@ Capacidade de adicionar / modificar registros A e TXT
 
 {% stepper %}
 {% step %}
-Abra o [Painel da Discloud](https://discloud.com/dashboard) → seção Domínio Personalizado.
+Abra o [Painel da Discloud](https://discloud.com/dashboard) → seção [`Domínios`](https://discloud.com/dashboard/domains).
 {% endstep %}
 
 {% step %}
@@ -45,7 +45,7 @@ Digite seu domínio (ex. `seudominio.com`). Opcionalmente, especifique um subdom
 {% endstep %}
 
 {% step %}
-Clique em **Registrar** e depois no botão **DNS**. Ao clicar nele, você verá os registros que precisa configurar (A e, se necessário, tokens TXT).
+Clique em **Registrar** e depois no botão **DNS**. Ao clicar nele, você verá os registros que precisa configurar.
 {% endstep %}
 {% endstepper %}
 
@@ -61,17 +61,16 @@ Embora qualquer provedor de DNS funcione, abaixo estão cenários com abas para 
 {% tab title="Domínio Raiz" %}
 **Registros**
 
-| Tipo                | Nome                      | Valor                |
-| ------------------- | ------------------------- | -------------------- |
-| A                   | `@` (ou raiz do provedor) | `75.2.96.173`        |
-| A                   | `@` (ou raiz do provedor) | `99.83.186.151`      |
-| TXT _(se mostrado)_ | `@` / fornecido           | Token de verificação |
+| Tipo | Nome                      | Valor           |
+| ---- | ------------------------- | --------------- |
+| A    | `@` (ou raiz do provedor) | `75.2.96.173`   |
+| A    | `@` (ou raiz do provedor) | `99.83.186.151` |
 {% endtab %}
 
 {% tab title="Subdomínio" %}
 **Exemplo: `dash.seudominio.com`**
 
-<table><thead><tr><th width="169">Tipo</th><th width="383">Nome</th><th>Valor</th></tr></thead><tbody><tr><td>A</td><td><code>dash</code></td><td><code>75.2.96.173</code></td></tr><tr><td>A</td><td><code>dash</code></td><td><code>99.83.186.151</code></td></tr><tr><td>TXT <em>(se mostrado)</em></td><td>Fornecido (<code>dash</code> / <code>_discloud-verification</code>)</td><td>Token de verificação</td></tr></tbody></table>
+<table><thead><tr><th width="169">Tipo</th><th width="383">Nome</th><th>Valor</th></tr></thead><tbody><tr><td>A</td><td><code>dash</code></td><td><code>75.2.96.173</code></td></tr><tr><td>A</td><td><code>dash</code></td><td><code>99.83.186.151</code></td></tr></tbody></table>
 
 Múltiplos subdomínios (ex. `api`, `app`) repetem este padrão independentemente.
 {% endtab %}
