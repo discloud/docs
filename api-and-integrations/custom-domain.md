@@ -37,7 +37,7 @@ Ability to add / modify A and TXT records
 
 {% stepper %}
 {% step %}
-Open the [Discloud Dashboard](https://discloud.com/dashboard) → Custom Domain section.
+Open the [Discloud Dashboard](https://discloud.com/dashboard) → [`Domains`](https://discloud.com/dashboard/domains) section.
 {% endstep %}
 
 {% step %}
@@ -45,7 +45,7 @@ Enter your domain (e.g. `yourdomain.com`). Optionally specify a subdomain (e.g. 
 {% endstep %}
 
 {% step %}
-Click **Register** and then the **DNS** button. When you click it, you will see the records you need to configure (A and, if required, TXT tokens).
+Click **Add** and then the **DNS** button. When you click it, you will see the records you need to configure.
 {% endstep %}
 {% endstepper %}
 
@@ -61,17 +61,16 @@ Although any DNS provider works, below are tabbed scenarios for clarity.
 {% tab title="Root Domain" %}
 **Records**
 
-| Type             | Name                   | Value              |
-| ---------------- | ---------------------- | ------------------ |
-| A                | `@` (or provider root) | `75.2.96.173`      |
-| A                | `@` (or provider root) | `99.83.186.151`    |
-| TXT _(if shown)_ | `@` / provided         | Verification token |
+| Type | Name                   | Value           |
+| ---- | ---------------------- | --------------- |
+| A    | `@` (or provider root) | `75.2.96.173`   |
+| A    | `@` (or provider root) | `99.83.186.151` |
 {% endtab %}
 
 {% tab title="Subdomain" %}
 **Example: `dash.yourdomain.com`**
 
-<table><thead><tr><th width="144">Type</th><th width="353">Name</th><th>Value</th></tr></thead><tbody><tr><td>A</td><td><code>dash</code></td><td><code>75.2.96.173</code></td></tr><tr><td>A</td><td><code>dash</code></td><td><code>99.83.186.151</code></td></tr><tr><td>TXT <em>(if shown)</em></td><td>Provided (<code>dash</code> / <code>_discloud-verification</code>)</td><td>Verification token</td></tr></tbody></table>
+<table><thead><tr><th width="144">Type</th><th width="353">Name</th><th>Value</th></tr></thead><tbody><tr><td>A</td><td><code>dash</code></td><td><code>75.2.96.173</code></td></tr><tr><td>A</td><td><code>dash</code></td><td><code>99.83.186.151</code></td></tr></tbody></table>
 
 Multiple subdomains (e.g. `api`, `app`) repeat this pattern independently.
 {% endtab %}
