@@ -83,11 +83,15 @@ Enviando para o Painel.
 
 {% stepper %}
 {% step %}
-Acesse o **Painel da Discloud**.
+Acesse a [página **Applications**](https://discloud.com/dashboard) no Painel da Discloud.
 {% endstep %}
 
 {% step %}
-Clique em "**Upload**" e selecione seu arquivo `.zip`.
+Clique em **+ Upload** (canto superior direito). Você será levado à página [**Criar aplicação**](https://discloud.com/dashboard/app/create).
+{% endstep %}
+
+{% step %}
+Selecione **Upload ZIP** como tipo de deploy e arraste seu arquivo `.zip` para a área de upload ou clique para selecioná-lo.
 {% endstep %}
 
 {% step %}

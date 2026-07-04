@@ -27,15 +27,15 @@ Abra o Dashboard: [https://discloud.com/dashboard](https://discloud.com/dashboar
 {% endstep %}
 
 {% step %}
-Clique na aba **API Key** (na parte superior da sua área de perfil).
+Na barra lateral esquerda, expanda **Ferramentas** e clique em **Chaves de API**.
 {% endstep %}
 
 {% step %}
-Use o botão **Copy** para copiar o token para sua área de transferência.
+Use o botão **Copiar** para copiar o token para sua área de transferência.
 {% endstep %}
 {% endstepper %}
 
-> Se o campo estiver oculto, clique no **ícone de olho** para revelar. Use **Resetar Token** apenas se suspeitar de comprometimento.
+> Se o token estiver oculto, clique em **Mostrar** para revelar. Use **Redefinir** apenas se suspeitar de comprometimento.
 
 ***
 
@@ -49,5 +49,5 @@ Use o botão **Copy** para copiar o token para sua área de transferência.
 | Recrie (Resetar Token) se exposto           | Invalida imediatamente o token antigo         |
 
 {% hint style="danger" %}
-Se você publicar ou colar seu token em algum lugar público por engano, **reinicie-o imediatamente** no Dashboard (aba API Key) e reimplante qualquer serviço que usava o token antigo.
+Se você publicar ou colar seu token em algum lugar público por engano, **reinicie-o imediatamente** em **Ferramentas > Chaves de API** no Dashboard e reimplante qualquer serviço que usava o token antigo.
 {% endhint %}

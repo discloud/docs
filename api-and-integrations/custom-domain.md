@@ -45,7 +45,7 @@ Digite seu domínio (ex. `seudominio.com`). Opcionalmente, especifique um subdom
 {% endstep %}
 
 {% step %}
-Clique em **Registrar** e depois no botão **DNS**. Ao clicar nele, você verá os registros que precisa configurar.
+Clique em **+ Adicionar domínio**, insira seu domínio e depois clique em **Ver DNS** para visualizar os registros que precisa configurar.
 {% endstep %}
 {% endstepper %}
 

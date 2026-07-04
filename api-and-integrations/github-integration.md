@@ -31,11 +31,11 @@ Antes de conectar o GitHub, certifique-se de que o seguinte está em ordem:
 
 {% stepper %}
 {% step %}
-**🔑 Abra a aba de Integração GitHub**
+**🔑 Abra a Integração GitHub**
 
-Vá para o [Painel da Discloud](https://discloud.com/dashboard) e abra a aba **Integração GitHub**.
+No [Painel da Discloud](https://discloud.com/dashboard), expanda **Configurações** na barra lateral esquerda e clique em [**Integração com GitHub**](https://discloud.com/dashboard/github).
 
-Clique em **Login** e autorize a Discloud via GitHub OAuth. Isso permite que a Discloud leia seus repositórios.
+Clique em **+ Adicionar conta ou organização** e siga o fluxo de OAuth do GitHub para autorizar a Discloud. Isso permite que a Discloud leia seus repositórios.
 
 <figure><img src="../.gitbook/assets/GitHub-Integration_Login.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -43,13 +43,13 @@ Clique em **Login** e autorize a Discloud via GitHub OAuth. Isso permite que a D
 {% step %}
 **⚙️ Configure o acesso ao repositório**
 
-Após autorizar, clique em **Configurar** na página de Integração GitHub. O GitHub pedirá que você escolha quais repositórios a Discloud pode acessar:
+Após autorizar, as contas e organizações conectadas aparecem na página de integração GitHub. Para gerenciar quais repositórios a Discloud pode acessar, clique em **Gerenciar instalações** (canto superior direito), isso abre as configurações do App GitHub diretamente, onde você pode escolher:
 
 * 🔓 **Todos os repositórios** - A Discloud pode acessar todos os repositórios da sua conta
 * 🔒 **Repositórios selecionados** - Escolha apenas os repositórios específicos que deseja fazer deploy
 
 {% hint style="info" %}
-Você pode alterar isso a qualquer momento voltando para a aba **Integração GitHub** e clicando em **Configurar** novamente, ou gerenciando o App GitHub da Discloud diretamente nas configurações da sua conta GitHub.
+Você pode alterar isso a qualquer momento voltando para **Configurações > Integração com GitHub** e clicando em **Gerenciar instalações** novamente, ou gerenciando o App GitHub da Discloud diretamente nas configurações da sua conta GitHub.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
@@ -62,7 +62,7 @@ Você pode alterar isso a qualquer momento voltando para a aba **Integração Gi
 {% step %}
 **🚀 Inicie um novo upload**
 
-Vá para o [Painel da Discloud](https://discloud.com/dashboard), clique em **+ Upload** no canto superior direito e selecione **GitHub** no menu.
+Acesse a página **Applications** no [Painel da Discloud](https://discloud.com/dashboard), clique em **+ Upload** (canto superior direito) e selecione **GitHub** como tipo de deploy.
 
 <figure><img src="../.gitbook/assets/GitHub-Integration_Upload-Menu.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -72,7 +72,7 @@ Vá para o [Painel da Discloud](https://discloud.com/dashboard), clique em **+ U
 
 **Repositório e branch** - Escolha o repositório e a branch da qual deseja fazer deploy. A Discloud vai puxar o commit mais recente dessa branch.
 
-**Variáveis de ambiente** - Adicione os segredos de produção aqui no formato `CHAVE=VALOR`, um por linha.
+**Variáveis de ambiente** - Adicione os segredos de produção pelos campos `NAME` / `value.`
 
 <figure><img src="../.gitbook/assets/GitHub-Integration_Repository-Select.png" alt=""><figcaption></figcaption></figure>
 
@@ -88,7 +88,7 @@ Se você esquecer de adicionar uma variável aqui, sua aplicação vai iniciar s
 {% step %}
 **✅ Confirme e faça o deploy**
 
-Revise suas configurações e clique em **Upload**. A Discloud irá:
+Revise suas configurações e clique em **Continuar**. A Discloud irá:
 
 1. Puxar o código do repositório e branch selecionados
 2. Validar seu `discloud.config`
