@@ -27,9 +27,9 @@ Open the Dashboard: [https://discloud.com/dashboard](https://discloud.com/dashbo
 {% endstep %}
 
 {% step %}
-Click the **API Key** tab (top section of your profile area).
+In the left sidebar, expand **Tools** and click **API keys**.
 
-<figure><img src="../../.gitbook/assets/Dashboard-API.png" alt="Dashboard API Key tab"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard-API.png" alt="Dashboard API keys page"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -37,7 +37,7 @@ Use the **Copy** button to place the token on your clipboard.
 {% endstep %}
 {% endstepper %}
 
-> If the field is hidden, click the **eye icon** to reveal it. Use **Reset Token** only if you suspect compromise.
+> If the token is hidden, click **Show** to reveal it. Use **Reset** only if you suspect it has been compromised.
 
 ***
 
@@ -51,5 +51,5 @@ Use the **Copy** button to place the token on your clipboard.
 | Rotate (Reset Token) if exposed             | Immediately invalidates old token |
 
 {% hint style="danger" %}
-If you accidentally publish or paste your token somewhere public, **reset it immediately** on the Dashboard (API Key tab) and redeploy any services using the old one.
+If you accidentally publish or paste your token somewhere public, **reset it immediately** under **Tools > API keys** in the Dashboard and redeploy any services using the old one.
 {% endhint %}

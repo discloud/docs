@@ -45,7 +45,7 @@ Enter your domain (e.g. `yourdomain.com`). Optionally specify a subdomain (e.g. 
 {% endstep %}
 
 {% step %}
-Click **Add** and then the **DNS** button. When you click it, you will see the records you need to configure.
+Click **+ Add domain**, enter your domain, then click **See DNS** to view the records you need to configure.
 {% endstep %}
 {% endstepper %}
 

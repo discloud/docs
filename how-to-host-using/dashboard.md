@@ -83,11 +83,15 @@ Uploading to the Dashboard.
 
 {% stepper %}
 {% step %}
-Go to the **Discloud Dashboard**.
+Go to the [**Applications** page](https://discloud.com/dashboard) in the Discloud Dashboard.
 {% endstep %}
 
 {% step %}
-Click **"Upload"** and select your `.zip` file.
+Click **+ Upload** (top-right corner). You will be taken to the [**Create application** page](https://discloud.com/dashboard/app/create).
+{% endstep %}
+
+{% step %}
+Select **Upload ZIP** as the deploy type, then drag your `.zip` file into the drop zone or click to select it.
 {% endstep %}
 
 {% step %}
