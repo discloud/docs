@@ -43,7 +43,7 @@ Antes de usar a biblioteca, você precisa obter seu **Token da API da Discloud**
 
 Para instruções detalhadas sobre como obter seu token da API, veja [aqui](../../faq/general-questions/how-can-i-get-my-discloud-api-token.md).
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **Mantenha seu token seguro!** Nunca o compartilhe publicamente ou faça commit dele no controle de versão. Armazene-o em variáveis de ambiente ou arquivos de configuração seguros.
 {% endhint %}
 

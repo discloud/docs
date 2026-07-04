@@ -7,7 +7,7 @@ icon: github
 
 ### 🧭 Visão Geral
 
-A **Integração com GitHub** permite que você faça deploy de aplicações diretamente de um repositório GitHub para a Discloud, sem necessidade de enviar ZIPs manualmente. A Discloud puxa o código do seu repositório, lê o [`discloud.config`](../configurations/discloud.config/) na raiz e compila e inicia sua aplicação automaticamente.
+A **Integração com GitHub** permite que você faça deploy de aplicações diretamente de um repositório GitHub para a Discloud, sem necessidade de enviar ZIPs manualmente. A Discloud puxa o código do seu repositório, lê o [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) na raiz e compila e inicia sua aplicação automaticamente.
 
 Este é o fluxo recomendado para equipes e para quem usa controle de versão como parte do processo de desenvolvimento.
 
@@ -17,12 +17,8 @@ Este é o fluxo recomendado para equipes e para quem usa controle de versão com
 
 Antes de conectar o GitHub, certifique-se de que o seguinte está em ordem:
 
-{% hint style="warning" %}
-**Mesma conta GitHub** - A conta GitHub que você usa para **fazer login na Discloud** deve ser a **mesma conta que possui o repositório**. Se você entrar com uma conta GitHub diferente, seus repositórios não aparecerão na integração.
-{% endhint %}
-
 {% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) **na raiz** - Este arquivo deve existir na raiz do seu repositório. Sem ele, o upload falhará na validação. Saiba mais sobre a raiz do projeto.
+[**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) **na raiz** - Este arquivo deve existir na raiz do seu repositório. Sem ele, o upload falhará na validação. Saiba mais sobre a raiz do projeto.
 {% endhint %}
 
 {% hint style="danger" %}

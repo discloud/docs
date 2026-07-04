@@ -28,7 +28,7 @@ Um domínio registrado que você controla (Cloudflare, Hostinger, GoDaddy, Namec
 {% endhint %}
 
 {% hint style="success" %}
-Capacidade de adicionar / modificar registros A e TXT
+Capacidade de adicionar / modificar registros A
 {% endhint %}
 
 ***

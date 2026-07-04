@@ -25,22 +25,22 @@ Para permitir o acesso externo, a Discloud roteia o tráfego através de um prox
 Para hospedar um site ou API, você deve atender a estes critérios:
 
 {% hint style="success" %}
-**Plano Platinum ou Superior** – Necessário para todas as aplicações `TYPE=site`.
-{% endhint %}
-
-{% hint style="success" %}
-**Porta 8080 & Host 0.0.0.0** – Sua aplicação **deve** ouvir na porta `8080` e host `0.0.0.0` para ser acessível externamente.
+[**Plano Platinum ou Superior**](https://discloud.com/plans) – Necessário para todas as aplicações `TYPE=site`.
 {% endhint %}
 
 {% hint style="success" %}
 [**Subdomínio**](../faq/general-questions/how-to-create-a-subdomain.md) – Você deve registrar um subdomínio único na Discloud.
 {% endhint %}
 
-{% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) – Necessário para a maioria dos métodos de implantação. Se estiver usando o [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide) do Bot do Discord, o bot irá guiá-lo através da configuração.
+{% hint style="danger" %}
+**Porta 8080 & Host 0.0.0.0** – Sua aplicação **deve** ouvir na porta `8080` e host `0.0.0.0` para ser acessível externamente.
 {% endhint %}
 
-{% hint style="success" %}
+{% hint style="info" %}
+[**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) – Necessário para a maioria dos métodos de implantação. Se estiver usando o [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide) do Bot do Discord, o bot irá guiá-lo através da configuração.
+{% endhint %}
+
+{% hint style="info" %}
 **RAM** – Um mínimo de **512MB** é recomendado para aplicações web.
 {% endhint %}
 
@@ -58,7 +58,7 @@ Antes de implantar, você precisa reservar seu endereço único no domínio `.di
 {% step %}
 **📝 Configurar `discloud.config`**
 
-Seu arquivo [`discloud.config`](../configurations/discloud.config/) diz à Discloud como lidar com seu site. Você deve definir `TYPE=site` e incluir seu `ID`.
+Seu arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) diz à Discloud como lidar com seu site. Você deve definir `TYPE=site` e incluir seu `ID`.
 
 {% hint style="info" %}
 Se você estiver usando o **Quick Setup** do Bot do Discord, não precisa criar este arquivo manualmente, o bot solicitará o subdomínio e outros detalhes durante o processo.

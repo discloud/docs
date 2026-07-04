@@ -16,7 +16,7 @@ Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretame
 ### 📌 Requisitos Básicos
 
 * **Código-Fonte do Projeto** – Todos os arquivos necessários para a execução da sua aplicação.
-* **Arquivo de Configuração (**[**`discloud.config`**](../configurations/discloud.config/)**)** – Obrigatório para as configurações de upload.
+* **Arquivo de Configuração (**[**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config)**)** – Obrigatório para as configurações de upload.
 * **Arquivo de Dependências** (se aplicável):
   * [`package.json`](../development-environment/supported-languages/javascript/package.json.md) para [**Node.js**](../development-environment/local-environment/nodejs.md)
   * [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) para [**Python**](../development-environment/local-environment/python.md)
@@ -95,7 +95,7 @@ Aguarde a conclusão do envio.
 {% endstep %}
 {% endstepper %}
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Durante o envio, evite atualizar a página para prevenir problemas com sua aplicação. Se isso ocorrer, pode ser necessário remover a aplicação e repetir o processo de envio.
 {% endhint %}
 {% endstep %}

@@ -24,10 +24,10 @@ Para hospedar um bot, você deve atender a estes critérios:
 {% endhint %}
 
 {% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) – Necessário para a maioria dos métodos de implantação. Se estiver usando o [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide) do Bot do Discord, o bot irá guiá-lo através da configuração.
+[**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) – Necessário para a maioria dos métodos de implantação. Se estiver usando o [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide) do Bot do Discord, o bot irá guiá-lo através da configuração.
 {% endhint %}
 
-{% hint style="success" %}
+{% hint style="info" %}
 **RAM** – Certifique-se de alocar RAM suficiente para as necessidades do seu bot (mín. 100MB).
 {% endhint %}
 

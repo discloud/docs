@@ -93,7 +93,7 @@ try {
 {% endtabs %}
 
 {% hint style="info" %}
-**Antes do upload:** Certifique-se de que seu arquivo ZIP contenha o arquivo [`discloud.config`](../../configuracoes/discloud.config) e siga as [**diretrizes de preparação**](../../development-environment/supported-languages/javascript/) para sua linguagem.
+**Antes do upload:** Certifique-se de que seu arquivo ZIP contenha o arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configuracoes/discloud.config) e siga as [**diretrizes de preparação**](../../development-environment/supported-languages/javascript/) para sua linguagem.
 {% endhint %}
 
 ### 🔄 Atualizando (Fazendo Commit) uma Aplicação
@@ -496,7 +496,7 @@ try {
 }
 ```
 
-{% hint style="warning" %}
+{% hint style="info" %}
 #### **Detalhes da Atualização do Perfil**
 
 * `name`: Opcional. Novo nome para sua aplicação (máximo 30 caracteres).

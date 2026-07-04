@@ -48,6 +48,6 @@ Use o botão **Copy** para copiar o token para sua área de transferência.
 | Use variáveis de ambiente / secret managers | Rotação centralizada e logs mais seguros      |
 | Recrie (Resetar Token) se exposto           | Invalida imediatamente o token antigo         |
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Se você publicar ou colar seu token em algum lugar público por engano, **reinicie-o imediatamente** no Dashboard (aba API Key) e reimplante qualquer serviço que usava o token antigo.
 {% endhint %}

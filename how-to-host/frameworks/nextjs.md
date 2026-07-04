@@ -161,8 +161,6 @@ dist/
 
 ***
 
-
-
 <details open>
 
 <summary>✅ Deploy sem servidor custom (Next.js "built-in")</summary>
@@ -183,7 +181,7 @@ Nesta opção, você usa somente o servidor interno do Next (`next start`), sem 
     ```
 3. Se tudo estiver funcionando, preparar o `.zip` e enviar para a Discloud.
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(exemplo)**
+**⚙️** [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) **(exemplo)**
 
 ```
 MAIN=index.ts
@@ -215,7 +213,7 @@ Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `n
 }
 ```
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(estático)**
+**⚙️** [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) **(estático)**
 
 ```
 MAIN=out/index.html
@@ -226,7 +224,7 @@ RAM=256
 ID=meu-site-estatico
 ```
 
-{% hint style="success" %}
+{% hint style="info" %}
 Sites estáticos costumam consumir **menos RAM** e são ideais para blogs, landing pages e documentações simples.
 {% endhint %}
 
