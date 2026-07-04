@@ -16,7 +16,7 @@ Before uploading your project, ensure that your **files are correctly structured
 ### 📌 **Basic Requirements**
 
 * **Project Source Code** – All the necessary files for your application to run.
-* **Configuration File (**[**`discloud.config`**](../configurations/discloud.config/)**)** – Required for deployment settings.
+* **Configuration File (**[**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config)**)** – Required for deployment settings.
 * **Dependencies File** (if applicable):
   * [`package.json`](../development-environment/supported-languages/javascript/package.json.md) for [**Node.js**](../development-environment/local-environment/nodejs.md)
   * [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) for [**Python**](../development-environment/local-environment/python.md)
@@ -95,7 +95,7 @@ Wait for the upload to complete.
 {% endstep %}
 {% endstepper %}
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 During the upload, avoid refreshing the page to prevent any issues with your application. If this happens, you might need to remove the application and repeat the upload process.
 {% endhint %}
 {% endstep %}

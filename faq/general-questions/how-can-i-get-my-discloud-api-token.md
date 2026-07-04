@@ -50,6 +50,6 @@ Use the **Copy** button to place the token on your clipboard.
 | Use environment variables / secret managers | Centralized rotation & safer logs |
 | Rotate (Reset Token) if exposed             | Immediately invalidates old token |
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 If you accidentally publish or paste your token somewhere public, **reset it immediately** on the Dashboard (API Key tab) and redeploy any services using the old one.
 {% endhint %}

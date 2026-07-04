@@ -25,22 +25,22 @@ To allow external access, Discloud routes traffic through a proxy to **port 8080
 To host a website or API, you must meet these criteria:
 
 {% hint style="success" %}
-**Platinum Plan or Higher** – Required for all `TYPE=site` applications.
-{% endhint %}
-
-{% hint style="success" %}
-**Port 8080 & Host 0.0.0.0** – Your application **must** listen on port `8080` and host `0.0.0.0` to be accessible externally.
+[**Platinum Plan or Higher**](https://discloud.com/plans) – Required for all `TYPE=site` applications.
 {% endhint %}
 
 {% hint style="success" %}
 [**Subdomain**](../faq/general-questions/how-to-create-a-subdomain.md) – You must register a unique subdomain on Discloud.
 {% endhint %}
 
-{% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
+{% hint style="danger" %}
+**Port 8080 & Host 0.0.0.0** – Your application **must** listen on port `8080` and host `0.0.0.0` to be accessible externally.
 {% endhint %}
 
-{% hint style="success" %}
+{% hint style="info" %}
+[**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
+{% endhint %}
+
+{% hint style="info" %}
 **RAM** – A minimum of **512MB** is recommended for web applications.
 {% endhint %}
 
@@ -58,7 +58,7 @@ Before deploying, you need to reserve your unique address on the `.discloud.app`
 {% step %}
 #### 📝 Configure `discloud.config`
 
-Your [`discloud.config`](../configurations/discloud.config/) file tells Discloud how to handle your site. You must set `TYPE=site` and include your `ID`.
+Your [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file tells Discloud how to handle your site. You must set `TYPE=site` and include your `ID`.
 
 {% hint style="info" %}
 If you are using the Discord Bot's **Quick Setup**, you don't need to create this file manually, the bot will ask for the subdomain and other details during the process.
@@ -86,8 +86,6 @@ If your application requires a build step (like React, Next.js, or TypeScript), 
 
 {% tabs %}
 {% tab title="Discloud Build (Recommended)" %}
-
-
 Let Discloud handle the build process during deployment. Add the `BUILD` command to your `discloud.config`.
 
 ```ini

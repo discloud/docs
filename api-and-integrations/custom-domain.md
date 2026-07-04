@@ -28,7 +28,7 @@ A registered domain you control (Cloudflare, Hostinger, GoDaddy, Namecheap, etc.
 {% endhint %}
 
 {% hint style="success" %}
-Ability to add / modify A and TXT records
+Ability to add / modify A records
 {% endhint %}
 
 ***

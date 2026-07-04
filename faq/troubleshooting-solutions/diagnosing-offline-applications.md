@@ -47,7 +47,7 @@ Goes offline after a few days (free plan).
 If your application **exceeds its allocated memory**, it may be **forcefully shut down**.
 
 ✔ **Monitor RAM usage** and optimize your code.\
-✔ Consider **increasing RAM** in your [`discloud.config`](../../configurations/discloud.config/) file.
+✔ Consider **increasing RAM** in your [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -59,7 +59,7 @@ Unhandled exceptions or **bugs in your code** can cause crashes.
 ✔ **Test locally** before deploying to Discloud.
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 #### **Free Plan Limitations**
 
 Discloud’s free plan **may suspend inactive applications** to free up resources.

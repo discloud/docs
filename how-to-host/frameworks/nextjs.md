@@ -161,7 +161,7 @@ Some deployment environments only install production dependencies, which can cau
 
 <details open>
 
-<summary>✅  Deploy without custom server (Next.js "built-in")</summary>
+<summary>✅ Deploy without custom server (Next.js "built-in")</summary>
 
 In this option you only use the internal Next server (`next start`), without needing a `server.js`.
 
@@ -179,7 +179,7 @@ In this option you only use the internal Next server (`next start`), without nee
     ```
 3. If everything works, prepare the `.zip` and upload it to Discloud.
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(example)**
+**⚙️** [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) **(example)**
 
 ```
 MAIN=index.ts
@@ -211,7 +211,7 @@ If your project does not depend on **SSR** or **API Routes**, you can use `next 
 }
 ```
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(static)**
+**⚙️** [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) **(static)**
 
 ```
 MAIN=out/index.html
@@ -222,7 +222,7 @@ RAM=256
 ID=my-static-site
 ```
 
-{% hint style="success" %}
+{% hint style="info" %}
 Static sites usually consume **less RAM** and are ideal for blogs, landing pages, and simple documentation.
 {% endhint %}
 
