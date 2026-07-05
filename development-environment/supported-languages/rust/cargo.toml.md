@@ -115,7 +115,7 @@ Requer toolchain nightly + bind na porta 8080.
 {% endtabs %}
 
 {% hint style="info" %}
-Precisa de dependências no nível do SO (ex.: `openssl`, `ffmpeg`)? Adicione-as sob `APT=` no [`discloud.config`](../../../configurations/discloud.config/). Veja [a lista de pacotes APT](../../../configurations/discloud.config/apt.md) para sintaxe e exemplos.
+Precisa de dependências no nível do SO (ex.: `openssl`, `ffmpeg`)? Adicione-as sob `APT=` no [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config). Veja [a lista de pacotes APT](../../../configurations/discloud.config/apt.md) para sintaxe e exemplos.
 {% endhint %}
 
 ***

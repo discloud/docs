@@ -39,7 +39,7 @@ Não importa qual framework você use:
 
 * **Porta 8080** – Seu app escuta aqui. É assim que o tráfego é roteado.
 * **Subdomínio** – [Crie um seguindo este guia](../../faq/general-questions/how-to-create-a-subdomain.md).
-* **`discloud.config`** – Fica na raiz do projeto. [Veja o guia de config](../../configurations/discloud.config/).
+* **`discloud.config`** – Fica na raiz do projeto. [Veja o guia de config](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config).
 * **Arquivo de dependências** – `package.json`, `requirements.txt`, o que seu framework usar.
 
 ***
@@ -47,6 +47,6 @@ Não importa qual framework você use:
 ## 🔗 Links úteis
 
 * 📖 [Ambiente de desenvolvimento](../../development-environment/supported-languages/) – Configure Node, Python, etc. localmente
-* ⚙️ [discloud.config](../../configurations/discloud.config/) – Todas as opções de config
+* ⚙️ [discloud.config](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) – Todas as opções de config
 * 🚀 [Como fazer deploy](../../how-to-host-using/dashboard.md) – Dashboard, Bot, CLI ou VSCode
 * 🌐 [Domínios customizados](../../api-and-integrations/custom-domain.md) – Use seu próprio domínio

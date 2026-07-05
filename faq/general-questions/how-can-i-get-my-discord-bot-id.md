@@ -46,4 +46,4 @@ O **ID da Aplicação** é uma **informação pública**, não há problema em c
 
 Este ID é especificamente necessário ao usar o método de **Configuração Rápida** através do [Bot da Discloud](../../how-to-host-using/discord-bot.md#configuracao-rapida-guia-passo-a-passo), durante o fluxo guiado, o bot solicitará que você insira o ID da Aplicação.
 
-Se você estiver usando a **Configuração Avançada** (com um arquivo [`discloud.config`](../../configurations/discloud.config/)), não precisa fornecer este ID, a Discloud lida com a configuração automaticamente.
+Se você estiver usando a **Configuração Avançada** (com um arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config)), não precisa fornecer este ID, a Discloud lida com a configuração automaticamente.

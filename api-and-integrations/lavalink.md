@@ -114,7 +114,7 @@ logging:
 {% step %}
 **⚙️ Crie o `discloud.config`**
 
-Crie um arquivo [`discloud.config`](../configurations/discloud.config/) na mesma pasta:
+Crie um arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) na mesma pasta:
 
 ```ini
 NAME=MeuLavalink

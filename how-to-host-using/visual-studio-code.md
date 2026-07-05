@@ -56,7 +56,7 @@ Com a **Extensão VSCode**, você pode fazer o upload do seu app em apenas algun
 Preparando seu projeto.
 
 * Certifique-se de que seu projeto contenha todos os arquivos necessários:
-  * [**`discloud.config`**](../configurations/discloud.config/) (arquivo de configuração).
+  * [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) (arquivo de configuração).
   * **Dependências** necessárias para sua linguagem de programação (ex.: `package.json` para Node.js, `requirements.txt` para Python).
 * **Verifique o** [**Guia de Linguagens**](../development-environment/supported-languages/) para garantir que seu projeto esteja estruturado corretamente.
 {% endstep %}

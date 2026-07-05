@@ -155,8 +155,8 @@ ID=meu-nestjs-app
 
 Para informações detalhadas sobre cada parâmetro de configuração e todas as opções disponíveis, consulte o guia completo:
 
-{% content-ref url="../../configurations/discloud.config/" %}
-[discloud.config](../../configurations/discloud.config/)
+{% content-ref url="https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config" %}
+[https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config)
 {% endcontent-ref %}
 
 {% hint style="warning" %}

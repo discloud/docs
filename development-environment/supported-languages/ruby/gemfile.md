@@ -166,7 +166,7 @@ run Sinatra::Application
 ```
 {% endcode %}
 
-Para bots, você normalmente NÃO precisa de `config.ru`; em vez disso, apenas aponte `MAIN` no [`discloud.config`](../../../configurations/discloud.config/) para sua entrada Ruby (ex.: `bot.rb`).
+Para bots, você normalmente NÃO precisa de `config.ru`; em vez disso, apenas aponte `MAIN` no [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) para sua entrada Ruby (ex.: `bot.rb`).
 
 ***
 

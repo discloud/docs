@@ -122,7 +122,7 @@ Uma vez instalada e configurada, você pode **fazer o upload da sua aplicação*
 Preparando seu projeto.
 
 * Certifique-se de que seu projeto contenha todos os arquivos necessários:
-  * [**`discloud.config`**](../configurations/discloud.config/) (arquivo de configuração).
+  * [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) (arquivo de configuração).
   * **Dependências necessárias** para sua linguagem de programação (ex.: [`package.json`](../development-environment/supported-languages/javascript/package.json.md) para [Node.js](../development-environment/local-environment/nodejs.md), [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) para [Python](../development-environment/local-environment/python.md)).
 * **Verifique o** [**Guia de Linguagens**](../development-environment/supported-languages/) para garantir que seu projeto esteja estruturado corretamente.
 {% endstep %}
@@ -162,7 +162,7 @@ discloud init
 ```
 
 * Este comando solicita que você insira **detalhes básicos de configuração** (ex.: nome, arquivo principal, RAM, etc.).
-* Em seguida, **gera o arquivo** [**`discloud.config`**](../configurations/discloud.config/) **para você**, facilitando o upload.
+* Em seguida, **gera o arquivo** [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) **para você**, facilitando o upload.
 
 ### 📂 **Usando `.discloudignore` para Excluir Arquivos**
 

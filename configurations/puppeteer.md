@@ -20,7 +20,7 @@ Para usar **Puppeteer** na Discloud, é recomendado um mínimo de **512 MB de RA
 
 ## 📦 **Adicionando Puppeteer**
 
-O Puppeteer requer dependências adicionais do sistema. Você deve adicionar **`puppeteer`** ao campo [`APT`](discloud.config/apt.md) no seu arquivo [**`discloud.config`**](discloud.config/).
+O Puppeteer requer dependências adicionais do sistema. Você deve adicionar **`puppeteer`** ao campo [`APT`](discloud.config/apt.md) no seu arquivo [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config).
 
 <pre class="language-ini" data-title="discloud.config"><code class="lang-ini"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 APT=tools, puppeteer

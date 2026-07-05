@@ -29,7 +29,7 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 <summary>📦 Sobre a pasta dist (apenas TYPE=site)</summary>
 
 {% hint style="info" %}
-Para apps `TYPE=site`, **`dist/` é reservada** para a saída do `BUILD`. Se você define `BUILD=...` no [`discloud.config`](../../../configurations/discloud.config), nós geramos a pasta `dist/` pra você. **Não compacte `dist/`** ou envie arquivos para lá.
+Para apps `TYPE=site`, **`dist/` é reservada** para a saída do `BUILD`. Se você define `BUILD=...` no [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config), nós geramos a pasta `dist/` pra você. **Não compacte `dist/`** ou envie arquivos para lá.
 {% endhint %}
 
 **⚙️ Build automático**
