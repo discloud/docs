@@ -29,7 +29,7 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 <summary>📦 About the dist folder (TYPE=site only)</summary>
 
 {% hint style="info" %}
-For apps with `TYPE=site`, the `dist/` folder is reserved for BUILD output. If you set `BUILD=...` in your [`discloud.config`](../../../configurations/discloud.config/), we generate the `dist/` folder for you. Do not compress `dist/` or upload files into it.
+For apps with `TYPE=site`, the `dist/` folder is reserved for BUILD output. If you set `BUILD=...` in your [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config), we generate the `dist/` folder for you. Do not compress `dist/` or upload files into it.
 {% endhint %}
 
 #### ⚙️ Automatic build

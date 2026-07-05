@@ -120,7 +120,7 @@ Once installed and configured, you can **deploy your application** in just a few
 Preparing your project.
 
 * Ensure your project contains all required files:
-  * [**`discloud.config`**](../configurations/discloud.config/) (configuration file).
+  * [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) (configuration file).
   * Necessary **dependencies** for your programming language (e.g., [`package.json`](../development-environment/supported-languages/javascript/package.json.md) for [Node.js](../development-environment/local-environment/nodejs.md), [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) for [Python](../development-environment/local-environment/python.md)).
 * **Check the** [**Languages Guide**](../development-environment/supported-languages/) to make sure your project is properly structured.
 {% endstep %}
@@ -160,7 +160,7 @@ discloud init
 ```
 
 * This command prompts you to enter **basic configuration details** (e.g., name, main file, RAM, etc).
-* It then **generates the** [**`discloud.config`**](../configurations/discloud.config/) **file** for you, making deployment easier.
+* It then **generates the** [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) **file** for you, making deployment easier.
 
 ### 📂 **Using `.discloudignore` to Exclude Files**
 

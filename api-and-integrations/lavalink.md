@@ -110,7 +110,7 @@ logging:
 {% step %}
 **⚙️ Create `discloud.config`**
 
-Create a [`discloud.config`](../configurations/discloud.config/) file in the same folder:
+Create a [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file in the same folder:
 
 ```ini
 NAME=MyLavalink

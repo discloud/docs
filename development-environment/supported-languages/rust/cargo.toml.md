@@ -115,7 +115,7 @@ Requires nightly toolchain + bind to port 8080.
 {% endtabs %}
 
 {% hint style="info" %}
-Need OS-level dependencies (e.g. `openssl`, `ffmpeg`)? Add them under `APT=` in [`discloud.config`](../../../configurations/discloud.config/). See [the APT packages list](../../../configurations/discloud.config/apt.md) for syntax and examples.
+Need OS-level dependencies (e.g. `openssl`, `ffmpeg`)? Add them under `APT=` in [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config). See [the APT packages list](../../../configurations/discloud.config/apt.md) for syntax and examples.
 {% endhint %}
 
 ***

@@ -56,7 +56,7 @@ With the **VSCode Extension**, you can deploy your app in just a few clicks!
 Preparing your project.
 
 * Ensure your project contains all required files:
-  * [**`discloud.config`**](../configurations/discloud.config/) (configuration file).
+  * [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) (configuration file).
   * Necessary **dependencies** for your programming language (e.g., `package.json` for Node.js, `requirements.txt` for Python).
 * **Check the** [**Languages Guide**](../development-environment/supported-languages/) to make sure your project is properly structured.
 {% endstep %}

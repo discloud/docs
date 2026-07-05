@@ -30,7 +30,7 @@ Ensure the following files and directories are not included in your [`.zip`](../
 <summary>📦 About the dist folder (TypeScript: bot and site)</summary>
 
 {% hint style="info" %}
-For TypeScript apps, the `dist/` folder is reserved for Discloud's BUILD output on both `TYPE=bot` and `TYPE=site`. If you set `BUILD=...` in your [`discloud.config`](../../../configurations/discloud.config), Discloud generates the `dist/` folder for you. Do not compress `dist/` or upload files into it.
+For TypeScript apps, the `dist/` folder is reserved for Discloud's BUILD output on both `TYPE=bot` and `TYPE=site`. If you set `BUILD=...` in your [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config), Discloud generates the `dist/` folder for you. Do not compress `dist/` or upload files into it.
 {% endhint %}
 
 **⚙️ Automatic build (recommended)**

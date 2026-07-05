@@ -46,4 +46,4 @@ The **Application ID** is **public information**, it's safe to share. However, k
 
 This ID is specifically required when using the **Quick Setup** method via the [Discloud Bot](../../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), during the guided flow, the bot will prompt you to enter the Application ID.
 
-If you're using **Advanced Setup** (with a [`discloud.config`](../../configurations/discloud.config/) file), you don't need to provide this ID, as Discloud handles the configuration automatically.
+If you're using **Advanced Setup** (with a [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file), you don't need to provide this ID, as Discloud handles the configuration automatically.

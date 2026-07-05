@@ -90,7 +90,7 @@ In Rust projects, the main file is typically located at:
 
 ## 🛠️ Defining it on Discloud
 
-Once you have identified your main file, you must specify it in your [**`discloud.config`**](../../configurations/discloud.config/) file using the `MAIN` property.
+Once you have identified your main file, you must specify it in your [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file using the `MAIN` property.
 
 ```ini
 MAIN=index.js
