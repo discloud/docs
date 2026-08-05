@@ -1,37 +1,59 @@
 ---
-icon: user-group
+icon: cabinet-filing
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
-# Membros da Equipe
+# Projeto
 
-{% openapi-operation spec="api-endpoints-pt-v2" path="/team" method="get" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/8c82706e38f20dd896a7ff61bd67d00e390a2380e061e503639120314e00e55b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260607%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260607T223134Z&X-Amz-Expires=172800&X-Amz-Signature=32d64f613af21ab298f4ebdb0e08adf87f66019a1ebe6d8a4e685e077d266a00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% openapi-operation spec="portdj" path="/projects" method="get" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="api-endpoints-pt-v2" path="/team/{appID}/backup" method="get" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/8c82706e38f20dd896a7ff61bd67d00e390a2380e061e503639120314e00e55b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260607%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260607T223134Z&X-Amz-Expires=172800&X-Amz-Signature=32d64f613af21ab298f4ebdb0e08adf87f66019a1ebe6d8a4e685e077d266a00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% openapi-operation spec="portdj" path="/projects" method="post" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="api-endpoints-pt-v2" path="/team/{appID}/status" method="get" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/8c82706e38f20dd896a7ff61bd67d00e390a2380e061e503639120314e00e55b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260607%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260607T223134Z&X-Amz-Expires=172800&X-Amz-Signature=32d64f613af21ab298f4ebdb0e08adf87f66019a1ebe6d8a4e685e077d266a00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% openapi-operation spec="portdj" path="/projects/{projectID}" method="get" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="api-endpoints-pt-v2" path="/team/{appID}/start" method="put" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/8c82706e38f20dd896a7ff61bd67d00e390a2380e061e503639120314e00e55b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260607%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260607T223134Z&X-Amz-Expires=172800&X-Amz-Signature=32d64f613af21ab298f4ebdb0e08adf87f66019a1ebe6d8a4e685e077d266a00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% openapi-operation spec="portdj" path="/projects/{projectID}" method="delete" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="api-endpoints-pt-v2" path="/team/{appID}/restart" method="put" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/8c82706e38f20dd896a7ff61bd67d00e390a2380e061e503639120314e00e55b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260607%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260607T223134Z&X-Amz-Expires=172800&X-Amz-Signature=32d64f613af21ab298f4ebdb0e08adf87f66019a1ebe6d8a4e685e077d266a00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% openapi-operation spec="portdj" path="/projects/{projectID}" method="patch" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="api-endpoints-pt-v2" path="/team/{appID}/stop" method="put" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/8c82706e38f20dd896a7ff61bd67d00e390a2380e061e503639120314e00e55b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260607%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260607T223134Z&X-Amz-Expires=172800&X-Amz-Signature=32d64f613af21ab298f4ebdb0e08adf87f66019a1ebe6d8a4e685e077d266a00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% openapi-operation spec="portdj" path="/projects/{projectID}/team" method="patch" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="api-endpoints-pt-v2" path="/team/{appID}/commit" method="put" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/8c82706e38f20dd896a7ff61bd67d00e390a2380e061e503639120314e00e55b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260607%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260607T223134Z&X-Amz-Expires=172800&X-Amz-Signature=32d64f613af21ab298f4ebdb0e08adf87f66019a1ebe6d8a4e685e077d266a00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% openapi-operation spec="portdj" path="/projects/{projectID}/apps" method="get" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="api-endpoints-pt-v2" path="/team/{appID}/ram" method="put" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/8c82706e38f20dd896a7ff61bd67d00e390a2380e061e503639120314e00e55b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260607%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260607T223134Z&X-Amz-Expires=172800&X-Amz-Signature=32d64f613af21ab298f4ebdb0e08adf87f66019a1ebe6d8a4e685e077d266a00&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% openapi-operation spec="portdj" path="/projects/{projectID}/apps/{appID}" method="put" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="portdj" path="/projects/{projectID}/apps/{appID}" method="delete" %}
+[OpenAPI portdj](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/9ca4e9c1e1795ea7e05f354d1a18cebe8d55285c73590c19c18d7d29afc6bc6d.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260805%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260805T131337Z&X-Amz-Expires=172800&X-Amz-Signature=13e163c6c874ac218f87917407f6ecc068521d8ced68a69ed120d87a47281ab2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
