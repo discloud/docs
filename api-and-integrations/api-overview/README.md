@@ -25,7 +25,7 @@ Every request requires the `api-token` header with your personal token:
 api-token: YOUR_TOKEN_HERE
 ```
 
-See [Authentication](./#authentication) to learn how to obtain and protect your token.
+See [Authentication](authentication.md) to learn how to obtain and protect your token.
 
 ***
 
@@ -50,5 +50,5 @@ A `200 OK` response with your user data confirms authentication is working.
 {% endstepper %}
 
 {% hint style="danger" %}
-Never expose your token in public code or Git repositories. Store it in environment variables. See [Authentication](./#authentication) for security best practices.
+Never expose your token in public code or Git repositories. Store it in environment variables. See [Authentication](authentication.md) for security best practices.
 {% endhint %}
