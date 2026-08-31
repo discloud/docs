@@ -65,8 +65,8 @@
 
 * [API Overview](api-and-integrations/api-overview/README.md)
   * [Authentication](api-and-integrations/api-overview/authentication.md)
-  * [User](api-and-integrations/api-overview/user-endpoints.md)
-  * [Applications](api-and-integrations/api-overview/applications-endpoints.md)
+  * [User](api-and-integrations/api-overview/user.md)
+  * [Applications](api-and-integrations/api-overview/applications.md)
   * [Database](api-and-integrations/api-overview/database.md)
   * [Subdomain](api-and-integrations/api-overview/subdomain.md)
   * [Custom Domain](api-and-integrations/api-overview/custom-domain.md)
