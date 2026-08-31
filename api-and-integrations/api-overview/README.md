@@ -25,7 +25,7 @@ Toda requisição exige o header `api-token` com o seu token pessoal:
 api-token: SEU_TOKEN_AQUI
 ```
 
-Consulte [Autenticação](./#autenticacao) para saber como obter e proteger o token.
+Consulte [Autenticação](authentication.md) para saber como obter e proteger o token.
 
 ***
 
@@ -50,5 +50,5 @@ Uma resposta `200 OK` com seus dados de usuário confirma que a autenticação e
 {% endstepper %}
 
 {% hint style="danger" %}
-Nunca exponha seu token em código público ou repositórios Git. Armazene-o em variáveis de ambiente. Consulte [Autenticação](./#autenticacao) para boas práticas de segurança.
+Nunca exponha seu token em código público ou repositórios Git. Armazene-o em variáveis de ambiente. Consulte [Autenticação](authentication.md) para boas práticas de segurança.
 {% endhint %}
