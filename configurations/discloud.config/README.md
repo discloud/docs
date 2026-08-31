@@ -111,7 +111,7 @@ APT=tools
 * `BUILD` - defines the command or script for compiling the project.
 * `START` - defines the command or script for starting the project.
 * `AUTORESTART` - ensures that the application restarts automatically in case of failure.
-* `APT` - allows you to specify a list of [packages](../../api-and-integrations/api-overview/) to be installed.
+* `APT` - allows you to specify a list of [packages](apt.md) to be installed.
 {% endtab %}
 {% endtabs %}
 
