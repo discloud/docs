@@ -1,6 +1,5 @@
 ---
-description: Team
-icon: user-group-crown
+icon: user-group
 layout:
   width: wide
   title:
