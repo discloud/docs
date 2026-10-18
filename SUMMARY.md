@@ -27,6 +27,7 @@
   * [VLAN](configurations/discloud.config/vlan.md)
 * [.discloudignore](configurations/.discloudignore.md)
 * [Puppeteer](configurations/puppeteer.md)
+* [Commit Discloud](configurations/commit-discloud.md)
 
 ## SDKs e Bibliotecas <a href="#sdks-and-libraries" id="sdks-and-libraries"></a>
 
