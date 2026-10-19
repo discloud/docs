@@ -92,10 +92,8 @@ Vá ao canal [**`#🔌・commands`**](https://discord.com/channels/5844909430344
 Execute o comando:
 
 ```
-.commit
+/commit
 ```
-
-Também funciona a forma curta `.c`.
 {% endstep %}
 
 {% step %}
