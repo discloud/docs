@@ -90,7 +90,7 @@
   * [How to create a subdomain?](faq/general-questions/how-to-create-a-subdomain.md)
   * [How can I get my Discord bot ID?](faq/general-questions/how-can-i-get-my-discord-bot-id.md)
   * [\[WIP\] How to compress?](faq/general-questions/wip-how-to-compress.md)
-  * [\[WIP\] How to commit?](faq/general-questions/wip-how-to-commit.md)
+  * [How to commit?](faq/general-questions/how-to-commit.md)
   * [\[WIP\] Bot too heavy](faq/general-questions/wip-bot-too-heavy.md)
   * [\[WIP\] Why can't I access my website?](faq/general-questions/wip-why-cant-i-access-my-website.md)
   * [\[WIP\] You already have a registered account in the system](faq/general-questions/wip-you-already-have-a-registered-account-in-the-system.md)
