@@ -3,7 +3,6 @@
 ## Introdução <a href="#introduction" id="introduction"></a>
 
 * [Bem-vindo à Discloud](README.md)
-* [Bem-vindo à Discloud](introduction/readme-1.md)
 
 ## Como Hospedar <a href="#how-to-host" id="how-to-host"></a>
 
