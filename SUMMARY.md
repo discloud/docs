@@ -89,7 +89,7 @@
   * [Como criar um subdomínio?](faq/general-questions/how-to-create-a-subdomain.md)
   * [Como posso obter o ID do meu bot do Discord?](faq/general-questions/how-can-i-get-my-discord-bot-id.md)
   * [\[EM ANDAMENTO\] Como comprimir?](faq/general-questions/em-andamento-como-comprimir.md)
-  * [\[EM ANDAMENTO\] Como fazer commit?](faq/general-questions/em-andamento-como-fazer-commit.md)
+  * [Como fazer commit?](faq/general-questions/how-to-commit.md)
   * [\[EM ANDAMENTO\] Bot muito pesado](faq/general-questions/em-andamento-bot-muito-pesado.md)
   * [\[EM ANDAMENTO\] Por que não consigo acessar meu site?](faq/general-questions/em-andamento-por-que-nao-consigo-acessar-meu-site.md)
   * [\[EM ANDAMENTO\] Você já possui uma conta registrada no sistema](faq/general-questions/em-andamento-voce-ja-possui-uma-conta-registrada-no-sistema.md)
