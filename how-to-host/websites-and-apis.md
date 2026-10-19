@@ -37,7 +37,7 @@ Para hospedar um site ou API, você deve atender a estes critérios:
 {% endhint %}
 
 {% hint style="info" %}
-[**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) – Necessário para a maioria dos métodos de implantação. Se estiver usando o [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide) do Bot do Discord, o bot irá guiá-lo através da configuração.
+[**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) – Necessário para a maioria dos métodos de implantação. Se estiver usando a [**Configuração Rápida**](../how-to-host-using/discord-bot.md#configuracao-rapida-guia-passo-a-passo) do Bot do Discord, o bot irá guiá-lo através da configuração.
 {% endhint %}
 
 {% hint style="info" %}
@@ -61,7 +61,7 @@ Antes de implantar, você precisa reservar seu endereço único no domínio `.di
 Seu arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) diz à Discloud como lidar com seu site. Você deve definir `TYPE=site` e incluir seu `ID`.
 
 {% hint style="info" %}
-Se você estiver usando o **Quick Setup** do Bot do Discord, não precisa criar este arquivo manualmente, o bot solicitará o subdomínio e outros detalhes durante o processo.
+Se você estiver usando a **Configuração Rápida** do Bot do Discord, não precisa criar este arquivo manualmente, o bot solicitará o subdomínio e outros detalhes durante o processo.
 {% endhint %}
 
 ```ini
