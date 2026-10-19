@@ -92,10 +92,8 @@ Go to the [**`#🔌・commands`**](https://discord.com/channels/5844909430344253
 Run the command:
 
 ```
-.commit
+/commit
 ```
-
-The short form `.c` also works.
 {% endstep %}
 
 {% step %}
