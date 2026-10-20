@@ -62,7 +62,7 @@ Create the [`discloud.config`](../../configurations/discloud.config/) file.
 {% endstep %}
 
 {% step %}
-Compress your project into a [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file.
+Compress your project into a [`.zip`](../../faq/general-questions/how-to-compress.md) file.
 {% endstep %}
 
 {% step %}
@@ -74,7 +74,7 @@ Upload your project.
     ```
     /upconfig
     ```
-* Send your [**.zip**](../../faq/general-questions/wip-how-to-compress.md) file when prompted.
+* Send your [**.zip**](../../faq/general-questions/how-to-compress.md) file when prompted.
 {% endstep %}
 
 {% step %}
@@ -95,7 +95,7 @@ Quick Setup is the **older method** and is still available, but we recommend **A
 Prepare your project.
 
 * Ensure your application files are correctly structured.
-* Compress your project into a [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file.
+* Compress your project into a [`.zip`](../../faq/general-questions/how-to-compress.md) file.
 {% endstep %}
 
 {% step %}
@@ -126,7 +126,7 @@ When specifying the amount of RAM, **you do not need** to include units like "MB
 {% endstep %}
 
 {% step %}
-Send your [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file when prompted.
+Send your [`.zip`](../../faq/general-questions/how-to-compress.md) file when prompted.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -137,7 +137,7 @@ Send your [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file when
 Prepare your project.
 
 * Ensure your application files are correctly structured.
-* Compress your project into a [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file.
+* Compress your project into a [`.zip`](../../faq/general-questions/how-to-compress.md) file.
 {% endstep %}
 
 {% step %}
@@ -168,7 +168,7 @@ When specifying the amount of RAM, **you do not need** to include units like "MB
 {% endstep %}
 
 {% step %}
-Send your [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file when prompted.
+Send your [`.zip`](../../faq/general-questions/how-to-compress.md) file when prompted.
 {% endstep %}
 {% endstepper %}
 {% endtab %}

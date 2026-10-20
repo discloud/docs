@@ -75,7 +75,7 @@ Once your files are ready, follow these steps to upload and deploy your app.
 {% step %}
 Compressing Your Project.
 
-Before uploading, **compress your entire project** into a [`.zip`](../faq/general-questions/wip-how-to-compress.md) file.
+Before uploading, **compress your entire project** into a [`.zip`](../faq/general-questions/how-to-compress.md) file.
 {% endstep %}
 
 {% step %}

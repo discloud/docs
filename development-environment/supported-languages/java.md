@@ -7,11 +7,11 @@ icon: java
 
 ## 📁 **Preparing Your Project Files**
 
-Before deploying, **your project must be** [**compiled into an executable JAR file**](../../faq/general-questions/how-to-build-and-package-a-java-application.md). When compressing your project, ensure that **the `.jar` file is placed at the** [**root**](../../faq/general-questions/what-is-the-root-of-the-project.md) **of the** [**`.zip`**](../../faq/general-questions/wip-how-to-compress.md) **archive.**
+Before deploying, **your project must be** [**compiled into an executable JAR file**](../../faq/general-questions/how-to-build-and-package-a-java-application.md). When compressing your project, ensure that **the `.jar` file is placed at the** [**root**](../../faq/general-questions/what-is-the-root-of-the-project.md) **of the** [**`.zip`**](../../faq/general-questions/how-to-compress.md) **archive.**
 
 #### ❌ **Files to Exclude**
 
-Ensure the following files and directories are **not** included in your [`.zip`](../../faq/general-questions/wip-how-to-compress.md):
+Ensure the following files and directories are **not** included in your [`.zip`](../../faq/general-questions/how-to-compress.md):
 
 ```diff
 - package-lock.json

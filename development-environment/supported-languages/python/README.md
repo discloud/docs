@@ -11,7 +11,7 @@ Before uploading your project, you must **exclude unnecessary files** to optimiz
 
 #### ❌ **Files to Exclude**
 
-Ensure the following files and directories are **not** included in your [`.zip`](../../../faq/general-questions/wip-how-to-compress.md):
+Ensure the following files and directories are **not** included in your [`.zip`](../../../faq/general-questions/how-to-compress.md):
 
 ```diff
 - .cache/
