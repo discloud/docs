@@ -13,7 +13,7 @@ icon: rocket-launch
 
 Choose how you want to upload your application:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="how-to-host-using/dashboard.md">dashboard.md</a></td><td>Upload your project from the browser in a few clicks.</td></tr><tr><td><a href="how-to-host-using/cli.md">cli.md</a></td><td>Upload and manage your applications straight from the terminal.</td></tr><tr><td><a href="how-to-host-using/visual-studio-code.md">visual-studio-code.md</a></td><td>Use the official extension without leaving your editor.</td></tr><tr><td><a href="how-to-host-using/discord-bot.md">discord-bot.md</a></td><td>Upload your application with a single command in our server.</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="how-to-host-using/dashboard.md">dashboard.md</a></td><td>Upload your project from the browser in a few clicks.</td></tr><tr><td><a href="how-to-host-using/cli.md">cli.md</a></td><td>Upload and manage your applications straight from the terminal.</td></tr><tr><td><a href="how-to-host-using/visual-studio-code.md">visual-studio-code.md</a></td><td>Use the official extension without leaving your editor.</td></tr><tr><td><a href="how-to-host-using/discord-bot/">discord-bot</a></td><td>Upload your application with a single command in our server.</td></tr></tbody></table>
 
 ***
 

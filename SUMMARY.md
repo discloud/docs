@@ -15,7 +15,8 @@
 ## How to Host, Using
 
 * [Dashboard](how-to-host-using/dashboard.md)
-* [Discord Bot](how-to-host-using/discord-bot.md)
+* [Discord Bot](how-to-host-using/discord-bot/README.md)
+  * [Bot Commands](how-to-host-using/discord-bot/commands.md)
 * [Visual Studio Code](how-to-host-using/visual-studio-code.md)
 * [CLI](how-to-host-using/cli.md)
 

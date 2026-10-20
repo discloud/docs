@@ -37,7 +37,7 @@ To host a website or API, you must meet these criteria:
 {% endhint %}
 
 {% hint style="info" %}
-[**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
+[**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot/#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
 {% endhint %}
 
 {% hint style="info" %}
@@ -118,7 +118,7 @@ You can upload your project using any of our supported methods:
 * 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
 * ⌨️ [**CLI**](../how-to-host-using/cli.md)
 * 🟦 [**VS Code Extension**](../how-to-host-using/visual-studio-code.md)
-* 🤖 [**Discord Bot**](../how-to-host-using/discord-bot.md)
+* 🤖 [**Discord Bot**](../how-to-host-using/discord-bot/)
 * 🐙 [**GitHub Integration**](../api-and-integrations/github-integration.md)
 
 {% hint style="info" %}

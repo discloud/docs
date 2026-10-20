@@ -11,7 +11,7 @@ description: >-
 The **Discord Application ID** (also called **Client ID**) is a unique numeric identifier that Discord assigns to every application created on the [Discord Developer Portal](https://discord.com/developers/applications).
 
 {% hint style="info" %}
-This is **not** the same as the **Discloud App ID**, which Discloud generates internally for your hosted application. The **Discord Application ID** comes from Discord itself and identifies your bot on Discord's platform, it's only required for the [Quick Setup flow via the Discloud Discord bot](../../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide).
+This is **not** the same as the **Discloud App ID**, which Discloud generates internally for your hosted application. The **Discord Application ID** comes from Discord itself and identifies your bot on Discord's platform, it's only required for the [Quick Setup flow via the Discloud Discord bot](../../how-to-host-using/discord-bot/#quick-setup-step-by-step-guide).
 {% endhint %}
 
 ***
@@ -44,6 +44,6 @@ The **Application ID** is **public information**, it's safe to share. However, k
 
 ## 🔍 Where Do You Need It?
 
-This ID is specifically required when using the **Quick Setup** method via the [Discloud Bot](../../how-to-host-using/discord-bot.md#quick-setup-step-by-step-guide), during the guided flow, the bot will prompt you to enter the Application ID.
+This ID is specifically required when using the **Quick Setup** method via the [Discloud Bot](../../how-to-host-using/discord-bot/#quick-setup-step-by-step-guide), during the guided flow, the bot will prompt you to enter the Application ID.
 
 If you're using **Advanced Setup** (with a [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file), you don't need to provide this ID, as Discloud handles the configuration automatically.

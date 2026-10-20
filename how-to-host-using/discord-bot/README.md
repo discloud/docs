@@ -9,6 +9,10 @@ icon: robot
 
 Discloud allows you to **host applications directly from Discord**, making deployment fast and accessible without needing to use a dashboard or command-line tools.
 
+{% hint style="info" %}
+The bot uses **slash commands**. See the full list in [**Bot Commands**](commands.md).
+{% endhint %}
+
 ***
 
 ## 🔑 Account Verification
@@ -41,12 +45,12 @@ After verification, you will gain access to the [**`#🔌・commands`**](https:/
 
 There are **two ways** to deploy an application using the Discloud Bot:
 
-<table><thead><tr><th width="212">Method</th><th>Best For</th><th>How It Works</th></tr></thead><tbody><tr><td><a href="discord-bot.md#advanced-setup"><strong>⚙️ Advanced Setup</strong></a></td><td>Users who want a <strong>one-command</strong> deployment with pre-configured settings.</td><td>Configure everything in the <a href="https://github.com/discloud/docs/blob/english/configurations/discloud.config"><code>discloud.config</code></a> file and use <code>/upconfig</code>.</td></tr><tr><td><a href="discord-bot.md#quick-setup-step-by-step-guide"><strong>⚡ Quick Setup (legacy)</strong></a></td><td>Users who <strong>prefer a guided setup</strong> via the bot’s prompts.</td><td>The bot will ask for the necessary details after running <code>/up</code>.</td></tr></tbody></table>
+<table><thead><tr><th width="212">Method</th><th>Best For</th><th>How It Works</th></tr></thead><tbody><tr><td><a href="./#advanced-setup"><strong>⚙️ Advanced Setup (recommended)</strong></a></td><td>Users who want a <strong>one-command</strong> deployment with pre-configured settings.</td><td>Configure everything in the <a href="../../configurations/discloud.config/"><code>discloud.config</code></a> file and use <code>/upconfig</code>.</td></tr><tr><td><a href="./#quick-setup-step-by-step-guide"><strong>⚡ Quick Setup (legacy)</strong></a></td><td>Users who <strong>prefer a guided setup</strong> via the bot’s prompts.</td><td>The bot will ask for the necessary details after running <code>/up</code>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 #### **Important Notes**
 
-* If your [**main file**](../faq/general-questions/what-is-the-main-file.md) **is not in the** [**root directory**](../faq/general-questions/what-is-the-root-of-the-project.md), you **must** use Advanced Setup or move it to the root.
+* If your [**main file**](../../faq/general-questions/what-is-the-main-file.md) **is not in the** [**root directory**](../../faq/general-questions/what-is-the-root-of-the-project.md), you **must** use Advanced Setup or move it to the root.
 * If you are hosting a **bot without an ID** (e.g., WhatsApp or Telegram), use Advanced Setup and Discloud will generate the ID automatically.
 {% endhint %}
 
@@ -54,11 +58,11 @@ There are **two ways** to deploy an application using the Discloud Bot:
 {% tab title="📝 Advanced Setup" %}
 {% stepper %}
 {% step %}
-Create the [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file.
+Create the [`discloud.config`](../../configurations/discloud.config/) file.
 {% endstep %}
 
 {% step %}
-Compress your project into a [`.zip`](../faq/general-questions/wip-how-to-compress.md) file.
+Compress your project into a [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file.
 {% endstep %}
 
 {% step %}
@@ -70,7 +74,7 @@ Upload your project.
     ```
     /upconfig
     ```
-* Send your [**.zip**](../faq/general-questions/wip-how-to-compress.md) file when prompted.
+* Send your [**.zip**](../../faq/general-questions/wip-how-to-compress.md) file when prompted.
 {% endstep %}
 
 {% step %}
@@ -80,6 +84,10 @@ Your application will be deployed automatically.
 {% endtab %}
 
 {% tab title="⚡ Quick Setup (Step-by-Step Guide)" %}
+{% hint style="warning" %}
+Quick Setup is the **older method** and is still available, but we recommend **Advanced Setup** with `/upconfig`: your settings are kept in `discloud.config` and work with every upload method.
+{% endhint %}
+
 {% tabs %}
 {% tab title="🤖 Bot" %}
 {% stepper %}
@@ -87,7 +95,7 @@ Your application will be deployed automatically.
 Prepare your project.
 
 * Ensure your application files are correctly structured.
-* Compress your project into a [`.zip`](../faq/general-questions/wip-how-to-compress.md) file.
+* Compress your project into a [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file.
 {% endstep %}
 
 {% step %}
@@ -104,8 +112,8 @@ Upload your project.
 {% step %}
 Provide the Required Information.
 
-* **Enter the** [**Application ID**](../faq/general-questions/how-can-i-get-my-discord-bot-id.md) (for Discord bots).
-* **Enter the** [**Main File Name**](../faq/general-questions/what-is-the-main-file.md) (e.g., `index.js`, `main.py`, `main.go`).
+* **Enter the** [**Application ID**](../../faq/general-questions/how-can-i-get-my-discord-bot-id.md) (for Discord bots).
+* **Enter the** [**Main File Name**](../../faq/general-questions/what-is-the-main-file.md) (e.g., `index.js`, `main.py`, `main.go`).
 * **Specify the RAM** for your bot (e.g., `100` for 100MB).
 
 {% hint style="info" %}
@@ -118,7 +126,7 @@ When specifying the amount of RAM, **you do not need** to include units like "MB
 {% endstep %}
 
 {% step %}
-Send your [`.zip`](../faq/general-questions/wip-how-to-compress.md) file when prompted.
+Send your [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file when prompted.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -129,7 +137,7 @@ Send your [`.zip`](../faq/general-questions/wip-how-to-compress.md) file when pr
 Prepare your project.
 
 * Ensure your application files are correctly structured.
-* Compress your project into a [`.zip`](../faq/general-questions/wip-how-to-compress.md) file.
+* Compress your project into a [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file.
 {% endstep %}
 
 {% step %}
@@ -146,9 +154,9 @@ Upload your project.
 {% step %}
 Provide the Required Information.
 
-* **Choose a** [**Subdomain**](../faq/general-questions/how-to-create-a-subdomain.md).
-* **Enter the** [**Main File Name**](../faq/general-questions/what-is-the-main-file.md) (e.g., `index.html`, `index.php`).
-* **Specify the RAM** for your bot (e.g., `512` for 512MB).
+* **Choose a** [**Subdomain**](../../faq/general-questions/how-to-create-a-subdomain.md).
+* **Enter the** [**Main File Name**](../../faq/general-questions/what-is-the-main-file.md) (e.g., `index.html`, `index.php`).
+* **Specify the RAM** for your website (e.g., `512` for 512MB).
 
 {% hint style="info" %}
 When specifying the amount of RAM, **you do not need** to include units like "MB". Simply enter the numeric value, for example, "512" for 512MB.
@@ -160,7 +168,7 @@ When specifying the amount of RAM, **you do not need** to include units like "MB
 {% endstep %}
 
 {% step %}
-Send your [`.zip`](../faq/general-questions/wip-how-to-compress.md) file when prompted.
+Send your [`.zip`](../../faq/general-questions/wip-how-to-compress.md) file when prompted.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
