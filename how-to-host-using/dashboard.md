@@ -75,7 +75,7 @@ Depois que seus arquivos estiverem prontos, siga estes passos para enviar e faze
 {% step %}
 Compactando Seu Projeto.
 
-Antes de enviar, compacte todo o seu projeto em um arquivo [.zip](../faq/general-questions/em-andamento-como-comprimir.md).
+Antes de enviar, compacte todo o seu projeto em um arquivo [.zip](../faq/general-questions/how-to-compress.md).
 {% endstep %}
 
 {% step %}

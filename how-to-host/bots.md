@@ -97,7 +97,7 @@ Você pode enviar seu projeto usando qualquer um de nossos métodos suportados:
 * 🐙 [**Integração com GitHub**](../api-and-integrations/github-integration.md)
 
 {% hint style="info" %}
-Antes de enviar, certifique-se de [comprimir seu projeto corretamente](../faq/general-questions/em-andamento-como-comprimir.md) e excluir arquivos desnecessários usando um arquivo [`.discloudignore`](../configurations/.discloudignore.md).
+Antes de enviar, certifique-se de [comprimir seu projeto corretamente](../faq/general-questions/how-to-compress.md) e excluir arquivos desnecessários usando um arquivo [`.discloudignore`](../configurations/.discloudignore.md).
 {% endhint %}
 {% endstep %}
 {% endstepper %}

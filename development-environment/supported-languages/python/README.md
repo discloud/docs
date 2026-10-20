@@ -11,7 +11,7 @@ Antes de fazer upload do seu projeto, você deve **excluir arquivos desnecessár
 
 #### ❌ **Arquivos a Excluir**
 
-Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluídos no seu [`.zip`](../../../faq/general-questions/em-andamento-como-comprimir.md):
+Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluídos no seu [`.zip`](../../../faq/general-questions/how-to-compress.md):
 
 ```diff
 - .cache/

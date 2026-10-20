@@ -7,11 +7,11 @@ icon: java
 
 ## 📁 **Preparando os Arquivos do Seu Projeto**
 
-Antes do deploy, **seu projeto deve ser** [**compilado em um arquivo JAR executável**](../../faq/general-questions/how-to-build-and-package-a-java-application.md). Ao comprimir seu projeto, certifique-se de que **o arquivo `.jar` seja colocado na** [**raiz**](../../faq/general-questions/what-is-the-root-of-the-project.md) **do** [**arquivo `.zip`**](../../faq/general-questions/em-andamento-como-comprimir.md)**.**
+Antes do deploy, **seu projeto deve ser** [**compilado em um arquivo JAR executável**](../../faq/general-questions/how-to-build-and-package-a-java-application.md). Ao comprimir seu projeto, certifique-se de que **o arquivo `.jar` seja colocado na** [**raiz**](../../faq/general-questions/what-is-the-root-of-the-project.md) **do** [**arquivo `.zip`**](../../faq/general-questions/how-to-compress.md)**.**
 
 #### ❌ **Arquivos a Excluir**
 
-Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluídos no seu [`.zip`](../../faq/general-questions/em-andamento-como-comprimir.md):
+Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluídos no seu [`.zip`](../../faq/general-questions/how-to-compress.md):
 
 ```diff
 - package-lock.json

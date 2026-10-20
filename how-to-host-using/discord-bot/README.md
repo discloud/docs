@@ -62,7 +62,7 @@ Crie o arquivo [`discloud.config`](../../configurations/discloud.config/).
 {% endstep %}
 
 {% step %}
-Comprima seu projeto em um arquivo [`.zip`](../../faq/general-questions/em-andamento-como-comprimir.md).
+Comprima seu projeto em um arquivo [`.zip`](../../faq/general-questions/how-to-compress.md).
 {% endstep %}
 
 {% step %}
@@ -74,7 +74,7 @@ Faça upload do seu projeto.
     ```
     /upconfig
     ```
-* Envie seu arquivo [**.zip**](../../faq/general-questions/em-andamento-como-comprimir.md) quando solicitado.
+* Envie seu arquivo [**.zip**](../../faq/general-questions/how-to-compress.md) quando solicitado.
 {% endstep %}
 
 {% step %}
@@ -95,7 +95,7 @@ A Configuração Rápida é o **método antigo** e continua disponível, mas rec
 Prepare seu projeto.
 
 * Certifique-se de que os arquivos da sua aplicação estejam estruturados corretamente.
-* Comprima seu projeto em um arquivo [`.zip`](../../faq/general-questions/em-andamento-como-comprimir.md).
+* Comprima seu projeto em um arquivo [`.zip`](../../faq/general-questions/how-to-compress.md).
 {% endstep %}
 
 {% step %}
@@ -126,7 +126,7 @@ Ao especificar a quantidade de RAM, você não precisa incluir unidades como "MB
 {% endstep %}
 
 {% step %}
-Envie seu arquivo [`.zip`](../../faq/general-questions/em-andamento-como-comprimir.md) quando solicitado.
+Envie seu arquivo [`.zip`](../../faq/general-questions/how-to-compress.md) quando solicitado.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -137,7 +137,7 @@ Envie seu arquivo [`.zip`](../../faq/general-questions/em-andamento-como-comprim
 Prepare seu projeto.
 
 * Certifique-se de que os arquivos da sua aplicação estejam estruturados corretamente.
-* Comprima seu projeto em um arquivo [`.zip`](../../faq/general-questions/em-andamento-como-comprimir.md).
+* Comprima seu projeto em um arquivo [`.zip`](../../faq/general-questions/how-to-compress.md).
 {% endstep %}
 
 {% step %}
@@ -168,7 +168,7 @@ Ao especificar a quantidade de RAM, você não precisa incluir unidades como "MB
 {% endstep %}
 
 {% step %}
-Envie seu arquivo [`.zip`](../../faq/general-questions/em-andamento-como-comprimir.md) quando solicitado.
+Envie seu arquivo [`.zip`](../../faq/general-questions/how-to-compress.md) quando solicitado.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
