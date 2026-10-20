@@ -52,7 +52,7 @@ Para hospedar um site ou API, você deve atender a estes critérios:
 {% step %}
 **📡 Registrar um Subdomínio**
 
-Antes de implantar, você precisa reservar seu endereço único no domínio `.discloud.app`.
+Antes de implantar, você precisa reservar seu endereço único criando um subdomínio da Discloud. O domínio (`.discloud.app` ou `.discloud.dev`) é escolhido automaticamente pela Discloud no momento da criação do subdomínio.
 {% endstep %}
 
 {% step %}
@@ -74,7 +74,7 @@ VERSION=latest
 ```
 
 * **`TYPE=site`**: Identifica a aplicação como um serviço web.
-* **`ID`**: O nome do seu subdomínio registrado. **Não** inclua `.discloud.app` (ex: use `minha-app`, não `minha-app.discloud.app`).
+* **`ID`**: O nome do seu subdomínio registrado. **Não** inclua `.discloud.app` nem `.discloud.dev` (ex: use `minha-app`, não `minha-app.discloud.app`).
 * **`MAIN`**: O ponto de entrada da sua aplicação.
 * **`RAM`**: Memória alocada (mín. 512MB para sites).
 {% endstep %}

@@ -16,6 +16,12 @@ Para permitir acesso externo ao seu app, a Discloud oferece a opção de criar u
 
 <figure><img src="../../.gitbook/assets/subdomain-flow.png" alt="Discloud subdomain flow"><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+#### **`.discloud.app` ou `.discloud.dev`?**
+
+O seu subdomínio fica em `.discloud.app` ou em `.discloud.dev`. Não é você que escolhe: a Discloud escolhe o domínio automaticamente no momento da criação do subdomínio, conforme a demanda de cada domínio. No `discloud.config`, você usa sempre só o nome do subdomínio.
+{% endhint %}
+
 ***
 
 ## ✅ Requisitos
@@ -87,7 +93,7 @@ ID=seusubdominio
 {% hint style="warning" %}
 #### **Como especificar o subdomínio no arquivo `discloud.config`?**
 
-Use apenas o nome do subdomínio, não o domínio completo (por exemplo, use `meuapp`, e não `meuapp.discloud.app`).
+Use apenas o nome do subdomínio, não o domínio completo (por exemplo, use `meuapp`, e não `meuapp.discloud.app` nem `meuapp.discloud.dev`).
 
 Exemplo:
 
@@ -113,7 +119,7 @@ Seu subdomínio registrado pode ter dois estados:
 #### **🔵 Ativo**
 
 * O subdomínio está **registrado e em uso**.
-* Uma aplicação está atualmente em deploy e acessível em `https://seusubdominio.discloud.app`.
+* Uma aplicação está atualmente em deploy e acessível em `https://seusubdominio.discloud.app` ou `https://seusubdominio.discloud.dev`, conforme o domínio escolhido na criação do subdomínio.
 * O tráfego está sendo roteado para a sua aplicação na porta 8080.
 {% endhint %}
 
@@ -129,10 +135,11 @@ Seu subdomínio registrado pode ter dois estados:
 
 ## 🌍 Acesse Seu Site
 
-Quando seu subdomínio estiver **Ativado**, você pode acessá-lo em:
+Quando seu subdomínio estiver **Ativado**, você pode acessá-lo em um destes endereços, conforme o domínio escolhido na criação do subdomínio:
 
 ```
 https://seusubdominio.discloud.app
+https://seusubdominio.discloud.dev
 ```
 
 ***
