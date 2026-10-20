@@ -90,7 +90,7 @@ Em projetos Rust, o arquivo principal geralmente está localizado em:
 
 ## 🛠️ Definindo na Discloud
 
-Depois de identificar seu arquivo principal, você deve especificá-lo em seu arquivo [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) usando a propriedade `MAIN`.
+Depois de identificar seu arquivo principal, você deve especificá-lo em seu arquivo [**`discloud.config`**](../../configurations/discloud.config/) usando a propriedade `MAIN`.
 
 ```ini
 MAIN=index.js

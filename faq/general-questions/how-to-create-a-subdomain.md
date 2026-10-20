@@ -1,6 +1,6 @@
 ---
 description: >-
-  Aprenda como registrar e gerir subdomínios personalizados da Discloud para
+  Aprenda como registrar e gerenciar subdomínios personalizados da Discloud para
   suas aplicações.
 ---
 
@@ -31,7 +31,7 @@ Para registrar e usar um subdomínio da Discloud, você precisa atender aos segu
 {% endhint %}
 
 {% hint style="success" %}
-**Discloud Config** – Seu app deve incluir um arquivo [discloud.config](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) devidamente configurado.
+**Discloud Config** – Seu app deve incluir um arquivo [discloud.config](../../configurations/discloud.config/) devidamente configurado.
 {% endhint %}
 
 ***
@@ -74,7 +74,7 @@ Seu subdomínio agora está registrado e seu estado aparecerá como **Disponíve
 
 ***
 
-## 📝 Configure seu [discloud.config](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config)
+## 📝 Configure seu [discloud.config](../../configurations/discloud.config/)
 
 Depois que o seu subdomínio estiver registrado, você deve adicioná-lo ao arquivo `discloud.config` para que a Discloud possa direcionar o tráfego para o aplicativo correto.
 
@@ -87,11 +87,11 @@ ID=seusubdominio
 {% hint style="warning" %}
 #### **Como especificar o subdomínio no arquivo `discloud.config`?**
 
-Use apenas o nome do subdomínio, não o domínio completo (por exemplo, use `meuapp`, e não `meuap.discloud.app`).
+Use apenas o nome do subdomínio, não o domínio completo (por exemplo, use `meuapp`, e não `meuapp.discloud.app`).
 
 Exemplo:
 
-<pre class="language-ini" data-title="discloud.config"><code class="lang-ini"><strong>ID=myapp
+<pre class="language-ini" data-title="discloud.config"><code class="lang-ini"><strong>ID=meuapp
 </strong>TYPE=site
 <a data-footnote-ref href="#user-content-fn-1"># ...</a>
 </code></pre>

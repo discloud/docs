@@ -40,7 +40,7 @@
 ## Ambiente de Desenvolvimento <a href="#development-environment" id="development-environment"></a>
 
 * [Linguagens Suportadas](development-environment/supported-languages/README.md)
-  * [Javascript](development-environment/supported-languages/javascript/README.md)
+  * [JavaScript](development-environment/supported-languages/javascript/README.md)
     * [package.json](development-environment/supported-languages/javascript/package.json.md)
   * [Python](development-environment/supported-languages/python/README.md)
     * [requirements.txt](development-environment/supported-languages/python/requirements.txt.md)
@@ -51,14 +51,14 @@
     * [Cargo.toml](development-environment/supported-languages/rust/cargo.toml.md)
   * [Go](development-environment/supported-languages/go/README.md)
     * [go.mod](development-environment/supported-languages/go/go.mod.md)
-  * [Php](development-environment/supported-languages/php/README.md)
+  * [PHP](development-environment/supported-languages/php/README.md)
     * [composer.json](development-environment/supported-languages/php/composer.json.md)
 * [Ambiente Local](development-environment/local-environment/README.md)
-  * [NodeJS](development-environment/local-environment/nodejs.md)
+  * [Node.js](development-environment/local-environment/nodejs.md)
   * [Python](development-environment/local-environment/python.md)
   * [Ruby](development-environment/local-environment/ruby.md)
   * [Rust](development-environment/local-environment/rust.md)
-  * [Golang](development-environment/local-environment/golang.md)
+  * [Go](development-environment/local-environment/golang.md)
 
 ## API e Integrações <a href="#api-and-integrations" id="api-and-integrations"></a>
 
@@ -68,7 +68,7 @@
   * [Aplicações](api-and-integrations/api-overview/applications.md)
   * [Variáveis de ambiente](api-and-integrations/api-overview/environment-variable.md)
   * [Snapshot](api-and-integrations/api-overview/snapshot.md)
-  * [Subdominio](api-and-integrations/api-overview/subdomain.md)
+  * [Subdomínio](api-and-integrations/api-overview/subdomain.md)
   * [Domínio Personalizado](api-and-integrations/api-overview/custom-domain.md)
   * [Banco de Dados](api-and-integrations/api-overview/database.md)
   * [Projeto](api-and-integrations/api-overview/project.md)
@@ -109,6 +109,6 @@
 ***
 
 * [Marca Discloud](https://discloud.com/brand)
-* [Discord Server](https://discord.discloudbot.com/)
+* [Servidor do Discord](https://discord.discloudbot.com/)
 * [Termos de Serviço (ToS)](https://discloud.com/legal)
 * [Política de Uso Aceitável (AUP)](https://discloud.com/legal)

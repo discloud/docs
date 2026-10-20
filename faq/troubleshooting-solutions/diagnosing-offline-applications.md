@@ -47,7 +47,7 @@ Vai offline após alguns dias (plano gratuito).
 Se sua aplicação **excede sua memória alocada**, ela pode ser **forçadamente encerrada**.
 
 ✔ **Monitore o uso de RAM** e otimize seu código.\
-✔ Considere **aumentar a RAM** no seu arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config).
+✔ Considere **aumentar a RAM** no seu arquivo [`discloud.config`](../../configurations/discloud.config/).
 {% endhint %}
 
 {% hint style="warning" %}
