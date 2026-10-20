@@ -58,7 +58,7 @@ Rename your JAR file to a simple name like `app.jar` to avoid issues with specia
 
 ## 📝 **Setting the Main File**
 
-The `MAIN` parameter in your [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file should point to your executable JAR file. For example:
+The `MAIN` parameter in your [`discloud.config`](../../configurations/discloud.config/) file should point to your executable JAR file. For example:
 
 ```ini
 MAIN=app.jar
@@ -70,7 +70,7 @@ Ensure that `app.jar` matches the name of your compiled JAR file.​
 
 ***
 
-## ✍️ **Deploying Your Applicaton**
+## ✍️ **Deploying Your Application**
 
 Once your project is **configured and compressed**, you can choose one of the following **deployment methods** on Discloud:
 

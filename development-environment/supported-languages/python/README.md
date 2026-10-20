@@ -25,7 +25,7 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 
 ***
 
-## ✍️ **Deploying Your Applicaton**
+## ✍️ **Deploying Your Application**
 
 Once your project is **configured and compressed**, you can choose one of the following **deployment methods** on Discloud:
 

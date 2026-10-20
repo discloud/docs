@@ -46,6 +46,10 @@ Download the latest stable release of Lavalink from the official GitHub reposito
 👉 [https://github.com/lavalink-devs/Lavalink/releases](https://github.com/lavalink-devs/Lavalink/releases)
 
 Download the file named `Lavalink.jar` from the Assets section of the latest release.
+
+{% hint style="info" %}
+Lavalink 4.x is the current stable version and is recommended. It requires Java 17 or higher.
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -110,7 +114,7 @@ logging:
 {% step %}
 **⚙️ Create `discloud.config`**
 
-Create a [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file in the same folder:
+Create a [`discloud.config`](../configurations/discloud.config/) file in the same folder:
 
 ```ini
 NAME=MyLavalink

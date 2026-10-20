@@ -37,7 +37,7 @@ To register and use a Discloud subdomain, you must meet the following requiremen
 {% endhint %}
 
 {% hint style="success" %}
-**Discloud Config** – Your app must include a properly configured [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file
+**Discloud Config** – Your app must include a properly configured [`discloud.config`](../../configurations/discloud.config/) file
 {% endhint %}
 
 ***
@@ -80,7 +80,7 @@ Your subdomain is now registered and its state will show as **Available**.
 
 ***
 
-## 📝 Configure Your [discloud.config](https://github.com/discloud/docs/blob/english/configurations/discloud.config)
+## 📝 Configure Your [discloud.config](../../configurations/discloud.config/)
 
 Once your subdomain is registered, you **must** add it to your `discloud.config` file so Discloud routes traffic to the correct app.
 
@@ -146,7 +146,7 @@ https://yoursubdomain.discloud.dev
 
 ## ⚙️ Custom Domain
 
-If you want to use your own domain (e.g., `yourdomaind.com`) instead of a Discloud subdomain, check:
+If you want to use your own domain (e.g., `yourdomain.com`) instead of a Discloud subdomain, check:
 
 {% content-ref url="../../api-and-integrations/custom-domain.md" %}
 [custom-domain.md](../../api-and-integrations/custom-domain.md)

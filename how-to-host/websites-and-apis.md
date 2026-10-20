@@ -37,7 +37,7 @@ To host a website or API, you must meet these criteria:
 {% endhint %}
 
 {% hint style="info" %}
-[**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot/#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
+[**`discloud.config`**](../configurations/discloud.config/) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot/#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
 {% endhint %}
 
 {% hint style="info" %}
@@ -50,15 +50,15 @@ To host a website or API, you must meet these criteria:
 
 {% stepper %}
 {% step %}
-#### 📡 Register a Subdomain
+**📡 Register a Subdomain**
 
 Before deploying, you need to reserve your unique address by creating a Discloud subdomain. The domain (`.discloud.app` or `.discloud.dev`) is chosen automatically by Discloud when the subdomain is created.
 {% endstep %}
 
 {% step %}
-#### 📝 Configure `discloud.config`
+**📝 Configure `discloud.config`**
 
-Your [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) file tells Discloud how to handle your site. You must set `TYPE=site` and include your `ID`.
+Your [`discloud.config`](../configurations/discloud.config/) file tells Discloud how to handle your site. You must set `TYPE=site` and include your `ID`.
 
 {% hint style="info" %}
 If you are using the Discord Bot's **Quick Setup**, you don't need to create this file manually, the bot will ask for the subdomain and other details during the process.
@@ -80,7 +80,7 @@ VERSION=latest
 {% endstep %}
 
 {% step %}
-#### 🏗️ Handling Build Processes
+**🏗️ Handling Build Processes**
 
 If your application requires a build step (like React, Next.js, or TypeScript), you have two options:
 
@@ -111,7 +111,7 @@ For Java applications, you **must** build locally and upload the `.jar` file. [S
 {% endstep %}
 
 {% step %}
-#### 🚀 Upload and Deploy
+**🚀 Upload and Deploy**
 
 You can upload your project using any of our supported methods:
 

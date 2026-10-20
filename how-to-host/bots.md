@@ -24,7 +24,7 @@ To host a bot, you must meet these criteria:
 {% endhint %}
 
 {% hint style="success" %}
-[**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot/#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
+[**`discloud.config`**](../configurations/discloud.config/) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot/#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
 {% endhint %}
 
 {% hint style="info" %}
@@ -37,7 +37,7 @@ To host a bot, you must meet these criteria:
 
 {% stepper %}
 {% step %}
-#### 📝 Configure `discloud.config`
+**📝 Configure `discloud.config`**
 
 {% hint style="info" %}
 If you are using the Discord Bot's **Quick Setup**, you don't need to create this file manually, the Discord bot will ask for the information during the process.
@@ -57,7 +57,7 @@ VERSION=latest
 {% endstep %}
 
 {% step %}
-#### 🏗️ Handling Build Processes
+**🏗️ Handling Build Processes**
 
 If your bot requires a build step (like TypeScript or Java), you have two options:
 
@@ -86,7 +86,7 @@ For Java applications, you **must** build locally and upload the `.jar` file. [S
 {% endstep %}
 
 {% step %}
-#### 🚀 Upload and Deploy
+**🚀 Upload and Deploy**
 
 You can upload your project using any of our supported methods:
 

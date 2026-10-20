@@ -94,18 +94,6 @@ It is important that the **`start` script uses port `8080`** (`next start -p 808
 
 ***
 
-## 🚫 Do not use the `dist` folder
-
-By default, **Next.js** outputs build files into the `.next` directory. Keep that default and **do not change `distDir` to `dist`**.
-
-{% hint style="danger" %}
-**The `dist` folder is reserved by Discloud.** When your `discloud.config` has the `BUILD` option, Discloud uses the `dist` folder to build your application.
-
-If you build on your own computer and upload the already-built project, use a different folder name (e.g. `build` or `out`), **never `dist`**.
-{% endhint %}
-
-***
-
 ### 📦 TypeScript requirement (important)
 
 If your project uses TypeScript, make sure it is installed under `dependencies` instead of `devDependencies`.
@@ -131,6 +119,18 @@ Some deployment environments only install production dependencies, which can cau
   }
 }
 ```
+
+***
+
+## 🚫 Do not use the `dist` folder
+
+By default, **Next.js** outputs build files into the `.next` directory. Keep that default and **do not change `distDir` to `dist`**.
+
+{% hint style="danger" %}
+**The `dist` folder is reserved by Discloud.** When your `discloud.config` has the `BUILD` option, Discloud uses the `dist` folder to build your application.
+
+If you build on your own computer and upload the already-built project, use a different folder name (e.g. `build` or `out`), **never `dist`**.
+{% endhint %}
 
 ***
 

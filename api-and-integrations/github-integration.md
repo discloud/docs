@@ -7,7 +7,7 @@ icon: github
 
 ### 🧭 Overview
 
-The **GitHub Integration** allows you to deploy applications directly from a GitHub repository to Discloud, no manual ZIP uploads required. Discloud pulls the code from your repository, reads the [`discloud.config`](https://github.com/discloud/docs/blob/english/configurations/discloud.config) at the root, and builds and starts your application automatically.
+The **GitHub Integration** allows you to deploy applications directly from a GitHub repository to Discloud, no manual ZIP uploads required. Discloud pulls the code from your repository, reads the [`discloud.config`](../configurations/discloud.config/) at the root, and builds and starts your application automatically.
 
 This is the recommended workflow for teams and anyone using version control as part of their development process.
 
@@ -18,7 +18,7 @@ This is the recommended workflow for teams and anyone using version control as p
 Before connecting GitHub, make sure the following are in place:
 
 {% hint style="success" %}
-[**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) **at the root** - This file must exist at the root of your repository. Without it, the upload will fail validation. Learn more about the root of the project.
+[**`discloud.config`**](../configurations/discloud.config/) **at the root** - This file must exist at the root of your repository. Without it, the upload will fail validation. Learn more about the root of the project.
 {% endhint %}
 
 {% hint style="danger" %}
