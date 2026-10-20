@@ -37,14 +37,14 @@ irm https://win.rustup.rs -UseBasicParsing | iex
 {% endtab %}
 {% endtabs %}
 
-**Verificar**
+#### Verificar
 
 ```bash
 rustc --version
 cargo --version
 ```
 
-**Atualizar Toolchain**
+#### Atualizar Toolchain
 
 ```bash
 rustup update
@@ -61,20 +61,20 @@ rustc --version
 cargo --version
 ```
 
-**Adicionar Build Essentials (Debian/Ubuntu)**
+#### Adicionar Build Essentials (Debian/Ubuntu)
 
 ```bash
 sudo apt update
 sudo apt install -y build-essential pkg-config libssl-dev
 ```
 
-**Atualizar**
+#### Atualizar
 
 ```bash
 rustup update
 ```
 
-**Remover Toolchain**
+#### Remover Toolchain
 
 ```bash
 rustup self uninstall

@@ -6,7 +6,7 @@ description: >-
 
 # Como posso obter o ID do meu bot do Discord?
 
-### 🤖 O que é o ID da Aplicação do Discord?
+## 🤖 O que é o ID da Aplicação do Discord?
 
 O **ID da Aplicação do Discord** (também chamado de **Client ID**) é um identificador numérico único que o Discord atribui a toda aplicação criada no [Discord Developer Portal](https://discord.com/developers/applications).
 
@@ -16,7 +16,7 @@ Este **não** é o mesmo que o **ID do App da Discloud**, que a Discloud gera in
 
 ***
 
-### 📍 Como Obter o ID da Sua Aplicação do Discord
+## 📍 Como Obter o ID da Sua Aplicação do Discord
 
 {% stepper %}
 {% step %}
@@ -42,7 +42,7 @@ O **ID da Aplicação** é uma **informação pública**, não há problema em c
 
 ***
 
-### 🔍 Onde é Necessário?
+## 🔍 Onde é Necessário?
 
 Este ID é especificamente necessário ao usar o método de **Configuração Rápida** através do [Bot da Discloud](../../how-to-host-using/discord-bot/#configuracao-rapida-guia-passo-a-passo), durante o fluxo guiado, o bot solicitará que você insira o ID da Aplicação.
 
