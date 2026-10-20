@@ -251,8 +251,8 @@ Você pode fazer deploy do seu app NestJS usando qualquer um dos métodos suport
 [dashboard.md](../../how-to-host-using/dashboard.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../how-to-host-using/discord-bot.md" %}
-[discord-bot.md](../../how-to-host-using/discord-bot.md)
+{% content-ref url="../../how-to-host-using/discord-bot/" %}
+[discord-bot](../../how-to-host-using/discord-bot/)
 {% endcontent-ref %}
 
 {% content-ref url="../../how-to-host-using/visual-studio-code.md" %}

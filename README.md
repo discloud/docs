@@ -13,7 +13,7 @@ A **Discloud** é uma plataforma de hospedagem em nuvem para **bots**, **sites**
 
 Escolha como você quer enviar sua aplicação:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="how-to-host-using/dashboard.md">dashboard.md</a></td><td>Envie seu projeto pelo navegador, em poucos cliques.</td></tr><tr><td><a href="how-to-host-using/cli.md">cli.md</a></td><td>Faça upload e gerencie suas aplicações direto do terminal.</td></tr><tr><td><a href="how-to-host-using/visual-studio-code.md">visual-studio-code.md</a></td><td>Use a extensão oficial sem sair do editor.</td></tr><tr><td><a href="how-to-host-using/discord-bot.md">discord-bot.md</a></td><td>Envie sua aplicação com um comando no nosso servidor.</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="how-to-host-using/dashboard.md">dashboard.md</a></td><td>Envie seu projeto pelo navegador, em poucos cliques.</td></tr><tr><td><a href="how-to-host-using/cli.md">cli.md</a></td><td>Faça upload e gerencie suas aplicações direto do terminal.</td></tr><tr><td><a href="how-to-host-using/visual-studio-code.md">visual-studio-code.md</a></td><td>Use a extensão oficial sem sair do editor.</td></tr><tr><td><a href="how-to-host-using/discord-bot/">discord-bot</a></td><td>Envie sua aplicação com um comando no nosso servidor.</td></tr></tbody></table>
 
 ***
 

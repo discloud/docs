@@ -11,7 +11,7 @@ description: >-
 O **ID da Aplicação do Discord** (também chamado de **Client ID**) é um identificador numérico único que o Discord atribui a toda aplicação criada no [Discord Developer Portal](https://discord.com/developers/applications).
 
 {% hint style="info" %}
-Este **não** é o mesmo que o **ID do App da Discloud**, que a Discloud gera internamente para sua aplicação hospedada. O **ID da Aplicação do Discord** vem do próprio Discord e identifica seu bot na plataforma do Discord, ele só é necessário para o [fluxo de Configuração Rápida via o bot do Discord da Discloud](../../how-to-host-using/discord-bot.md#configuracao-rapida-guia-passo-a-passo).
+Este **não** é o mesmo que o **ID do App da Discloud**, que a Discloud gera internamente para sua aplicação hospedada. O **ID da Aplicação do Discord** vem do próprio Discord e identifica seu bot na plataforma do Discord, ele só é necessário para o [fluxo de Configuração Rápida via o bot do Discord da Discloud](../../how-to-host-using/discord-bot/#configuracao-rapida-guia-passo-a-passo).
 {% endhint %}
 
 ***
@@ -44,6 +44,6 @@ O **ID da Aplicação** é uma **informação pública**, não há problema em c
 
 ### 🔍 Onde é Necessário?
 
-Este ID é especificamente necessário ao usar o método de **Configuração Rápida** através do [Bot da Discloud](../../how-to-host-using/discord-bot.md#configuracao-rapida-guia-passo-a-passo), durante o fluxo guiado, o bot solicitará que você insira o ID da Aplicação.
+Este ID é especificamente necessário ao usar o método de **Configuração Rápida** através do [Bot da Discloud](../../how-to-host-using/discord-bot/#configuracao-rapida-guia-passo-a-passo), durante o fluxo guiado, o bot solicitará que você insira o ID da Aplicação.
 
 Se você estiver usando a **Configuração Avançada** (com um arquivo [`discloud.config`](../../configurations/discloud.config/)), não precisa fornecer este ID, a Discloud lida com a configuração automaticamente.

@@ -37,7 +37,7 @@ Para hospedar um site ou API, você deve atender a estes critérios:
 {% endhint %}
 
 {% hint style="info" %}
-[**`discloud.config`**](../configurations/discloud.config/) – Necessário para a maioria dos métodos de implantação. Se estiver usando a [**Configuração Rápida**](../how-to-host-using/discord-bot.md#configuracao-rapida-guia-passo-a-passo) do Bot do Discord, o bot irá guiá-lo através da configuração.
+[**`discloud.config`**](../configurations/discloud.config/) – Necessário para a maioria dos métodos de implantação. Se estiver usando a [**Configuração Rápida**](../how-to-host-using/discord-bot/#configuracao-rapida-guia-passo-a-passo) do Bot do Discord, o bot irá guiá-lo através da configuração.
 {% endhint %}
 
 {% hint style="info" %}
@@ -118,7 +118,7 @@ Você pode enviar seu projeto usando qualquer um de nossos métodos suportados:
 * 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
 * ⌨️ [**CLI**](../how-to-host-using/cli.md)
 * 🟦 [**Extensão do VS Code**](../how-to-host-using/visual-studio-code.md)
-* 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot.md)
+* 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot/)
 * 🐙 [**Integração com GitHub**](../api-and-integrations/github-integration.md)
 
 {% hint style="info" %}
