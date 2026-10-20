@@ -59,6 +59,8 @@
   * [Ruby](development-environment/local-environment/ruby.md)
   * [Rust](development-environment/local-environment/rust.md)
   * [Go](development-environment/local-environment/golang.md)
+  * [Java](development-environment/local-environment/java.md)
+  * [PHP](development-environment/local-environment/php.md)
 
 ## API e Integrações <a href="#api-and-integrations" id="api-and-integrations"></a>
 
