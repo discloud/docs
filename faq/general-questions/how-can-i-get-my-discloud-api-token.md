@@ -28,6 +28,8 @@ Abra o Dashboard: [https://discloud.com/dashboard](https://discloud.com/dashboar
 
 {% step %}
 Na barra lateral esquerda, expanda **Ferramentas** e clique em **Chaves de API**.
+
+<figure><img src="../../.gitbook/assets/Dashboard-API.png" alt="Página Chaves de API no Dashboard"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
