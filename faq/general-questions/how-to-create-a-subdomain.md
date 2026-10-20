@@ -16,6 +16,12 @@ To allow external access to your app, Discloud offers the option to create a **c
 
 <figure><img src="../../.gitbook/assets/subdomain-flow.png" alt="Discloud subdomain flow"><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+#### **`.discloud.app` or `.discloud.dev`?**
+
+Your subdomain ends up on `.discloud.app` or on `.discloud.dev`. You don't choose which: Discloud chooses the domain automatically when the subdomain is created, depending on the demand on each domain. In `discloud.config`, you always use only the subdomain name.
+{% endhint %}
+
 ***
 
 ## ✅ Requirements
@@ -87,7 +93,7 @@ ID=yoursubdomain
 {% hint style="warning" %}
 #### **How to specify the subdomain in the `discloud.config` file?**
 
-Use only the subdomain name, **not** the full domain (e.g., use `myapp`, not `myapp.discloud.app`).
+Use only the subdomain name, **not** the full domain (e.g., use `myapp`, not `myapp.discloud.app` or `myapp.discloud.dev`).
 
 Example:
 
@@ -113,7 +119,7 @@ Your registered subdomain can have two states:
 #### **🔵 Active**
 
 * The subdomain is **registered and in use**.
-* An app is currently deployed and accessible at `https://yoursubdomain.discloud.app`.
+* An app is currently deployed and accessible at `https://yoursubdomain.discloud.app` or `https://yoursubdomain.discloud.dev`, depending on the domain chosen when the subdomain was created.
 * Traffic is being routed to your app on port 8080.
 {% endhint %}
 
@@ -129,10 +135,11 @@ Your registered subdomain can have two states:
 
 ## 🌍 Access Your Site
 
-Once your subdomain is **Active**, you can access it via:
+Once your subdomain is **Active**, you can access it at one of these addresses, depending on the domain chosen when the subdomain was created:
 
 ```
 https://yoursubdomain.discloud.app
+https://yoursubdomain.discloud.dev
 ```
 
 ***

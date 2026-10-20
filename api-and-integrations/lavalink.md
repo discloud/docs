@@ -124,7 +124,7 @@ ID=my-lavalink-subdomain
 * **`TYPE=site`** - Required because Lavalink listens on a network port.
 * **`MAIN=Lavalink.jar`** - Must match the exact filename of the JAR.
 * **`VERSION=17.x.x`** - Lavalink 4.x requires Java 17. Use `17.x.x` or `latest`.
-* **`ID`** - Your registered subdomain (without `.discloud.app`).
+* **`ID`** - Your registered subdomain (without `.discloud.app` or `.discloud.dev`).
 {% endstep %}
 
 {% step %}

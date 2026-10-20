@@ -52,7 +52,7 @@ To host a website or API, you must meet these criteria:
 {% step %}
 #### 📡 Register a Subdomain
 
-Before deploying, you need to reserve your unique address on the `.discloud.app` domain.
+Before deploying, you need to reserve your unique address by creating a Discloud subdomain. The domain (`.discloud.app` or `.discloud.dev`) is chosen automatically by Discloud when the subdomain is created.
 {% endstep %}
 
 {% step %}
@@ -74,7 +74,7 @@ VERSION=latest
 ```
 
 * **`TYPE=site`**: Identifies the app as a web service.
-* **`ID`**: Your registered subdomain name. **Do not** include `.discloud.app` (e.g., use `my-app`, not `my-app.discloud.app`).
+* **`ID`**: Your registered subdomain name. **Do not** include `.discloud.app` or `.discloud.dev` (e.g., use `my-app`, not `my-app.discloud.app`).
 * **`MAIN`**: The entry point of your application.
 * **`RAM`**: Allocated memory (min. 512MB for sites).
 {% endstep %}
