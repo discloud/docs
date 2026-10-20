@@ -51,7 +51,7 @@ Reinicie o PowerShell e tente executar os comandos da Discloud CLI novamente.
 {% step %}
 Pré-requisito.
 
-Certifique-se de que você tenha [NodeJS](../development-environment/local-environment/nodejs.md) instalado em seu sistema.
+Certifique-se de que você tenha [Node.js](../development-environment/local-environment/nodejs.md) instalado em seu sistema.
 {% endstep %}
 
 {% step %}
@@ -96,7 +96,7 @@ Login.
 Para acessar as funcionalidades da CLI, você precisa fazer login com suas credenciais da Discloud. Execute o seguinte comando e cole seu [Token da API Discloud](../faq/general-questions/how-can-i-get-my-discloud-api-token.md):
 
 ```bash
-discloud --login
+discloud login
 ```
 {% endstep %}
 {% endstepper %}
@@ -104,7 +104,7 @@ discloud --login
 {% hint style="info" %}
 #### **Repositório Oficial da CLI**
 
-A CLI do NodeJS é um projeto de código aberto. Você pode contribuir, relatar bugs e sugerir melhorias no repositório oficial.
+A CLI do Node.js é um projeto de código aberto. Você pode contribuir, relatar bugs e sugerir melhorias no repositório oficial.
 
 {% embed url="https://github.com/discloud/cli" %}
 {% endhint %}
@@ -122,7 +122,7 @@ Uma vez instalada e configurada, você pode **fazer o upload da sua aplicação*
 Preparando seu projeto.
 
 * Certifique-se de que seu projeto contenha todos os arquivos necessários:
-  * [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) (arquivo de configuração).
+  * [**`discloud.config`**](../configurations/discloud.config/) (arquivo de configuração).
   * **Dependências necessárias** para sua linguagem de programação (ex.: [`package.json`](../development-environment/supported-languages/javascript/package.json.md) para [Node.js](../development-environment/local-environment/nodejs.md), [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) para [Python](../development-environment/local-environment/python.md)).
 * **Verifique o** [**Guia de Linguagens**](../development-environment/supported-languages/) para garantir que seu projeto esteja estruturado corretamente.
 {% endstep %}
@@ -133,7 +133,7 @@ Fazendo upload de sua aplicação.
 Para fazer o upload do seu projeto, navegue até a pasta da sua aplicação e execute:
 
 ```bash
-discloud up
+discloud app up
 ```
 
 * A CLI irá **automaticamente comprimir** seu projeto e fazer upload dele.
@@ -143,11 +143,25 @@ discloud up
 #### **Para verificar o status do seu app, use:**
 
 ```sh
-discloud status
+discloud app status <ID_DA_APLICACAO>
 ```
 {% endhint %}
 {% endstep %}
 {% endstepper %}
+
+***
+
+## 🧰 Outros comandos úteis
+
+| Comando                                  | O que faz                                                                                                   |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `discloud app info`                      | Mostra as informações das suas aplicações.                                                                  |
+| `discloud app logs <ID_DA_APLICACAO>`    | Mostra os logs da aplicação.                                                                                |
+| `discloud app commit <ID_DA_APLICACAO>`  | Atualiza os arquivos da aplicação. Veja [**Como fazer commit?**](../faq/general-questions/how-to-commit.md) |
+| `discloud app restart <ID_DA_APLICACAO>` | Reinicia a aplicação.                                                                                       |
+| `discloud app stop <ID_DA_APLICACAO>`    | Para a aplicação.                                                                                           |
+| `discloud app start <ID_DA_APLICACAO>`   | Inicia a aplicação.                                                                                         |
+| `discloud --help`                        | Lista todos os comandos da CLI.                                                                             |
 
 ***
 
@@ -162,7 +176,7 @@ discloud init
 ```
 
 * Este comando solicita que você insira **detalhes básicos de configuração** (ex.: nome, arquivo principal, RAM, etc.).
-* Em seguida, **gera o arquivo** [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config) **para você**, facilitando o upload.
+* Em seguida, **gera o arquivo** [**`discloud.config`**](../configurations/discloud.config/) **para você**, facilitando o upload.
 
 ### 📂 **Usando `.discloudignore` para Excluir Arquivos**
 
