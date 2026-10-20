@@ -49,7 +49,7 @@ Restart PowerShell and try running Discloud CLI commands again.
 {% step %}
 Prerequisite.
 
-Ensure you have [NodeJS](../development-environment/local-environment/nodejs.md) installed on your system.
+Ensure you have [Node.js](../development-environment/local-environment/nodejs.md) installed on your system.
 {% endstep %}
 
 {% step %}
@@ -94,7 +94,7 @@ Login.
 To access CLI functionalities, you need to log in with your Discloud credentials. Run the following command and paste your [Discloud API Token](../faq/general-questions/how-can-i-get-my-discloud-api-token.md):
 
 ```bash
-discloud --login
+discloud login
 ```
 {% endstep %}
 {% endstepper %}
@@ -102,7 +102,7 @@ discloud --login
 {% hint style="info" %}
 #### **Official CLI Repository**
 
-The NodeJS CLI is an open-source project. You can contribute, report bugs, and suggest improvements in the official repository.
+The Node.js CLI is an open-source project. You can contribute, report bugs, and suggest improvements in the official repository.
 
 {% embed url="https://github.com/discloud/cli" %}
 {% endhint %}
@@ -120,7 +120,7 @@ Once installed and configured, you can **deploy your application** in just a few
 Preparing your project.
 
 * Ensure your project contains all required files:
-  * [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) (configuration file).
+  * [**`discloud.config`**](../configurations/discloud.config/) (configuration file).
   * Necessary **dependencies** for your programming language (e.g., [`package.json`](../development-environment/supported-languages/javascript/package.json.md) for [Node.js](../development-environment/local-environment/nodejs.md), [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) for [Python](../development-environment/local-environment/python.md)).
 * **Check the** [**Languages Guide**](../development-environment/supported-languages/) to make sure your project is properly structured.
 {% endstep %}
@@ -131,7 +131,7 @@ Uploading your application.
 To deploy your project, navigate to your application folder and run:
 
 ```bash
-discloud up
+discloud app up
 ```
 
 * The CLI will **automatically compress** your project and upload it.
@@ -141,11 +141,25 @@ discloud up
 #### **To check your app status, use:**
 
 ```sh
-discloud status
+discloud app status <APPLICATION_ID>
 ```
 {% endhint %}
 {% endstep %}
 {% endstepper %}
+
+***
+
+## 🧰 Other useful commands
+
+| Command                                 | What it does                                                                                       |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `discloud app info`                     | Shows information about your applications.                                                         |
+| `discloud app logs <APPLICATION_ID>`    | Shows the application logs.                                                                        |
+| `discloud app commit <APPLICATION_ID>`  | Updates the application files. See [**How to commit?**](../faq/general-questions/how-to-commit.md) |
+| `discloud app restart <APPLICATION_ID>` | Restarts the application.                                                                          |
+| `discloud app stop <APPLICATION_ID>`    | Stops the application.                                                                             |
+| `discloud app start <APPLICATION_ID>`   | Starts the application.                                                                            |
+| `discloud --help`                       | Lists all CLI commands.                                                                            |
 
 ***
 
@@ -160,7 +174,7 @@ discloud init
 ```
 
 * This command prompts you to enter **basic configuration details** (e.g., name, main file, RAM, etc).
-* It then **generates the** [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) **file** for you, making deployment easier.
+* It then **generates the** [**`discloud.config`**](../configurations/discloud.config/) **file** for you, making deployment easier.
 
 ### 📂 **Using `.discloudignore` to Exclude Files**
 
