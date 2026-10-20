@@ -11,10 +11,8 @@ This step-by-step guide shows how to prepare, configure, and deploy a **Next.js*
 
 There are two main approaches:
 
-* [**Option A (recommended)**](nextjs.md#option-a-deploy-without-custom-server-next.js-built-in) – use `next build` + `next start` **without a custom server** (only the built-in Next.js server).
-* [**Option B**](nextjs.md#option-b-custom-server-with-express) – use a **custom server** with **Express**, useful when you need **extra routes, custom middleware, or specific integrations**.
-
-Additionally, we show an [**alternative with static export**](nextjs.md#alternative-static-export-next.js-as-a-static-site), ideal for purely static websites.
+* [**Built-in Next.js server (recommended)**](nextjs.md#deployment-options) – use `next build` + `next start` **without a custom server**.
+* [**Static export**](nextjs.md#deployment-options) – generate a fully static site, ideal for sites without SSR or API Routes.
 
 {% hint style="info" %}
 This guide assumes you already have a Next.js project running locally.
@@ -96,38 +94,15 @@ It is important that the **`start` script uses port `8080`** (`next start -p 808
 
 ***
 
-## 📦 Changing Next.js build folder (`.next` → `dist`)
+## 🚫 Do not use the `dist` folder
 
-By default, Next.js outputs build files into the `.next` directory.\
-In some cases (deployment, conventions, integrations), you may want to use a folder like `dist` instead.
+By default, **Next.js** outputs build files into the `.next` directory. Keep that default and **do not change `distDir` to `dist`**.
 
-#### 1. Edit `next.config.js`
+{% hint style="danger" %}
+**The `dist` folder is reserved by Discloud.** When your `discloud.config` has the `BUILD` option, Discloud uses the `dist` folder to build your application.
 
-```js
-const nextConfig = {
-  distDir: 'dist',
-}
-```
-
-#### 2. Run the build
-
-```bash
-npm run build
-```
-
-#### 📁 Result
-
-Before:
-
-```
-.next/
-```
-
-After:
-
-```
-dist/
-```
+If you build on your own computer and upload the already-built project, use a different folder name (e.g. `build` or `out`), **never `dist`**.
+{% endhint %}
 
 ***
 
@@ -159,9 +134,11 @@ Some deployment environments only install production dependencies, which can cau
 
 ***
 
+## 🧩 Deployment options
+
 <details open>
 
-<summary>✅ Deploy without custom server (Next.js "built-in")</summary>
+<summary>Deploy without custom server (Next.js "built-in")</summary>
 
 In this option you only use the internal Next server (`next start`), without needing a `server.js`.
 
@@ -179,7 +156,7 @@ In this option you only use the internal Next server (`next start`), without nee
     ```
 3. If everything works, prepare the `.zip` and upload it to Discloud.
 
-**⚙️** [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) **(example)**
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(example)**
 
 ```
 MAIN=index.ts
@@ -195,7 +172,7 @@ ID=my-nextjs-app
 
 <details>
 
-<summary>🧾 Alternative – Static export (Next.js as a static site)</summary>
+<summary>Alternative – Static export (Next.js as a static site)</summary>
 
 If your project does not depend on **SSR** or **API Routes**, you can use `next export` to generate a fully **static** site.
 
@@ -211,7 +188,7 @@ If your project does not depend on **SSR** or **API Routes**, you can use `next 
 }
 ```
 
-**⚙️** [**`discloud.config`**](https://github.com/discloud/docs/blob/english/configurations/discloud.config) **(static)**
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(static)**
 
 ```
 MAIN=out/index.html
@@ -263,7 +240,6 @@ my-next-app/
 ├─ package.json
 ├─ next.config.js
 ├─ index.ts
-├─ server.js        # optional (only in Option B)
 ├─ public/
 └─ app/ or pages/
 	 ├─ page.js
