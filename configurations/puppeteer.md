@@ -20,7 +20,7 @@ Para usar **Puppeteer** na Discloud, é recomendado um mínimo de **512 MB de RA
 
 ## 📦 **Adicionando Puppeteer**
 
-O Puppeteer requer dependências adicionais do sistema. Você deve adicionar **`puppeteer`** ao campo [`APT`](discloud.config/apt.md) no seu arquivo [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese/configurations/discloud.config).
+O Puppeteer requer dependências adicionais do sistema. Você deve adicionar **`puppeteer`** ao campo [`APT`](discloud.config/apt.md) no seu arquivo [**`discloud.config`**](discloud.config/).
 
 <pre class="language-ini" data-title="discloud.config"><code class="lang-ini"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 APT=tools, puppeteer
@@ -80,4 +80,4 @@ client.initialize();
 * Quanto mais complexas suas interações com o WhatsApp, **mais RAM o Puppeteer precisará** para funcionar adequadamente.
 {% endhint %}
 
-[^1]: **Note:** The **`...`** only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.
+[^1]: **Nota:** Os **`...`** apenas indicam a continuação de outras opções, anteriores ou seguintes, que não são relevantes para esta página.
