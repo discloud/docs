@@ -51,7 +51,6 @@ Nos comandos que aceitam a opção `app`, informe o **ID da aplicação**, ou `a
 | `/apt`               | Instala [pacotes](../../configurations/discloud.config/apt.md) na instância Linux da sua aplicação.    |
 | `/backup`            | Faz um backup dos arquivos da sua aplicação.                                                           |
 | `/restorepoints`     | Cria pontos de restauração para uma aplicação.                                                         |
-| `/resetweek`         | Reinicia o tempo até sua aplicação ser desligada.                                                      |
 | `/removerapp (ID)`   | Exclui a aplicação, apagando todos os dados e configurações.                                           |
 
 {% hint style="danger" %}
