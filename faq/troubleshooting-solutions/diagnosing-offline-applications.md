@@ -28,13 +28,6 @@ Encerra durante uma ação específica.
 * Acontece quando a aplicação é **acionada por um comando ou evento específico**.
 * Causas prováveis: **exceções não capturadas, uso alto de recursos ou falhas de API**.
 {% endstep %}
-
-{% step %}
-Vai offline após alguns dias (plano gratuito).
-
-* Pode estar relacionado à **política anti-ghost app da Discloud** para planos gratuitos.
-* Considere **atualizar para um plano pago** para manter aplicações online.
-{% endstep %}
 {% endstepper %}
 
 ***
@@ -59,13 +52,13 @@ Exceções não tratadas ou **bugs no seu código** podem causar travamentos.
 ✔ **Teste localmente** antes de fazer o upload na Discloud.
 {% endhint %}
 
-{% hint style="info" %}
-#### **Limitações do Plano Gratuito**
+{% hint style="danger" %}
+#### **Aplicações gratuitas offline são apagadas após 30 dias**
 
-O plano gratuito da Discloud **pode suspender aplicações inativas** para liberar recursos.
+Uma aplicação do plano gratuito que fica **offline** permanece na sua conta por apenas **30 dias**. Depois desse prazo, ela é **apagada automaticamente**.
 
-✔ Se sua aplicação **vai offline inesperadamente**, isso pode ser o motivo.\
-✔ Considere [**atualizar para um plano pago**](https://discloud.com/plans) para mantê-la rodando.
+✔ Se não quiser perder a aplicação, coloque-a online de novo antes desse prazo.\
+✔ Faça um **backup** dos arquivos se quiser guardá-los.
 {% endhint %}
 
 ***

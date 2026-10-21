@@ -95,7 +95,6 @@
   * [Como fazer commit?](faq/general-questions/how-to-commit.md)
   * [\[EM ANDAMENTO\] Você já possui uma conta registrada no sistema](faq/general-questions/you-already-have-a-registered-account-in-the-system.md)
   * [Como acessar os logs da aplicação?](faq/general-questions/how-to-access-the-application-logs.md)
-  * [\[EM ANDAMENTO\] Por que Aplicações Gratuitas são Encerradas?](faq/general-questions/why-are-free-applications-shut-down.md)
   * [Como verificar uma conta do Discord?](faq/general-questions/how-to-verify-a-discord-account.md)
   * [Como construir e empacotar uma aplicação Java?](faq/general-questions/how-to-build-and-package-a-java-application.md)
   * [Gerenciamento de Assinaturas](faq/general-questions/subscription-management.md)
