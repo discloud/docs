@@ -95,7 +95,6 @@
   * [How to commit?](faq/general-questions/how-to-commit.md)
   * [\[WIP\] You already have a registered account in the system](faq/general-questions/you-already-have-a-registered-account-in-the-system.md)
   * [How to access the application logs?](faq/general-questions/how-to-access-the-application-logs.md)
-  * [\[WIP\] Why Are Free Applications Shut Down?](faq/general-questions/why-are-free-applications-shut-down.md)
   * [How to verify a Discord account?](faq/general-questions/how-to-verify-a-discord-account.md)
   * [How to build and package a Java application?](faq/general-questions/how-to-build-and-package-a-java-application.md)
   * [Subscription Management](faq/general-questions/subscription-management.md)

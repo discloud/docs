@@ -28,13 +28,6 @@ Shuts down during a specific action.
 * Happens when the application is **triggered by a particular command or event**.
 * Likely causes: **Uncaught exceptions, high resource usage, or API failures**.
 {% endstep %}
-
-{% step %}
-Goes offline after a few days (free plan).
-
-* Could be related to **Discloud’s anti-ghost app policy** for free plans.
-* Consider **upgrading to a paid plan** to keep applications online.
-{% endstep %}
 {% endstepper %}
 
 ***
@@ -59,13 +52,13 @@ Unhandled exceptions or **bugs in your code** can cause crashes.
 ✔ **Test locally** before deploying to Discloud.
 {% endhint %}
 
-{% hint style="info" %}
-#### **Free Plan Limitations**
+{% hint style="danger" %}
+#### **Offline free applications are deleted after 30 days**
 
-Discloud’s free plan **may suspend inactive applications** to free up resources.
+A free plan application that stays **offline** is kept on your account for only **30 days**. After that, it is **deleted automatically**.
 
-✔ If your application **goes offline unexpectedly**, this could be the reason.\
-✔ Consider [**upgrading to a paid plan**](https://discloud.com/plans) to keep it running.
+✔ If you don't want to lose the application, bring it back online before then.\
+✔ Make a **backup** of the files if you want to keep them.
 {% endhint %}
 
 ***
