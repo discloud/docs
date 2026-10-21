@@ -51,7 +51,6 @@ In commands that take the `app` option, enter the **application ID**, or `all` t
 | `/apt`               | Installs [packages](../../configurations/discloud.config/apt.md) on your application's Linux instance.     |
 | `/backup`            | Backs up your application's files.                                                                         |
 | `/restorepoints`     | Creates restore points for an application.                                                                 |
-| `/resetweek`         | Resets the time until your application shuts down.                                                         |
 | `/removerapp (ID)`   | Deletes the application, removing all its data and settings.                                               |
 
 {% hint style="danger" %}
