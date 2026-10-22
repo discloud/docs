@@ -61,6 +61,17 @@ Uma aplicação do plano gratuito que fica **offline** permanece na sua conta po
 ✔ Faça um **backup** dos arquivos se quiser guardá-los.
 {% endhint %}
 
+{% hint style="danger" %}
+#### **Plano pago expirado: aplicações offline são apagadas 45 dias após o snapshot**
+
+Se o seu plano pago **expirar** e não for renovado, a Discloud desliga as suas aplicações e mantém apenas **1 aplicação online**, com **100 MB** disponíveis, como no plano gratuito.
+
+As aplicações que ficarem **offline** recebem um **snapshot** e permanecem na sua conta por **45 dias** depois que ele é gerado. Depois desse prazo, elas são **apagadas automaticamente**.
+
+✔ Renove o plano antes desse prazo se não quiser perder as aplicações.\
+✔ Faça um **backup** dos arquivos se quiser guardá-los.
+{% endhint %}
+
 ***
 
 ## 🛠️ **Depuração Passo a Passo**
