@@ -56,7 +56,7 @@ Click the `Domains` tab in the side menu of your account page.
 {% endstep %}
 
 {% step %}
-Click the `+ Create Subdomain` button to create a new subdomain.
+Click the `+ Create subdomain` button to create a new subdomain.
 
 <figure><img src="../../.gitbook/assets/dashboard-subdomain-button.png" alt="Add Subdomain button"><figcaption></figcaption></figure>
 {% endstep %}
@@ -67,14 +67,14 @@ Enter your desired subdomain name (e.g., `myapp`, `dashboard`, `api`).
 {% hint style="info" %}
 #### **Subdomain naming rules**
 
-* Maximum **20 characters**
-* Only alphanumeric characters (A–Z, 0–9) and hyphens (-)
+* Between **2 and 20 characters**
+* Only lowercase letters (a–z), numbers (0–9), and hyphens (-)
 * No spaces, underscores, or special characters allowed
 {% endhint %}
 {% endstep %}
 
 {% step %}
-Your subdomain is now registered and its state will show as **Available**.
+Your subdomain is now registered and its state will show as **Free**.
 {% endstep %}
 {% endstepper %}
 
@@ -116,7 +116,7 @@ After updating `discloud.config`, **deploy your application** for the changes to
 Your registered subdomain can have two states:
 
 {% hint style="info" %}
-#### **🔵 Active**
+#### **🔵 In use**
 
 * The subdomain is **registered and in use**.
 * An app is currently deployed and accessible at `https://yoursubdomain.discloud.app` or `https://yoursubdomain.discloud.dev`, depending on the domain chosen when the subdomain was created.
@@ -124,7 +124,7 @@ Your registered subdomain can have two states:
 {% endhint %}
 
 {% hint style="info" %}
-#### **🟢 Available**
+#### **🟢 Free**
 
 * The subdomain is **registered and available**.
 * No app is currently using it.
@@ -135,7 +135,7 @@ Your registered subdomain can have two states:
 
 ## 🌍 Access Your Site
 
-Once your subdomain is **Active**, you can access it at one of these addresses, depending on the domain chosen when the subdomain was created:
+Once your subdomain is **In use**, you can access it at one of these addresses, depending on the domain chosen when the subdomain was created:
 
 ```
 https://yoursubdomain.discloud.app

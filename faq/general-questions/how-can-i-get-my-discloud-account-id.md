@@ -18,7 +18,7 @@ Open the Dashboard: [https://discloud.com/dashboard](https://discloud.com/dashbo
 {% endstep %}
 
 {% step %}
-In the bottom-right corner, click on your **profile** to open the user menu.
+In the bottom-left corner, click on your **profile** to open the user menu.
 {% endstep %}
 
 {% step %}
