@@ -83,7 +83,7 @@ Enviando para o Painel.
 
 {% stepper %}
 {% step %}
-Acesse a [página **Applications**](https://discloud.com/dashboard) no Painel da Discloud.
+Acesse a [página **Aplicações**](https://discloud.com/dashboard) no Painel da Discloud.
 {% endstep %}
 
 {% step %}

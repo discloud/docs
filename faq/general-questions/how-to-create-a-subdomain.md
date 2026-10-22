@@ -67,14 +67,14 @@ Insira o nome desejado para o subdomínio (ex.: `meuapp`, `dashboard`, `api`).
 {% hint style="info" %}
 #### **Regras para nomear o subdomínio**
 
-* Máximo de **20 caracteres**
-* Apenas caracteres alfanuméricos (A–Z, 0–9) e hífens (-)
+* Entre **2 e 20 caracteres**
+* Apenas letras minúsculas (a–z), números (0–9) e hífens (-)
 * Não são permitidos espaços, underscores ou caracteres especiais
 {% endhint %}
 {% endstep %}
 
 {% step %}
-Seu subdomínio agora está registrado e seu estado aparecerá como **Disponível**.
+Seu subdomínio agora está registrado e seu estado aparecerá como **Livre**.
 {% endstep %}
 {% endstepper %}
 
@@ -116,7 +116,7 @@ Após atualizar o `discloud.config`, **faça o deploy da sua aplicação** para 
 Seu subdomínio registrado pode ter dois estados:
 
 {% hint style="info" %}
-#### **🔵 Ativo**
+#### **🔵 Em uso**
 
 * O subdomínio está **registrado e em uso**.
 * Uma aplicação está atualmente em deploy e acessível em `https://seusubdominio.discloud.app` ou `https://seusubdominio.discloud.dev`, conforme o domínio escolhido na criação do subdomínio.
@@ -124,7 +124,7 @@ Seu subdomínio registrado pode ter dois estados:
 {% endhint %}
 
 {% hint style="info" %}
-#### **🟢 Disponível**
+#### **🟢 Livre**
 
 * O subdomínio está **registrado e disponível**.
 * Nenhuma aplicação está usando ele no momento.
@@ -135,7 +135,7 @@ Seu subdomínio registrado pode ter dois estados:
 
 ## 🌍 Acesse Seu Site
 
-Quando seu subdomínio estiver **Ativado**, você pode acessá-lo em um destes endereços, conforme o domínio escolhido na criação do subdomínio:
+Quando seu subdomínio estiver **Em uso**, você pode acessá-lo em um destes endereços, conforme o domínio escolhido na criação do subdomínio:
 
 ```
 https://seusubdominio.discloud.app

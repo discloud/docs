@@ -18,11 +18,11 @@ Abra o Dashboard: [https://discloud.com/dashboard](https://discloud.com/dashboar
 {% endstep %}
 
 {% step %}
-No canto inferior direito, clique no **seu perfil** para abrir o menu de usuário.
+No canto inferior esquerdo, clique no **seu perfil** para abrir o menu de usuário.
 {% endstep %}
 
 {% step %}
-No menu que aparecer, clique em **My account**.
+No menu que aparecer, clique em **Minha conta**.
 {% endstep %}
 
 {% step %}

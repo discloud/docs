@@ -62,7 +62,7 @@ Você pode alterar isso a qualquer momento voltando para **Configurações > Int
 {% step %}
 **🚀 Inicie um novo upload**
 
-Acesse a página **Applications** no [Painel da Discloud](https://discloud.com/dashboard), clique em **+ Upload** (canto superior direito) e selecione **GitHub** como tipo de deploy.
+Acesse a página **Aplicações** no [Painel da Discloud](https://discloud.com/dashboard), clique em **+ Upload** (canto superior direito) e selecione **GitHub** como tipo de deploy.
 
 <figure><img src="../.gitbook/assets/GitHub-Integration_Upload-Menu.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
