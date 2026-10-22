@@ -61,6 +61,17 @@ A free plan application that stays **offline** is kept on your account for only 
 ✔ Make a **backup** of the files if you want to keep them.
 {% endhint %}
 
+{% hint style="danger" %}
+#### **Expired paid plan: offline applications are deleted 45 days after the snapshot**
+
+If your paid plan **expires** and isn't renewed, Discloud shuts down your applications and keeps only **1 application online**, with **100 MB** available, as on the free plan.
+
+The applications that stay **offline** get a **snapshot** and are kept on your account for **45 days** after it is generated. After that, they are **deleted automatically**.
+
+✔ Renew your plan before then if you don't want to lose the applications.\
+✔ Make a **backup** of the files if you want to keep them.
+{% endhint %}
+
 ***
 
 ## 🛠️ **Step-by-Step Debugging**
