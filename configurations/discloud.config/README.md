@@ -47,7 +47,7 @@ your-project/
 
 ## 🛠️ Configuration options
 
-See below all the configuration options for the `discloud.config` file. Click here to check out some examples of different applications.
+See below all the configuration options for the `discloud.config` file. [Click here to check out some examples of different applications](./#examples-of-discloud.config-files).
 
 {% tabs %}
 {% tab title="📑 Information" %}
