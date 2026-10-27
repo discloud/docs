@@ -102,7 +102,7 @@ require (
 
 ***
 
-## 🔒 Integridade do `go.sum` & Caso Vazio
+## 🔒 Integridade do `go.sum`
 
 `go.sum` contém hashes criptográficos de cada versão de módulo necessária (direta & indireta) para garantir builds reprodutíveis. Ele **deve ser commitado** junto com `go.mod`.
 

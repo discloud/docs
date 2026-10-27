@@ -15,7 +15,12 @@ Seja uma API simples, uma app completa ou algo em tempo real – você vai encon
 
 ## 📚 Guias disponíveis
 
-Escolha seu framework da lista e acompanhe:
+Escolha seu framework e acompanhe:
+
+* [NestJS](nestjs.md)
+* [Next.js](nextjs.md)
+
+Cada guia inclui:
 
 * **Setup passo a passo** – Estrutura do projeto, arquivos de config, variáveis de ambiente
 * **Testes locais** – Como verificar se tudo funciona antes de enviar

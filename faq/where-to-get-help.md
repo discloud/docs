@@ -1,7 +1,7 @@
 ---
 description: >-
-  Canais e melhores práticas para obter ajuda com Discloud-fóruns da comunidade,
-  chat, áreas de doadores e suporte direto da equipe.
+  Canais e melhores práticas para obter ajuda com a Discloud: fóruns da
+  comunidade, chat, áreas de doadores e suporte direto da equipe.
 icon: bullseye-arrow
 ---
 
@@ -23,7 +23,7 @@ A equipe se concentra em problemas da plataforma Discloud (upload, comportamento
 | ----------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- | ---------------------------------------------------------- |
 | [Ticket Modmail (Direto)](https://discord.com/channels/@me/930852077045940224/)                 | Privado                       | Você ↔ Equipe          | Cobrança, conta, dados sensíveis, preocupações de política |
 | [chat](https://discord.com/channels/584490943034425391/1051122908103192636)                     | Chat público                  | Todos os usuários      | Perguntas rápidas da plataforma, discussão leve            |
-| [dev-help (Fórum)](https://discord.com/channels/584490943034425391/1052629984444948501)         | Threaded público              | Todos os usuários      | Ajuda da comunidade com código / configs                   |
+| [dev-help (Fórum)](https://discord.com/channels/584490943034425391/1052629984444948501)         | Público (em threads)          | Todos os usuários      | Ajuda da comunidade com código / configs                   |
 | [donators-chat](https://discord.com/channels/584490943034425391/1051124971763679232)            | Público (restrito a doadores) | Usuários de plano pago | Discussão da comunidade de doadores                        |
 | [donators-support (Fórum)](https://discord.com/channels/584490943034425391/1051124971763679232) | Público (restrito a doadores) | Usuários de plano pago | Perguntas técnicas relacionadas ao plano                   |
 | [Documentação](https://docs.discloud.com/)                                                      | Autoatendimento               | Todos                  | Guias e referências oficiais                               |
@@ -59,17 +59,17 @@ Não envie tokens brutos, chaves API ou dumps completos de variáveis de ambient
 
 ***
 
-## 🤝 Fórum da Comunidade: dev-help-english
+## 🤝 Fórum da Comunidade: dev-help
 
 Q\&A peer-to-peer. A equipe pode ocasionalmente responder, mas respostas não são garantidas.
 
 ### ✅ Poste Efetivamente
 
-<table><thead><tr><th width="300">Elemento</th><th>Por Que Importa</th></tr></thead><tbody><tr><td>Objetivo claro</td><td>Ajuda outros a entenderem o resultado desejado</td></tr><tr><td>Passos de repro</td><td>Permite validação e reprodução</td></tr><tr><td>Snippet de erro</td><td>Foca atenção (cole porção mínima)</td></tr><tr><td>Básicos do ambiente</td><td>Linguagem, versão do runtime, nível do plano (se relevante)</td></tr><tr><td>O que você tentou</td><td>Evita sugestões duplicadas</td></tr></tbody></table>
+<table><thead><tr><th width="300">Elemento</th><th>Por Que Importa</th></tr></thead><tbody><tr><td>Objetivo claro</td><td>Ajuda outros a entenderem o resultado desejado</td></tr><tr><td>Passos para reproduzir</td><td>Permite validação e reprodução</td></tr><tr><td>Trecho do erro</td><td>Foca atenção (cole porção mínima)</td></tr><tr><td>Básicos do ambiente</td><td>Linguagem, versão do runtime, nível do plano (se relevante)</td></tr><tr><td>O que você tentou</td><td>Evita sugestões duplicadas</td></tr></tbody></table>
 
 ### 🚫 Evite
 
-<table><thead><tr><th width="300">Armadilha</th><th>Abordagem Melhor</th></tr></thead><tbody><tr><td>Vago: "Não funciona"</td><td>Descreva resultado esperado vs atual</td></tr><tr><td>Logs enormes não formatados</td><td>Forneça linhas relevantes</td></tr><tr><td>Comparações de plataforma off-topic</td><td>Mantenha escopo para resolver seu problema</td></tr><tr><td>Tags multilinguagem irrelevantes</td><td>Somente tag tecnologias realmente usadas</td></tr></tbody></table>
+<table><thead><tr><th width="300">Armadilha</th><th>Abordagem Melhor</th></tr></thead><tbody><tr><td>Vago: "Não funciona"</td><td>Descreva resultado esperado vs atual</td></tr><tr><td>Logs enormes não formatados</td><td>Forneça linhas relevantes</td></tr><tr><td>Comparações de plataforma off-topic</td><td>Mantenha escopo para resolver seu problema</td></tr><tr><td>Tags multilinguagem irrelevantes</td><td>Marque apenas as tecnologias realmente usadas</td></tr></tbody></table>
 
 {% hint style="success" %}
 Pesquise threads existentes primeiro, sua resposta pode já existir.

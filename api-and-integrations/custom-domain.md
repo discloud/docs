@@ -7,7 +7,7 @@ icon: globe
 
 ## 🧭 Visão Geral
 
-Você pode mapear seu próprio domínio (ex. `yourdomain.com`) ou um subdomínio (ex. `dash.yourdomain.com`) para uma aplicação hospedada na Discloud. A plataforma serve o tráfego através do [subdomínio Discloud](../faq/general-questions/how-to-create-a-subdomain.md) da sua aplicação usando dois registros A apontando para nossos endereços IPv4 e valida a propriedade via registros TXT.
+Você pode mapear seu próprio domínio (ex. `seudominio.com`) ou um subdomínio (ex. `dash.seudominio.com`) para uma aplicação hospedada na Discloud. A plataforma serve o tráfego através do [subdomínio Discloud](../faq/general-questions/how-to-create-a-subdomain.md) da sua aplicação usando dois registros A apontando para nossos endereços IPv4.
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Diagrama de fluxo do domínio personalizado"><figcaption></figcaption></figure>
 
@@ -88,7 +88,7 @@ Se você usar **Cloudflare**, é obrigatório desabilitar o **Proxy** (certifiqu
 
 ## 🔄 Reconstruir a Aplicação
 
-Após o DNS resolver e os tokens validarem, abra a aplicação vinculada e acione a Reconstrução para que a vinculação se torne ativa.
+Após o DNS propagar, abra a aplicação vinculada e acione a Reconstrução para que a vinculação se torne ativa.
 
 <div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="Lista de aplicações mostrando domínio personalizado"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Applications_Rebuild.png" alt=""><figcaption></figcaption></figure></div>
 

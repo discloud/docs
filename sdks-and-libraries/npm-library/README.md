@@ -18,7 +18,7 @@ icon: npm
 
 ## 🔗 Links Úteis
 
-* **📖** [**Documentação da API**](../../api-and-integrations/api-overview/) - Documentação completa do TypeDoc
+* **📖** [**Referência da API REST**](../../api-and-integrations/api-overview/) - Endpoints da API da Discloud usados pela biblioteca
 * **🐙** [**Repositório GitHub**](https://github.com/discloud/discloud.app) - Código fonte e issues
 * **📦** [**Pacote NPM**](https://www.npmjs.com/package/discloud.app) - Download e informações de versão
 
@@ -50,6 +50,6 @@ Seja você construindo **scripts de automação**, **pipelines CI/CD**, **dashbo
 
 Se você encontrar algum problema ou tiver dúvidas:
 
-* 📖 Verifique os [**Exemplos de Uso**](../python-library/usage-examples.md) para cenários comuns
+* 📖 Verifique os [**Exemplos de Uso**](usage-examples.md) para cenários comuns
 * 🐛 Relate bugs nos [**Issues do GitHub**](https://github.com/discloud/discloud.app/issues/new?template=bug.yml)
 * 💬 Junte-se à nossa [**Comunidade Discord**](https://discord.discloudbot.com)

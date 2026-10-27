@@ -16,7 +16,7 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 ```diff
 - Cargo.lock
 - target/
-- git
+- .git/
 ```
 
 📌 **Use um arquivo** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **para excluir automaticamente esses arquivos.**

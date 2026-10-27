@@ -1,10 +1,10 @@
 ---
 description: >-
-  Entenda como compilar e empacotar seu projeto Java em um arquivo JAR
-  hospedado usando Maven ou Gradle.
+  Entenda como compilar e empacotar seu projeto Java em um arquivo JAR hospedado
+  usando Maven ou Gradle.
 ---
 
-# Como Construir e Empacotar uma Aplicação Java?
+# Como construir e empacotar uma aplicação Java?
 
 ## 📌 **Por Que Preciso Construir Minha Aplicação Java?**
 
@@ -31,7 +31,7 @@ Você deve:\
 
 {% stepper %}
 {% step %}
-Adicione o Plugin do Compilador Maven\*\*.\*\*
+Adicione o Plugin do Compilador Maven.
 
 Garanta que seu `pom.xml` inclua o **Plugin do Compilador Maven** para especificar a versão do Java para compilação. Isso evita problemas de compatibilidade ao executar o projeto.
 
@@ -55,7 +55,7 @@ Garanta que seu `pom.xml` inclua o **Plugin do Compilador Maven** para especific
 {% endstep %}
 
 {% step %}
-Especifique a Classe Principal\*\*.\*\*
+Especifique a Classe Principal.
 
 Para tornar sua aplicação executável, você precisa especificar o ponto de entrada (método `main`). Isso é feito usando o **Plugin Maven Shade**, que também garante que todas as dependências sejam agrupadas dentro de um **único arquivo JAR**.
 
@@ -76,7 +76,7 @@ Para tornar sua aplicação executável, você precisa especificar o ponto de en
           <configuration>
             <transformers>
               <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                <!-- NOTE: Replace this with the correct path to your project's main class -->
+                <!-- NOTA: Substitua pelo nome totalmente qualificado da classe principal do seu projeto -->
                 <mainClass>com.project.example.Main</mainClass>
               </transformer>
             </transformers>
@@ -96,7 +96,7 @@ Para tornar sua aplicação executável, você precisa especificar o ponto de en
 {% endstep %}
 
 {% step %}
-Construa o Projeto\*\*.\*\*
+Construa o Projeto.
 
 Execute o seguinte comando para **limpar** construções antigas e gerar os novos arquivos JAR:
 

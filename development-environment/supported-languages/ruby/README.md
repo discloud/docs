@@ -63,7 +63,7 @@ module RailsOnDiscloud
       IPAddr.new("0.0.0.0/0"),        # Todos os endereços IPv4.
       IPAddr.new("::/0"),             # Todos os endereços IPv6.
       "localhost",                    # Domínio reservado localhost.
-      "seusubdomínio.discloud.app"    # !!! Subdomínio Discloud !!!
+      "seusubdominio.discloud.app"    # !!! Subdomínio Discloud !!!
     ]
   end
 end

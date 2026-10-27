@@ -18,7 +18,7 @@ Este é o fluxo recomendado para equipes e para quem usa controle de versão com
 Antes de conectar o GitHub, certifique-se de que o seguinte está em ordem:
 
 {% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) **na raiz** - Este arquivo deve existir na raiz do seu repositório. Sem ele, o upload falhará na validação. Saiba mais sobre a raiz do projeto.
+[**`discloud.config`**](../configurations/discloud.config/) **na raiz** - Este arquivo deve existir na raiz do seu repositório. Sem ele, o upload falhará na validação. Saiba mais sobre a [raiz do projeto](../faq/general-questions/what-is-the-root-of-the-project.md).
 {% endhint %}
 
 {% hint style="danger" %}
@@ -72,7 +72,7 @@ Acesse a página **Aplicações** no [Painel da Discloud](https://discloud.com/d
 
 **Repositório e branch** - Escolha o repositório e a branch da qual deseja fazer deploy. A Discloud vai puxar o commit mais recente dessa branch.
 
-**Variáveis de ambiente** - Adicione os segredos de produção pelos campos `NAME` / `value.`
+**Variáveis de ambiente** - Adicione os segredos de produção pelos campos `NAME` / `value`.
 
 <figure><img src="../.gitbook/assets/GitHub-Integration_Repository-Select.png" alt=""><figcaption></figcaption></figure>
 
@@ -81,7 +81,7 @@ Acesse a página **Aplicações** no [Painel da Discloud](https://discloud.com/d
 {% endhint %}
 
 {% hint style="warning" %}
-Se você esquecer de adicionar uma variável aqui, sua aplicação vai iniciar sem ela e pode travar ou se comportar de forma incorreta. Para atualizar as variáveis de ambiente depois, você pode editá-las diretamente no painel caso tenha um plano pago. Caso contrário, será necessário fazer um novo commit com o conteúdo completo e atualizado do `.env`.
+Se você esquecer de adicionar uma variável aqui, sua aplicação vai iniciar sem ela e pode travar ou se comportar de forma incorreta. Para atualizar as variáveis de ambiente depois, você pode editá-las diretamente no painel caso tenha um [plano pago](https://discloud.com/plans). Caso contrário, será necessário fazer um [commit](../faq/general-questions/how-to-commit.md) manual de um arquivo `.env` com o conteúdo completo e atualizado.
 {% endhint %}
 {% endstep %}
 
