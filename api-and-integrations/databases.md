@@ -77,6 +77,10 @@ In Network Access, add IP: `0.0.0.0/0` (Allow from Anywhere) so Discloud contain
 {% endstep %}
 
 {% step %}
+Copy the cluster's connection string (**Connect → Drivers**) and store it as an environment variable (e.g. `MONGODB_URI` in your [`.env`](../faq/general-questions/.env-file.md)).
+{% endstep %}
+
+{% step %}
 Test connectivity locally before deploying if possible.
 {% endstep %}
 {% endstepper %}

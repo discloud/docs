@@ -9,4 +9,4 @@ icon: lightbulb-on
 
 ## 🧾 Purpose
 
-This section documents **recurring problems and their resolutions**: build failures, startup crashes, offline apps, dependency install errors, memory limits, and misconfiguration patterns. Use it after quick FAQ checks, before escalating to staff.
+This section documents **recurring problems and their resolutions**: offline apps, upload size limits, and website access issues. Use it after quick FAQ checks, before escalating to staff.

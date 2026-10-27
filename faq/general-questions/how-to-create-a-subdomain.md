@@ -33,7 +33,7 @@ To register and use a Discloud subdomain, you must meet the following requiremen
 {% endhint %}
 
 {% hint style="success" %}
-**Port 8080** – Your application must listen on port 8080 for external traffic
+**Port 8080 and host 0.0.0.0** – Your application must listen on port 8080 and host `0.0.0.0` for external traffic
 {% endhint %}
 
 {% hint style="success" %}

@@ -59,7 +59,7 @@ VERSION=latest
 {% step %}
 **🏗️ Handling Build Processes**
 
-If your bot requires a build step (like TypeScript or Java), you have two options:
+If your bot requires a build step (like TypeScript), you have two options:
 
 {% tabs %}
 {% tab title="Discloud Build (Recommended)" %}

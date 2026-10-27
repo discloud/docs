@@ -77,7 +77,7 @@ Go to the **Applications** page in the [Discloud Dashboard](https://discloud.com
 <figure><img src="../.gitbook/assets/GitHub-Integration_Repository-Select.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-**This is the only place to set production secrets.** `.env` files must not be committed to GitHub. Discloud stores these values securely and generates a `.env` file at the root of your application at runtime, keeping them out of your repository entirely.
+**Set your production secrets here, never in the repository.** `.env` files must not be committed to GitHub. Discloud stores these values securely and generates a `.env` file at the root of your application at runtime, keeping them out of your repository entirely.
 {% endhint %}
 
 {% hint style="warning" %}

@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how to host websites, APIs, and dashboards on Discloud using subdomains
-  and custom domains.
+description: Learn how to host websites, APIs, and dashboards on Discloud using subdomains.
 icon: globe-pointer
 ---
 

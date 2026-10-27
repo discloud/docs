@@ -22,7 +22,7 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 
 📌 **Use a** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **file** to automatically exclude these files.
 
-🔗 **Need help setting up your** [**`Gemfile`**](gemfile.md) **or find** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
+🔗 **Need help setting up your** [**`Gemfile`**](gemfile.md) **or finding the** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
 
 ***
 

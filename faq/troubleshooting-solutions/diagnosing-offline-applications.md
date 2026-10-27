@@ -48,7 +48,7 @@ If your application **exceeds its allocated memory**, it may be **forcefully shu
 
 Unhandled exceptions or **bugs in your code** can cause crashes.
 
-✔ Check the **logs** for error messages.\
+✔ Check the [**logs**](../general-questions/how-to-access-the-application-logs.md) for error messages.\
 ✔ **Test locally** before deploying to Discloud.
 {% endhint %}
 
@@ -110,7 +110,7 @@ If your application **stops running when a specific event or action is triggered
 
 {% stepper %}
 {% step %}
-Check the logs.
+Check the [logs](../general-questions/how-to-access-the-application-logs.md).
 
 * Logs provide valuable insights into what caused the crash.
 * Look for **error messages** related to that action.

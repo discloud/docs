@@ -41,11 +41,11 @@ Open the [Discloud Dashboard](https://discloud.com/dashboard) → [`Domains`](ht
 {% endstep %}
 
 {% step %}
-Enter your domain (e.g. `yourdomain.com`). Optionally specify a subdomain (e.g. `dash`).
+Click **+ Add domain** and enter your domain (e.g. `yourdomain.com`). Optionally specify a subdomain (e.g. `dash`).
 {% endstep %}
 
 {% step %}
-Click **+ Add domain**, enter your domain, then click **See DNS** to view the records you need to configure.
+Click **See DNS** to view the records you need to configure.
 {% endstep %}
 {% endstepper %}
 
@@ -53,7 +53,7 @@ Click **+ Add domain**, enter your domain, then click **See DNS** to view the re
 
 ***
 
-## ✅ Verify & Configure DNS
+## ✅ Configure DNS
 
 Although any DNS provider works, below are tabbed scenarios for clarity.
 

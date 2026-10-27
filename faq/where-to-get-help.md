@@ -114,9 +114,9 @@ Recommended free learning partners / content:
 
 ## 🚀 Before Asking, Check
 
-| Item                                 | Why                                  |
-| ------------------------------------ | ------------------------------------ |
-| Docs updated?                        | Feature may already be documented    |
-| Recent changelog / announcements     | Behavior could be intentional change |
-| Existing FAQ / troubleshooting pages | Common answers covered               |
-| Plan limits                          | Some errors are quota-related        |
+| Item                                                                                     | Why                                  |
+| ---------------------------------------------------------------------------------------- | ------------------------------------ |
+| Checked the docs?                                                                        | Feature may already be documented    |
+| Recent changelog / announcements                                                         | Behavior could be intentional change |
+| Existing [FAQ](general-questions/) / [troubleshooting](troubleshooting-solutions/) pages | Common answers covered               |
+| [Plan limits](https://discloud.com/plans)                                                | Some errors are quota-related        |

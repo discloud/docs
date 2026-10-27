@@ -21,11 +21,11 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 
 📌 **Use a** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **file** to automatically exclude these files. Do **not** exclude `go.mod` or `go.sum`.
 
-🔗 **Need help setting up your** [**`go.mod`**](go.mod.md) **or find** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
+🔗 **Need help setting up your** [**`go.mod`**](go.mod.md) **or finding the** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
 
 ***
 
-### 🌐 **Hosting Websites & APIs in Go**
+### 🌐 **Examples: Bots, Websites & APIs in Go**
 
 Before deploying your website or API on Discloud, ensure that you meet the following **requirements**:
 

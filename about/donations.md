@@ -67,7 +67,7 @@ Complete payment. Your plan activates shortly after confirmation.
 
 ## 🎫 Purchase (Support Ticket)
 
-Use this path only for PayPal or when encountering payment issues.
+Use this path only for PayPal / Revolut or when encountering payment issues.
 
 {% stepper %}
 {% step %}

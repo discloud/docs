@@ -1,7 +1,7 @@
 ---
 description: >-
-  Change your application's language version whenever necessary, whether from
-  the oldest to the latest.
+  Change your application's language version whenever necessary, from older
+  releases to the latest.
 icon: code-fork
 ---
 
@@ -15,8 +15,8 @@ When deploying your application on **Discloud**, you may need to specify the cor
 
 To set the desired version, add the following line to your configuration file:
 
-<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><strong><a data-footnote-ref href="#user-content-fn-1"># ...</a>
-</strong>VERSION=current
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
+VERSION=current
 # ...
 </code></pre>
 
