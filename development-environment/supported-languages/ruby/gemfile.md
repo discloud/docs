@@ -65,7 +65,8 @@ end
 Pule a instalação de grupos dev/test no momento do deploy se desejado:
 
 ```bash
-bundle install --without development test
+bundle config set --local without "development test"
+bundle install
 ```
 
 ***
@@ -197,9 +198,10 @@ bundle init
 bundle add <gem>
 
 # Instalar apenas com grupos de produção
-bundle install --without development test
+bundle config set --local without "development test"
+bundle install
 
-# Verificar problemas no gráfico de dependências
+# Verificar problemas no grafo de dependências
 bundle check
 
 # Limpar gems não utilizadas (após prune)

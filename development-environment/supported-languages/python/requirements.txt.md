@@ -36,10 +36,10 @@ Certifique-se de que Python e pip estão instalados ([guia de instalação](../.
 {% endstep %}
 
 {% step %}
-Abra seu terminal no diretório do projeto e execute.
+Abra seu terminal no diretório do projeto e execute:
 
 ```bash
-pip freeze --user > requirements.txt
+pip freeze > requirements.txt
 ```
 
 Isso gera automaticamente uma lista de todos os pacotes instalados com suas versões exatas.
@@ -100,7 +100,7 @@ pip install nome-do-pacote
 **Atualize seu arquivo de requisitos.**
 
 ```bash
-pip freeze --user > requirements.txt
+pip freeze > requirements.txt
 ```
 {% endstep %}
 {% endstepper %}

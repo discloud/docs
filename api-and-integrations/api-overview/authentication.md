@@ -64,6 +64,8 @@ async function getCurrentUser() {
   const data = await res.json();
   console.log(data);
 }
+
+getCurrentUser();
 ```
 {% endtab %}
 
@@ -74,12 +76,14 @@ const { discloud } = require("discloud.app");
 
 async function validateToken() {
   try {
-    const user = await discloud.login("DISCLOUD_API_TOKEN");
+    const user = await discloud.login(process.env.DISCLOUD_TOKEN);
     console.log("Usuário autenticado:", user);
   } catch (e) {
     console.error("Token inválido ou erro de rede:", e.message);
   }
 }
+
+validateToken();
 ```
 {% endtab %}
 {% endtabs %}
@@ -116,5 +120,9 @@ Você também pode atualizar a localidade do usuário (ex. `en-US`) através de 
 As operações abaixo requerem o cabeçalho `api-token`:
 
 {% openapi-operation spec="api-endpoints-pt-v2" path="/user" method="get" %}
+[OpenAPI api-endpoints-pt-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-pt-v2.openapi.yaml)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="api-endpoints-pt-v2" path="/locale/{locale}" method="put" %}
 [OpenAPI api-endpoints-pt-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-pt-v2.openapi.yaml)
 {% endopenapi-operation %}

@@ -82,8 +82,7 @@ Dentro do seu [`package.json`](../../development-environment/supported-languages
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8080",
-    "export": "next export"
+    "start": "next start -p 8080"
   }
 }
 ```
@@ -174,7 +173,18 @@ ID=meu-nextjs-app
 
 <summary>Alternativa – Export estático (Next.js como site estático)</summary>
 
-Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `next export` para gerar um site totalmente **estático**.
+Se o seu projeto não depende de **SSR** ou **API Routes**, você pode definir `output: "export"` no `next.config.js` para gerar um site totalmente **estático** na pasta `out/`.
+
+{% code title="next.config.js" %}
+```javascript
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+};
+
+module.exports = nextConfig;
+```
+{% endcode %}
 
 **📦** [**`package.json`**](../../development-environment/supported-languages/javascript/package.json.md) **(export estático)**
 
@@ -182,7 +192,7 @@ Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `n
 {
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "npx serve -s out -l 8080"
   }
 }
@@ -195,7 +205,7 @@ MAIN=out/index.html
 TYPE=site
 BUILD=npm run build
 START=npm run start
-RAM=256
+RAM=512
 ID=meu-site-estatico
 ```
 

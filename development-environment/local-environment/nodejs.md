@@ -5,7 +5,7 @@ description: >-
 icon: node-js
 ---
 
-# NodeJS
+# Node.js
 
 ## 🧾 Visão Geral
 
@@ -101,7 +101,7 @@ npm -v
 
 {% tab title="Arch" %}
 ```bash
-sudo pacman -S --needed nodejs-lts-hydrogen npm
+sudo pacman -S --needed nodejs-lts-jod npm
 node -v
 npm -v
 ```
@@ -162,7 +162,9 @@ npm -v
 Se você estiver usando **NVM**, pode atualizar Node.js com:
 
 ```bash
-nvm install stable
+nvm install --lts
 ```
+
+No NVM para Windows, use `nvm install lts`.
 
 Caso contrário, use o gerenciador de pacotes do seu sistema ou baixe novamente o instalador mais recente do site do Node.js.

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Entenda como compilar e empacotar seu projeto Java em um arquivo JAR hospedado
-  usando Maven ou Gradle.
+  Entenda como compilar e empacotar seu projeto Java em um arquivo JAR pronto
+  para hospedar usando Maven ou Gradle.
 ---
 
 # Como construir e empacotar uma aplicação Java?
@@ -40,7 +40,7 @@ Garanta que seu `pom.xml` inclua o **Plugin do Compilador Maven** para especific
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-compiler-plugin</artifactId>
-  <version>3.9.9</version>
+  <version>3.13.0</version>
   <configuration>
     <source>17</source>
     <target>17</target>
@@ -229,7 +229,7 @@ Construa o Projeto.
 
 Para limpar construções antigas e gerar novos arquivos JAR, execute:
 
-```groovy
+```bash
 gradle clean build
 ```
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Instale e gerencie Ruby localmente (Windows, macOS, Linux) usando instaladores ou
-  gerenciadores de versão; use Bundler para dependências.
+  Instale e gerencie Ruby localmente (Windows, macOS, Linux) usando instaladores
+  ou gerenciadores de versão; use Bundler para dependências.
 icon: gem
 ---
 
@@ -15,7 +15,7 @@ Ruby é usado para bots, APIs (Sinatra) e frameworks completos (Rails). A instal
 
 {% embed url="https://bundler.io/" %}
 
----
+***
 
 ## 📥 Instalação (escolha uma)
 
@@ -43,7 +43,6 @@ gem -v
 gem install bundler
 bundler -v
 ```
-
 {% endstep %}
 
 {% step %}
@@ -53,7 +52,6 @@ Inicialize projeto (opcional)
 bundle init
 bundle install
 ```
-
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -61,7 +59,6 @@ bundle install
 {% tab title="🐧 Linux" %}
 {% tabs %}
 {% tab title="Debian/Ubuntu" %}
-
 ```bash
 sudo apt update
 sudo apt install -y ruby-full build-essential
@@ -69,29 +66,24 @@ ruby -v
 gem -v
 gem install bundler
 ```
-
 {% endtab %}
 
 {% tab title="Fedora" %}
-
 ```bash
 sudo dnf install -y ruby ruby-devel @development-tools
 ruby -v
 gem -v
 gem install bundler
 ```
-
 {% endtab %}
 
 {% tab title="Arch" %}
-
 ```bash
 sudo pacman -S --needed ruby base-devel
 ruby -v
 gem -v
 gem install bundler
 ```
-
 {% endtab %}
 
 {% tab title="rbenv" %}
@@ -116,7 +108,6 @@ rbenv global 3.3.0
 ruby -v
 gem install bundler
 ```
-
 {% endtab %}
 {% endtabs %}
 {% endtab %}
@@ -124,7 +115,6 @@ gem install bundler
 {% tab title="🍎 macOS" %}
 {% tabs %}
 {% tab title="Homebrew" %}
-
 ```bash
 brew update
 brew install ruby
@@ -135,10 +125,10 @@ gem -v
 gem install bundler
 ```
 
+Em Macs com processador Intel, o caminho é `/usr/local/opt/ruby/bin`.
 {% endtab %}
 
 {% tab title="rbenv" %}
-
 ```bash
 brew install rbenv
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
@@ -148,13 +138,12 @@ rbenv global 3.3.0
 ruby -v
 gem install bundler
 ```
-
 {% endtab %}
 {% endtabs %}
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## ✅ Verificação
 
@@ -166,7 +155,7 @@ bundler -v
 
 Todos os comandos devem mostrar versões.
 
----
+***
 
 ## 💎 Gerenciando Gems
 
@@ -177,7 +166,6 @@ Inicializar
 ```bash
 bundle init
 ```
-
 {% endstep %}
 
 {% step %}
@@ -186,7 +174,6 @@ Adicionar ao `Gemfile`
 ```ruby
 gem "httparty"
 ```
-
 {% endstep %}
 
 {% step %}
@@ -196,7 +183,6 @@ Instalar / atualizar
 bundle install
 bundle update httparty
 ```
-
 {% endstep %}
 
 {% step %}
@@ -205,22 +191,21 @@ Executar script com ambiente bloqueado
 ```bash
 bundle exec ruby app.rb
 ```
-
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 🔄 Atualização
 
-| Alvo         | Comando                                             |
-| ------------ | --------------------------------------------------- |
-| Ruby (rbenv) | `rbenv install <version> && rbenv global <version>` |
-| Todas gems   | `bundle update`                                     |
-| Uma gem      | `bundle update <name>`                              |
-| Bundler      | `gem install bundler`                               |
+| Alvo          | Comando                                             |
+| ------------- | --------------------------------------------------- |
+| Ruby (rbenv)  | `rbenv install <version> && rbenv global <version>` |
+| Todas as gems | `bundle update`                                     |
+| Uma gem       | `bundle update <name>`                              |
+| Bundler       | `gem install bundler`                               |
 
----
+***
 
 ## 🗃 Comandos Comuns
 

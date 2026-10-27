@@ -5,7 +5,7 @@ description: >-
 icon: golang
 ---
 
-# Golang
+# Go
 
 ## 🧾 Visão Geral
 
@@ -141,10 +141,9 @@ Adicione a exportação PATH ao perfil do shell para persistir.
 {% step %}
 Inicialize um módulo (cria go.mod)
 
-```
+```bash
 mkdir myapp && cd myapp
 go mod init example.com/myapp
-go get
 ```
 {% endstep %}
 

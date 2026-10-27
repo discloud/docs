@@ -30,7 +30,7 @@ Adicione (ou atualize) dependências automaticamente referenciando-as no código
 go mod tidy
 ```
 
-Isso cria `go.sum` (não deve estar vazio) com linhas de checksum.
+Isso cria ou atualiza o `go.sum` com os checksums das dependências (projetos que usam apenas a biblioteca padrão não geram `go.sum`).
 {% endstep %}
 
 {% step %}
@@ -72,7 +72,7 @@ A versão do Go **DEVE** estar no formato `major.minor` (ex.: `1.22`). **NÃO** 
 
 ## 📦 Adicionando Dependências
 
-Para adicionar uma nova dependência, ou:
+Para adicionar uma nova dependência, você pode:
 
 {% stepper %}
 {% step %}
@@ -176,6 +176,6 @@ go build -o app
 # Liste todos os módulos (diretos+indiretos)
 go list -m all
 
-# Mostre o gráfico de dependências
+# Mostre o grafo de dependências
 go mod graph
 ```

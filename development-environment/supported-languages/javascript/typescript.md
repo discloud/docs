@@ -54,7 +54,7 @@ Exemplo de `discloud.config` (site):
 ```properties
 TYPE=site
 ID=meusite
-MAIN=dist/server.js
+MAIN=dist/index.js
 BUILD=npm run build
 START=npm run start
 RAM=512
@@ -152,6 +152,8 @@ A porta `8080` é obrigatória – as aplicações devem escutar nessa porta.
 {% endhint %}
 
 ### Exemplo com Express (TS)
+
+Instale as dependências do exemplo com `npm i express` e `npm i -D @types/express @types/node`.
 
 ```ts
 import express from "express";

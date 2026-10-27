@@ -37,10 +37,6 @@ Antes de fazer deploy do seu website ou API na Discloud, certifique-se de que vo
 [Um subdomínio deve ser criado](../../../faq/general-questions/how-to-create-a-subdomain.md) antes do deploy.
 {% endhint %}
 
-{% hint style="success" %}
-Use a versão nightly do Rust (Rocket requer nightly).
-{% endhint %}
-
 {% hint style="danger" %}
 Porta `8080` é obrigatória – As aplicações devem escutar nesta porta.
 {% endhint %}
@@ -49,34 +45,15 @@ Porta `8080` é obrigatória – As aplicações devem escutar nesta porta.
 
 ## 🚀 Configurando `Rocket`
 
-[Rocket](https://rocket.rs/) é um framework web para Rust que requer a versão nightly do Rust. Para configurar e fazer deploy de um projeto Rocket na Discloud, siga estes passos:
+[Rocket](https://rocket.rs/) é um framework web para Rust que, a partir da versão 0.5, funciona no Rust estável. Por padrão, o Rocket escuta em `127.0.0.1:8000`. Para a Discloud, crie um arquivo `Rocket.toml` na raiz do projeto para que ele escute em `0.0.0.0:8080`:
 
-{% stepper %}
-{% step %}
-Defina a Versão Nightly do Rust.
-
-Execute o seguinte comando no terminal para garantir que seu projeto esteja usando a versão nightly:
-
-```bash
-rustup override set nightly
-```
-{% endstep %}
-
-{% step %}
-Crie o Arquivo `rust-toolchain.toml`.
-
-Para garantir que a versão nightly do Rust seja usada, crie um arquivo chamado `rust-toolchain.toml` no diretório raiz do projeto com o seguinte conteúdo:
-
-{% code title="rust-toolchain.toml" %}
-```ini
-[toolchain]
-channel = "nightly"
+{% code title="Rocket.toml" %}
+```toml
+[default]
+address = "0.0.0.0"
+port = 8080
 ```
 {% endcode %}
-
-Este arquivo informa ao rustup para usar a versão nightly do Rust.
-{% endstep %}
-{% endstepper %}
 
 ***
 

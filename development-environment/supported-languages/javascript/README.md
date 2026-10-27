@@ -54,7 +54,7 @@ ID=meusite
 
 1. Gere a saída em **`build/`** (não use `dist/`).
 2. Omitir `BUILD` no `discloud.config`.
-3. Aponte `MAIN` para a pasta `build/`.
+3. Aponte o `MAIN` para o arquivo de entrada dentro da pasta `build/`.
 
 Exemplo:
 
