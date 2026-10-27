@@ -42,8 +42,8 @@ Create optional virtual environment
 
 ```bash
 python -m venv .venv
-.venv\\Scripts\\activate
-pip install --upgrade pip
+.venv\Scripts\activate
+python -m pip install --upgrade pip
 ```
 {% endstep %}
 {% endstepper %}
@@ -140,9 +140,7 @@ python --version
 pip -V
 ```
 
-If distro uses `python3`, substitute accordingly.
-
-If your distribution uses `python3` invoke that instead of `python`.
+If your distribution uses `python3`, invoke that instead of `python`.
 
 ***
 
@@ -162,7 +160,7 @@ Create & activate:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 ```
 
 Install dependencies & capture versions:
