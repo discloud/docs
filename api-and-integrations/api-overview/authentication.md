@@ -10,7 +10,7 @@ icon: key-skeleton
 {% hint style="info" %}
 All requests to the Discloud API must include an **API Token** in the `api-token` header.
 
-If you don't have a token yet, generate or retrieve it in your Discloud dashboard. (Replace this note with the exact dashboard link or a screenshot.)
+If you don't have a token yet, see [how to get your API token](../../faq/general-questions/how-can-i-get-my-discloud-api-token.md).
 {% endhint %}
 
 ***
@@ -116,5 +116,5 @@ You can also update the user locale (e.g. `en-US`) through `/locale/{locale}` to
 The operations below require the `api-token` header:
 
 {% openapi-operation spec="api-endpoints-en-v2" path="/user" method="get" %}
-[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/5e908ec500787544c22c34eb222c247943b9e5fdca814a16353e8c9366fa470b.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260704%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260704T223737Z&X-Amz-Expires=172800&X-Amz-Signature=c06a29c51b23e0e6bdf75a5ec5e76c2a9acc2ee1678b555fea1f9e2538d7c5bc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-en-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-en-v2.openapi.yaml)
 {% endopenapi-operation %}
