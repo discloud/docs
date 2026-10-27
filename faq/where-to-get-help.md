@@ -54,14 +54,14 @@ Anexe logs ou capturas relevantes (não sensíveis).
 {% endstepper %}
 
 {% hint style="warning" %}
-Não envie tokens brutos, chaves API ou dumps completos de variáveis de ambiente em tickets. Redija segredos antes de anexar.
+Não envie tokens brutos, chaves API ou dumps completos de variáveis de ambiente em tickets. Remova ou oculte os segredos antes de anexar.
 {% endhint %}
 
 ***
 
 ## 🤝 Fórum da Comunidade: dev-help
 
-Q\&A peer-to-peer. A equipe pode ocasionalmente responder, mas respostas não são garantidas.
+Perguntas e respostas entre usuários. A equipe pode ocasionalmente responder, mas respostas não são garantidas.
 
 ### ✅ Poste Efetivamente
 
@@ -114,9 +114,9 @@ Parceiros / conteúdo de aprendizado recomendados gratuitos:
 
 ## 🚀 Antes de Perguntar, Verifique
 
-| Item                                          | Por Que                                       |
-| --------------------------------------------- | --------------------------------------------- |
-| Docs atualizados?                             | Recurso pode já estar documentado             |
-| Changelog / anúncios recentes                 | Comportamento poderia ser mudança intencional |
-| Páginas FAQ / solução de problemas existentes | Respostas comuns cobertas                     |
-| Limites do plano                              | Alguns erros são relacionados a quota         |
+| Item                                                                                                 | Por Que                                       |
+| ---------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Consultou a documentação?                                                                            | Recurso pode já estar documentado             |
+| Changelog / anúncios recentes                                                                        | Comportamento poderia ser mudança intencional |
+| Páginas de [FAQ](general-questions/) / [solução de problemas](troubleshooting-solutions/) existentes | Respostas comuns cobertas                     |
+| [Limites do plano](https://discloud.com/plans)                                                       | Alguns erros são relacionados a quota         |

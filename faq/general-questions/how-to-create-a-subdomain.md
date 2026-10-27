@@ -33,7 +33,7 @@ Para registrar e usar um subdomínio da Discloud, você precisa atender aos segu
 {% endhint %}
 
 {% hint style="success" %}
-**Porta 8080** – Sua aplicação deve escutar na porta 8080 para receber tráfego externo.
+**Porta 8080 e host 0.0.0.0** – Sua aplicação deve escutar na porta 8080 e no host `0.0.0.0` para receber tráfego externo.
 {% endhint %}
 
 {% hint style="success" %}

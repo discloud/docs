@@ -25,7 +25,7 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 
 ***
 
-### 🌐 **Hospedando Websites & APIs em Go**
+### 🌐 **Exemplos: Bots, Websites e APIs em Go**
 
 Antes de fazer deploy do seu website ou API na Discloud, certifique-se de que você atenda aos seguintes **requisitos**:
 

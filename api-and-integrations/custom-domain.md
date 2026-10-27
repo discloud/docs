@@ -41,11 +41,11 @@ Abra o [Painel da Discloud](https://discloud.com/dashboard) → seção [`Domín
 {% endstep %}
 
 {% step %}
-Digite seu domínio (ex. `seudominio.com`). Opcionalmente, especifique um subdomínio (ex. `dash`).
+Clique em **+ Adicionar domínio** e digite seu domínio (ex. `seudominio.com`). Opcionalmente, especifique um subdomínio (ex. `dash`).
 {% endstep %}
 
 {% step %}
-Clique em **+ Adicionar domínio**, insira seu domínio e depois clique em **Ver DNS** para visualizar os registros que precisa configurar.
+Clique em **Ver DNS** para visualizar os registros que precisa configurar.
 {% endstep %}
 {% endstepper %}
 
@@ -53,7 +53,7 @@ Clique em **+ Adicionar domínio**, insira seu domínio e depois clique em **Ver
 
 ***
 
-## ✅ Verificar e Configurar DNS
+## ✅ Configurar DNS
 
 Embora qualquer provedor de DNS funcione, abaixo estão cenários com abas para clareza.
 

@@ -77,6 +77,10 @@ Em Network Access, adicione IP: `0.0.0.0/0` (Permitir de Qualquer Lugar) para qu
 {% endstep %}
 
 {% step %}
+Copie a string de conexão do cluster (**Connect → Drivers**) e salve-a como variável de ambiente (ex.: `MONGODB_URI` no seu [`.env`](../faq/general-questions/.env-file.md)).
+{% endstep %}
+
+{% step %}
 Teste a conectividade localmente antes de fazer o upload, se possível.
 {% endstep %}
 {% endstepper %}

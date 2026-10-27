@@ -67,7 +67,7 @@ Complete o pagamento. Seu plano é ativado logo após a confirmação.
 
 ## 🎫 Compra (Ticket de Suporte)
 
-Use este caminho apenas para PayPal ou quando encontrar problemas de pagamento.
+Use este caminho apenas para PayPal / Revolut ou quando encontrar problemas de pagamento.
 
 {% stepper %}
 {% step %}

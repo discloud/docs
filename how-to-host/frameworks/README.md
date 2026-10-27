@@ -51,7 +51,7 @@ Não importa qual framework você use:
 
 ## 🔗 Links úteis
 
-* 📖 [Ambiente de desenvolvimento](../../development-environment/supported-languages/) – Configure Node, Python, etc. localmente
+* 📖 [Ambiente de desenvolvimento](../../development-environment/local-environment/) – Configure Node, Python, etc. localmente
 * ⚙️ [discloud.config](../../configurations/discloud.config/) – Todas as opções de config
-* 🚀 [Como fazer deploy](../../how-to-host-using/dashboard.md) – Dashboard, Bot, CLI ou VSCode
+* 🚀 Como fazer deploy – [Painel](../../how-to-host-using/dashboard.md), [Bot](../../how-to-host-using/discord-bot/), [CLI](../../how-to-host-using/cli.md) ou [VS Code](../../how-to-host-using/visual-studio-code.md)
 * 🌐 [Domínios customizados](../../api-and-integrations/custom-domain.md) – Use seu próprio domínio

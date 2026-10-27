@@ -1,7 +1,5 @@
 ---
-description: >-
-  Aprenda como hospedar sites, APIs e dashboards na Discloud usando subdomínios
-  e domínios personalizados.
+description: Aprenda como hospedar sites, APIs e dashboards na Discloud usando subdomínios.
 icon: globe-pointer
 ---
 

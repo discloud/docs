@@ -77,7 +77,7 @@ Acesse a página **Aplicações** no [Painel da Discloud](https://discloud.com/d
 <figure><img src="../.gitbook/assets/GitHub-Integration_Repository-Select.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-**Este é o único lugar para definir segredos de produção.** Arquivos `.env` não devem ser commitados no GitHub. A Discloud armazena esses valores com segurança e gera um arquivo `.env` na raiz da sua aplicação em tempo de execução, mantendo-os completamente fora do repositório.
+**Defina aqui seus segredos de produção, nunca no repositório.** Arquivos `.env` não devem ser commitados no GitHub. A Discloud armazena esses valores com segurança e gera um arquivo `.env` na raiz da sua aplicação em tempo de execução, mantendo-os completamente fora do repositório.
 {% endhint %}
 
 {% hint style="warning" %}

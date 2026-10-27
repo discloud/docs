@@ -11,7 +11,7 @@ Seu **Token da API da Discloud** é uma **credencial pessoal e secreta** que aut
 * [**Requisições à REST API**](../../api-and-integrations/api-overview/)
 * [**CLI Oficial**](../../how-to-host-using/cli.md)
 * [**Extensão para VS Code**](../../how-to-host-using/visual-studio-code.md)
-* **SDKs / Bibliotecas** (ex.: [npm](../../sdks-and-libraries/npm-library/), [Python](../../sdks-and-libraries/python-library/))
+* **SDKs / Bibliotecas** (ex.: [npm](../../sdks-and-libraries/npm-library/))
 
 Ele identifica sua conta de forma única, então **qualquer pessoa com esse token pode agir como você**. Trate-o como uma senha.
 
@@ -48,8 +48,8 @@ Use o botão **Copiar** para copiar o token para sua área de transferência.
 | Mantenha privado (não compartilhe / print)  | Evita sequestro da conta                      |
 | NÃO faça commit no Git                      | Repositórios públicos são escaneados por bots |
 | Use variáveis de ambiente / secret managers | Rotação centralizada e logs mais seguros      |
-| Recrie (Resetar Token) se exposto           | Invalida imediatamente o token antigo         |
+| Redefina o token (Redefinir) se exposto     | Invalida imediatamente o token antigo         |
 
 {% hint style="danger" %}
-Se você publicar ou colar seu token em algum lugar público por engano, **reinicie-o imediatamente** em **Ferramentas > Chaves de API** no Dashboard e reimplante qualquer serviço que usava o token antigo.
+Se você publicar ou colar seu token em algum lugar público por engano, **redefina-o imediatamente** em **Ferramentas > Chaves de API** no Dashboard e reimplante qualquer serviço que usava o token antigo.
 {% endhint %}

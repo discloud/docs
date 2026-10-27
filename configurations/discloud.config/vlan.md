@@ -1,7 +1,7 @@
 ---
 description: >-
-  Habilite redes privadas entre aplicações Discloud usando VLAN e HOSTNAME na
-  Discloud.config.
+  Habilite redes privadas entre aplicações Discloud usando VLAN e HOSTNAME no
+  discloud.config.
 icon: network-wired
 ---
 

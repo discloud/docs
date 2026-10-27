@@ -48,7 +48,7 @@ Se sua aplicação **excede sua memória alocada**, ela pode ser **forçadamente
 
 Exceções não tratadas ou **bugs no seu código** podem causar travamentos.
 
-✔ Verifique os **logs** para mensagens de erro.\
+✔ Verifique os [**logs**](../general-questions/how-to-access-the-application-logs.md) para mensagens de erro.\
 ✔ **Teste localmente** antes de fazer o upload na Discloud.
 {% endhint %}
 
@@ -110,7 +110,7 @@ Se sua aplicação **para de rodar quando um evento ou ação específica é aci
 
 {% stepper %}
 {% step %}
-Verifique os logs.
+Verifique os [logs](../general-questions/how-to-access-the-application-logs.md).
 
 * Logs fornecem insights valiosos sobre o que causou o travamento.
 * Procure **mensagens de erro** relacionadas a essa ação.

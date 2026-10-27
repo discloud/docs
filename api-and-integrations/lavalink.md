@@ -76,7 +76,7 @@ lavalink:
       local: false
 
   plugins:
-    # Substitua VERSION pela versao atual, conforme mostrado na guia Releases, ou por um hash de commit longo para snapshots.
+    # Substitua VERSION pela versão atual, conforme mostrado na guia Releases, ou por um hash de commit longo para snapshots.
     - dependency: "dev.lavalink.youtube:youtube-plugin:VERSION"
       snapshot: false
 
