@@ -124,6 +124,8 @@ ruby -v
 gem -v
 gem install bundler
 ```
+
+On Intel Macs, the path is `/usr/local/opt/ruby/bin`.
 {% endtab %}
 
 {% tab title="rbenv" %}

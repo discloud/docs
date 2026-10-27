@@ -95,7 +95,7 @@ dotenvy = "0.15"
 Must listen on `0.0.0.0:8080`.
 {% endtab %}
 
-{% tab title="Rocket (Nightly)" %}
+{% tab title="Rocket" %}
 {% code title="Cargo.toml" %}
 ```toml
 [package]
@@ -110,7 +110,7 @@ serde_json = "1"
 ```
 {% endcode %}
 
-Requires nightly toolchain + bind to port 8080.
+Must listen on `0.0.0.0:8080` (configure it in `Rocket.toml`).
 {% endtab %}
 {% endtabs %}
 
@@ -136,7 +136,7 @@ cargo run
 cargo add <crate>
 
 # Remove dependency
-cargo rm <crate>
+cargo remove <crate>
 
 # Audit (optional; needs cargo-audit)
 cargo audit

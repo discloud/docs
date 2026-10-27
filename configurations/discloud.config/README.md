@@ -47,7 +47,7 @@ your-project/
 
 ## 🛠️ Configuration options
 
-See below all the configuration options for the `discloud.config` file. [Click here to check out some examples of different applications](./#examples-of-discloud.config-files).
+See below all the configuration options for the `discloud.config` file. Click here to check out some examples of different applications.
 
 {% tabs %}
 {% tab title="📑 Information" %}
@@ -84,7 +84,7 @@ If the `TYPE` is set to **site**, you must also define the `ID` option with your
 <pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><strong>TYPE=site
 </strong><strong>ID=your-subdomain
 </strong>MAIN=index.js
-RAM=100
+RAM=512
 VERSION=latest
 <a data-footnote-ref href="#user-content-fn-1"># ...</a>
 </code></pre>
@@ -224,7 +224,7 @@ ID=moviemark
 
 ***
 
-## ⚙️ **Configuration options**
+## ⚙️ **Options reference**
 
 The `discloud.config` file contains essential settings for your Discloud application. Below are the **available configuration options** along with their respective limits and descriptions.
 

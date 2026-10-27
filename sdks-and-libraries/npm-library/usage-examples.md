@@ -11,6 +11,8 @@ icon: vial
 **Important**: To obtain your API Token required in the examples below, see [here](../../faq/general-questions/how-can-i-get-my-discloud-api-token.md).
 
 **Setup Required**: Make sure you've completed the [**Getting Started**](getting-started.md) guide before using these examples.
+
+**Example format**: the examples use ES Modules with top-level `await`. Save the file with the `.mjs` extension or add `"type": "module"` to your `package.json`.
 {% endhint %}
 
 ***
@@ -20,7 +22,7 @@ icon: vial
 ### 📄 Fetching User Information
 
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const user = await discloud.user.fetch();
@@ -38,7 +40,7 @@ try {
 {% tabs %}
 {% tab title="From File Path" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.create({
@@ -54,8 +56,8 @@ try {
 
 {% tab title="From Buffer/Blob" %}
 ```javascript
-const fs = require("fs");
-const { discloud } = require("discloud.app");
+import fs from "fs";
+import { discloud } from "discloud.app";
 
 try {
   const fileData = fs.readFileSync("./my-bot.zip");
@@ -76,8 +78,8 @@ try {
 
 {% tab title="From Stream" %}
 ```javascript
-const fs = require("fs");
-const { discloud, streamToFile } = require("discloud.app");
+import fs from "fs";
+import { discloud, streamToFile } from "discloud.app";
 
 try {
   const stream = fs.createReadStream("./my-bot.zip");
@@ -101,7 +103,7 @@ try {
 {% tabs %}
 {% tab title="File path / URL" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 await discloud.apps.update("APP_ID", {
   file: "FILE_PATH/FILE_NAME.zip",
@@ -111,8 +113,8 @@ await discloud.apps.update("APP_ID", {
 
 {% tab title="Blob | Buffer | File | RawFile | ReadableStream" %}
 ```javascript
-const { discloud } = require("discloud.app");
-const fs = require("fs");
+import { discloud } from "discloud.app";
+import fs from "fs";
 
 await discloud.apps.update("APP_ID", {
   file: {
@@ -129,7 +131,7 @@ await discloud.apps.update("APP_ID", {
 {% tabs %}
 {% tab title="Single Application" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const app = await discloud.apps.fetch("your_app_id");
@@ -142,7 +144,7 @@ try {
 
 {% tab title="All Applications" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const apps = await discloud.apps.fetch("all");
@@ -157,7 +159,7 @@ try {
 ### 🗑️ Deleting Applications
 
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.delete("your_app_id");
@@ -168,7 +170,7 @@ try {
 ```
 
 {% hint style="danger" %}
-**Warning:** Deleting an application is **permanent** and cannot be undone. Make sure to backup your data before deletion.
+**Warning:** Deleting an application is **permanent** and cannot be undone. Make sure to back up your data before deletion.
 {% endhint %}
 
 ***
@@ -180,7 +182,7 @@ try {
 {% tabs %}
 {% tab title="Single App" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.start("your_app_id");
@@ -193,7 +195,7 @@ try {
 
 {% tab title="All Apps" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.start("all");
@@ -210,7 +212,7 @@ try {
 {% tabs %}
 {% tab title="Single App" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.stop("your_app_id");
@@ -223,7 +225,7 @@ try {
 
 {% tab title="All Apps" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.stop("all");
@@ -240,7 +242,7 @@ try {
 {% tabs %}
 {% tab title="Single App" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.restart("your_app_id");
@@ -253,7 +255,7 @@ try {
 
 {% tab title="All Apps" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.restart("all");
@@ -274,7 +276,7 @@ try {
 {% tabs %}
 {% tab title="Single App Status" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const status = await discloud.apps.status("your_app_id");
@@ -287,7 +289,7 @@ try {
 
 {% tab title="All Apps Status" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const statusMap = await discloud.apps.status("all");
@@ -304,7 +306,7 @@ try {
 {% tabs %}
 {% tab title="Single App Logs" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const logs = await discloud.apps.terminal("your_app_id");
@@ -317,7 +319,7 @@ try {
 
 {% tab title="All Apps Logs" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const logsMap = await discloud.apps.terminal("all");
@@ -332,7 +334,7 @@ try {
 ### 💻 Sending Terminal Commands
 
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const result = await discloud.apps.console("your_app_id", "ls -la");
@@ -349,7 +351,7 @@ try {
 {% tabs %}
 {% tab title="Single App Backup" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const backup = await discloud.apps.backup("your_app_id");
@@ -362,7 +364,7 @@ try {
 
 {% tab title="All Apps Backup" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const backups = await discloud.apps.backup("all");
@@ -383,7 +385,7 @@ try {
 {% tabs %}
 {% tab title="Fetch Team Members" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   const team = await discloud.appTeam.fetch("your_app_id");
@@ -396,7 +398,7 @@ try {
 
 {% tab title="Add Team Member" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.appTeam.create("your_app_id", "user_id", [
@@ -419,7 +421,7 @@ try {
 
 {% tab title="Edit Permissions" %}
 ```javascript
-const { discloud, ModPermissions } = require("discloud.app");
+import { discloud, ModPermissions } from "discloud.app";
 
 try {
   await discloud.appTeam.edit("your_app_id", "user_id", [
@@ -442,7 +444,7 @@ try {
 
 {% tab title="Remove Team Member" %}
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.appTeam.delete("your_app_id", "user_id");
@@ -461,7 +463,7 @@ try {
 ### 🔧 Managing RAM Allocation
 
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.ram("your_app_id", 512);
@@ -482,7 +484,7 @@ try {
 ### 🎨 Updating Application Profile
 
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.apps.profile("your_app_id", {
@@ -508,7 +510,7 @@ try {
 #### 📥 Installing APT Packages
 
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.appApt.install("your_app_id", [
@@ -534,7 +536,7 @@ try {
 #### 🗑️ Uninstalling APT Packages
 
 ```javascript
-const { discloud } = require("discloud.app");
+import { discloud } from "discloud.app";
 
 try {
   await discloud.appApt.uninstall("your_app_id", ["canvas", "ffmpeg"]);

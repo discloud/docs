@@ -5,7 +5,7 @@ description: >-
 icon: golang
 ---
 
-# Golang
+# Go
 
 ## 🧾 Overview
 
@@ -35,7 +35,7 @@ Reopen terminal (PowerShell / CMD).
 {% endstep %}
 
 {% step %}
-Verify:&#x20;
+Verify:
 
 ```bash
 go version
@@ -141,10 +141,9 @@ Add PATH export to shell profile to persist.
 {% step %}
 Initialize a module (creates go.mod)
 
-```
+```bash
 mkdir myapp && cd myapp
 go mod init example.com/myapp
-go get
 ```
 {% endstep %}
 

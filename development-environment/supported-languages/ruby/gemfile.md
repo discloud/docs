@@ -65,7 +65,8 @@ end
 Skip installing dev/test groups at deploy time if desired:
 
 ```bash
-bundle install --without development test
+bundle config set --local without "development test"
+bundle install
 ```
 
 ***
@@ -197,7 +198,8 @@ bundle init
 bundle add <gem>
 
 # Install with production-only groups
-bundle install --without development test
+bundle config set --local without "development test"
+bundle install
 
 # Check dependency graph issues
 bundle check

@@ -30,7 +30,7 @@ Add (or update) dependencies automatically by referencing them in code and tidyi
 go mod tidy
 ```
 
-This creates `go.sum` (must not be empty) with checksum lines.
+This creates or updates `go.sum` with the dependencies' checksums (projects that only use the standard library don't get a `go.sum`).
 {% endstep %}
 
 {% step %}

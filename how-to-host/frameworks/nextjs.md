@@ -82,8 +82,7 @@ Inside your [`package.json`](../../development-environment/supported-languages/j
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8080",
-    "export": "next export"
+    "start": "next start -p 8080"
   }
 }
 ```
@@ -174,7 +173,18 @@ ID=my-nextjs-app
 
 <summary>Alternative – Static export (Next.js as a static site)</summary>
 
-If your project does not depend on **SSR** or **API Routes**, you can use `next export` to generate a fully **static** site.
+If your project does not depend on **SSR** or **API Routes**, you can set `output: "export"` in `next.config.js` to generate a fully **static** site in the `out/` folder.
+
+{% code title="next.config.js" %}
+```javascript
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+};
+
+module.exports = nextConfig;
+```
+{% endcode %}
 
 **📦** [**`package.json`**](../../development-environment/supported-languages/javascript/package.json.md) **(static export)**
 
@@ -182,7 +192,7 @@ If your project does not depend on **SSR** or **API Routes**, you can use `next 
 {
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "npx serve -s out -l 8080"
   }
 }
@@ -195,7 +205,7 @@ MAIN=out/index.html
 TYPE=site
 BUILD=npm run build
 START=npm run start
-RAM=256
+RAM=512
 ID=my-static-site
 ```
 

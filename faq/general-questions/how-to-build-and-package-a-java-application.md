@@ -40,7 +40,7 @@ Ensure your `pom.xml` includes the **Maven Compiler Plugin** to specify the Java
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-compiler-plugin</artifactId>
-  <version>3.9.9</version>
+  <version>3.13.0</version>
   <configuration>
     <source>17</source>
     <target>17</target>
@@ -229,7 +229,7 @@ Build the Project.
 
 To clean old builds and generate new JAR files, run:
 
-```groovy
+```bash
 gradle clean build
 ```
 

@@ -22,7 +22,7 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 
 📌 **Use a** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **file** to automatically exclude these files.
 
-🔗 **Need help setting up your** [**`package.json`**](package.json.md) **or find** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
+🔗 **Need help setting up your** [**`package.json`**](package.json.md) **or finding the** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
 
 <details>
 
@@ -54,7 +54,7 @@ ID=mysite
 
 1. Produce output in `build/` (do not use `dist/`).
 2. Omit `BUILD` from `discloud.config`.
-3. Point `MAIN` to the `build/` folder.
+3. Point `MAIN` to the entry file inside the `build/` folder.
 
 Example:
 

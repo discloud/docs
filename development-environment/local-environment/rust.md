@@ -31,8 +31,9 @@ Run and accept defaults (installs to user profile).
 {% endtab %}
 
 {% tab title="PowerShell" %}
-```bash
-irm https://win.rustup.rs -UseBasicParsing | iex
+```powershell
+Invoke-WebRequest https://win.rustup.rs/x86_64 -OutFile rustup-init.exe
+.\rustup-init.exe
 ```
 {% endtab %}
 {% endtabs %}
@@ -74,7 +75,7 @@ sudo apt install -y build-essential pkg-config libssl-dev
 rustup update
 ```
 
-#### Remove Toolchain
+#### Uninstall Rust (rustup and all toolchains)
 
 ```bash
 rustup self uninstall
@@ -178,14 +179,8 @@ cargo build --release          # optimized build
 cargo run                      # build + run
 cargo test                     # run tests
 cargo update                   # update dependency lock
-cargo tree                     # dependency graph (requires cargo-tree)
+cargo tree                     # dependency graph
 cargo doc --open               # build docs locally
-```
-
-Install cargo tree (if missing):
-
-```bash
-cargo install cargo-tree
 ```
 
 ***

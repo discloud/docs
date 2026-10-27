@@ -64,6 +64,8 @@ async function getCurrentUser() {
   const data = await res.json();
   console.log(data);
 }
+
+getCurrentUser();
 ```
 {% endtab %}
 
@@ -74,12 +76,14 @@ const { discloud } = require("discloud.app");
 
 async function validateToken() {
   try {
-    const user = await discloud.login("DISCLOUD_API_TOKEN");
+    const user = await discloud.login(process.env.DISCLOUD_TOKEN);
     console.log("Authenticated user:", user);
   } catch (e) {
     console.error("Invalid token or network error:", e.message);
   }
 }
+
+validateToken();
 ```
 {% endtab %}
 {% endtabs %}
@@ -111,10 +115,14 @@ You can also update the user locale (e.g. `en-US`) through `/locale/{locale}` to
 
 ***
 
-## 📚 Related Endpoints References
+## 📚 Related Endpoints Reference
 
 The operations below require the `api-token` header:
 
 {% openapi-operation spec="api-endpoints-en-v2" path="/user" method="get" %}
+[OpenAPI api-endpoints-en-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-en-v2.openapi.yaml)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="api-endpoints-en-v2" path="/locale/{locale}" method="put" %}
 [OpenAPI api-endpoints-en-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-en-v2.openapi.yaml)
 {% endopenapi-operation %}

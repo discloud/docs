@@ -21,7 +21,7 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 
 📌 **Use a** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **file** to automatically exclude these files.
 
-🔗 **Need help setting up your** [**`Cargo.toml`**](cargo.toml.md) **or find** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
+🔗 **Need help setting up your** [**`Cargo.toml`**](cargo.toml.md) **or finding the** [**main file**](../../../faq/general-questions/what-is-the-main-file.md)**?**
 
 ***
 
@@ -37,10 +37,6 @@ Before deploying your website or API on Discloud, ensure that you meet the follo
 [A subdomain must be created](../../../faq/general-questions/how-to-create-a-subdomain.md) before deployment.
 {% endhint %}
 
-{% hint style="success" %}
-Use the nightly version of Rust (Rocket requires nightly).
-{% endhint %}
-
 {% hint style="danger" %}
 Port `8080` is mandatory – Applications must listen on this port.
 {% endhint %}
@@ -49,34 +45,15 @@ Port `8080` is mandatory – Applications must listen on this port.
 
 ## 🚀 Configuring `Rocket`
 
-[Rocket](https://rocket.rs/) is a web framework for Rust that requires the nightly version of Rust. To set up and deploy a Rocket project on Discloud, follow these steps:
+[Rocket](https://rocket.rs/) is a web framework for Rust that, since version 0.5, works on stable Rust. By default, Rocket listens on `127.0.0.1:8000`. For Discloud, create a `Rocket.toml` file in the project root so it listens on `0.0.0.0:8080`:
 
-{% stepper %}
-{% step %}
-Set the Nightly Version of Rust.
-
-Run the following command in the terminal to ensure your project is using the nightly version:
-
-```bash
-rustup override set nightly
-```
-{% endstep %}
-
-{% step %}
-Create the `rust-toolchain.toml` File.
-
-To make sure the nightly version of Rust is used, create a file named `rust-toolchain.toml` in the project’s root directory with the following content:
-
-{% code title="rust-toolchain.toml" %}
-```ini
-[toolchain]
-channel = "nightly"
+{% code title="Rocket.toml" %}
+```toml
+[default]
+address = "0.0.0.0"
+port = 8080
 ```
 {% endcode %}
-
-This file tells rustup to use the nightly version of Rust.
-{% endstep %}
-{% endstepper %}
 
 ***
 

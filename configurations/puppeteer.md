@@ -62,11 +62,17 @@ Since [**`whatsapp-web.js`**](https://wwebjs.dev/) also uses **Puppeteer** for Q
 
 ```javascript
 const { Client } = require("whatsapp-web.js");
+const qrcode = require("qrcode-terminal");
 
 const client = new Client({
     puppeteer: {
         args: ["--no-sandbox"],
     }
+});
+
+// Show the QR code in the logs
+client.on("qr", (qr) => {
+    qrcode.generate(qr, { small: true });
 });
 
 client.initialize();

@@ -36,10 +36,10 @@ Ensure Python and pip are installed ([installation guide](../../local-environmen
 {% endstep %}
 
 {% step %}
-Open your terminal in the project directory and run.
+Open your terminal in the project directory and run:
 
 ```bash
-pip freeze --user > requirements.txt
+pip freeze > requirements.txt
 ```
 
 This automatically generates a list of all installed packages with their exact versions.
@@ -50,7 +50,7 @@ This automatically generates a list of all installed packages with their exact v
 
 ***
 
-## **📝** Structure of `requirements.txt`&#x20;
+## **📝** Structure of `requirements.txt`
 
 Your file should follow these patterns:
 
@@ -100,7 +100,7 @@ pip install package-name
 **Update your requirements file.**
 
 ```bash
-pip freeze --user > requirements.txt
+pip freeze > requirements.txt
 ```
 {% endstep %}
 {% endstepper %}
