@@ -21,7 +21,7 @@ Rust provides performance, memory safety, and predictable resource usage for API
 {% tab title="rustup-init (Official)" %}
 {% stepper %}
 {% step %}
-Download the installer: https://win.rustup.rs/ (or run command below in PowerShell)
+Download the installer: https://win.rustup.rs/ (or use the PowerShell tab)
 {% endstep %}
 
 {% step %}
@@ -30,7 +30,7 @@ Run and accept defaults (installs to user profile).
 {% endstepper %}
 {% endtab %}
 
-{% tab title="Alternative (PowerShell):" %}
+{% tab title="PowerShell" %}
 ```bash
 irm https://win.rustup.rs -UseBasicParsing | iex
 ```

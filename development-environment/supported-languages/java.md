@@ -14,8 +14,6 @@ Before deploying, **your project must be** [**compiled into an executable JAR fi
 Ensure the following files and directories are **not** included in your [`.zip`](../../faq/general-questions/how-to-compress.md):
 
 ```diff
-- package-lock.json
-- node_modules/
 - .cache/
 - .git/
 ```
@@ -66,7 +64,7 @@ MAIN=app.jar
 
 Ensure that `app.jar` matches the name of your compiled JAR file.​
 
-**Note:** For detailed information on setting the main file, refer to Discloud's FAQ on the main file.
+**Note:** For detailed information on setting the main file, refer to the [main file FAQ](../../faq/general-questions/what-is-the-main-file.md).
 
 ***
 

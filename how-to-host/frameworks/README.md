@@ -15,7 +15,12 @@ Whether it's a simple API, a full app, or something real-time – you'll find th
 
 ## 📚 Available Guides
 
-Pick your framework from the list and follow along:
+Pick your framework and follow along:
+
+* [NestJS](nestjs.md)
+* [Next.js](nextjs.md)
+
+Each guide includes:
 
 * **Step-by-step setup** – Project structure, config files, environment variables
 * **Local testing** – How to verify everything works before uploading

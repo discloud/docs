@@ -34,7 +34,7 @@ Or create a minimal file manually:
     "guzzlehttp/guzzle": "^7.9"
   },
   "autoload": {
-    "psr-4": { "App\\\\": "src/" }
+    "psr-4": { "App\\": "src/" }
   }
 }
 ```

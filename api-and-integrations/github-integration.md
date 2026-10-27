@@ -18,7 +18,7 @@ This is the recommended workflow for teams and anyone using version control as p
 Before connecting GitHub, make sure the following are in place:
 
 {% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) **at the root** - This file must exist at the root of your repository. Without it, the upload will fail validation. Learn more about the root of the project.
+[**`discloud.config`**](../configurations/discloud.config/) **at the root** - This file must exist at the root of your repository. Without it, the upload will fail validation. Learn more about the [project root](../faq/general-questions/what-is-the-root-of-the-project.md).
 {% endhint %}
 
 {% hint style="danger" %}
@@ -81,7 +81,7 @@ Go to the **Applications** page in the [Discloud Dashboard](https://discloud.com
 {% endhint %}
 
 {% hint style="warning" %}
-If you forget to add a variable here, your application will start without it and may crash or behave incorrectly. To update environment variables later, you can edit them directly in the dashboard if you have a [paid plan](https://discloud.com/plans). Otherwise, you will need to do a new commit manually upload with the complete updated `.env` content.
+If you forget to add a variable here, your application will start without it and may crash or behave incorrectly. To update environment variables later, you can edit them directly in the dashboard if you have a [paid plan](https://discloud.com/plans). Otherwise, you will need to manually [commit](../faq/general-questions/how-to-commit.md) a `.env` file with the complete, updated content.
 {% endhint %}
 {% endstep %}
 

@@ -4,11 +4,11 @@ description: >-
   file using Maven or Gradle.
 ---
 
-# How to Build and Package a Java Application?
+# How to build and package a Java application?
 
 ## 📌 **Why Do I Need to Build My Java Application?**
 
-Discloud **does not compile Java projects** automatically.&#x20;
+Discloud **does not compile Java projects** automatically.
 
 You must:\
 ✔ **Compile your code** into `.class` files.\
@@ -31,7 +31,7 @@ You must:\
 
 {% stepper %}
 {% step %}
-Add the Maven Compiler Plugi&#x6E;**.**
+Add the Maven Compiler Plugin.
 
 Ensure your `pom.xml` includes the **Maven Compiler Plugin** to specify the Java version for compilation. This prevents compatibility issues when running the project.
 
@@ -55,7 +55,7 @@ Ensure your `pom.xml` includes the **Maven Compiler Plugin** to specify the Java
 {% endstep %}
 
 {% step %}
-Specify the Main Clas&#x73;**.**
+Specify the Main Class.
 
 To make your application executable, you need to specify the entry point (`main` method). This is done using the **Maven Shade Plugin**, which also ensures that all dependencies are bundled inside a **single JAR file**.
 
@@ -76,7 +76,7 @@ To make your application executable, you need to specify the entry point (`main`
           <configuration>
             <transformers>
               <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                <!-- NOTE: Replace this with the correct path to your project's main class -->
+                <!-- NOTE: Replace this with the fully qualified name of your project's main class -->
                 <mainClass>com.project.example.Main</mainClass>
               </transformer>
             </transformers>
@@ -96,7 +96,7 @@ To make your application executable, you need to specify the entry point (`main`
 {% endstep %}
 
 {% step %}
-Build the Projec&#x74;**.**
+Build the Project.
 
 Run the following command to **clean** old builds and generate the new JAR files:
 
@@ -238,7 +238,7 @@ gradle clean build
 Standard JAR (Regular Project JAR).
 
 📌 **Filename:** `<project-name>.jar`\
-📌 Exampl&#x65;**:**  `discordbot.jar`\
+📌 **Example:** `discordbot.jar`\
 📌 **Contents:**
 
 * Only **your project's compiled code**.
@@ -253,7 +253,7 @@ Standard JAR (Regular Project JAR).
 Fat JAR (Uber JAR with Dependencies).
 
 📌 **Filename:** `<project-name>-all.jar`\
-📌 Exampl&#x65;**:**  `discordbot-all.jar`\
+📌 **Example:** `discordbot-all.jar`\
 📌 **Contents:**
 
 * Your **compiled application code**.

@@ -16,7 +16,7 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 ```diff
 - Cargo.lock
 - target/
-- git
+- .git/
 ```
 
 📌 **Use a** [**`.discloudignore`**](../../../configurations/.discloudignore.md) **file** to automatically exclude these files.

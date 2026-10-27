@@ -7,7 +7,7 @@ icon: globe
 
 ## 🧭 Overview
 
-You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's [Discloud subdomain](../faq/general-questions/how-to-create-a-subdomain.md) using two A records pointing to our IPv4 addresses and validates ownership via TXT records.
+You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's [Discloud subdomain](../faq/general-questions/how-to-create-a-subdomain.md) using two A records pointing to our IPv4 addresses.
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
 
@@ -88,7 +88,7 @@ If you use **Cloudflare**, it is mandatory to disable the **Proxy** (ensure it i
 
 ## 🔄 Rebuild the App
 
-After DNS resolves and tokens validate, open the linked app and trigger Rebuild so the binding becomes active.
+After DNS propagates, open the linked app and trigger Rebuild so the binding becomes active.
 
 <div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="App list showing custom domain"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Applications_Rebuild.png" alt=""><figcaption></figcaption></figure></div>
 

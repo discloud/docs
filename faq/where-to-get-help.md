@@ -1,6 +1,6 @@
 ---
 description: >-
-  Channels and best practices for getting help with Discloud-community forums,
+  Channels and best practices for getting help with Discloud: community forums,
   chat, donor areas, and direct staff support.
 icon: bullseye-arrow
 ---
