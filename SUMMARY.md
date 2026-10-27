@@ -70,6 +70,8 @@
   * [Autenticação](api-and-integrations/api-overview/authentication.md)
   * [Usuário](api-and-integrations/api-overview/user.md)
   * [Aplicações](api-and-integrations/api-overview/applications.md)
+  * [Moderadores da Aplicação](api-and-integrations/api-overview/app-moderators.md)
+  * [Aplicações da Equipe](api-and-integrations/api-overview/team-apps.md)
   * [Variáveis de ambiente](api-and-integrations/api-overview/environment-variable.md)
   * [Snapshot](api-and-integrations/api-overview/snapshot.md)
   * [Subdomínio](api-and-integrations/api-overview/subdomain.md)
