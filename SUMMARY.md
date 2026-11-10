@@ -11,6 +11,7 @@
 * [Frameworks](how-to-host/frameworks/README.md)
   * [Next.js](how-to-host/frameworks/nextjs.md)
   * [NestJS](how-to-host/frameworks/nestjs.md)
+* [VPS](how-to-host/vps.md)
 
 ## How to Host, Using
 
