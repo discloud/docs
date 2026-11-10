@@ -46,7 +46,7 @@ Use um arquivo [`.discloudignore`](../../configurations/.discloudignore.md) para
 
 Ao enviar pelo **Bot do Discord**, o `.zip` é um anexo de mensagem, por isso também precisa caber no **limite de anexos do Discord**. Para projetos maiores, prefira um destes métodos:
 
-* 🖥️ [**Painel de Controle**](../../how-to-host-using/dashboard.md)
+* 🖥️ [**Painel de Controle**](../../how-to-host-using/dashboard/)
 * ⌨️ [**CLI**](../../how-to-host-using/cli.md)
 * 🟦 [**Extensão do VS Code**](../../how-to-host-using/visual-studio-code.md)
 

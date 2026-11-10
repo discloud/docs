@@ -15,7 +15,8 @@
 
 ## Como Hospedar, Usando <a href="#how-to-host-using" id="how-to-host-using"></a>
 
-* [Painel de Controle](how-to-host-using/dashboard.md)
+* [Painel de Controle](how-to-host-using/dashboard/README.md)
+  * [Projetos](how-to-host-using/dashboard/projects.md)
 * [Bot do Discord](how-to-host-using/discord-bot/README.md)
   * [Comandos do Bot](how-to-host-using/discord-bot/commands.md)
 * [Visual Studio Code](how-to-host-using/visual-studio-code.md)

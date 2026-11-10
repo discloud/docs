@@ -9,19 +9,19 @@ icon: table-columns
 
 Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretamente estruturados de acordo com a linguagem de programação que você está utilizando. Diferentes linguagens possuem requisitos específicos para gerenciamento de dependências, estrutura do projeto e arquivos necessários.
 
-{% content-ref url="../development-environment/supported-languages/" %}
-[supported-languages](../development-environment/supported-languages/)
+{% content-ref url="../../development-environment/supported-languages/" %}
+[supported-languages](../../development-environment/supported-languages/)
 {% endcontent-ref %}
 
 ### 📌 Requisitos Básicos
 
 * **Código-Fonte do Projeto** – Todos os arquivos necessários para a execução da sua aplicação.
-* **Arquivo de Configuração (**[**`discloud.config`**](../configurations/discloud.config/)**)** – Obrigatório para as configurações de upload.
+* **Arquivo de Configuração (**[**`discloud.config`**](../../configurations/discloud.config/)**)** – Obrigatório para as configurações de upload.
 * **Arquivo de Dependências** (se aplicável):
-  * [`package.json`](../development-environment/supported-languages/javascript/package.json.md) para [**Node.js**](../development-environment/local-environment/nodejs.md)
-  * [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) para [**Python**](../development-environment/local-environment/python.md)
-  * [`Cargo.toml`](../development-environment/supported-languages/rust/cargo.toml.md) para [**Rust**](../development-environment/local-environment/rust.md)
-  * [`Gemfile`](../development-environment/supported-languages/ruby/gemfile.md) para [**Ruby**](../development-environment/local-environment/ruby.md)
+  * [`package.json`](../../development-environment/supported-languages/javascript/package.json.md) para [**Node.js**](../../development-environment/local-environment/nodejs.md)
+  * [`requirements.txt`](../../development-environment/supported-languages/python/requirements.txt.md) para [**Python**](../../development-environment/local-environment/python.md)
+  * [`Cargo.toml`](../../development-environment/supported-languages/rust/cargo.toml.md) para [**Rust**](../../development-environment/local-environment/rust.md)
+  * [`Gemfile`](../../development-environment/supported-languages/ruby/gemfile.md) para [**Ruby**](../../development-environment/local-environment/ruby.md)
 
 ### **🗑️** Excluindo Arquivos Desnecessários
 
@@ -37,7 +37,7 @@ Para **otimizar seu upload**, certifique-se de **remover arquivos desnecessário
 - __pycache__
 ```
 
-> Para informações detalhadas sobre os arquivos necessários e configurações apropriadas, consulte a [documentação da linguagem](../development-environment/supported-languages/) que você está usando para seu projeto.
+> Para informações detalhadas sobre os arquivos necessários e configurações apropriadas, consulte a [documentação da linguagem](../../development-environment/supported-languages/) que você está usando para seu projeto.
 
 ***
 
@@ -57,11 +57,11 @@ Clique em "**Entrar**" e faça login.
 
 <summary>Acesse o Painel se você já estiver logado.</summary>
 
-![](../.gitbook/assets/Website-Access_Dashboard.png)
+![](../../.gitbook/assets/Website-Access_Dashboard.png)
 
 </details>
 
-<figure><img src="../.gitbook/assets/Website-Sign_In.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Website-Sign_In.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -75,7 +75,7 @@ Depois que seus arquivos estiverem prontos, siga estes passos para enviar e faze
 {% step %}
 Compactando Seu Projeto.
 
-Antes de enviar, compacte todo o seu projeto em um arquivo [.zip](../faq/general-questions/how-to-compress.md).
+Antes de enviar, compacte todo o seu projeto em um arquivo [.zip](../../faq/general-questions/how-to-compress.md).
 {% endstep %}
 
 {% step %}

@@ -90,7 +90,7 @@ Para aplicações Java, você **deve** fazer o build localmente e enviar o arqui
 
 Você pode enviar seu projeto usando qualquer um de nossos métodos suportados:
 
-* 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
+* 🖥️ [**Dashboard**](../how-to-host-using/dashboard/)
 * ⌨️ [**CLI**](../how-to-host-using/cli.md)
 * 🟦 [**Extensão do VS Code**](../how-to-host-using/visual-studio-code.md)
 * 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot/)
