@@ -3,6 +3,8 @@ description: >-
   Agrupe aplicações e bancos de dados que trabalham juntos, compartilhe
   variáveis entre eles e abra o acesso a uma equipe.
 icon: folder-tree
+tags:
+  - novo
 ---
 
 # Projetos

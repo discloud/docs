@@ -3,6 +3,8 @@ description: >-
   Crie servidores Linux com acesso root por SSH usando uma cota de RAM e SSD
   contratada à parte do plano de bots e sites.
 icon: server
+tags:
+  - novo
 ---
 
 # VPS

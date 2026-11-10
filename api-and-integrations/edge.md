@@ -3,6 +3,8 @@ description: >-
   Controle o tráfego do seu site na borda da Discloud com rules e redirects,
   antes de a requisição chegar na aplicação.
 icon: shield-halved
+tags:
+  - novo
 ---
 
 # Edge

@@ -3,6 +3,8 @@ description: >-
   Gere backups manuais das suas aplicações, baixe as cópias automáticas diárias
   e restaure bancos de dados pelo painel.
 icon: box-archive
+tags:
+  - novo
 ---
 
 # Backups

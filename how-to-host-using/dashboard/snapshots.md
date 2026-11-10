@@ -3,6 +3,8 @@ description: >-
   Baixe versões antigas das suas aplicações, inclusive depois que uma app foi
   excluída.
 icon: clock-rotate-left
+tags:
+  - novo
 ---
 
 # Snapshots

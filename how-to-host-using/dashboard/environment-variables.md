@@ -3,6 +3,8 @@ description: >-
   Configure variáveis de ambiente no painel em três níveis (conta, projeto e
   app) e saiba quando usar o prefixo BUILD_.
 icon: sliders
+tags:
+  - novo
 ---
 
 # Variáveis de Ambiente

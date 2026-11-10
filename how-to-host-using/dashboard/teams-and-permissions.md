@@ -3,6 +3,8 @@ description: >-
   Compartilhe Projetos com outras pessoas e defina o que cada membro pode ver e
   alterar no painel.
 icon: users-gear
+tags:
+  - novo
 ---
 
 # Equipes e Permissões
