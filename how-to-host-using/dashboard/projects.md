@@ -3,6 +3,8 @@ description: >-
   Group applications and databases that work together, share variables between
   them and give a Team access.
 icon: folder-tree
+tags:
+  - new
 ---
 
 # Projects

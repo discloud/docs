@@ -3,6 +3,8 @@ description: >-
   Create manual backups of your applications, download the daily automatic
   copies and restore databases from the dashboard.
 icon: box-archive
+tags:
+  - new
 ---
 
 # Backups

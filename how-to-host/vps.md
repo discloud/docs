@@ -3,6 +3,8 @@ description: >-
   Create Linux servers with root SSH access using a RAM and SSD quota that is
   billed separately from the bots and sites plan.
 icon: server
+tags:
+  - new
 ---
 
 # VPS

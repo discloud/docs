@@ -3,6 +3,8 @@ description: >-
   Share Projects with other people and define what each member can see and
   change in the dashboard.
 icon: users-gear
+tags:
+  - new
 ---
 
 # Teams and Permissions

@@ -3,6 +3,8 @@ description: >-
   Download older versions of your applications, even after an app has been
   deleted.
 icon: clock-rotate-left
+tags:
+  - new
 ---
 
 # Snapshots

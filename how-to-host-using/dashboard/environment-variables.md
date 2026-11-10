@@ -3,6 +3,8 @@ description: >-
   Set environment variables in the dashboard at three levels (account, project
   and app) and learn when to use the BUILD_ prefix.
 icon: sliders
+tags:
+  - new
 ---
 
 # Environment Variables
