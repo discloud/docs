@@ -19,6 +19,7 @@
   * [Projects](how-to-host-using/dashboard/projects.md)
   * [Teams and Permissions](how-to-host-using/dashboard/teams-and-permissions.md)
   * [Environment Variables](how-to-host-using/dashboard/environment-variables.md)
+  * [Backups](how-to-host-using/dashboard/backups.md)
 * [Discord Bot](how-to-host-using/discord-bot/README.md)
   * [Bot Commands](how-to-host-using/discord-bot/commands.md)
 * [Visual Studio Code](how-to-host-using/visual-studio-code.md)
