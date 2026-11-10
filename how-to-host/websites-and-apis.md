@@ -113,7 +113,7 @@ For Java applications, you **must** build locally and upload the `.jar` file. [S
 
 You can upload your project using any of our supported methods:
 
-* 🖥️ [**Dashboard**](../how-to-host-using/dashboard.md)
+* 🖥️ [**Dashboard**](../how-to-host-using/dashboard/)
 * ⌨️ [**CLI**](../how-to-host-using/cli.md)
 * 🟦 [**VS Code Extension**](../how-to-host-using/visual-studio-code.md)
 * 🤖 [**Discord Bot**](../how-to-host-using/discord-bot/)

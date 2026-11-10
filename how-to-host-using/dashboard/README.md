@@ -9,19 +9,19 @@ icon: table-columns
 
 Before uploading your project, ensure that your **files are correctly structured** according to the programming language you're using. Different languages have specific requirements for dependency management, project structure, and necessary files.
 
-{% content-ref url="../development-environment/supported-languages/" %}
-[supported-languages](../development-environment/supported-languages/)
+{% content-ref url="../../development-environment/supported-languages/" %}
+[supported-languages](../../development-environment/supported-languages/)
 {% endcontent-ref %}
 
 ### 📌 **Basic Requirements**
 
 * **Project Source Code** – All the necessary files for your application to run.
-* **Configuration File (**[**`discloud.config`**](../configurations/discloud.config/)**)** – Required for deployment settings.
+* **Configuration File (**[**`discloud.config`**](../../configurations/discloud.config/)**)** – Required for deployment settings.
 * **Dependencies File** (if applicable):
-  * [`package.json`](../development-environment/supported-languages/javascript/package.json.md) for [**Node.js**](../development-environment/local-environment/nodejs.md)
-  * [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) for [**Python**](../development-environment/local-environment/python.md)
-  * [`Cargo.toml`](../development-environment/supported-languages/rust/cargo.toml.md) for [**Rust**](../development-environment/local-environment/rust.md)
-  * [`Gemfile`](../development-environment/supported-languages/ruby/gemfile.md) for [**Ruby**](../development-environment/local-environment/ruby.md)
+  * [`package.json`](../../development-environment/supported-languages/javascript/package.json.md) for [**Node.js**](../../development-environment/local-environment/nodejs.md)
+  * [`requirements.txt`](../../development-environment/supported-languages/python/requirements.txt.md) for [**Python**](../../development-environment/local-environment/python.md)
+  * [`Cargo.toml`](../../development-environment/supported-languages/rust/cargo.toml.md) for [**Rust**](../../development-environment/local-environment/rust.md)
+  * [`Gemfile`](../../development-environment/supported-languages/ruby/gemfile.md) for [**Ruby**](../../development-environment/local-environment/ruby.md)
 
 ### **🗑️** Excluding Unnecessary Files
 
@@ -37,7 +37,7 @@ To **optimize your deployment**, make sure to **remove unnecessary files** befor
 - __pycache__
 ```
 
-> For detailed information on required files and appropriate configurations, refer to the [**documentation of the language**](../development-environment/supported-languages/) you are using for your project.
+> For detailed information on required files and appropriate configurations, refer to the [**documentation of the language**](../../development-environment/supported-languages/) you are using for your project.
 
 ***
 
@@ -57,11 +57,11 @@ Click **"Enter"** and log in.
 
 <summary>Access the <strong>Dashboard</strong> if you are already logged in.</summary>
 
-![](../.gitbook/assets/Website-Access_Dashboard.png)
+![](../../.gitbook/assets/Website-Access_Dashboard.png)
 
 </details>
 
-<figure><img src="../.gitbook/assets/Website-Sign_In.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Website-Sign_In.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -75,7 +75,7 @@ Once your files are ready, follow these steps to upload and deploy your app.
 {% step %}
 Compressing Your Project.
 
-Before uploading, **compress your entire project** into a [`.zip`](../faq/general-questions/how-to-compress.md) file.
+Before uploading, **compress your entire project** into a [`.zip`](../../faq/general-questions/how-to-compress.md) file.
 {% endstep %}
 
 {% step %}

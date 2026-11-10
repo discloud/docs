@@ -263,8 +263,8 @@ my-next-app/
 
 You can deploy your Next.js app using any of the supported methods.
 
-{% content-ref url="../../how-to-host-using/dashboard.md" %}
-[dashboard.md](../../how-to-host-using/dashboard.md)
+{% content-ref url="../../how-to-host-using/dashboard/" %}
+[dashboard](../../how-to-host-using/dashboard/)
 {% endcontent-ref %}
 
 {% content-ref url="../../how-to-host-using/discord-bot/" %}

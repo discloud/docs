@@ -44,7 +44,7 @@ Use a [`.discloudignore`](../../configurations/.discloudignore.md) file so these
 
 When you upload with the **Discord Bot**, the `.zip` is a message attachment, so it also has to fit within **Discord's attachment limit**. For bigger projects, prefer one of these methods:
 
-* 🖥️ [**Dashboard**](../../how-to-host-using/dashboard.md)
+* 🖥️ [**Dashboard**](../../how-to-host-using/dashboard/)
 * ⌨️ [**CLI**](../../how-to-host-using/cli.md)
 * 🟦 [**VS Code Extension**](../../how-to-host-using/visual-studio-code.md)
 
