@@ -102,3 +102,13 @@ After DNS propagates, open the linked app and trigger Rebuild so the binding bec
 * If some POPs still display old records, wait and re-check later.
 
 <figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## 🛡️ Control traffic with Edge
+
+With the domain active, you can block paths, put the site in maintenance, change headers and create redirects at the Discloud edge, before the request reaches the application.
+
+{% content-ref url="edge.md" %}
+[edge.md](edge.md)
+{% endcontent-ref %}

@@ -82,6 +82,7 @@
   * [Team](api-and-integrations/api-overview/team.md)
 * [GitHub Integration](api-and-integrations/github-integration.md)
 * [Custom Domain](api-and-integrations/custom-domain.md)
+* [Edge](api-and-integrations/edge.md)
 * [Databases](api-and-integrations/databases.md)
 * [Lavalink](api-and-integrations/lavalink.md)
 
