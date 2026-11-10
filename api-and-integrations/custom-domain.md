@@ -102,3 +102,13 @@ Após o DNS propagar, abra a aplicação vinculada e acione a Reconstrução par
 * Se alguns POPs ainda exibirem registros antigos, aguarde e verifique novamente mais tarde.
 
 <figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## 🛡️ Controlar o tráfego com o Edge
+
+Com o domínio ativo, você pode bloquear caminhos, colocar o site em manutenção, mexer em headers e criar redirecionamentos na borda da Discloud, antes de o pedido chegar na aplicação.
+
+{% content-ref url="edge.md" %}
+[edge.md](edge.md)
+{% endcontent-ref %}
