@@ -45,7 +45,7 @@ Para usar o Edge, você deve atender a estes critérios:
 {% endhint %}
 
 {% hint style="success" %}
-[**Plano Ruby ou superior**](https://discloud.com/plans) – Vale o plano do dono do site. Em app compartilhado por Team, o plano do membro não conta.
+[**Plano Ruby ou superior**](https://discloud.com/plans) – Vale o plano do dono do site. Em app compartilhado por uma equipe, o plano do membro não conta.
 {% endhint %}
 
 {% hint style="info" %}
@@ -155,4 +155,4 @@ Redirects também podem ficar pausados. Pausar não apaga a regra.
 * Não funciona em subdomínio gratuito da Discloud.
 * Não edita o código do app. Rewrite muda a URL interna. Substituir texto só altera a resposta já gerada.
 * Não é um firewall de IP nem um WAF genérico. O controle é o que você configurou em Rules e Redirects.
-* Viewer de Team não cria nem edita.
+* O Viewer de uma equipe não cria nem edita.
