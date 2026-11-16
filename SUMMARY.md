@@ -76,7 +76,6 @@
   * [Authentication](api-and-integrations/api-overview/authentication.md)
   * [User](api-and-integrations/api-overview/user.md)
   * [Applications](api-and-integrations/api-overview/applications.md)
-  * [App Moderators](api-and-integrations/api-overview/app-moderators.md)
   * [Team Apps](api-and-integrations/api-overview/team-apps.md)
   * [Environment variable](api-and-integrations/api-overview/environment-variable.md)
   * [Snapshot](api-and-integrations/api-overview/snapshot.md)
