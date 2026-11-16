@@ -40,7 +40,8 @@ Shuts down during a specific action.
 If your application **exceeds its allocated memory**, it may be **forcefully shut down**.
 
 ✔ **Monitor RAM usage** and optimize your code.\
-✔ Consider **increasing RAM** in your [`discloud.config`](../../configurations/discloud.config/) file.
+✔ Consider **increasing RAM** in your [`discloud.config`](../../configurations/discloud.config/) file.\
+✔ See [**How does RAM work?**](../general-questions/how-does-ram-work.md) to understand your application's memory usage.
 {% endhint %}
 
 {% hint style="warning" %}
