@@ -15,6 +15,8 @@ icon: memory
 Ver o uso de RAM subir **não** quer dizer que o seu plano está acabando. O plano gratuito não expira.
 {% endhint %}
 
+<figure><img src="../../.gitbook/assets/ram-usage.gif" alt="Gráfico animado do uso de RAM subindo e descendo conforme a aplicação inicia, recebe um comando, gera uma imagem e toca música"><figcaption></figcaption></figure>
+
 ***
 
 ## 🧠 O que é a RAM
