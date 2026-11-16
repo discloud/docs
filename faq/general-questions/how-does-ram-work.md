@@ -15,6 +15,8 @@ icon: memory
 Seeing RAM usage go up does **not** mean your plan is running out. The free plan doesn't expire.
 {% endhint %}
 
+<figure><img src="../../.gitbook/assets/ram-usage.gif" alt="Animated chart of RAM usage going up and down as the application starts, gets a command, generates an image and plays music"><figcaption></figcaption></figure>
+
 ***
 
 ## 🧠 What RAM is
