@@ -2,7 +2,6 @@
 description: >-
   What RAM is, why its usage goes up and down, and what happens when your
   application reaches the limit.
-icon: memory
 ---
 
 # How does RAM work?
