@@ -2,7 +2,6 @@
 description: >-
   O que é a RAM, por que o uso dela sobe e desce e o que acontece quando a sua
   aplicação chega no limite.
-icon: memory
 ---
 
 # Como funciona a RAM?
