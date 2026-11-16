@@ -40,7 +40,8 @@ Encerra durante uma ação específica.
 Se sua aplicação **excede sua memória alocada**, ela pode ser **forçadamente encerrada**.
 
 ✔ **Monitore o uso de RAM** e otimize seu código.\
-✔ Considere **aumentar a RAM** no seu arquivo [`discloud.config`](../../configurations/discloud.config/).
+✔ Considere **aumentar a RAM** no seu arquivo [`discloud.config`](../../configurations/discloud.config/).\
+✔ Veja [**Como funciona a RAM?**](../general-questions/how-does-ram-work.md) para entender o uso de memória da sua aplicação.
 {% endhint %}
 
 {% hint style="warning" %}

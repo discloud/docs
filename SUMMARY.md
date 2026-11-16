@@ -97,6 +97,7 @@
   * [O que é a raiz do projeto?](faq/general-questions/what-is-the-root-of-the-project.md)
   * [Arquivo .env](faq/general-questions/.env-file.md)
   * [Qual é o arquivo principal?](faq/general-questions/what-is-the-main-file.md)
+  * [Como funciona a RAM?](faq/general-questions/how-does-ram-work.md)
   * [Como criar um subdomínio?](faq/general-questions/how-to-create-a-subdomain.md)
   * [Como posso obter o ID do meu bot do Discord?](faq/general-questions/how-can-i-get-my-discord-bot-id.md)
   * [Como comprimir?](faq/general-questions/how-to-compress.md)
