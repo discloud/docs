@@ -34,10 +34,15 @@ If you only need to manage (cancel / reactivate) an existing subscription, see: 
 
 Two acquisition channels are currently available.
 
-| Method           | Available Via                                                                                                                     |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Stripe           | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Support Ticket</li></ul> |
-| PayPal / Revolut | <ul class="contains-task-list"><li><input type="checkbox">Website</li><li><input type="checkbox" checked>Support Ticket</li></ul> |
+| Method                    | Available Via                                                                                                                     |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Stripe                    | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Support Ticket</li></ul> |
+| PIX                       | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Support Ticket</li></ul> |
+| PayPal / Revolut / Crypto | <ul class="contains-task-list"><li><input type="checkbox">Website</li><li><input type="checkbox" checked>Support Ticket</li></ul> |
+
+{% hint style="info" %}
+The methods shown at the website checkout depend on your region. **PIX**, for example, only shows up for people in Brazil.
+{% endhint %}
 
 {% hint style="warning" %}
 Use a ticket only if the website payment flow is unavailable or your preferred supported method fails.
@@ -67,7 +72,7 @@ Complete payment. Your plan activates shortly after confirmation.
 
 ## 🎫 Purchase (Support Ticket)
 
-Use this path only for PayPal / Revolut or when encountering payment issues.
+Use this path only for PayPal, Revolut, crypto or when encountering payment issues.
 
 {% stepper %}
 {% step %}
@@ -84,7 +89,7 @@ Follow the instructions provided by the support team to complete payment.
 {% endstepper %}
 
 {% hint style="info" %}
-Tickets are asynchronous; response time may vary. Keep one ticket per request to reduce delays.
+Tickets are asynchronous. Response time may vary. Keep one ticket per request to reduce delays.
 {% endhint %}
 
 ***
