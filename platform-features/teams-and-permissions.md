@@ -20,7 +20,7 @@ Há duas coisas diferentes que decidem o que um membro consegue fazer:
 | **Plano**           | Quais recursos a conta do **dono** liberou (Console, domínio, Edge e outros). | A assinatura do dono do recurso.                  |
 | **Papel na equipe** | O que **você** pode fazer nesse recurso compartilhado.                        | O dono da equipe, ao convidar ou editar o membro. |
 
-<figure><img src="../../.gitbook/assets/team-plan-and-role.png" alt="Diagrama do plano do dono e do papel do membro liberando uma ação"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/team-plan-and-role.png" alt="Diagrama do plano do dono e do papel do membro liberando uma ação"><figcaption></figcaption></figure>
 
 Em um app compartilhado, o plano que vale para os recursos avançados é o do **dono do app**, não o seu. O seu papel só decide se você pode usar aquela tela.
 
@@ -29,7 +29,7 @@ Em um app compartilhado, o plano que vale para os recursos avançados é o do **
 ## 📋 Requisitos
 
 * Criar uma equipe exige o plano [**Diamond ou superior**](https://discloud.com/plans).
-* Você pode ser **membro** de uma equipe mesmo com um plano menor. O dono convida pelo [ID da sua conta Discloud](../../faq/general-questions/how-can-i-get-my-discloud-account-id.md).
+* Você pode ser **membro** de uma equipe mesmo com um plano menor. O dono convida pelo [ID da sua conta Discloud](../faq/general-questions/how-can-i-get-my-discloud-account-id.md).
 
 ***
 
@@ -100,7 +100,7 @@ Em **Team**, clique em **Novo team**. Informe o nome (de 3 a 50 caracteres) e, s
 {% step %}
 **Adicionar membros**
 
-Abra a equipe e clique em **Adicionar membro**. Informe o [**ID da conta Discloud**](../../faq/general-questions/how-can-i-get-my-discloud-account-id.md) da pessoa (não o username do Discord) e escolha o papel.
+Abra a equipe e clique em **Adicionar membro**. Informe o [**ID da conta Discloud**](../faq/general-questions/how-can-i-get-my-discloud-account-id.md) da pessoa (não o username do Discord) e escolha o papel.
 {% endstep %}
 
 {% step %}
@@ -137,4 +137,4 @@ Um caso comum é o dono ter Diamond ou Ruby e convidar um membro que está no Fr
 * Recursos como Console, Explorer, domínio e Edge seguem o plano do **dono**, desde que o papel do membro permita a ação.
 * Criar um Projeto **novo**, uma equipe **nova** ou comprar um add-on continua exigindo o plano da **sua** conta.
 
-Para automatizar, veja a API de [Equipe](../../api-and-integrations/api-overview/team.md) e de [Aplicações da Equipe](../../api-and-integrations/api-overview/team-apps.md).
+Para automatizar, veja a API de [Equipe](../api-and-sdks/api-overview/team.md) e de [Aplicações da Equipe](../api-and-sdks/api-overview/team-apps.md).

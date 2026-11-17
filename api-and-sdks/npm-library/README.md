@@ -18,7 +18,7 @@ icon: npm
 
 ## 🔗 Links Úteis
 
-* **📖** [**Referência da API REST**](../../api-and-integrations/api-overview/) - Endpoints da API da Discloud usados pela biblioteca
+* **📖** [**Referência da API REST**](../api-overview/) - Endpoints da API da Discloud usados pela biblioteca
 * **🐙** [**Repositório GitHub**](https://github.com/discloud/discloud.app) - Código fonte e issues
 * **📦** [**Pacote NPM**](https://www.npmjs.com/package/discloud.app) - Download e informações de versão
 

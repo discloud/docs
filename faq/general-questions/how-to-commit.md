@@ -109,7 +109,7 @@ Na raiz do projeto, execute:
 discloud app commit <ID_DA_APLICACAO>
 ```
 
-A [CLI](../../how-to-host-using/cli.md) monta o `.zip` por você a partir da pasta atual, por isso execute o comando na raiz do projeto. Também funciona a forma curta `discloud app c`.
+A [CLI](../../deployment-methods/cli.md) monta o `.zip` por você a partir da pasta atual, por isso execute o comando na raiz do projeto. Também funciona a forma curta `discloud app c`.
 {% endtab %}
 
 {% tab title="🟦 VS Code" %}
@@ -127,11 +127,11 @@ Escolha a aplicação que vai receber o commit.
 {% endstep %}
 {% endstepper %}
 
-Veja como instalar e entrar na [extensão do VS Code](../../how-to-host-using/visual-studio-code.md).
+Veja como instalar e entrar na [extensão do VS Code](../../deployment-methods/visual-studio-code.md).
 {% endtab %}
 
 {% tab title="🐙 GitHub" %}
-Com a [Integração com GitHub](../../api-and-integrations/github-integration.md), a aplicação é atualizada a partir do seu repositório, sem precisar montar `.zip`.
+Com a [Integração com GitHub](../../deployment-methods/github-integration.md), a aplicação é atualizada a partir do seu repositório, sem precisar montar `.zip`.
 {% endtab %}
 {% endtabs %}
 

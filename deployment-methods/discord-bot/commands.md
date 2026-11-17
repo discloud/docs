@@ -64,7 +64,7 @@ Nos comandos que aceitam a opção `app`, informe o **ID da aplicação**, ou `a
 | Comando       | O que faz                                                                                                 |
 | ------------- | --------------------------------------------------------------------------------------------------------- |
 | `/subdominio` | Registra ou remove um [subdomínio](../../faq/general-questions/how-to-create-a-subdomain.md) na Discloud. |
-| `/dominio`    | Gerencia seu [domínio personalizado](../../api-and-integrations/custom-domain.md).                        |
+| `/dominio`    | Gerencia seu [domínio personalizado](../../platform-features/custom-domain.md).                           |
 
 {% hint style="info" %}
 Recomendamos gerenciar domínios e subdomínios pelo [**site da Discloud**](https://discloud.com/dashboard), que tem uma integração melhor do que os comandos do bot.

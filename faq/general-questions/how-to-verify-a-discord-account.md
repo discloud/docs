@@ -34,7 +34,7 @@ Com a conta verificada, você passa a ter acesso ao canal [**`#🔌・commands`*
 
 ## 🚀 Próximo passo
 
-Com a conta verificada, veja como hospedar a sua aplicação pelo [**Bot do Discord**](../../how-to-host-using/discord-bot/).
+Com a conta verificada, veja como hospedar a sua aplicação pelo [**Bot do Discord**](../../deployment-methods/discord-bot/).
 
 ***
 

@@ -4,27 +4,35 @@
 
 * [Bem-vindo à Discloud](README.md)
 
-## Como Hospedar <a href="#how-to-host" id="how-to-host"></a>
+## Primeiros Passos <a href="#getting-started" id="getting-started"></a>
 
-* [Bots](how-to-host/bots.md)
-* [Websites e APIs](how-to-host/websites-and-apis.md)
-* [Frameworks](how-to-host/frameworks/README.md)
-  * [Next.js](how-to-host/frameworks/nextjs.md)
-  * [NestJS](how-to-host/frameworks/nestjs.md)
-* [VPS](how-to-host/vps.md)
+* [Bots](getting-started/bots.md)
+* [Websites e APIs](getting-started/websites-and-apis.md)
+* [Frameworks](getting-started/frameworks/README.md)
+  * [Next.js](getting-started/frameworks/nextjs.md)
+  * [NestJS](getting-started/frameworks/nestjs.md)
+* [VPS](getting-started/vps.md)
+* [Lavalink](getting-started/lavalink.md)
 
-## Como Hospedar, Usando <a href="#how-to-host-using" id="how-to-host-using"></a>
+## Formas de Deploy <a href="#deployment-methods" id="deployment-methods"></a>
 
-* [Painel de Controle](how-to-host-using/dashboard/README.md)
-  * [Projetos](how-to-host-using/dashboard/projects.md)
-  * [Equipes e Permissões](how-to-host-using/dashboard/teams-and-permissions.md)
-  * [Variáveis de Ambiente](how-to-host-using/dashboard/environment-variables.md)
-  * [Backups](how-to-host-using/dashboard/backups.md)
-  * [Snapshots](how-to-host-using/dashboard/snapshots.md)
-* [Bot do Discord](how-to-host-using/discord-bot/README.md)
-  * [Comandos do Bot](how-to-host-using/discord-bot/commands.md)
-* [Visual Studio Code](how-to-host-using/visual-studio-code.md)
-* [CLI](how-to-host-using/cli.md)
+* [Painel de Controle](deployment-methods/dashboard.md)
+* [Bot do Discord](deployment-methods/discord-bot/README.md)
+  * [Comandos do Bot](deployment-methods/discord-bot/commands.md)
+* [Visual Studio Code](deployment-methods/visual-studio-code.md)
+* [CLI](deployment-methods/cli.md)
+* [Integração com GitHub](deployment-methods/github-integration.md)
+
+## Recursos da Plataforma <a href="#platform-features" id="platform-features"></a>
+
+* [Projetos](platform-features/projects.md)
+* [Equipes e Permissões](platform-features/teams-and-permissions.md)
+* [Variáveis de Ambiente](platform-features/environment-variables.md)
+* [Backups](platform-features/backups.md)
+* [Snapshots](platform-features/snapshots.md)
+* [Bancos de Dados](platform-features/databases.md)
+* [Edge](platform-features/edge.md)
+* [Domínio Personalizado](platform-features/custom-domain.md)
 
 ## Configurações <a href="#configurations" id="configurations"></a>
 
@@ -34,15 +42,6 @@
   * [VLAN](configurations/discloud.config/vlan.md)
 * [.discloudignore](configurations/.discloudignore.md)
 * [Puppeteer](configurations/puppeteer.md)
-
-## SDKs e Bibliotecas <a href="#sdks-and-libraries" id="sdks-and-libraries"></a>
-
-* [Biblioteca NPM](sdks-and-libraries/npm-library/README.md)
-  * [Introdução](sdks-and-libraries/npm-library/getting-started.md)
-  * [Exemplos de Uso](sdks-and-libraries/npm-library/usage-examples.md)
-* [\[EM ANDAMENTO\] Biblioteca Python](sdks-and-libraries/python-library/README.md)
-  * [\[EM ANDAMENTO\] Introdução](sdks-and-libraries/python-library/getting-started.md)
-  * [\[EM ANDAMENTO\] Exemplos de Uso](sdks-and-libraries/python-library/usage-examples.md)
 
 ## Ambiente de Desenvolvimento <a href="#development-environment" id="development-environment"></a>
 
@@ -70,25 +69,26 @@
   * [Java](development-environment/local-environment/java.md)
   * [PHP](development-environment/local-environment/php.md)
 
-## API e Integrações <a href="#api-and-integrations" id="api-and-integrations"></a>
+## API e SDKs <a href="#api-and-sdks" id="api-and-sdks"></a>
 
-* [Visão Geral da API](api-and-integrations/api-overview/README.md)
-  * [Autenticação](api-and-integrations/api-overview/authentication.md)
-  * [Usuário](api-and-integrations/api-overview/user.md)
-  * [Aplicações](api-and-integrations/api-overview/applications.md)
-  * [Aplicações da Equipe](api-and-integrations/api-overview/team-apps.md)
-  * [Variáveis de ambiente](api-and-integrations/api-overview/environment-variable.md)
-  * [Snapshot](api-and-integrations/api-overview/snapshot.md)
-  * [Subdomínio](api-and-integrations/api-overview/subdomain.md)
-  * [Domínio Personalizado](api-and-integrations/api-overview/custom-domain.md)
-  * [Banco de Dados](api-and-integrations/api-overview/database.md)
-  * [Projeto](api-and-integrations/api-overview/project.md)
-  * [Equipe](api-and-integrations/api-overview/team.md)
-* [Integração com GitHub](api-and-integrations/github-integration.md)
-* [Domínio Personalizado](api-and-integrations/custom-domain.md)
-* [Edge](api-and-integrations/edge.md)
-* [Bancos de Dados](api-and-integrations/databases.md)
-* [Lavalink](api-and-integrations/lavalink.md)
+* [Visão Geral da API](api-and-sdks/api-overview/README.md)
+  * [Autenticação](api-and-sdks/api-overview/authentication.md)
+  * [Usuário](api-and-sdks/api-overview/user.md)
+  * [Aplicações](api-and-sdks/api-overview/applications.md)
+  * [Aplicações da Equipe](api-and-sdks/api-overview/team-apps.md)
+  * [Variáveis de ambiente](api-and-sdks/api-overview/environment-variable.md)
+  * [Snapshot](api-and-sdks/api-overview/snapshot.md)
+  * [Subdomínio](api-and-sdks/api-overview/subdomain.md)
+  * [Domínio Personalizado](api-and-sdks/api-overview/custom-domain.md)
+  * [Banco de Dados](api-and-sdks/api-overview/database.md)
+  * [Projeto](api-and-sdks/api-overview/project.md)
+  * [Equipe](api-and-sdks/api-overview/team.md)
+* [Biblioteca NPM](api-and-sdks/npm-library/README.md)
+  * [Introdução](api-and-sdks/npm-library/getting-started.md)
+  * [Exemplos de Uso](api-and-sdks/npm-library/usage-examples.md)
+* [\[EM ANDAMENTO\] Biblioteca Python](api-and-sdks/python-library/README.md)
+  * [\[EM ANDAMENTO\] Introdução](api-and-sdks/python-library/getting-started.md)
+  * [\[EM ANDAMENTO\] Exemplos de Uso](api-and-sdks/python-library/usage-examples.md)
 
 ## FAQ
 

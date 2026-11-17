@@ -149,8 +149,8 @@ Compacte esses arquivos em um arquivo `.zip`. Certifique-se de que os arquivos e
 {% step %}
 **🚀 Envie para a Discloud**
 
-{% content-ref url="https://app.gitbook.com/s/vUqkKIFudeQ2TQOirm35/how-to-host" %}
-[Como Hospedar](https://app.gitbook.com/s/vUqkKIFudeQ2TQOirm35/how-to-host)
+{% content-ref url="https://app.gitbook.com/s/vUqkKIFudeQ2TQOirm35/deployment-methods" %}
+[Formas de Deploy](https://app.gitbook.com/s/vUqkKIFudeQ2TQOirm35/deployment-methods)
 {% endcontent-ref %}
 {% endstep %}
 

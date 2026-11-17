@@ -38,10 +38,10 @@ Cada app da lista mostra quantas **versões** tem, o tamanho total e a data do �
 
 Os snapshots são criados de duas formas:
 
-* **Pela API**, com a [API de Snapshot](../../api-and-integrations/api-overview/snapshot.md).
+* **Pela API**, com a [API de Snapshot](../api-and-sdks/api-overview/snapshot.md).
 * **Automaticamente, quando uma aplicação é excluída.**
 
-<figure><img src="../../.gitbook/assets/snapshots-sources.png" alt="Diagrama das origens dos snapshots e do download"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/snapshots-sources.png" alt="Diagrama das origens dos snapshots e do download"><figcaption></figcaption></figure>
 
 Ou seja, excluir uma app não faz você perder na hora a última versão dela. Essa versão aparece em Snapshots para download enquanto estiver dentro do prazo de retenção da Discloud.
 

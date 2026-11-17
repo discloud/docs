@@ -49,7 +49,7 @@ Dentro de um Projeto você encontra:
 | **Variáveis de ambiente** | Valores compartilhados pelas apps do Projeto.          |
 | **Equipe**                | Opcional. No máximo uma por Projeto.                   |
 
-<figure><img src="../../.gitbook/assets/project-structure.png" alt="Diagrama de uma equipe com acesso a um Projeto e ao que ele contém"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/project-structure.png" alt="Diagrama de uma equipe com acesso a um Projeto e ao que ele contém"><figcaption></figcaption></figure>
 
 Sem equipe vinculada, só o dono gerencia o Projeto e o que está dentro dele.
 
@@ -96,7 +96,7 @@ Apps hospedadas com **Dockerfile** não migram de cluster automaticamente. Para 
 
 ## 🗄️ Vincular bancos de dados
 
-Um [banco de dados](../../api-and-integrations/databases.md) criado com um Projeto selecionado já nasce vinculado a ele. Na visão do Projeto, a seção **Banco de dados** lista só os bancos desse grupo.
+Um [banco de dados](databases.md) criado com um Projeto selecionado já nasce vinculado a ele. Na visão do Projeto, a seção **Banco de dados** lista só os bancos desse grupo.
 
 Criar um banco de dados também exige o plano **Diamond ou superior**, o mesmo de Projetos e equipes.
 
@@ -135,4 +135,4 @@ Um Projeto fica vinculado a no máximo uma equipe por vez.
 
 O fluxo típico é criar o Projeto, vincular (ou criar) as apps e os bancos nele e, se a equipe for trabalhar junto, criar uma equipe, adicionar os membros e vinculá-la ao Projeto.
 
-Para automatizar, veja a [API de Projeto](../../api-and-integrations/api-overview/project.md).
+Para automatizar, veja a [API de Projeto](../api-and-sdks/api-overview/project.md).

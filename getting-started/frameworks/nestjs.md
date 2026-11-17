@@ -247,20 +247,20 @@ meu-nest-app/
 
 Você pode fazer deploy do seu app NestJS usando qualquer um dos métodos suportados.
 
-{% content-ref url="../../how-to-host-using/dashboard/" %}
-[dashboard](../../how-to-host-using/dashboard/)
+{% content-ref url="../../deployment-methods/dashboard.md" %}
+[dashboard.md](../../deployment-methods/dashboard.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../how-to-host-using/discord-bot/" %}
-[discord-bot](../../how-to-host-using/discord-bot/)
+{% content-ref url="../../deployment-methods/discord-bot/" %}
+[discord-bot](../../deployment-methods/discord-bot/)
 {% endcontent-ref %}
 
-{% content-ref url="../../how-to-host-using/visual-studio-code.md" %}
-[visual-studio-code.md](../../how-to-host-using/visual-studio-code.md)
+{% content-ref url="../../deployment-methods/visual-studio-code.md" %}
+[visual-studio-code.md](../../deployment-methods/visual-studio-code.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../how-to-host-using/cli.md" %}
-[cli.md](../../how-to-host-using/cli.md)
+{% content-ref url="../../deployment-methods/cli.md" %}
+[cli.md](../../deployment-methods/cli.md)
 {% endcontent-ref %}
 
 ***

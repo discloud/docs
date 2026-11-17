@@ -153,7 +153,7 @@ Redirects também podem ficar pausados. Pausar não apaga a regra.
 
 ## 🚫 O que o Edge não faz
 
-* Não protege bot, [banco de dados](databases.md) nem [VPS](../how-to-host/vps.md).
+* Não protege bot, [banco de dados](databases.md) nem [VPS](../getting-started/vps.md).
 * Não funciona em subdomínio gratuito da Discloud.
 * Não edita o código do app. Rewrite muda a URL interna. Substituir texto só altera a resposta já gerada.
 * Não é um firewall de IP nem um WAF genérico. O controle é o que você configurou em Rules e Redirects.

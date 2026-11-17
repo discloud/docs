@@ -15,7 +15,7 @@ Variáveis de ambiente são pares `NOME=valor` que a aplicação lê enquanto ro
 
 No painel da Discloud elas existem em **três níveis**. Quanto mais específico o nível, mais ele manda.
 
-<figure><img src="../../.gitbook/assets/env-vars-precedence.png" alt="Diagrama da prioridade das variáveis entre conta, projeto e app"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/env-vars-precedence.png" alt="Diagrama da prioridade das variáveis entre conta, projeto e app"><figcaption></figcaption></figure>
 
 Se o mesmo nome existir nos três níveis, a aplicação recebe o valor da **app**. Se não houver na app, usa o do **projeto**. Se não houver no projeto, usa o da **conta**.
 
@@ -30,7 +30,7 @@ Se o mesmo nome existir nos três níveis, a aplicação recebe o valor da **app
 | **App**     | Aplicação → **Variáveis**      | Só aquela aplicação      |
 
 {% hint style="warning" %}
-Não coloque segredos no Git. O arquivo [`.env`](../../faq/general-questions/.env-file.md) do repositório não substitui o painel. Em produção, use as variáveis da Discloud.
+Não coloque segredos no Git. O arquivo [`.env`](../faq/general-questions/.env-file.md) do repositório não substitui o painel. Em produção, use as variáveis da Discloud.
 {% endhint %}
 
 ***
@@ -80,13 +80,13 @@ Edite e salve na app, no projeto ou na conta.
 {% step %}
 **Fazer rebuild ou deploy**
 
-Na app, clique em **Rebuild** ou faça um novo [commit](../../faq/general-questions/how-to-commit.md).
+Na app, clique em **Rebuild** ou faça um novo [commit](../faq/general-questions/how-to-commit.md).
 {% endstep %}
 
 {% step %}
 **Conferir os logs**
 
-Veja nos [logs](../../faq/general-questions/how-to-access-the-application-logs.md) se a app subiu com o comportamento esperado.
+Veja nos [logs](../faq/general-questions/how-to-access-the-application-logs.md) se a app subiu com o comportamento esperado.
 {% endstep %}
 {% endstepper %}
 
@@ -107,7 +107,7 @@ Frameworks como Vite, Next.js, Nuxt, Astro, React, Vue, Svelte e Angular muitas 
 | `BUILD_VITE_API_URL`     | `VITE_API_URL`            |
 | `BUILD_NEXT_PUBLIC_SITE` | `NEXT_PUBLIC_SITE`        |
 
-<figure><img src="../../.gitbook/assets/env-vars-build-prefix.png" alt="Diagrama do prefixo BUILD_ sendo removido no build"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/env-vars-build-prefix.png" alt="Diagrama do prefixo BUILD_ sendo removido no build"><figcaption></figcaption></figure>
 
 O prefixo `BUILD_` é só um marcador da Discloud. Ele é **removido automaticamente** no build, e a aplicação **nunca** vê o nome com `BUILD_`.
 
@@ -122,6 +122,6 @@ Use `BUILD_` só quando o valor precisa existir no build. Segredos que a API usa
 * Coloque no **projeto** o que o grupo de apps compartilha, como a URL do banco interno ou a chave de API do produto.
 * Coloque na **app** o que é específico, como o webhook daquele bot ou uma flag de feature.
 * Evite repetir o mesmo nome em níveis diferentes sem querer. O valor da app esconde o do projeto sem nenhum aviso.
-* Não guarde segredos no [`discloud.config`](../../configurations/discloud.config/). Use o painel.
+* Não guarde segredos no [`discloud.config`](../configurations/discloud.config/). Use o painel.
 
-Para automatizar, veja a [API de Variáveis de ambiente](../../api-and-integrations/api-overview/environment-variable.md).
+Para automatizar, veja a [API de Variáveis de ambiente](../api-and-sdks/api-overview/environment-variable.md).

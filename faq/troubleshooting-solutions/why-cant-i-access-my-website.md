@@ -65,13 +65,13 @@ Confira se a aplicação iniciou sem erros. Se ela travou ou parou, o site não 
 
 ## 🌍 Usando domínio personalizado?
 
-Se o problema é só no seu próprio domínio (e o subdomínio da Discloud funciona), confira a configuração de DNS em [**Domínio Personalizado**](../../api-and-integrations/custom-domain.md).
+Se o problema é só no seu próprio domínio (e o subdomínio da Discloud funciona), confira a configuração de DNS em [**Domínio Personalizado**](../../platform-features/custom-domain.md).
 
 ***
 
 ## 📚 Veja também
 
-* [**Websites e APIs**](../../how-to-host/websites-and-apis.md)
+* [**Websites e APIs**](../../getting-started/websites-and-apis.md)
 * [**Como criar um subdomínio?**](../general-questions/how-to-create-a-subdomain.md)
 * [**Diagnosticando Aplicações Offline**](diagnosing-offline-applications.md)
 

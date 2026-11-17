@@ -74,7 +74,7 @@ Painel → aplicação → **Backups**.
 
 Painel → banco de dados → **Backups**.
 
-Além de listar e baixar, um [banco de dados](../../api-and-integrations/databases.md) pode ser **restaurado** a partir de um backup automático.
+Além de listar e baixar, um [banco de dados](databases.md) pode ser **restaurado** a partir de um backup automático.
 
 {% stepper %}
 {% step %}
@@ -96,7 +96,7 @@ Confirme o nome, a RAM e, se quiser, o Projeto do banco novo. Acompanhe o progre
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../.gitbook/assets/database-backup-restore.png" alt="Diagrama do restore criando um banco novo a partir de um backup"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/database-backup-restore.png" alt="Diagrama do restore criando um banco novo a partir de um backup"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 O restore **cria um banco novo** com os dados daquele backup. O banco atual **não é sobrescrito** e continua no ar.

@@ -242,7 +242,7 @@ Ao salvar uma mudança de hostname ou de RAM, o painel mostra o progresso do reb
 
 Em um banco compartilhado por uma equipe, alterar configurações ou fazer rebuild exige a permissão `commit_app`, e alterar a RAM exige `edit_ram`.
 
-Para automatizar, veja a [API de Banco de Dados](api-overview/database.md).
+Para automatizar, veja a [API de Banco de Dados](../api-and-sdks/api-overview/database.md).
 
 ***
 

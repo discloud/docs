@@ -24,7 +24,7 @@ Para hospedar um bot, você deve atender a estes critérios:
 {% endhint %}
 
 {% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) – Necessário para a maioria dos métodos de implantação. Se estiver usando a [**Configuração Rápida**](../how-to-host-using/discord-bot/#configuracao-rapida-guia-passo-a-passo) do Bot do Discord, o bot irá guiá-lo através da configuração.
+[**`discloud.config`**](../configurations/discloud.config/) – Necessário para a maioria dos métodos de implantação. Se estiver usando a [**Configuração Rápida**](../deployment-methods/discord-bot/#configuracao-rapida-guia-passo-a-passo) do Bot do Discord, o bot irá guiá-lo através da configuração.
 {% endhint %}
 
 {% hint style="info" %}
@@ -90,11 +90,11 @@ Para aplicações Java, você **deve** fazer o build localmente e enviar o arqui
 
 Você pode enviar seu projeto usando qualquer um de nossos métodos suportados:
 
-* 🖥️ [**Dashboard**](../how-to-host-using/dashboard/)
-* ⌨️ [**CLI**](../how-to-host-using/cli.md)
-* 🟦 [**Extensão do VS Code**](../how-to-host-using/visual-studio-code.md)
-* 🤖 [**Bot do Discord**](../how-to-host-using/discord-bot/)
-* 🐙 [**Integração com GitHub**](../api-and-integrations/github-integration.md)
+* 🖥️ [**Dashboard**](../deployment-methods/dashboard.md)
+* ⌨️ [**CLI**](../deployment-methods/cli.md)
+* 🟦 [**Extensão do VS Code**](../deployment-methods/visual-studio-code.md)
+* 🤖 [**Bot do Discord**](../deployment-methods/discord-bot/)
+* 🐙 [**Integração com GitHub**](../deployment-methods/github-integration.md)
 
 {% hint style="info" %}
 Antes de enviar, certifique-se de [comprimir seu projeto corretamente](../faq/general-questions/how-to-compress.md) e excluir arquivos desnecessários usando um arquivo [`.discloudignore`](../configurations/.discloudignore.md).

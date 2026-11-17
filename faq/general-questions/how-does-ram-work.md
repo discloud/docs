@@ -71,9 +71,9 @@ No status da aplicação, os dois aparecem juntos. Por exemplo, `39.9MB/100MB` q
 Para ver o uso atual:
 
 * No [Painel da Discloud](https://discloud.com/dashboard), na sua aplicação.
-* No bot, com o comando `/status (ID)`. Veja os [Comandos do Bot](../../how-to-host-using/discord-bot/commands.md).
-* Na [CLI](../../how-to-host-using/cli.md), com `discloud app status <ID>`.
-* Na [API](../../api-and-integrations/api-overview/applications.md), no campo `memory` do status da aplicação.
+* No bot, com o comando `/status (ID)`. Veja os [Comandos do Bot](../../deployment-methods/discord-bot/commands.md).
+* Na [CLI](../../deployment-methods/cli.md), com `discloud app status <ID>`.
+* Na [API](../../api-and-sdks/api-overview/applications.md), no campo `memory` do status da aplicação.
 
 ***
 
@@ -105,7 +105,7 @@ Aloque um pouco acima do maior uso que você viu. Assim um pico não derruba a a
 {% step %}
 **Ajuste a RAM alocada**
 
-Use a opção `RAM` no [`discloud.config`](../../configurations/discloud.config/), o comando `/memoria` do bot ou a [API](../../api-and-integrations/api-overview/applications.md). A RAM alocada conta para o total do seu plano.
+Use a opção `RAM` no [`discloud.config`](../../configurations/discloud.config/), o comando `/memoria` do bot ou a [API](../../api-and-sdks/api-overview/applications.md). A RAM alocada conta para o total do seu plano.
 {% endstep %}
 {% endstepper %}
 
