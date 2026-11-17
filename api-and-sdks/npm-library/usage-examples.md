@@ -1,7 +1,7 @@
 ---
 description: >-
   Examples and use cases for the discloud.app NPM library, covering application
-  management, monitoring, team operations, and more.
+  management, monitoring, APT packages, and more.
 icon: vial
 ---
 
@@ -371,86 +371,6 @@ try {
   console.log("All backups created successfully!");
 } catch (error) {
   console.error("Backup failed:", error.message);
-}
-```
-{% endtab %}
-{% endtabs %}
-
-***
-
-## 👥 Team Management
-
-### 👨‍💼 Managing Application Moderators
-
-{% tabs %}
-{% tab title="Fetch Team Members" %}
-```javascript
-import { discloud } from "discloud.app";
-
-try {
-  const team = await discloud.appTeam.fetch("your_app_id");
-  console.log("Team members fetched successfully!");
-} catch (error) {
-  console.error("Failed to fetch team:", error.message);
-}
-```
-{% endtab %}
-
-{% tab title="Add Team Member" %}
-```javascript
-import { discloud } from "discloud.app";
-
-try {
-  await discloud.appTeam.create("your_app_id", "user_id", [
-    "backup_app", // Can create backups
-    "commit_app", // Can update the app
-    "edit_ram", // Can modify RAM allocation
-    "logs_app", // Can view application logs
-    "restart_app", // Can restart the application
-    "start_app", // Can start the application
-    "status_app", // Can view app status
-    "stop_app", // Can stop the application
-  ]);
-
-  console.log("Moderator added successfully!");
-} catch (error) {
-  console.error("Failed to add moderator:", error.message);
-}
-```
-{% endtab %}
-
-{% tab title="Edit Permissions" %}
-```javascript
-import { discloud, ModPermissions } from "discloud.app";
-
-try {
-  await discloud.appTeam.edit("your_app_id", "user_id", [
-    ModPermissions.backup_app, // Can create backups
-    ModPermissions.commit_app, // Can update the app
-    ModPermissions.edit_ram, // Can modify RAM allocation
-    ModPermissions.logs_app, // Can view application logs
-    ModPermissions.restart_app, // Can restart the application
-    ModPermissions.start_app, // Can start the application
-    ModPermissions.status_app, // Can view app status
-    ModPermissions.stop_app, // Can stop the application
-  ]);
-
-  console.log("Permissions updated successfully!");
-} catch (error) {
-  console.error("Failed to edit permissions:", error.message);
-}
-```
-{% endtab %}
-
-{% tab title="Remove Team Member" %}
-```javascript
-import { discloud } from "discloud.app";
-
-try {
-  await discloud.appTeam.delete("your_app_id", "user_id");
-  console.log("Moderator removed successfully!");
-} catch (error) {
-  console.error("Failed to remove moderator:", error.message);
 }
 ```
 {% endtab %}

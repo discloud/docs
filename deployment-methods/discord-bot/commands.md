@@ -74,9 +74,7 @@ We recommend managing domains and subdomains on the [**Discloud website**](https
 
 ## 👥 Team
 
-| Command | What it does                                 |
-| ------- | -------------------------------------------- |
-| `/mod`  | Manages the moderators of your applications. |
+To give other people access to your applications, use [Teams](../../platform-features/teams-and-permissions.md) in the dashboard.
 
 ***
 
