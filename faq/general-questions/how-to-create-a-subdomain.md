@@ -14,7 +14,7 @@ To allow external access to your app, Discloud offers the option to create a **c
 
 ### 📡 How it Works
 
-<figure><img src="../../.gitbook/assets/subdomain-flow.png" alt="Discloud subdomain flow"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/subdomain-flow (1).png" alt="Discloud subdomain flow"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 #### **`.discloud.app` or `.discloud.dev`?**

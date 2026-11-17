@@ -9,7 +9,7 @@ icon: globe
 
 You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's [Discloud subdomain](../faq/general-questions/how-to-create-a-subdomain.md) using two A records pointing to our IPv4 addresses.
 
-<figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/custom-domain-flow (1).png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
 
 ***
 

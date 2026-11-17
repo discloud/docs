@@ -18,7 +18,7 @@ If the structure is wrong (for example, you zip a folder that contains another s
 
 The green zone represents the **root** you should compress. Yellow shows a nested folder containing code files. Everything inside green is included when you compress the contents of that folder (leave out folders like `node_modules`).
 
-<figure><img src="../../.gitbook/assets/project-root-structure-example.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/project-root-structure-example (1).png" alt="Project root example"><figcaption></figcaption></figure>
 
 ***
 
