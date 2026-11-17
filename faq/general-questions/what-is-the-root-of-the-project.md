@@ -27,6 +27,6 @@ A zona verde representa a **raiz** que você deve comprimir. Amarelo mostra uma 
 | Erro                                   | Resultado                                 | Correção                                                                                           |
 | -------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Compactar a pasta acima da raiz real   | Configuração / arquivo principal ausente  | Comprima o conteúdo da pasta que contém [`discloud.config`](../../configurations/discloud.config/) |
-| Incluir `node_modules`                 | Upload grande; possíveis erros de tamanho | Remova; deixe a Discloud instalar                                                                  |
+| Incluir `node_modules`                 | Upload grande, possíveis erros de tamanho | Remova e deixe a Discloud instalar                                                                 |
 | Tokens hardcoded no código             | Exposição de dados sensíveis              | Use [`.env`](.env-file.md) e variáveis de ambiente                                                 |
 | Múltiplos arquivos de entrada ambíguos | Falha na inicialização                    | Defina `MAIN` em [`discloud.config`](../../configurations/discloud.config/) explicitamente         |

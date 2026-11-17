@@ -2,6 +2,7 @@
 description: >-
   Aprenda como gerar e configurar o arquivo 'package.json', definindo as
   dependências essenciais para hospedar seu projeto JavaScript na Discloud.
+icon: file-code
 ---
 
 # package.json
@@ -10,7 +11,7 @@ description: >-
 
 O arquivo `package.json` é essencial para gerenciar metadados e dependências de projetos Node.js. Ele garante que as bibliotecas necessárias sejam instaladas automaticamente ao hospedar sua aplicação na Discloud.
 
----
+***
 
 ## 🛠️ Como Criar `package.json`
 
@@ -34,14 +35,13 @@ Este comando criará um arquivo `package.json` no diretório do seu projeto.
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 📝 Estrutura do `package.json`
 
 Após a criação, o arquivo `package.json` deve se parecer com isso:
 
 {% code title="package.json" %}
-
 ```json
 {
   "name": "discloud",
@@ -57,14 +57,13 @@ Após a criação, o arquivo `package.json` deve se parecer com isso:
   "dependencies": {}
 }
 ```
-
 {% endcode %}
 
 {% hint style="info" %}
 Se você quiser hospedar um bot **Discord.js** ou qualquer outro framework, você precisará adicionar dependências ao `package.json`. Verifique a próxima seção para aprender como fazer isso.
 {% endhint %}
 
----
+***
 
 ## 📦 Adicionando Dependências
 
@@ -79,7 +78,6 @@ npm install discord.js
 Após instalar, seu `package.json` será automaticamente atualizado para incluir `discord.js` nas dependências:
 
 {% code title="package.json" %}
-
 ```json
 {
   "name": "discloud",
@@ -97,5 +95,4 @@ Após instalar, seu `package.json` será automaticamente atualizado para incluir
   }
 }
 ```
-
 {% endcode %}

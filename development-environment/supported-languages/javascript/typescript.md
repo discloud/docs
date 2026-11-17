@@ -1,5 +1,6 @@
 ---
 description: Guia completo para hospedar aplicações TypeScript na Discloud.
+icon: code
 ---
 
 # TypeScript
@@ -182,5 +183,5 @@ Uma vez que seu projeto esteja configurado e comprimido, você pode escolher um 
 
 * A `dist/` é reservada para os builds da Discloud tanto em `TYPE=bot` quanto em `TYPE=site`.
 * Se você fizer o build localmente, gere a saída em `build/` e aponte o `MAIN` para `build/...`.
-* Em TypeScript, sempre defina `BUILD` e `START` no `discloud.config` quando enviar os arquivos-fonte; o `MAIN` deve apontar para o arquivo JS de entrada em execução (normalmente `dist/index.js`).
+* Em TypeScript, sempre defina `BUILD` e `START` no `discloud.config` quando enviar os arquivos-fonte. O `MAIN` deve apontar para o arquivo JS de entrada em execução (normalmente `dist/index.js`).
 * Em sites/APIs, seu servidor deve escutar na porta `8080`.

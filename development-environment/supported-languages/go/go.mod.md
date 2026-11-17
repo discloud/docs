@@ -2,6 +2,7 @@
 description: >-
   Aprenda como gerar e configurar o arquivo go.mod para gerenciar módulos e
   dependências para aplicações Go na Discloud.
+icon: file-code
 ---
 
 # go.mod

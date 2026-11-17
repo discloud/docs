@@ -15,7 +15,7 @@ Esta área ajuda você a:
 * Instalar ou habilitar ferramentas do ecossistema (apenas se você escolher).
 * Preparar um projeto para que se comporte de forma consistente quando empacotado para a Discloud.
 
-A Discloud executa aplicações em contêineres Linux; manter a estrutura do seu projeto limpa (arquivo de entrada + manifesto de dependências) minimiza surpresas.
+A Discloud executa aplicações em contêineres Linux. Manter a estrutura do seu projeto limpa (arquivo de entrada + manifesto de dependências) minimiza surpresas.
 
 ***
 

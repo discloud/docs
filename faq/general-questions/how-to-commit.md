@@ -18,7 +18,7 @@ A Discloud usa o **caminho de cada arquivo dentro do `.zip`** para saber onde co
 * Se não existe, um arquivo **novo** é criado.
 * Os arquivos que você não enviou **continuam como estão**.
 
-<figure><img src="../../.gitbook/assets/commit-flow.png" alt="Um .zip com src/comandos/ping.js atualiza apenas esse arquivo na aplicação"><figcaption><p>Só o <code>ping.js</code> é enviado; o resto do projeto não muda.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/commit-flow.png" alt="Um .zip com src/comandos/ping.js atualiza apenas esse arquivo na aplicação"><figcaption><p>Só o <code>ping.js</code> é enviado. O resto do projeto não muda.</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Maiúsculas e minúsculas fazem diferença.** A Discloud roda em Linux, onde `comandos` e `Comandos` são pastas diferentes. O mesmo vale para arquivos: `config.json` e `Config.json` não são o mesmo arquivo.

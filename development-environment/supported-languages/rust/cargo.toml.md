@@ -2,6 +2,7 @@
 description: >-
   Guia completo do manifesto Cargo.toml para bots Rust e aplicações web
   (site/API) na Discloud.
+icon: file-code
 ---
 
 # Cargo.toml

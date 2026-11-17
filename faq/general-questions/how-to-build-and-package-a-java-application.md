@@ -6,24 +6,25 @@ description: >-
 
 # Como construir e empacotar uma aplicação Java?
 
-## 📌 **Por Que Preciso Construir Minha Aplicação Java?**
+## 📌 Por Que Preciso Construir Minha Aplicação Java?
 
 Discloud **não compila projetos Java** automaticamente.
 
-Você deve:\
-✔ **Compilar seu código** em arquivos `.class`.\
-✔ **Empacotar tudo em um único arquivo `.jar`** (incluindo dependências).\
-✔ **Garantir que o arquivo `META-INF/MANIFEST.MF`** defina corretamente a **Main-Class**.
+Você deve:
+
+* **Compilar seu código** em arquivos `.class`.
+* **Empacotar tudo em um único arquivo `.jar`** (incluindo dependências).
+* **Garantir que o arquivo `META-INF/MANIFEST.MF`** defina corretamente a **Main-Class**.
 
 ***
 
-## 🔧 **Escolhendo uma Ferramenta de Construção**
+## 🔧 Escolhendo uma Ferramenta de Construção
 
 <table><thead><tr><th width="112">Ferramenta de Construção</th><th width="367">Melhor Para</th><th>Arquivos Necessários</th></tr></thead><tbody><tr><td><strong>Maven</strong></td><td>Grandes projetos, aplicativos com muitas dependências</td><td><code>pom.xml</code></td></tr><tr><td><strong>Gradle</strong></td><td>Projetos modernos com scripts de construção flexíveis</td><td><code>build.gradle</code> ou <code>build.gradle.kts</code></td></tr></tbody></table>
 
 ***
 
-## 📦 **Construindo Sua Aplicação Java**
+## 📦 Construindo Sua Aplicação Java
 
 {% tabs %}
 {% tab title="Maven" %}

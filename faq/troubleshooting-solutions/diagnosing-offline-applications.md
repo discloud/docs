@@ -10,7 +10,7 @@ Se sua aplicação **encerra inesperadamente** na Discloud, é importante analis
 
 ***
 
-## 🛑 **Comportamentos Comuns de Aplicação e Causas**
+## 🛑 Comportamentos Comuns de Aplicação e Causas
 
 Quando uma aplicação encerra inesperadamente, o **comportamento** pode fornecer pistas sobre a causa raiz.
 
@@ -32,16 +32,16 @@ Encerra durante uma ação específica.
 
 ***
 
-## ⚠️ **Causas Potenciais e Correções**
+## ⚠️ Causas Potenciais e Correções
 
 {% hint style="warning" %}
 #### **RAM Insuficiente**
 
 Se sua aplicação **excede sua memória alocada**, ela pode ser **forçadamente encerrada**.
 
-✔ **Monitore o uso de RAM** e otimize seu código.\
-✔ Considere **aumentar a RAM** no seu arquivo [`discloud.config`](../../configurations/discloud.config/).\
-✔ Veja [**Como funciona a RAM?**](../general-questions/how-does-ram-work.md) para entender o uso de memória da sua aplicação.
+* **Monitore o uso de RAM** e otimize seu código.
+* Considere **aumentar a RAM** no seu arquivo [`discloud.config`](../../configurations/discloud.config/).
+* Veja [**Como funciona a RAM?**](../general-questions/how-does-ram-work.md) para entender o uso de memória da sua aplicação.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -49,8 +49,8 @@ Se sua aplicação **excede sua memória alocada**, ela pode ser **forçadamente
 
 Exceções não tratadas ou **bugs no seu código** podem causar travamentos.
 
-✔ Verifique os [**logs**](../general-questions/how-to-access-the-application-logs.md) para mensagens de erro.\
-✔ **Teste localmente** antes de fazer o upload na Discloud.
+* Verifique os [**logs**](../general-questions/how-to-access-the-application-logs.md) para mensagens de erro.
+* **Teste localmente** antes de fazer o upload na Discloud.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -58,8 +58,8 @@ Exceções não tratadas ou **bugs no seu código** podem causar travamentos.
 
 Uma aplicação do plano gratuito que fica **offline** permanece na sua conta por apenas **30 dias**. Depois desse prazo, ela é **apagada automaticamente**.
 
-✔ Se não quiser perder a aplicação, coloque-a online de novo antes desse prazo.\
-✔ Faça um **backup** dos arquivos se quiser guardá-los.
+* Se não quiser perder a aplicação, coloque-a online de novo antes desse prazo.
+* Faça um **backup** dos arquivos se quiser guardá-los.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -69,13 +69,13 @@ Se o seu plano pago **expirar** e não for renovado, a Discloud desliga as suas 
 
 As aplicações que ficarem **offline** recebem um **snapshot** e permanecem na sua conta por **45 dias** depois que ele é gerado. Depois desse prazo, elas são **apagadas automaticamente**.
 
-✔ Renove o plano antes desse prazo se não quiser perder as aplicações.\
-✔ Faça um **backup** dos arquivos se quiser guardá-los.
+* Renove o plano antes desse prazo se não quiser perder as aplicações.
+* Faça um **backup** dos arquivos se quiser guardá-los.
 {% endhint %}
 
 ***
 
-## 🛠️ **Depuração Passo a Passo**
+## 🛠️ Depuração Passo a Passo
 
 📌 **Um erro comum que desenvolvedores cometem é dizer:** _"Funciona na minha máquina mas não na Discloud."_
 
@@ -83,7 +83,7 @@ Lembre-se, **a Discloud opera em um ambiente Linux**. Sua aplicação deve ser *
 
 ***
 
-## ⚡ **Corrigindo Aplicações Que Encerram Imediatamente**
+## ⚡ Corrigindo Aplicações Que Encerram Imediatamente
 
 Se sua aplicação **inicia e imediatamente encerra**, geralmente é devido a:
 
@@ -105,7 +105,7 @@ Erros durante a inicialização.
 
 ***
 
-## ❗ **Corrigindo Aplicações Que Encerram Durante uma Ação Específica**
+## ❗ Corrigindo Aplicações Que Encerram Durante uma Ação Específica
 
 Se sua aplicação **para de rodar quando um evento ou ação específica é acionada**, siga estes passos de depuração:
 
@@ -134,15 +134,16 @@ Monitore o uso de recursos.
 
 ***
 
-## 🎵 **Exemplos Comuns (Aplicações Discord)**
+## 🎵 Exemplos Comuns (Aplicações Discord)
 
 {% hint style="info" %}
 #### **Bots de Música**
 
-Se o bot **encerra ao tocar música**, pode ser devido a:\
-✔ **Uso alto de RAM** → Otimize processamento de áudio.\
-✔ **`ffmpeg` ausente** → Adicione `ffmpeg` nas dependências [`APT`](../../configurations/discloud.config/apt.md).\
-✔ **Limites de taxa de API** → Verifique se está atingindo limites com o provedor de música.
+Se o bot **encerra ao tocar música**, pode ser devido a:
+
+* **Uso alto de RAM** → Otimize processamento de áudio.
+* **`ffmpeg` ausente** → Adicione `ffmpeg` nas dependências [`APT`](../../configurations/discloud.config/apt.md).
+* **Limites de taxa de API** → Verifique se está atingindo limites com o provedor de música.
 {% endhint %}
 
 {% hint style="info" %}
@@ -154,7 +155,7 @@ Se o bot **encerra ao tocar música**, pode ser devido a:\
 
 ***
 
-## 🛰️ **Verifique o Status da Discloud**
+## 🛰️ Verifique o Status da Discloud
 
 Se nenhuma das soluções acima resolver o problema, verifique a página de status da Discloud ou o canal Discord para quaisquer problemas relatados em todo o sistema. Problemas temporários de infraestrutura podem impactar a disponibilidade da sua aplicação.
 

@@ -1,4 +1,5 @@
 ---
+description: Gerencie pela API as aplicações que uma equipe compartilhou com você.
 icon: layer-group
 ---
 

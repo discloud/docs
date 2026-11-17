@@ -1,7 +1,7 @@
 ---
 description: >-
   Instale e gerencie Go localmente (Windows, macOS, Linux) usando arquivos
-  oficiais ou gerenciadores de pacotes; gerencie módulos com go mod.
+  oficiais ou gerenciadores de pacotes, com go mod para os módulos.
 icon: golang
 ---
 

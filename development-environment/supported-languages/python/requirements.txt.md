@@ -2,6 +2,7 @@
 description: >-
   Aprenda como gerar e configurar o arquivo requirements.txt para definir
   dependências essenciais para hospedar seu projeto Python na Discloud.
+icon: file-code
 ---
 
 # requirements.txt

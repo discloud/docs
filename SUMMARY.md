@@ -76,7 +76,7 @@
   * [Usuário](api-and-sdks/api-overview/user.md)
   * [Aplicações](api-and-sdks/api-overview/applications.md)
   * [Aplicações da Equipe](api-and-sdks/api-overview/team-apps.md)
-  * [Variáveis de ambiente](api-and-sdks/api-overview/environment-variable.md)
+  * [Variável de Ambiente](api-and-sdks/api-overview/environment-variable.md)
   * [Snapshot](api-and-sdks/api-overview/snapshot.md)
   * [Subdomínio](api-and-sdks/api-overview/subdomain.md)
   * [Domínio Personalizado](api-and-sdks/api-overview/custom-domain.md)
@@ -111,7 +111,7 @@
   * [Como obter o ID da minha conta Discloud?](faq/general-questions/how-can-i-get-my-discloud-account-id.md)
 * [Soluções de Problemas](faq/troubleshooting-solutions/README.md)
   * [Diagnosticando Aplicações Offline](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
-  * [Bot muito pesado](faq/troubleshooting-solutions/bot-too-heavy.md)
+  * [Bot Muito Pesado](faq/troubleshooting-solutions/bot-too-heavy.md)
   * [Por que não consigo acessar meu site?](faq/troubleshooting-solutions/why-cant-i-access-my-website.md)
 
 ## Sobre <a href="#about" id="about"></a>

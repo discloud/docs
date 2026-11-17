@@ -1,4 +1,5 @@
 ---
+description: Consulte as informações da sua conta Discloud pela API.
 icon: user
 ---
 

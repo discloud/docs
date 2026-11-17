@@ -1,8 +1,8 @@
 ---
 description: >-
   Instale e gerencie PHP e Composer localmente (Windows, macOS, Linux) usando
-  instaladores ou gerenciadores de pacotes; gerencie dependências com
-  composer.json.
+  instaladores ou gerenciadores de pacotes, com o composer.json para as
+  dependências.
 icon: php
 ---
 
