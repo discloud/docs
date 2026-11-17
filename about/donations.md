@@ -34,10 +34,15 @@ Se você só precisa gerenciar (cancelar / reativar) uma assinatura existente, v
 
 Dois canais de aquisição estão atualmente disponíveis.
 
-| Método           | Disponível Via                                                                                                                       |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Stripe           | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Ticket de Suporte</li></ul> |
-| PayPal / Revolut | <ul class="contains-task-list"><li><input type="checkbox">Website</li><li><input type="checkbox" checked>Ticket de Suporte</li></ul> |
+| Método                          | Disponível Via                                                                                                                       |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Stripe                          | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Ticket de Suporte</li></ul> |
+| PIX                             | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Ticket de Suporte</li></ul> |
+| PayPal / Revolut / Criptomoedas | <ul class="contains-task-list"><li><input type="checkbox">Website</li><li><input type="checkbox" checked>Ticket de Suporte</li></ul> |
+
+{% hint style="info" %}
+Os métodos que aparecem no checkout do site dependem da sua região. O **PIX**, por exemplo, só aparece para quem está no Brasil.
+{% endhint %}
 
 {% hint style="warning" %}
 Use um ticket apenas se o fluxo de pagamento do site estiver indisponível ou seu método suportado preferido falhar.
@@ -67,7 +72,7 @@ Complete o pagamento. Seu plano é ativado logo após a confirmação.
 
 ## 🎫 Compra (Ticket de Suporte)
 
-Use este caminho apenas para PayPal / Revolut ou quando encontrar problemas de pagamento.
+Use este caminho apenas para PayPal, Revolut, criptomoedas ou quando encontrar problemas de pagamento.
 
 {% stepper %}
 {% step %}
@@ -84,7 +89,7 @@ Siga as instruções fornecidas pela equipe de suporte para completar o pagament
 {% endstepper %}
 
 {% hint style="info" %}
-Tickets são assíncronos; o tempo de resposta pode variar. Mantenha um ticket por solicitação para reduzir atrasos.
+Tickets são assíncronos. O tempo de resposta pode variar. Mantenha um ticket por solicitação para reduzir atrasos.
 {% endhint %}
 
 ***
