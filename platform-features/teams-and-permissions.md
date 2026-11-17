@@ -20,7 +20,7 @@ Two different things decide what a member can do:
 | **Plan**      | Which features the **owner's** account has unlocked (Console, domain, Edge and others). | The subscription of the resource owner.              |
 | **Team role** | What **you** can do on that shared resource.                                            | The Team Owner, when inviting or editing the member. |
 
-<figure><img src="../../.gitbook/assets/team-plan-and-role.png" alt="Diagram of the owner plan and member role allowing an action"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/team-plan-and-role.png" alt="Diagram of the owner plan and member role allowing an action"><figcaption></figcaption></figure>
 
 On a shared app, the plan that counts for advanced features is the **app owner's**, not yours. Your role only decides whether you can use that screen.
 
@@ -29,7 +29,7 @@ On a shared app, the plan that counts for advanced features is the **app owner's
 ## 📋 Requirements
 
 * Creating a Team requires the [**Diamond plan or higher**](https://discloud.com/plans).
-* You can be a **member** of a Team even on a lower plan. The owner invites you using your [Discloud account ID](../../faq/general-questions/how-can-i-get-my-discloud-account-id.md).
+* You can be a **member** of a Team even on a lower plan. The owner invites you using your [Discloud account ID](../faq/general-questions/how-can-i-get-my-discloud-account-id.md).
 
 ***
 
@@ -100,7 +100,7 @@ In **Team**, click **New team**. Enter the name (3 to 50 characters) and, if you
 {% step %}
 **Add members**
 
-Open the Team and click **Add member**. Enter the person's [**Discloud account ID**](../../faq/general-questions/how-can-i-get-my-discloud-account-id.md) (not their Discord username) and choose the role.
+Open the Team and click **Add member**. Enter the person's [**Discloud account ID**](../faq/general-questions/how-can-i-get-my-discloud-account-id.md) (not their Discord username) and choose the role.
 {% endstep %}
 
 {% step %}
@@ -137,4 +137,4 @@ A common case is an owner on Diamond or Ruby inviting a member on Free or Gold.
 * Features like Console, Explorer, domain and Edge follow the **owner's** plan, as long as the member's role allows the action.
 * Creating a **new** Project, a **new** Team or buying an add-on still requires **your own** account's plan.
 
-To automate it, see the [Team](../../api-and-integrations/api-overview/team.md) and [Team Apps](../../api-and-integrations/api-overview/team-apps.md) API.
+To automate it, see the [Team](../api-and-sdks/api-overview/team.md) and [Team Apps](../api-and-sdks/api-overview/team-apps.md) API.

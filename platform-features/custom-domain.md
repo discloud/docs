@@ -20,7 +20,7 @@ You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.y
 {% endhint %}
 
 {% hint style="success" %}
-[App already hosted](../how-to-host/websites-and-apis.md) using a Discloud subdomain (e.g. `example.discloud.app`)
+[App already hosted](../getting-started/websites-and-apis.md) using a Discloud subdomain (e.g. `example.discloud.app`)
 {% endhint %}
 
 {% hint style="success" %}

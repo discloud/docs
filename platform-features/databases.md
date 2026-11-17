@@ -242,7 +242,7 @@ When you save a hostname or RAM change, the dashboard shows the rebuild progress
 
 On a database shared through a Team, changing settings or rebuilding requires the `commit_app` permission, and changing the RAM requires `edit_ram`.
 
-To automate it, see the [Database API](api-overview/database.md).
+To automate it, see the [Database API](../api-and-sdks/api-overview/database.md).
 
 ***
 

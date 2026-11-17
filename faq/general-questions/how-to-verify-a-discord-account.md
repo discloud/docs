@@ -34,7 +34,7 @@ With your account verified, you gain access to the [**`#🔌・commands`**](http
 
 ## 🚀 Next step
 
-With your account verified, see how to host your application with the [**Discord Bot**](../../how-to-host-using/discord-bot/).
+With your account verified, see how to host your application with the [**Discord Bot**](../../deployment-methods/discord-bot/).
 
 ***
 

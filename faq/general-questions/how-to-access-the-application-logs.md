@@ -62,7 +62,7 @@ Run:
 discloud app logs <APPLICATION_ID>
 ```
 
-See how to install and sign in to the [CLI](../../how-to-host-using/cli.md).
+See how to install and sign in to the [CLI](../../deployment-methods/cli.md).
 {% endtab %}
 
 {% tab title="🟦 VS Code" %}
@@ -76,7 +76,7 @@ In the **Apps** list, right-click the application and choose **Get app logs**.
 {% endstep %}
 {% endstepper %}
 
-See how to install and sign in to the [VS Code extension](../../how-to-host-using/visual-studio-code.md).
+See how to install and sign in to the [VS Code extension](../../deployment-methods/visual-studio-code.md).
 {% endtab %}
 
 {% tab title="🔌 API" %}
@@ -86,7 +86,7 @@ Send a `GET` request to:
 /app/{appID}/logs
 ```
 
-See the endpoint details in [**Applications**](../../api-and-integrations/api-overview/applications.md).
+See the endpoint details in [**Applications**](../../api-and-sdks/api-overview/applications.md).
 {% endtab %}
 {% endtabs %}
 

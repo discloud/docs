@@ -105,8 +105,8 @@ Example:
 
 After updating `discloud.config`, **deploy your application** for the changes to take effect.
 
-{% content-ref url="https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/how-to-host" %}
-[How To Host](https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/how-to-host)
+{% content-ref url="https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/deployment-methods" %}
+[Deployment Methods](https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/deployment-methods)
 {% endcontent-ref %}
 
 ***
@@ -148,8 +148,8 @@ https://yoursubdomain.discloud.dev
 
 If you want to use your own domain (e.g., `yourdomain.com`) instead of a Discloud subdomain, check:
 
-{% content-ref url="../../api-and-integrations/custom-domain.md" %}
-[custom-domain.md](../../api-and-integrations/custom-domain.md)
+{% content-ref url="../../platform-features/custom-domain.md" %}
+[custom-domain.md](../../platform-features/custom-domain.md)
 {% endcontent-ref %}
 
 [^1]: **Note:** The ... only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.

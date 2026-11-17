@@ -49,7 +49,7 @@ Inside a Project you will find:
 | **Environment variables** | Values shared by the Project's apps.               |
 | **Team**                  | Optional. At most one per Project.                 |
 
-<figure><img src="../../.gitbook/assets/project-structure.png" alt="Diagram of a Team with access to a Project and what it contains"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/project-structure.png" alt="Diagram of a Team with access to a Project and what it contains"><figcaption></figcaption></figure>
 
 Without a linked Team, only the owner manages the Project and everything in it.
 
@@ -96,7 +96,7 @@ Apps hosted with a **Dockerfile** don't migrate between clusters automatically. 
 
 ## 🗄️ Link databases
 
-A [database](../../api-and-integrations/databases.md) created with a Project selected is linked to it from the start. In the Project view, the **Database** section lists only the databases in that group.
+A [database](databases.md) created with a Project selected is linked to it from the start. In the Project view, the **Database** section lists only the databases in that group.
 
 Creating a database also requires the **Diamond plan or higher**, the same as Projects and Teams.
 
@@ -135,4 +135,4 @@ A Project can be linked to at most one Team at a time.
 
 The usual flow is to create the Project, link (or create) the apps and databases in it and, if your team will work together, create a Team, add the members and link the Team to the Project.
 
-To automate it, see the [Project API](../../api-and-integrations/api-overview/project.md).
+To automate it, see the [Project API](../api-and-sdks/api-overview/project.md).

@@ -74,7 +74,7 @@ Dashboard → application → **Backups**.
 
 Dashboard → database → **Backups**.
 
-Besides listing and downloading, a [database](../../api-and-integrations/databases.md) can be **restored** from an automatic backup.
+Besides listing and downloading, a [database](databases.md) can be **restored** from an automatic backup.
 
 {% stepper %}
 {% step %}
@@ -96,7 +96,7 @@ Confirm the name, the RAM and, if you want, the Project of the new database. Fol
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../.gitbook/assets/database-backup-restore.png" alt="Diagram of a restore creating a new database from a backup"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/database-backup-restore.png" alt="Diagram of a restore creating a new database from a backup"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 A restore **creates a new database** with the data from that backup. The current database is **not overwritten** and stays online.

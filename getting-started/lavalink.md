@@ -149,8 +149,8 @@ Compress these files into a `.zip` archive. Make sure the files are [**at the ro
 {% step %}
 **🚀 Upload to Discloud**
 
-{% content-ref url="https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/how-to-host" %}
-[How To Host](https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/how-to-host)
+{% content-ref url="https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/deployment-methods" %}
+[Deployment Methods](https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/deployment-methods)
 {% endcontent-ref %}
 {% endstep %}
 

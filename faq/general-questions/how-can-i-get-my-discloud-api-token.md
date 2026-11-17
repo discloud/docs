@@ -8,10 +8,10 @@ description: Learn what the Discloud API Token is and where to find it on the Da
 
 Your **Discloud API Token** is a **personal, secret credential** that authenticates you to all Discloud developer surfaces:
 
-* [**REST API requests**](../../api-and-integrations/api-overview/)
-* [**Official CLI**](../../how-to-host-using/cli.md)
-* [**VS Code Extension**](../../how-to-host-using/visual-studio-code.md)
-* **SDK / Libraries** (e.g. [npm](../../sdks-and-libraries/npm-library/))
+* [**REST API requests**](../../api-and-sdks/api-overview/)
+* [**Official CLI**](../../deployment-methods/cli.md)
+* [**VS Code Extension**](../../deployment-methods/visual-studio-code.md)
+* **SDK / Libraries** (e.g. [npm](../../api-and-sdks/npm-library/))
 
 It uniquely identifies your account, so **anyone with this token can act as you**. Treat it like a password.
 

@@ -24,7 +24,7 @@ To host a bot, you must meet these criteria:
 {% endhint %}
 
 {% hint style="success" %}
-[**`discloud.config`**](../configurations/discloud.config/) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../how-to-host-using/discord-bot/#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
+[**`discloud.config`**](../configurations/discloud.config/) – Required for most deployment methods. If using the Discord Bot's [**Quick Setup**](../deployment-methods/discord-bot/#quick-setup-step-by-step-guide), the bot will guide you through the configuration.
 {% endhint %}
 
 {% hint style="info" %}
@@ -90,11 +90,11 @@ For Java applications, you **must** build locally and upload the `.jar` file. [S
 
 You can upload your project using any of our supported methods:
 
-* 🖥️ [**Dashboard**](../how-to-host-using/dashboard/)
-* ⌨️ [**CLI**](../how-to-host-using/cli.md)
-* 🟦 [**VS Code Extension**](../how-to-host-using/visual-studio-code.md)
-* 🤖 [**Discord Bot**](../how-to-host-using/discord-bot/)
-* 🐙 [**GitHub Integration**](../api-and-integrations/github-integration.md)
+* 🖥️ [**Dashboard**](../deployment-methods/dashboard.md)
+* ⌨️ [**CLI**](../deployment-methods/cli.md)
+* 🟦 [**VS Code Extension**](../deployment-methods/visual-studio-code.md)
+* 🤖 [**Discord Bot**](../deployment-methods/discord-bot/)
+* 🐙 [**GitHub Integration**](../deployment-methods/github-integration.md)
 
 {% hint style="info" %}
 Before uploading, make sure to [compress your project correctly](../faq/general-questions/how-to-compress.md) and exclude unnecessary files using a [`.discloudignore`](../configurations/.discloudignore.md) file.

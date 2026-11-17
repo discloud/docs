@@ -63,13 +63,13 @@ Check that the application started without errors. If it crashed or stopped, the
 
 ## 🌍 Using a custom domain?
 
-If the problem only happens on your own domain (and the Discloud subdomain works), check your DNS setup in [**Custom Domain**](../../api-and-integrations/custom-domain.md).
+If the problem only happens on your own domain (and the Discloud subdomain works), check your DNS setup in [**Custom Domain**](../../platform-features/custom-domain.md).
 
 ***
 
 ## 📚 See also
 
-* [**Websites & APIs**](../../how-to-host/websites-and-apis.md)
+* [**Websites & APIs**](../../getting-started/websites-and-apis.md)
 * [**How to create a subdomain?**](../general-questions/how-to-create-a-subdomain.md)
 * [**Diagnosing Offline Applications**](diagnosing-offline-applications.md)
 

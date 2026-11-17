@@ -9,23 +9,29 @@ icon: rocket-launch
 
 ***
 
-## 🚀 Start here
+## 🎯 What do you want to do?
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🤖 Host a bot</strong></td><td>Discord bots, Telegram bots and automations online 24/7.</td><td><a href="getting-started/bots.md">bots.md</a></td></tr><tr><td><strong>🌐 Host a website or API</strong></td><td>With a subdomain or your own domain.</td><td><a href="getting-started/websites-and-apis.md">websites-and-apis.md</a></td></tr><tr><td><strong>🗄️ Create a database</strong></td><td>Managed PostgreSQL, MySQL, MongoDB, Redis and Valkey.</td><td><a href="platform-features/databases.md">databases.md</a></td></tr><tr><td><strong>🚑 My application went down</strong></td><td>Find out why it went offline and how to fix it.</td><td><a href="faq/troubleshooting-solutions/diagnosing-offline-applications.md">diagnosing-offline-applications.md</a></td></tr></tbody></table>
+
+***
+
+## 📤 Choose how to upload
 
 Choose how you want to upload your application:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="how-to-host-using/dashboard/">dashboard</a></td><td>Upload your project from the browser in a few clicks.</td></tr><tr><td><a href="how-to-host-using/cli.md">cli.md</a></td><td>Upload and manage your applications straight from the terminal.</td></tr><tr><td><a href="how-to-host-using/visual-studio-code.md">visual-studio-code.md</a></td><td>Use the official extension without leaving your editor.</td></tr><tr><td><a href="how-to-host-using/discord-bot/">discord-bot</a></td><td>Upload your application with a single command in our server.</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="deployment-methods/dashboard.md">dashboard.md</a></td><td>Upload your project from the browser in a few clicks.</td></tr><tr><td><a href="deployment-methods/cli.md">cli.md</a></td><td>Upload and manage your applications straight from the terminal.</td></tr><tr><td><a href="deployment-methods/visual-studio-code.md">visual-studio-code.md</a></td><td>Use the official extension without leaving your editor.</td></tr><tr><td><a href="deployment-methods/discord-bot/">discord-bot</a></td><td>Upload your application with a single command in our server.</td></tr></tbody></table>
 
 ***
 
 ## 🗺️ Explore the docs
 
-<table data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="how-to-host/bots.md">bots.md</a></td><td>Step-by-step guide to host Discord bots, Telegram bots and automations.</td></tr><tr><td><a href="how-to-host/websites-and-apis.md">websites-and-apis.md</a></td><td>Host websites, APIs and dashboards with a subdomain or your own domain.</td></tr><tr><td><a href="development-environment/supported-languages/">supported-languages</a></td><td>JavaScript, Python, Java, Ruby, Go, Rust, PHP and more.</td></tr><tr><td><a href="configurations/discloud.config/">discloud.config</a></td><td>The file that defines how your application runs.</td></tr><tr><td><a href="api-and-integrations/api-overview/">api-overview</a></td><td>Automate and manage your applications over REST.</td></tr><tr><td><a href="faq/general-questions/">general-questions</a></td><td>Quick answers to the most common questions.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="development-environment/supported-languages/">supported-languages</a></td><td>JavaScript, Python, Java, Ruby, Go, Rust, PHP and more.</td></tr><tr><td><a href="configurations/discloud.config/">discloud.config</a></td><td>The file that defines how your application runs.</td></tr><tr><td><a href="platform-features/projects.md">projects.md</a></td><td>Group applications, databases and variables.</td></tr><tr><td><a href="platform-features/environment-variables.md">environment-variables.md</a></td><td>Keep tokens and settings out of your code.</td></tr><tr><td><a href="api-and-sdks/api-overview/">api-overview</a></td><td>Automate and manage your applications over REST.</td></tr><tr><td><a href="faq/general-questions/">general-questions</a></td><td>Quick answers to the most common questions.</td></tr></tbody></table>
 
 ***
 
 ## ✨ Why Discloud?
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>💸 Free Plan</strong></td><td>Start at no cost and upgrade as your project grows.</td><td><a href="about/donations.md">donations.md</a></td></tr><tr><td><strong>🟢 Online 24/7</strong></td><td>Your bot or website stays online around the clock, no server of your own needed.</td><td></td></tr><tr><td><strong>🧩 Many Languages</strong></td><td>JavaScript, Python, Java, Ruby, Go, Rust, PHP and more.</td><td><a href="development-environment/supported-languages/">supported-languages</a></td></tr><tr><td><strong>🛠️ Many Ways to Upload</strong></td><td>Dashboard, CLI, VS Code, Discord Bot and GitHub integration.</td><td><a href="api-and-integrations/github-integration.md">github-integration.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>💸 Free Plan</strong></td><td>Start at no cost and upgrade as your project grows.</td><td><a href="about/donations.md">donations.md</a></td></tr><tr><td><strong>🟢 Online 24/7</strong></td><td>Your bot or website stays online around the clock, no server of your own needed.</td><td></td></tr><tr><td><strong>🧩 Many Languages</strong></td><td>JavaScript, Python, Java, Ruby, Go, Rust, PHP and more.</td><td><a href="development-environment/supported-languages/">supported-languages</a></td></tr><tr><td><strong>🛠️ Many Ways to Upload</strong></td><td>Dashboard, CLI, VS Code, Discord Bot and GitHub integration.</td><td><a href="deployment-methods/github-integration.md">github-integration.md</a></td></tr></tbody></table>
 
 ***
 

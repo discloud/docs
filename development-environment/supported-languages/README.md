@@ -7,7 +7,7 @@ icon: code
 
 # Supported Languages
 
-Discloud supports a **wide range of programming languages**, allowing developers to easily deploy [**bots**](../../how-to-host/bots.md)**,** [**websites**](../../how-to-host/websites-and-apis.md)**,** [**APIs**](../../how-to-host/websites-and-apis.md)**, and other applications**. Whether you are using **interpreted** or **compiled** languages, Discloud provides a **seamless deployment process**.
+Discloud supports a **wide range of programming languages**, allowing developers to easily deploy [**bots**](../../getting-started/bots.md)**,** [**websites**](../../getting-started/websites-and-apis.md)**,** [**APIs**](../../getting-started/websites-and-apis.md)**, and other applications**. Whether you are using **interpreted** or **compiled** languages, Discloud provides a **seamless deployment process**.
 
 ***
 

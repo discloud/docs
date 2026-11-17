@@ -38,10 +38,10 @@ Each app in the list shows how many **versions** it has, the total size and the 
 
 Snapshots are created in two ways:
 
-* **Through the API**, with the [Snapshot API](../../api-and-integrations/api-overview/snapshot.md).
+* **Through the API**, with the [Snapshot API](../api-and-sdks/api-overview/snapshot.md).
 * **Automatically, when an application is deleted.**
 
-<figure><img src="../../.gitbook/assets/snapshots-sources.png" alt="Diagram of where snapshots come from and the download"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/snapshots-sources.png" alt="Diagram of where snapshots come from and the download"><figcaption></figcaption></figure>
 
 This means deleting an app doesn't immediately lose its latest version. That version shows up in Snapshots for download while it's within Discloud's retention period.
 

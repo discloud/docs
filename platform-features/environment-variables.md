@@ -15,7 +15,7 @@ Environment variables are `NAME=value` pairs that your application reads while i
 
 In the Discloud dashboard they exist at **three levels**. The more specific the level, the higher its priority.
 
-<figure><img src="../../.gitbook/assets/env-vars-precedence.png" alt="Diagram of variable priority between account, project and app"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/env-vars-precedence.png" alt="Diagram of variable priority between account, project and app"><figcaption></figcaption></figure>
 
 If the same name exists at all three levels, the application gets the **app** value. If it's not set on the app, it uses the **project** value. If it's not set on the project, it uses the **account** value.
 
@@ -30,7 +30,7 @@ If the same name exists at all three levels, the application gets the **app** va
 | **App**     | Application → **Variables**      | Only that application    |
 
 {% hint style="warning" %}
-Don't put secrets in Git. The repository's [`.env`](../../faq/general-questions/.env-file.md) file doesn't replace the dashboard. In production, use Discloud's variables.
+Don't put secrets in Git. The repository's [`.env`](../faq/general-questions/.env-file.md) file doesn't replace the dashboard. In production, use Discloud's variables.
 {% endhint %}
 
 ***
@@ -80,13 +80,13 @@ Edit and save on the app, the project or the account.
 {% step %}
 **Rebuild or deploy**
 
-On the app, click **Rebuild** or make a new [commit](../../faq/general-questions/how-to-commit.md).
+On the app, click **Rebuild** or make a new [commit](../faq/general-questions/how-to-commit.md).
 {% endstep %}
 
 {% step %}
 **Check the logs**
 
-Check the [logs](../../faq/general-questions/how-to-access-the-application-logs.md) to see if the app started with the expected behavior.
+Check the [logs](../faq/general-questions/how-to-access-the-application-logs.md) to see if the app started with the expected behavior.
 {% endstep %}
 {% endstepper %}
 
@@ -107,7 +107,7 @@ Frameworks like Vite, Next.js, Nuxt, Astro, React, Vue, Svelte and Angular often
 | `BUILD_VITE_API_URL`     | `VITE_API_URL`                  |
 | `BUILD_NEXT_PUBLIC_SITE` | `NEXT_PUBLIC_SITE`              |
 
-<figure><img src="../../.gitbook/assets/env-vars-build-prefix.png" alt="Diagram of the BUILD_ prefix being removed during the build"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/env-vars-build-prefix.png" alt="Diagram of the BUILD_ prefix being removed during the build"><figcaption></figcaption></figure>
 
 The `BUILD_` prefix is just a Discloud marker. It is **removed automatically** during the build, and the application **never** sees the name with `BUILD_`.
 
@@ -122,6 +122,6 @@ Only use `BUILD_` when the value must exist during the build. Secrets that your 
 * Put on the **project** what the group of apps shares, like the internal database URL or the product's API key.
 * Put on the **app** what is specific to it, like that bot's webhook or a feature flag.
 * Avoid reusing the same name at different levels by accident. The app value hides the project value without any warning.
-* Don't keep secrets in [`discloud.config`](../../configurations/discloud.config/). Use the dashboard.
+* Don't keep secrets in [`discloud.config`](../configurations/discloud.config/). Use the dashboard.
 
-To automate it, see the [Environment variable API](../../api-and-integrations/api-overview/environment-variable.md).
+To automate it, see the [Environment variable API](../api-and-sdks/api-overview/environment-variable.md).

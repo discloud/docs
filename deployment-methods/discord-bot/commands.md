@@ -64,7 +64,7 @@ In commands that take the `app` option, enter the **application ID**, or `all` t
 | Command       | What it does                                                                                              |
 | ------------- | --------------------------------------------------------------------------------------------------------- |
 | `/subdominio` | Registers or removes a [subdomain](../../faq/general-questions/how-to-create-a-subdomain.md) on Discloud. |
-| `/dominio`    | Manages your [custom domain](../../api-and-integrations/custom-domain.md).                                |
+| `/dominio`    | Manages your [custom domain](../../platform-features/custom-domain.md).                                   |
 
 {% hint style="info" %}
 We recommend managing domains and subdomains on the [**Discloud website**](https://discloud.com/dashboard), which has better integration than the bot commands.
