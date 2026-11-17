@@ -95,7 +95,7 @@ Choose the **engine** and **version**. For PostgreSQL, enable **pgvector** and *
 {% step %}
 **Project and RAM**
 
-If you want, link the database to a **Project**. Adjust the **RAM** without going below the engine's minimum.
+If you want, link the database to a [**Project**](projects.md). Adjust the **RAM** without going below the engine's minimum.
 {% endstep %}
 
 {% step %}
@@ -159,7 +159,7 @@ The application must be on the same cluster as the database. A **Project** helps
 {% step %}
 **Store the URL in variables**
 
-Paste the host, port or URL into the application's **environment variables**, never into Git.
+Paste the host, port or URL into the application's [**environment variables**](environment-variables.md), never into Git.
 {% endstep %}
 
 {% step %}
@@ -188,7 +188,7 @@ Direct public access to the database is **not** available yet. To reach it from 
 
 ## 💾 Backups
 
-Database → **Backups**.
+Database → **Backups**. See also the [Backups](backups.md) page.
 
 | Action                   | Details                                                                         |
 | ------------------------ | ------------------------------------------------------------------------------- |

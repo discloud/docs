@@ -14,15 +14,22 @@ tags:
 Snapshots are **versioned backups** of your applications, gathered in a single place in your account. They let you download an older version of an app's code and files, even after the app has been deleted.
 
 {% hint style="info" %}
-Snapshots are different from each app's **Backups** page, which keeps the daily automatic copies and creates manual backups on demand.
+Snapshots are different from each app's [**Backups**](backups.md) page, which keeps the daily automatic copies and creates manual backups on demand.
 {% endhint %}
 
 ***
 
 ## 📋 Requirements
 
-* Listing and downloading snapshots is available on **every plan**.
-* There is no "create snapshot" button in the dashboard. Versions are created in other ways (see below).
+To use Snapshots, you must meet these criteria:
+
+{% hint style="success" %}
+**Every plan** – Listing and downloading snapshots is available on any plan.
+{% endhint %}
+
+{% hint style="info" %}
+**No create button** – There is no "create snapshot" button in the dashboard. Versions are created in other ways (see below).
+{% endhint %}
 
 ***
 

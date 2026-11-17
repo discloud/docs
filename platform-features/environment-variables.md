@@ -23,11 +23,11 @@ If the same name exists at all three levels, the application gets the **app** va
 
 ## 📍 Where each level lives
 
-| Level       | Path in the dashboard            | Applies to               |
-| ----------- | -------------------------------- | ------------------------ |
-| **Account** | Dashboard → **Global variables** | All your applications    |
-| **Project** | Project → **Variables**          | The apps in that Project |
-| **App**     | Application → **Variables**      | Only that application    |
+| Level                      | Path in the dashboard            | Applies to               |
+| -------------------------- | -------------------------------- | ------------------------ |
+| **Account**                | Dashboard → **Global variables** | All your applications    |
+| [**Project**](projects.md) | Project → **Variables**          | The apps in that Project |
+| **App**                    | Application → **Variables**      | Only that application    |
 
 {% hint style="warning" %}
 Don't put secrets in Git. The repository's [`.env`](../faq/general-questions/.env-file.md) file doesn't replace the dashboard. In production, use Discloud's variables.
@@ -37,11 +37,11 @@ Don't put secrets in Git. The repository's [`.env`](../faq/general-questions/.en
 
 ## 👤 Who can edit
 
-| Level       | Who edits                                                                                                |
-| ----------- | -------------------------------------------------------------------------------------------------------- |
-| **Account** | The account owner.                                                                                       |
-| **Project** | The Project owner, or a Team member with the **Admin** or **Developer** role. Viewers can't see or edit. |
-| **App**     | The app owner, or a Team member with permission to configure the app.                                    |
+| Level       | Who edits                                                                                                                            |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Account** | The account owner.                                                                                                                   |
+| **Project** | The Project owner, or a [Team](teams-and-permissions.md) member with the **Admin** or **Developer** role. Viewers can't see or edit. |
+| **App**     | The app owner, or a Team member with permission to configure the app.                                                                |
 
 ***
 

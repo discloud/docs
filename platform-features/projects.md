@@ -19,8 +19,15 @@ A Project is **not** a new plan and does **not** create a server. Apps and datab
 
 ## 📋 Requirements
 
-* Creating Projects requires the [**Diamond plan or higher**](https://discloud.com/plans).
-* Members of a Team with a linked Project also see that Project in their list, even if they don't own it. What each person can do depends on their role in the Team.
+To use Projects, you must meet these criteria:
+
+{% hint style="success" %}
+[**Diamond plan or higher**](https://discloud.com/plans) – Required to create Projects.
+{% endhint %}
+
+{% hint style="info" %}
+**Team member** – Members of a [Team](teams-and-permissions.md) with a linked Project also see that Project in their list, even if they don't own it. What each person can do depends on their role in the Team.
+{% endhint %}
 
 ***
 
@@ -41,13 +48,13 @@ Inside a Project you will find:
 
 ## 🧩 What a Project contains
 
-| Item                      | Details                                            |
-| ------------------------- | -------------------------------------------------- |
-| **Applications**          | The apps linked to the Project.                    |
-| **Databases**             | The databases linked to the Project.               |
-| **Cluster**               | Every app in the Project must run on this cluster. |
-| **Environment variables** | Values shared by the Project's apps.               |
-| **Team**                  | Optional. At most one per Project.                 |
+| Item                                                  | Details                                            |
+| ----------------------------------------------------- | -------------------------------------------------- |
+| **Applications**                                      | The apps linked to the Project.                    |
+| [**Databases**](databases.md)                         | The databases linked to the Project.               |
+| **Cluster**                                           | Every app in the Project must run on this cluster. |
+| [**Environment variables**](environment-variables.md) | Values shared by the Project's apps.               |
+| [**Team**](teams-and-permissions.md)                  | Optional. At most one per Project.                 |
 
 <figure><img src="../.gitbook/assets/project-structure.png" alt="Diagram of a Team with access to a Project and what it contains"><figcaption></figcaption></figure>
 

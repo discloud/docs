@@ -22,7 +22,7 @@ A backup on Discloud is a downloadable copy of an application's or database's da
 * **Automatic** backups require the [**Diamond plan or higher**](https://discloud.com/plans).
 
 {% hint style="info" %}
-Backups are different from **Snapshots**, which keep versions of your apps in your account, even after an app is deleted. See the **Snapshots** page.
+Backups are different from **Snapshots**, which keep versions of your apps in your account, even after an app is deleted. See the [**Snapshots**](snapshots.md) page.
 {% endhint %}
 
 ***
@@ -117,7 +117,7 @@ A restore **creates a new database** with the data from that backup. The current
 | ----------------------------------------------- | ---------------------------------------------------------- |
 | You're about to make a risky change             | A **manual** backup before the change                      |
 | You want the daily history of the last few days | **Automatic** backup (Diamond or higher)                   |
-| You deleted the app and need what's left        | **Snapshots**                                              |
+| You deleted the app and need what's left        | [**Snapshots**](snapshots.md)                              |
 | You need a copy of the database from day X      | **Restore** in Database → Backups (creates a new database) |
 
 ***

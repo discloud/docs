@@ -28,8 +28,15 @@ On a shared app, the plan that counts for advanced features is the **app owner's
 
 ## 📋 Requirements
 
-* Creating a Team requires the [**Diamond plan or higher**](https://discloud.com/plans).
-* You can be a **member** of a Team even on a lower plan. The owner invites you using your [Discloud account ID](../faq/general-questions/how-can-i-get-my-discloud-account-id.md).
+To use Teams, you must meet these criteria:
+
+{% hint style="success" %}
+[**Diamond plan or higher**](https://discloud.com/plans) – Required to create a Team.
+{% endhint %}
+
+{% hint style="info" %}
+**Members** – You can be a member of a Team even on a lower plan. The owner invites you using your [Discloud account ID](../faq/general-questions/how-can-i-get-my-discloud-account-id.md).
+{% endhint %}
 
 ***
 
@@ -40,7 +47,7 @@ On a shared app, the plan that counts for advanced features is the **app owner's
 On the Team page you will find:
 
 * the list of **members**, with their role, join date and an option to remove them
-* the list of linked **Projects**
+* the list of linked [**Projects**](projects.md)
 * options to edit the name and description, leave the Team or, if you are the owner, delete the Team
 
 You can also link or unlink a Team from the Project's **Access manager**.
