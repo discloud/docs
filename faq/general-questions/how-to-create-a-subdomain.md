@@ -14,7 +14,7 @@ Para permitir acesso externo ao seu app, a Discloud oferece a opção de criar u
 
 ### 📡 Como funciona
 
-<figure><img src="../../.gitbook/assets/subdomain-flow.png" alt="Discloud subdomain flow"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/subdomain-flow (1).png" alt="Fluxo do subdomínio da Discloud"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 #### **`.discloud.app` ou `.discloud.dev`?**
