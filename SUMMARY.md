@@ -111,6 +111,7 @@
   * [How can I get my Discloud account ID?](faq/general-questions/how-can-i-get-my-discloud-account-id.md)
 * [Troubleshooting Solutions](faq/troubleshooting-solutions/README.md)
   * [Diagnosing Offline Applications](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
+  * [Why isn't my bot responding?](faq/troubleshooting-solutions/bot-not-responding.md)
   * [Bot Too Heavy](faq/troubleshooting-solutions/bot-too-heavy.md)
   * [Why can't I access my website?](faq/troubleshooting-solutions/why-cant-i-access-my-website.md)
 
