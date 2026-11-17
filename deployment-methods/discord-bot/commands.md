@@ -74,9 +74,7 @@ Recomendamos gerenciar domínios e subdomínios pelo [**site da Discloud**](http
 
 ## 👥 Equipe
 
-| Comando | O que faz                                    |
-| ------- | -------------------------------------------- |
-| `/mod`  | Gerencia os moderadores das suas aplicações. |
+Para dar acesso às suas aplicações a outras pessoas, use as [equipes](../../platform-features/teams-and-permissions.md) no painel.
 
 ***
 
