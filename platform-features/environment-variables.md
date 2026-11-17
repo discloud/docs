@@ -23,11 +23,11 @@ Se o mesmo nome existir nos três níveis, a aplicação recebe o valor da **app
 
 ## 📍 Onde fica cada nível
 
-| Nível       | Caminho no painel              | Vale para                |
-| ----------- | ------------------------------ | ------------------------ |
-| **Conta**   | Painel → **Variáveis globais** | Todas as suas aplicações |
-| **Projeto** | Projeto → **Variáveis**        | As apps daquele Projeto  |
-| **App**     | Aplicação → **Variáveis**      | Só aquela aplicação      |
+| Nível                      | Caminho no painel              | Vale para                |
+| -------------------------- | ------------------------------ | ------------------------ |
+| **Conta**                  | Painel → **Variáveis globais** | Todas as suas aplicações |
+| [**Projeto**](projects.md) | Projeto → **Variáveis**        | As apps daquele Projeto  |
+| **App**                    | Aplicação → **Variáveis**      | Só aquela aplicação      |
 
 {% hint style="warning" %}
 Não coloque segredos no Git. O arquivo [`.env`](../faq/general-questions/.env-file.md) do repositório não substitui o painel. Em produção, use as variáveis da Discloud.
@@ -37,11 +37,11 @@ Não coloque segredos no Git. O arquivo [`.env`](../faq/general-questions/.env-f
 
 ## 👤 Quem pode editar
 
-| Nível       | Quem edita                                                                                                 |
-| ----------- | ---------------------------------------------------------------------------------------------------------- |
-| **Conta**   | O dono da conta.                                                                                           |
-| **Projeto** | O dono do Projeto, ou um membro da equipe com papel **Admin** ou **Developer**. O Viewer não vê nem edita. |
-| **App**     | O dono do app, ou um membro da equipe com permissão de configurar o app.                                   |
+| Nível       | Quem edita                                                                                                                             |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Conta**   | O dono da conta.                                                                                                                       |
+| **Projeto** | O dono do Projeto, ou um membro da [equipe](teams-and-permissions.md) com papel **Admin** ou **Developer**. O Viewer não vê nem edita. |
+| **App**     | O dono do app, ou um membro da equipe com permissão de configurar o app.                                                               |
 
 ***
 

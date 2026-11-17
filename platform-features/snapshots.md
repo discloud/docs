@@ -14,15 +14,22 @@ tags:
 Snapshots são **backups versionados** das suas aplicações, reunidos em um único lugar da conta. Servem para baixar uma versão antiga do código e dos arquivos de uma app, inclusive depois que ela foi excluída.
 
 {% hint style="info" %}
-Snapshots são diferentes da página **Backups** de cada app, que guarda as cópias diárias automáticas e gera o backup manual na hora.
+Snapshots são diferentes da página [**Backups**](backups.md) de cada app, que guarda as cópias diárias automáticas e gera o backup manual na hora.
 {% endhint %}
 
 ***
 
 ## 📋 Requisitos
 
-* Listar e baixar snapshots está disponível em **todos os planos**.
-* Não existe um botão de "criar snapshot" no painel. As versões são criadas de outras formas (veja abaixo).
+Para usar Snapshots, você deve atender a estes critérios:
+
+{% hint style="success" %}
+**Todos os planos** – Listar e baixar snapshots está disponível em qualquer plano.
+{% endhint %}
+
+{% hint style="info" %}
+**Sem botão de criar** – Não existe um botão de "criar snapshot" no painel. As versões são criadas de outras formas (veja abaixo).
+{% endhint %}
 
 ***
 

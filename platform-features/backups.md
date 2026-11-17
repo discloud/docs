@@ -22,7 +22,7 @@ Um backup na Discloud é uma cópia baixável dos dados de uma aplicação ou de
 * O backup **automático** exige o plano [**Diamond ou superior**](https://discloud.com/plans).
 
 {% hint style="info" %}
-Backups são diferentes de **Snapshots**, que guardam versões das suas apps na conta, inclusive depois que uma app é excluída. Veja a página **Snapshots**.
+Backups são diferentes de **Snapshots**, que guardam versões das suas apps na conta, inclusive depois que uma app é excluída. Veja a página [**Snapshots**](snapshots.md).
 {% endhint %}
 
 ***
@@ -117,7 +117,7 @@ O restore **cria um banco novo** com os dados daquele backup. O banco atual **n�
 | -------------------------------------------------- | ------------------------------------------------------------ |
 | Vai fazer uma mudança arriscada agora              | Backup **manual** antes da mudança                           |
 | Quer o histórico diário dos últimos dias           | Backup **automático** (Diamond ou superior)                  |
-| Excluiu a app e precisa do que sobrou              | **Snapshots**                                                |
+| Excluiu a app e precisa do que sobrou              | [**Snapshots**](snapshots.md)                                |
 | Precisa de uma cópia do banco a partir de um dia X | **Restore** em Banco de dados → Backups (cria um banco novo) |
 
 ***

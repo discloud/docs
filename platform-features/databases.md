@@ -95,7 +95,7 @@ Escolha o **motor** e a **versão**. No PostgreSQL, ative **pgvector** e **PostG
 {% step %}
 **Projeto e RAM**
 
-Se quiser, vincule o banco a um **Projeto**. Ajuste a **RAM** sem ficar abaixo do mínimo do motor.
+Se quiser, vincule o banco a um [**Projeto**](projects.md). Ajuste a **RAM** sem ficar abaixo do mínimo do motor.
 {% endstep %}
 
 {% step %}
@@ -159,7 +159,7 @@ A aplicação precisa estar no mesmo cluster do banco. Um **Projeto** ajuda a ma
 {% step %}
 **Guardar a URL nas variáveis**
 
-Cole o host, a porta ou a URL nas **variáveis de ambiente** da aplicação, nunca no Git.
+Cole o host, a porta ou a URL nas [**variáveis de ambiente**](environment-variables.md) da aplicação, nunca no Git.
 {% endstep %}
 
 {% step %}
@@ -188,7 +188,7 @@ O acesso público direto ao banco ainda **não** está disponível. Para acessá
 
 ## 💾 Backups
 
-Banco de dados → **Backups**.
+Banco de dados → **Backups**. Veja também a página [Backups](backups.md).
 
 | Ação                     | Detalhe                                                                     |
 | ------------------------ | --------------------------------------------------------------------------- |

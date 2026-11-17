@@ -28,8 +28,15 @@ Em um app compartilhado, o plano que vale para os recursos avançados é o do **
 
 ## 📋 Requisitos
 
-* Criar uma equipe exige o plano [**Diamond ou superior**](https://discloud.com/plans).
-* Você pode ser **membro** de uma equipe mesmo com um plano menor. O dono convida pelo [ID da sua conta Discloud](../faq/general-questions/how-can-i-get-my-discloud-account-id.md).
+Para usar equipes, você deve atender a estes critérios:
+
+{% hint style="success" %}
+[**Plano Diamond ou superior**](https://discloud.com/plans) – Necessário para criar uma equipe.
+{% endhint %}
+
+{% hint style="info" %}
+**Membros** – Você pode ser membro de uma equipe mesmo com um plano menor. O dono convida pelo [ID da sua conta Discloud](../faq/general-questions/how-can-i-get-my-discloud-account-id.md).
+{% endhint %}
 
 ***
 
@@ -40,7 +47,7 @@ Em um app compartilhado, o plano que vale para os recursos avançados é o do **
 Na página da equipe você encontra:
 
 * a lista de **membros**, com papel, data de entrada e opção de remover
-* a lista de **Projetos** vinculados
+* a lista de [**Projetos**](projects.md) vinculados
 * as opções de editar nome e descrição, sair da equipe ou, se for o dono, excluir a equipe
 
 Também dá para vincular ou desvincular uma equipe pelo **Access manager** do Projeto.

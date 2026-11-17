@@ -19,8 +19,15 @@ Projeto **não** é um plano novo e **não** cria um servidor. As apps e os banc
 
 ## 📋 Requisitos
 
-* Criar Projetos exige o plano [**Diamond ou superior**](https://discloud.com/plans).
-* Quem é membro de uma equipe com um Projeto vinculado também vê esse Projeto na lista, mesmo sem ser o dono. O que cada pessoa pode fazer depende do papel dela na equipe.
+Para usar Projetos, você deve atender a estes critérios:
+
+{% hint style="success" %}
+[**Plano Diamond ou superior**](https://discloud.com/plans) – Necessário para criar Projetos.
+{% endhint %}
+
+{% hint style="info" %}
+**Membro de uma equipe** – Quem é membro de uma [equipe](teams-and-permissions.md) com um Projeto vinculado também vê esse Projeto na lista, mesmo sem ser o dono. O que cada pessoa pode fazer depende do papel dela na equipe.
+{% endhint %}
 
 ***
 
@@ -41,13 +48,13 @@ Dentro de um Projeto você encontra:
 
 ## 🧩 O que um Projeto contém
 
-| Item                      | Detalhe                                                |
-| ------------------------- | ------------------------------------------------------ |
-| **Aplicações**            | As apps vinculadas ao Projeto.                         |
-| **Bancos de dados**       | Os bancos vinculados ao Projeto.                       |
-| **Cluster**               | Todas as apps do Projeto precisam ficar nesse cluster. |
-| **Variáveis de ambiente** | Valores compartilhados pelas apps do Projeto.          |
-| **Equipe**                | Opcional. No máximo uma por Projeto.                   |
+| Item                                                  | Detalhe                                                |
+| ----------------------------------------------------- | ------------------------------------------------------ |
+| **Aplicações**                                        | As apps vinculadas ao Projeto.                         |
+| [**Bancos de dados**](databases.md)                   | Os bancos vinculados ao Projeto.                       |
+| **Cluster**                                           | Todas as apps do Projeto precisam ficar nesse cluster. |
+| [**Variáveis de ambiente**](environment-variables.md) | Valores compartilhados pelas apps do Projeto.          |
+| [**Equipe**](teams-and-permissions.md)                | Opcional. No máximo uma por Projeto.                   |
 
 <figure><img src="../.gitbook/assets/project-structure.png" alt="Diagrama de uma equipe com acesso a um Projeto e ao que ele contém"><figcaption></figcaption></figure>
 
