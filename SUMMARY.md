@@ -113,6 +113,7 @@
   * [Diagnosing Offline Applications](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
   * [Why isn't my bot responding?](faq/troubleshooting-solutions/bot-not-responding.md)
   * [Bot Too Heavy](faq/troubleshooting-solutions/bot-too-heavy.md)
+  * [Why won't my dependencies install?](faq/troubleshooting-solutions/dependencies-not-installing.md)
   * [Why can't I access my website?](faq/troubleshooting-solutions/why-cant-i-access-my-website.md)
 
 ## About
