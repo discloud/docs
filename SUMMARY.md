@@ -113,6 +113,7 @@
   * [Diagnosticando Aplicações Offline](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
   * [Por que meu bot não responde?](faq/troubleshooting-solutions/bot-not-responding.md)
   * [Bot Muito Pesado](faq/troubleshooting-solutions/bot-too-heavy.md)
+  * [Por que as dependências não instalam?](faq/troubleshooting-solutions/dependencies-not-installing.md)
   * [Por que não consigo acessar meu site?](faq/troubleshooting-solutions/why-cant-i-access-my-website.md)
 
 ## Sobre <a href="#about" id="about"></a>
