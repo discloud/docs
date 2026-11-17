@@ -12,15 +12,15 @@ A raiz do projeto ("diretório raiz") é a **pasta de nível superior da sua apl
 
 Se a estrutura estiver errada (por exemplo, você zipa uma pasta que contém outra pasta única que realmente contém os arquivos), a Discloud pode falhar em detectar o arquivo principal ou dependências.
 
-***
+---
 
 ## 🖼️ Exemplo Visual
 
 A zona verde representa a **raiz** que você deve comprimir. Amarelo mostra uma pasta aninhada contendo arquivos de código. Tudo dentro do verde é incluído quando você comprime o conteúdo dessa pasta (deixe de fora pastas como `node_modules`).
 
-<figure><img src="../../.gitbook/assets/project-root-structure-example (1).png" alt="Exemplo da raiz do projeto"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/project-root-structure-example.png" alt="Exemplo da raiz do projeto"><figcaption></figcaption></figure>
 
-***
+---
 
 ### 🚫 Erros Comuns
 
