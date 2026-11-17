@@ -110,6 +110,7 @@
   * [Como obter o meu token da API da Discloud?](faq/general-questions/how-can-i-get-my-discloud-api-token.md)
   * [Como obter o ID da minha conta Discloud?](faq/general-questions/how-can-i-get-my-discloud-account-id.md)
   * [Como proteger meus tokens?](faq/general-questions/how-to-protect-my-tokens.md)
+  * [Como fazer sharding do meu bot?](faq/general-questions/how-to-shard-my-bot.md)
 * [Soluções de Problemas](faq/troubleshooting-solutions/README.md)
   * [Diagnosticando Aplicações Offline](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
   * [Por que meu bot não responde?](faq/troubleshooting-solutions/bot-not-responding.md)
