@@ -1,7 +1,7 @@
 ---
 description: >-
   Install and manage Ruby locally (Windows, macOS, Linux) using installers or
-  version managers; use Bundler for dependencies.
+  version managers, with Bundler for dependencies.
 icon: gem
 ---
 

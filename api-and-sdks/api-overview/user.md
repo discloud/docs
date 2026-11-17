@@ -1,4 +1,5 @@
 ---
+description: Get your Discloud account information through the API.
 icon: user
 layout:
   width: wide

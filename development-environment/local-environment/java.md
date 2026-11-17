@@ -1,8 +1,8 @@
 ---
 description: >-
   Install and manage a Java JDK locally (Windows, macOS, Linux) using
-  installers, package managers, or SDKMAN!; build a runnable JAR with Maven or
-  Gradle.
+  installers, package managers, or SDKMAN!, and build a runnable JAR with Maven
+  or Gradle.
 icon: java
 ---
 

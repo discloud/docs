@@ -27,6 +27,6 @@ The green zone represents the **root** you should compress. Yellow shows a neste
 | Mistake                        | Result                             | Fix                                                                                                       |
 | ------------------------------ | ---------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | Zipping parent of actual root  | Missing config / main file         | Compress the contents of the folder containing [`discloud.config`](../../configurations/discloud.config/) |
-| Including `node_modules`       | Large upload, possible size issues | Remove; let Discloud install                                                                              |
+| Including `node_modules`       | Large upload, possible size issues | Remove it and let Discloud install                                                                        |
 | Hardcoding tokens in code      | Security exposure                  | Use [`.env`](.env-file.md) and environment variables                                                      |
 | Multiple entry files ambiguous | Startup failure                    | Define `MAIN` in [`discloud.config`](../../configurations/discloud.config/) explicitly                    |

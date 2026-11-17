@@ -1,7 +1,7 @@
 ---
 description: >-
   Install and manage PHP and Composer locally (Windows, macOS, Linux) using
-  installers or package managers; manage dependencies with composer.json.
+  installers or package managers, with composer.json for dependencies.
 icon: php
 ---
 

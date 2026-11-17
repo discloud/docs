@@ -2,6 +2,7 @@
 description: >-
   Learn how to generate and configure the 'package.json' file, defining the
   essential dependencies to host your JavaScript project on Discloud.
+icon: file-code
 ---
 
 # package.json

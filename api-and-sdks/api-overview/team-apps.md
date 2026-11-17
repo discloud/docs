@@ -1,4 +1,5 @@
 ---
+description: Manage through the API the applications a Team has shared with you.
 icon: layer-group
 ---
 

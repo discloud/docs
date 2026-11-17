@@ -6,24 +6,25 @@ description: >-
 
 # How to build and package a Java application?
 
-## 📌 **Why Do I Need to Build My Java Application?**
+## 📌 Why Do I Need to Build My Java Application?
 
 Discloud **does not compile Java projects** automatically.
 
-You must:\
-✔ **Compile your code** into `.class` files.\
-✔ **Package everything into a single `.jar` file** (including dependencies).\
-✔ **Ensure the `META-INF/MANIFEST.MF` file** correctly defines the **Main-Class**.
+You must:
+
+* **Compile your code** into `.class` files.
+* **Package everything into a single `.jar` file** (including dependencies).
+* **Ensure the `META-INF/MANIFEST.MF` file** correctly defines the **Main-Class**.
 
 ***
 
-## 🔧 **Choosing a Build Tool**
+## 🔧 Choosing a Build Tool
 
 <table><thead><tr><th width="112">Build Tool</th><th width="367">Best For</th><th>Required Files</th></tr></thead><tbody><tr><td><strong>Maven</strong></td><td>Large projects, dependency-heavy apps</td><td><code>pom.xml</code></td></tr><tr><td><strong>Gradle</strong></td><td>Modern projects with flexible build scripts</td><td><code>build.gradle</code> or <code>build.gradle.kts</code></td></tr></tbody></table>
 
 ***
 
-## 📦 **Building Your Java Application**
+## 📦 Building Your Java Application
 
 {% tabs %}
 {% tab title="Maven" %}

@@ -1,6 +1,7 @@
 ---
 hiddenn: true
 description: Complete guide to host TypeScript applications on Discloud.
+icon: code
 ---
 
 # TypeScript
@@ -183,5 +184,5 @@ Once your project is configured and compressed, you can choose one of the follow
 
 * `dist/` is reserved for Discloud builds on both `TYPE=bot` and `TYPE=site`.
 * If you pre-build locally, output to `build/` and point `MAIN` to `build/...`.
-* For TypeScript, always provide `BUILD` and `START` in `discloud.config` when shipping sources; `MAIN` should point to the runtime JS entry (usually `dist/index.js`).
+* For TypeScript, always provide `BUILD` and `START` in `discloud.config` when shipping sources. `MAIN` should point to the runtime JS entry (usually `dist/index.js`).
 * For websites/APIs, your server must listen on port `8080`.

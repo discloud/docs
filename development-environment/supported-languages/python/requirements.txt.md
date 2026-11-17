@@ -2,6 +2,7 @@
 description: >-
   Learn how to generate and configure the requirements.txt file to define
   essential dependencies for hosting your Python project on Discloud.
+icon: file-code
 ---
 
 # requirements.txt

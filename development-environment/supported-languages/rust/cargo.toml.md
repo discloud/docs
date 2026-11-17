@@ -2,6 +2,7 @@
 description: >-
   Comprehensive guide to the Cargo.toml manifest for Rust bots and web
   (site/API) apps on Discloud.
+icon: file-code
 ---
 
 # Cargo.toml

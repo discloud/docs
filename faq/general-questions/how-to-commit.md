@@ -18,7 +18,7 @@ Discloud uses the **path of each file inside the `.zip`** to decide where it goe
 * If it doesn't, a **new** file is created.
 * Files you didn't send **stay as they are**.
 
-<figure><img src="../../.gitbook/assets/commit-flow.png" alt="A .zip with src/commands/ping.js updates only that file in the application"><figcaption><p>Only <code>ping.js</code> is sent; the rest of the project doesn't change.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/commit-flow.png" alt="A .zip with src/commands/ping.js updates only that file in the application"><figcaption><p>Only <code>ping.js</code> is sent. The rest of the project doesn't change.</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Uppercase and lowercase matter.** Discloud runs on Linux, where `commands` and `Commands` are different folders. The same goes for files: `config.json` and `Config.json` are not the same file.

@@ -13,7 +13,7 @@ This area helps you:
 * Install or enable ecosystem tooling (only if you choose to).
 * Prepare a project so it behaves consistently when packaged for Discloud.
 
-Discloud runs applications in Linux containers; keeping your project structure clean (entry file + dependency manifest) minimizes surprises.
+Discloud runs applications in Linux containers. Keeping your project structure clean (entry file + dependency manifest) minimizes surprises.
 
 ***
 

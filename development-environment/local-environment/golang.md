@@ -1,7 +1,7 @@
 ---
 description: >-
   Install and manage Go locally (Windows, macOS, Linux) using official archives
-  or package managers; manage modules with go mod.
+  or package managers, with go mod for modules.
 icon: golang
 ---
 

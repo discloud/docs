@@ -1,7 +1,7 @@
 ---
 description: >-
   Install and manage Python locally (Windows, macOS, Linux) using official
-  installers, system packages, or pyenv; create virtual environments.
+  installers, system packages, or pyenv, and create virtual environments.
 icon: python
 ---
 

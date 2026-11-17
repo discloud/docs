@@ -10,7 +10,7 @@ If your application **shuts down unexpectedly** on Discloud, it is important to 
 
 ***
 
-## 🛑 **Common Application Behaviors & Causes**
+## 🛑 Common Application Behaviors & Causes
 
 When an application shuts down unexpectedly, the **behavior** can provide clues about the root cause.
 
@@ -32,16 +32,16 @@ Shuts down during a specific action.
 
 ***
 
-## ⚠️ **Potential Causes & Fixes**
+## ⚠️ Potential Causes & Fixes
 
 {% hint style="warning" %}
 #### **Insufficient RAM**
 
 If your application **exceeds its allocated memory**, it may be **forcefully shut down**.
 
-✔ **Monitor RAM usage** and optimize your code.\
-✔ Consider **increasing RAM** in your [`discloud.config`](../../configurations/discloud.config/) file.\
-✔ See [**How does RAM work?**](../general-questions/how-does-ram-work.md) to understand your application's memory usage.
+* **Monitor RAM usage** and optimize your code.
+* Consider **increasing RAM** in your [`discloud.config`](../../configurations/discloud.config/) file.
+* See [**How does RAM work?**](../general-questions/how-does-ram-work.md) to understand your application's memory usage.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -49,8 +49,8 @@ If your application **exceeds its allocated memory**, it may be **forcefully shu
 
 Unhandled exceptions or **bugs in your code** can cause crashes.
 
-✔ Check the [**logs**](../general-questions/how-to-access-the-application-logs.md) for error messages.\
-✔ **Test locally** before deploying to Discloud.
+* Check the [**logs**](../general-questions/how-to-access-the-application-logs.md) for error messages.
+* **Test locally** before deploying to Discloud.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -58,8 +58,8 @@ Unhandled exceptions or **bugs in your code** can cause crashes.
 
 A free plan application that stays **offline** is kept on your account for only **30 days**. After that, it is **deleted automatically**.
 
-✔ If you don't want to lose the application, bring it back online before then.\
-✔ Make a **backup** of the files if you want to keep them.
+* If you don't want to lose the application, bring it back online before then.
+* Make a **backup** of the files if you want to keep them.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -69,13 +69,13 @@ If your paid plan **expires** and isn't renewed, Discloud shuts down your applic
 
 The applications that stay **offline** get a **snapshot** and are kept on your account for **45 days** after it is generated. After that, they are **deleted automatically**.
 
-✔ Renew your plan before then if you don't want to lose the applications.\
-✔ Make a **backup** of the files if you want to keep them.
+* Renew your plan before then if you don't want to lose the applications.
+* Make a **backup** of the files if you want to keep them.
 {% endhint %}
 
 ***
 
-## 🛠️ **Step-by-Step Debugging**
+## 🛠️ Step-by-Step Debugging
 
 📌 **A common mistake developers make is saying:** _"It works on my machine but not on Discloud."_
 
@@ -83,7 +83,7 @@ Remember, **Discloud operates in a Linux environment**. Your application must be
 
 ***
 
-## ⚡ **Fixing Applications That Shut Down Immediately**
+## ⚡ Fixing Applications That Shut Down Immediately
 
 If your application **starts and immediately shuts down**, it’s often due to:
 
@@ -105,7 +105,7 @@ Errors during initialization.
 
 ***
 
-## ❗ **Fixing Applications That Shut Down During a Specific Action**
+## ❗ Fixing Applications That Shut Down During a Specific Action
 
 If your application **stops running when a specific event or action is triggered**, follow these debugging steps:
 
@@ -134,15 +134,16 @@ Monitor resource usage.
 
 ***
 
-## 🎵 **Common Examples (Discord Applications)**
+## 🎵 Common Examples (Discord Applications)
 
 {% hint style="info" %}
 #### **Music Bots**
 
-If the bot **shuts down when playing music**, it could be due to:\
-✔ **High RAM usage** → Optimize audio processing.\
-✔ **Missing `ffmpeg`** → Add `ffmpeg` in [`APT`](../../configurations/discloud.config/apt.md) dependencies.\
-✔ **API rate limits** → Check if you're hitting limits with the music provider.
+If the bot **shuts down when playing music**, it could be due to:
+
+* **High RAM usage** → Optimize audio processing.
+* **Missing `ffmpeg`** → Add `ffmpeg` in [`APT`](../../configurations/discloud.config/apt.md) dependencies.
+* **API rate limits** → Check if you're hitting limits with the music provider.
 {% endhint %}
 
 {% hint style="info" %}
@@ -154,7 +155,7 @@ If the bot **shuts down when playing music**, it could be due to:\
 
 ***
 
-## 🛰️ **Check Discloud's Status**
+## 🛰️ Check Discloud's Status
 
 If none of the above solutions resolve the issue, check the Discloud status page or the Discord channel for any reported system-wide issues. Temporary infrastructure problems could impact the availability of your application.
 

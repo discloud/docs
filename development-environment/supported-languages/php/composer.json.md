@@ -2,6 +2,7 @@
 description: >-
   Understand and configure composer.json so Discloud can install your PHP
   dependencies automatically.
+icon: file-code
 ---
 
 # composer.json

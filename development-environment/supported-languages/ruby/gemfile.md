@@ -2,6 +2,7 @@
 description: >-
   Comprehensive Gemfile guide for Ruby bots and web (site/API) applications on
   Discloud.
+icon: file-code
 ---
 
 # Gemfile
@@ -167,7 +168,7 @@ run Sinatra::Application
 ```
 {% endcode %}
 
-For bots you typically do NOT need `config.ru`; instead just point `MAIN` in [`discloud.config`](../../../configurations/discloud.config/) to your Ruby entry (e.g. `bot.rb`).
+For bots you typically do NOT need `config.ru`. Instead, just point `MAIN` in [`discloud.config`](../../../configurations/discloud.config/) to your Ruby entry (e.g. `bot.rb`).
 
 ***
 
