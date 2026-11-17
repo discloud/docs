@@ -13,6 +13,7 @@
   * [NestJS](getting-started/frameworks/nestjs.md)
 * [VPS](getting-started/vps.md)
 * [Lavalink](getting-started/lavalink.md)
+* [Migrating from Another Host](getting-started/migrating-from-another-host.md)
 
 ## Deployment Methods
 
