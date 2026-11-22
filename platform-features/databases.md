@@ -23,7 +23,7 @@ Você escolhe o motor, a versão e a RAM. A Discloud sobe o banco, mostra as cre
 A RAM dos bancos de dados conta para o limite de RAM do seu plano, junto com as aplicações.
 {% endhint %}
 
-### Requisitos
+### 📋 Requisitos
 
 | Recurso                         | Plano mínimo                              |
 | ------------------------------- | ----------------------------------------- |
@@ -34,7 +34,7 @@ A RAM dos bancos de dados conta para o limite de RAM do seu plano, junto com as 
 
 Em um banco compartilhado por uma equipe, o membro acessa conforme as permissões dele. O plano que libera Studio, VLAN e backup automático é o do **dono** do banco.
 
-### Onde fica
+### 📍 Onde fica
 
 [Painel da Discloud](https://discloud.com/dashboard/databases) → **Banco de dados**. Dentro de cada banco:
 
@@ -47,7 +47,7 @@ Em um banco compartilhado por uma equipe, o membro acessa conforme as permissõe
 | **Studio**        | Editor visual e queries (Ruby ou superior)                                         |
 | **Configurações** | Nome exibido, hostname na VLAN, RAM e exclusão                                     |
 
-### Motores disponíveis
+### 🧰 Motores disponíveis
 
 | Motor          | RAM mínima | Credenciais na criação        | Extensões opcionais       |
 | -------------- | ---------- | ----------------------------- | ------------------------- |
@@ -105,7 +105,7 @@ Clique em **Criar base de dados** e acompanhe os logs. O banco pode levar alguns
 {% endstep %}
 {% endstepper %}
 
-### Status e ações
+### 🚦 Status e ações
 
 Na visão geral, o status pode ser **Online**, **Offline**, **Erro** ou **RAM** (o banco parou por falta de memória). Dali você pode **iniciar**, **parar**, **reiniciar** ou **excluir** o banco.
 
@@ -141,7 +141,7 @@ redis://default:PASS@HOST:PORT
 ```
 {% endcode %}
 
-### Conectar uma aplicação
+### 🔗 Conectar uma aplicação
 
 {% stepper %}
 {% step %}
@@ -169,7 +169,7 @@ Faça rebuild ou um novo deploy da aplicação para ela receber as variáveis.
 {% endstep %}
 {% endstepper %}
 
-### Acesso de fora da Discloud
+### 🌐 Acesso de fora da Discloud
 
 O acesso público direto ao banco ainda **não** está disponível. Para acessá-lo do seu computador ou administrá-lo, use os [**Templates**](https://discloud.com/dashboard/templates) do Painel:
 

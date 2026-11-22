@@ -62,7 +62,7 @@ O link de download é temporário. Se precisar do backup por mais tempo, guarde 
 
 ## 📅 Backups automáticos
 
-### Aplicações
+### 🗂️ Aplicações
 
 Painel → aplicação → **Backups**.
 
@@ -70,7 +70,7 @@ Painel → aplicação → **Backups**.
 * Cada cópia pode ser baixada pelo dono ou por um membro da equipe com a permissão `backup_app`.
 * Em planos abaixo do Diamond, a página mostra como fazer upgrade.
 
-### Bancos de dados
+### 🗄️ Bancos de dados
 
 Painel → banco de dados → **Backups**.
 

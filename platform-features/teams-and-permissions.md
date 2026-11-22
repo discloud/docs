@@ -63,7 +63,7 @@ Também dá para vincular ou desvincular uma equipe pelo **Access manager** do P
 | **Developer** | Opera Projetos e apps (upload, variáveis do Projeto e configuração do app, se tiver a permissão). Não gerencia a equipe. |
 | **Viewer**    | Somente leitura. Não vê nem edita as variáveis do Projeto, não faz upload e não altera configurações.                    |
 
-### No Projeto
+### 📁 No Projeto
 
 | Ação                               | Dono do Projeto | Admin | Developer | Viewer |
 | ---------------------------------- | --------------- | ----- | --------- | ------ |
@@ -78,7 +78,7 @@ Também dá para vincular ou desvincular uma equipe pelo **Access manager** do P
 O dono do Projeto é a conta que criou o Projeto. Pode ser a mesma pessoa que é dona da equipe, mas são papéis diferentes.
 {% endhint %}
 
-### Nas aplicações e bancos compartilhados
+### 🤝 Nas aplicações e bancos compartilhados
 
 Em apps e bancos compartilhados por uma equipe, cada ação depende de uma permissão do membro. O painel mostra ou esconde as ações conforme essas permissões.
 
@@ -121,7 +121,7 @@ Em **Adicionar projeto**, escolha um Projeto do qual você é dono e que ainda n
 Cada Projeto fica em **uma** equipe por vez.
 {% endhint %}
 
-### Remover acesso
+### 🚪 Remover acesso
 
 | Ação                    | Efeito                                                                       |
 | ----------------------- | ---------------------------------------------------------------------------- |

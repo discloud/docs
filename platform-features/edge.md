@@ -80,7 +80,7 @@ Uma rule tem nome, status (ativa ou pausada), uma ou mais **condições** e uma 
 * **Ações rodam na ordem** em que estão na rule.
 * **Prioridade** é a ordem da lista. Subir a rule faz ela ser testada antes.
 
-### Condições
+### 🎯 Condições
 
 | Condição          | Exemplo                        |
 | ----------------- | ------------------------------ |
@@ -92,7 +92,7 @@ Uma rule tem nome, status (ativa ou pausada), uma ou mais **condições** e uma 
 
 Operadores: é, não é, começa com, termina com, contém, não contém, tem qualquer valor, é desconhecido.
 
-### Ações
+### ⚡ Ações
 
 | Ação                         | O que faz                                                                                 |
 | ---------------------------- | ----------------------------------------------------------------------------------------- |
@@ -110,7 +110,7 @@ Em URL de redirect e em rewrite dá para reaproveitar o pedido original:
 
 Exemplo de redirect que preserva o caminho: `https://novo.exemplo.com{http.request.uri.path}`.
 
-### Modelos prontos
+### 🧩 Modelos prontos
 
 Na criação dá para começar de um modelo e ajustar:
 
@@ -139,7 +139,7 @@ Use quando a regra é só "este caminho deste domínio vai para esta URL". Não 
 | Preservar caminho      | O pedaço da URL depois do match segue para o destino.                                                                                 |
 | Preservar query string | `?utm=...` e o resto continuam no destino.                                                                                            |
 
-### Exemplos
+### 🧷 Exemplos
 
 | Origem                         | Destino                        | Efeito                                                                       |
 | ------------------------------ | ------------------------------ | ---------------------------------------------------------------------------- |

@@ -74,7 +74,7 @@ Com cota livre, **Nova VPS** pede:
 | Sistema          | Lista de sistemas disponíveis no momento (Ubuntu e outros que a plataforma oferecer).            |
 | Nome e descrição | Só rótulo seu. Não mudam preço nem hardware.                                                     |
 
-### Como a vCPU é definida
+### 🧮 Como a vCPU é definida
 
 | RAM da máquina             | vCPU                        |
 | -------------------------- | --------------------------- |
@@ -86,7 +86,7 @@ A tela mostra o preview ("4 vCPU nesta configuração") antes de confirmar. O va
 
 Enquanto a máquina sobe, o status fica **Provisionando**. Em geral ela fica pronta em cerca de 45 segundos. Quando termina, o status passa a **Online** e o IP aparece. Se a região estiver sem IP livre, a criação falha e a cota não fica presa numa máquina inexistente: tente de novo mais tarde.
 
-### Status da máquina
+### 🚦 Status da máquina
 
 | Status               | Significado                                      |
 | -------------------- | ------------------------------------------------ |

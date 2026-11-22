@@ -117,7 +117,7 @@ Se a aplicação estiver em outro cluster, vinculá-la a um [Projeto](projects.m
 
 ## 🧷 Exemplos
 
-### Aplicação → banco de dados gerenciado
+### 🗄️ Aplicação → banco de dados gerenciado
 
 1. Crie o banco (PostgreSQL, MySQL, MongoDB, Redis ou Valkey). Isso exige o plano Diamond ou superior.
 2. Copie a URL privada na visão geral do banco.
@@ -126,7 +126,7 @@ Se a aplicação estiver em outro cluster, vinculá-la a um [Projeto](projects.m
 
 <figure><img src="../.gitbook/assets/database-private-connection.png" alt="Diagrama da aplicação acessando o banco pela rede privada"><figcaption></figcaption></figure>
 
-### Aplicação → aplicação (API interna)
+### 🔁 Aplicação → aplicação (API interna)
 
 O serviço ativa a VLAN e define o hostname:
 
@@ -189,7 +189,7 @@ print(client.admin.command('ping'))
 {% endtab %}
 {% endtabs %}
 
-### Cache Redis entre bots
+### ⚡ Cache Redis entre bots
 
 1. Crie um Redis gerenciado, ou hospede o Redis numa aplicação com `VLAN=true` e `HOSTNAME=cache`.
 2. Nos bots, no mesmo cluster e com a VLAN ativada, use `REDIS_URL=redis://default:SENHA@cache:PORTA`, ou o host e a porta que o painel mostrar.

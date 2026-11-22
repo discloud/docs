@@ -49,7 +49,7 @@ Para instruções detalhadas sobre como obter seu token da API, veja [aqui](../.
 
 ## 🚀 Configuração Básica
 
-### Configuração de Variáveis de Ambiente
+### 🔐 Configuração de Variáveis de Ambiente
 
 {% stepper %}
 {% step %}
