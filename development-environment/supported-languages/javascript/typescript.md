@@ -97,7 +97,7 @@ VERSION=latest
 
 You will typically compile TypeScript to JavaScript with `tsc` and run the compiled files.
 
-### package.json (scripts)
+### 📦 package.json (scripts)
 
 ```json
 {
@@ -115,7 +115,7 @@ You will typically compile TypeScript to JavaScript with `tsc` and run the compi
 }
 ```
 
-### tsconfig.json (minimal)
+### ⚙️ tsconfig.json (minimal)
 
 ```json
 {
@@ -153,7 +153,7 @@ Before deploying your website or API on Discloud, ensure you meet the following 
 Port `8080` is mandatory – Applications must listen on this port.
 {% endhint %}
 
-### Express (TS) example
+### 🧪 Express (TS) example
 
 Install the example's dependencies with `npm i express` and `npm i -D @types/express @types/node`.
 

@@ -63,7 +63,7 @@ You can also link or unlink a Team from the Project's **Access manager**.
 | **Developer** | Operates Projects and apps (upload, Project variables and app settings, if they have the permission). Doesn't manage the Team. |
 | **Viewer**    | Read only. Can't see or edit Project variables, can't upload and can't change settings.                                        |
 
-### In the Project
+### 📁 In the Project
 
 | Action                                | Project owner | Admin | Developer | Viewer |
 | ------------------------------------- | ------------- | ----- | --------- | ------ |
@@ -78,7 +78,7 @@ You can also link or unlink a Team from the Project's **Access manager**.
 The Project owner is the account that created the Project. It can be the same person as the Team Owner, but they are different roles.
 {% endhint %}
 
-### On shared applications and databases
+### 🤝 On shared applications and databases
 
 On apps and databases shared through a Team, each action depends on a member permission. The dashboard shows or hides actions based on these permissions.
 
@@ -121,7 +121,7 @@ In **Add project**, choose a Project you own that isn't in another Team yet.
 Each Project belongs to **one** Team at a time.
 {% endhint %}
 
-### Remove access
+### 🚪 Remove access
 
 | Action             | Effect                                                                                         |
 | ------------------ | ---------------------------------------------------------------------------------------------- |

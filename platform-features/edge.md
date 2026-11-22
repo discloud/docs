@@ -80,7 +80,7 @@ A rule has a name, a status (active or paused), one or more **conditions** and o
 * **Actions run in the order** they appear in the rule.
 * **Priority** is the order of the list. Moving a rule up makes it be checked earlier.
 
-### Conditions
+### 🎯 Conditions
 
 | Condition       | Example                          |
 | --------------- | -------------------------------- |
@@ -92,7 +92,7 @@ A rule has a name, a status (active or paused), one or more **conditions** and o
 
 Operators: is, is not, starts with, ends with, contains, does not contain, has any value, is unknown.
 
-### Actions
+### ⚡ Actions
 
 | Action                   | What it does                                                                                  |
 | ------------------------ | --------------------------------------------------------------------------------------------- |
@@ -110,7 +110,7 @@ In redirect URLs and rewrites you can reuse the original request:
 
 Example of a redirect that keeps the path: `https://new.example.com{http.request.uri.path}`.
 
-### Ready-made templates
+### 🧩 Ready-made templates
 
 When creating a rule you can start from a template and adjust it:
 
@@ -139,7 +139,7 @@ Use them when the rule is just "this path on this domain goes to this URL". You 
 | Preserve path         | The part of the URL after the match is passed on to the destination.                                                                   |
 | Preserve query string | `?utm=...` and the rest are kept on the destination.                                                                                   |
 
-### Examples
+### 🧷 Examples
 
 | Source                               | Destination                    | Effect                                                                            |
 | ------------------------------------ | ------------------------------ | --------------------------------------------------------------------------------- |

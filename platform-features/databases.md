@@ -23,7 +23,7 @@ You choose the engine, the version and the RAM. Discloud starts the database, sh
 Database RAM counts toward your plan's RAM limit, together with your applications.
 {% endhint %}
 
-### Requirements
+### 📋 Requirements
 
 | Feature                                | Minimum plan                              |
 | -------------------------------------- | ----------------------------------------- |
@@ -34,7 +34,7 @@ Database RAM counts toward your plan's RAM limit, together with your application
 
 On a database shared through a Team, members access it according to their permissions. The plan that unlocks Studio, VLAN and automatic backups is the database **owner's**.
 
-### Where to find it
+### 📍 Where to find it
 
 [Discloud Dashboard](https://discloud.com/dashboard/databases) → **Databases**. Inside each database:
 
@@ -47,7 +47,7 @@ On a database shared through a Team, members access it according to their permis
 | **Studio**   | Visual editor and queries (Ruby or higher)                                          |
 | **Settings** | Display name, VLAN hostname, RAM and deletion                                       |
 
-### Available engines
+### 🧰 Available engines
 
 | Engine         | Minimum RAM | Credentials at creation          | Optional extensions       |
 | -------------- | ----------- | -------------------------------- | ------------------------- |
@@ -105,7 +105,7 @@ Click **Create database** and follow the logs. The database can take a few momen
 {% endstep %}
 {% endstepper %}
 
-### Status and actions
+### 🚦 Status and actions
 
 On the overview, the status can be **Online**, **Offline**, **Error** or **RAM** (the database stopped because it ran out of memory). From there you can **start**, **stop**, **restart** or **delete** the database.
 
@@ -141,7 +141,7 @@ redis://default:PASS@HOST:PORT
 ```
 {% endcode %}
 
-### Connect an application
+### 🔗 Connect an application
 
 {% stepper %}
 {% step %}
@@ -169,7 +169,7 @@ Rebuild or deploy the application again so it gets the variables.
 {% endstep %}
 {% endstepper %}
 
-### Access from outside Discloud
+### 🌐 Access from outside Discloud
 
 Direct public access to the database is **not** available yet. To reach it from your computer or manage it, use the Dashboard's [**Templates**](https://discloud.com/dashboard/templates):
 

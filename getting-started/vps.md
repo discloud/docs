@@ -74,7 +74,7 @@ With free quota, **New VPS** asks for:
 | System               | List of systems available at the moment (Ubuntu and others the platform offers).                     |
 | Name and description | Just your own label. They don't change price or hardware.                                            |
 
-### How the vCPU is set
+### 🧮 How the vCPU is set
 
 | Machine RAM                  | vCPU                            |
 | ---------------------------- | ------------------------------- |
@@ -86,7 +86,7 @@ The screen shows a preview ("4 vCPU with this configuration") before you confirm
 
 While the machine is starting up, its status is **Provisioning**. It is usually ready in about 45 seconds. When it finishes, the status changes to **Online** and the IP appears. If the region has no free IP, creation fails and the quota is not held by a machine that doesn't exist: try again later.
 
-### Machine status
+### 🚦 Machine status
 
 | Status           | Meaning                                               |
 | ---------------- | ----------------------------------------------------- |

@@ -62,7 +62,7 @@ The download link is temporary. If you need the backup for longer, keep the file
 
 ## 📅 Automatic backups
 
-### Applications
+### 🗂️ Applications
 
 Dashboard → application → **Backups**.
 
@@ -70,7 +70,7 @@ Dashboard → application → **Backups**.
 * Each copy can be downloaded by the owner or by a Team member with the `backup_app` permission.
 * On plans below Diamond, the page shows how to upgrade.
 
-### Databases
+### 🗄️ Databases
 
 Dashboard → database → **Backups**.
 

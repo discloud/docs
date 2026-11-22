@@ -117,7 +117,7 @@ If the application is on another cluster, linking it to a [Project](projects.md)
 
 ## 🧷 Examples
 
-### Application → managed database
+### 🗄️ Application → managed database
 
 1. Create the database (PostgreSQL, MySQL, MongoDB, Redis or Valkey). This requires the Diamond plan or higher.
 2. Copy the private URL from the database overview.
@@ -126,7 +126,7 @@ If the application is on another cluster, linking it to a [Project](projects.md)
 
 <figure><img src="../.gitbook/assets/database-private-connection.png" alt="Diagram of the application reaching the database over the private network"><figcaption></figcaption></figure>
 
-### Application → application (internal API)
+### 🔁 Application → application (internal API)
 
 The service turns on the VLAN and sets the hostname:
 
@@ -189,7 +189,7 @@ print(client.admin.command('ping'))
 {% endtab %}
 {% endtabs %}
 
-### Redis cache between bots
+### ⚡ Redis cache between bots
 
 1. Create a managed Redis, or host Redis in an application with `VLAN=true` and `HOSTNAME=cache`.
 2. In the bots, on the same cluster and with the VLAN on, use `REDIS_URL=redis://default:PASSWORD@cache:PORT`, or the host and port the dashboard shows.

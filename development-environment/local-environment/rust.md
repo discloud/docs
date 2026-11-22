@@ -38,14 +38,14 @@ Invoke-WebRequest https://win.rustup.rs/x86_64 -OutFile rustup-init.exe
 {% endtab %}
 {% endtabs %}
 
-#### Verify
+#### ✅ Verify
 
 ```bash
 rustc --version
 cargo --version
 ```
 
-#### Update Toolchain
+#### 🔄 Update Toolchain
 
 ```bash
 rustup update
@@ -62,20 +62,20 @@ rustc --version
 cargo --version
 ```
 
-#### Add Build Essentials (Debian/Ubuntu)
+#### 🧰 Add Build Essentials (Debian/Ubuntu)
 
 ```bash
 sudo apt update
 sudo apt install -y build-essential pkg-config libssl-dev
 ```
 
-#### Update
+#### ⬆️ Update
 
 ```bash
 rustup update
 ```
 
-#### Uninstall Rust (rustup and all toolchains)
+#### 🗑️ Uninstall Rust (rustup and all toolchains)
 
 ```bash
 rustup self uninstall
