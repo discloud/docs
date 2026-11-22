@@ -117,7 +117,7 @@ Deleting a database is **permanent**. The data and the service are erased.
 
 ## 🔌 Private connection (VLAN)
 
-The database is **not on the public internet**. Only applications on Discloud, on the **same cluster** and with [**VLAN**](../configurations/discloud.config/vlan.md) enabled, can reach it.
+The database is **not on the public internet**. Only applications on Discloud, on the **same cluster** and with [**VLAN**](vlan.md) enabled, can reach it.
 
 <figure><img src="../.gitbook/assets/database-private-connection.png" alt="Diagram of the application reaching the database over the private network"><figcaption></figcaption></figure>
 
