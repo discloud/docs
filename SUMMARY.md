@@ -32,6 +32,7 @@
 * [Backups](platform-features/backups.md)
 * [Snapshots](platform-features/snapshots.md)
 * [Bancos de Dados](platform-features/databases.md)
+* [Rede Privada (VLAN)](platform-features/vlan.md)
 * [Edge](platform-features/edge.md)
 * [Domínio Personalizado](platform-features/custom-domain.md)
 
@@ -40,7 +41,6 @@
 * [discloud.config](configurations/discloud.config/README.md)
   * [APT](configurations/discloud.config/apt.md)
   * [Versões](configurations/discloud.config/versions.md)
-  * [VLAN](configurations/discloud.config/vlan.md)
 * [.discloudignore](configurations/.discloudignore.md)
 * [Puppeteer](configurations/puppeteer.md)
 

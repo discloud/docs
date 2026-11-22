@@ -117,7 +117,7 @@ Excluir um banco de dados é **permanente**. Os dados e o serviço são apagados
 
 ## 🔌 Conexão privada (VLAN)
 
-O banco **não fica na internet pública**. Só aplicações na Discloud, no **mesmo cluster** e com a [**VLAN**](../configurations/discloud.config/vlan.md) ativada, conseguem acessá-lo.
+O banco **não fica na internet pública**. Só aplicações na Discloud, no **mesmo cluster** e com a [**VLAN**](vlan.md) ativada, conseguem acessá-lo.
 
 <figure><img src="../.gitbook/assets/database-private-connection.png" alt="Diagrama da aplicação acessando o banco pela rede privada"><figcaption></figcaption></figure>
 
