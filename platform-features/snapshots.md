@@ -45,7 +45,7 @@ Cada app da lista mostra quantas **versões** tem, o tamanho total e a data do �
 
 Os snapshots são criados de duas formas:
 
-* **Pela API**, com a [API de Snapshot](../api-and-sdks/api-overview/snapshot/).
+* **Pela API**, com a [API de Snapshot](../api-and-sdks/api-overview/snapshot.md).
 * **Automaticamente, quando uma aplicação é excluída.**
 
 <figure><img src="../.gitbook/assets/snapshots-sources.png" alt="Diagrama das origens dos snapshots e do download"><figcaption></figcaption></figure>
