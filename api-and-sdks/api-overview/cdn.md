@@ -1,4 +1,5 @@
 ---
+description: CDN de Blob Storage
 icon: diagram-project
 layout:
   width: wide
@@ -53,14 +54,6 @@ layout:
 {% endopenapi-operation %}
 
 {% openapi-operation spec="api-endpoints-pt-v2" path="/cdn/multipart" method="post" %}
-[OpenAPI api-endpoints-pt-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-pt-v2.openapi.yaml)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="api-endpoints-pt-v2" path="/cdn/multipart/{uploadId}" method="get" %}
-[OpenAPI api-endpoints-pt-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-pt-v2.openapi.yaml)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="api-endpoints-pt-v2" path="/cdn/multipart/{uploadId}" method="delete" %}
 [OpenAPI api-endpoints-pt-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-pt-v2.openapi.yaml)
 {% endopenapi-operation %}
 
