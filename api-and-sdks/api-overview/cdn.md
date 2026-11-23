@@ -56,3 +56,11 @@ layout:
 {% openapi-operation spec="api-endpoints-en-v2" path="/cdn/multipart" method="post" %}
 [OpenAPI api-endpoints-en-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-en-v2.openapi.yaml)
 {% endopenapi-operation %}
+
+{% openapi-operation spec="api-endpoints-en-v2" path="/cdn/multipart/{uploadId}/complete" method="post" %}
+[OpenAPI api-endpoints-en-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-en-v2.openapi.yaml)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="api-endpoints-en-v2" path="/cdn/multipart/{uploadId}/parts/{partNumber}" method="put" %}
+[OpenAPI api-endpoints-en-v2](https://raw.githubusercontent.com/discloud/apidoc/refs/heads/main/api-endpoints-en-v2.openapi.yaml)
+{% endopenapi-operation %}
