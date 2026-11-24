@@ -94,7 +94,7 @@ A Discloud inicia o contêiner como `1000:1000`. Isso exige três coisas ao mesm
 `/app` é só um exemplo. Pode ser outro diretório, **desde que não seja** `/home/discloud` e tenha permissão **1000**.
 
 ```dockerfile
-RUN useradd -u 1000 -m appuser \
+RUN (getent passwd 1000 >/dev/null || useradd -u 1000 -m appuser) \
   && mkdir -p /app /home/discloud \
   && chown -R 1000:1000 /app /home/discloud
 
@@ -110,6 +110,10 @@ Não basta só o `USER 1000`. A pasta do código (onde o `WORKDIR` aponta e de o
 
 {% hint style="warning" %}
 Use `chown -R 1000:1000` nas pastas e `COPY --chown=1000:1000` nos arquivos. `Permission denied` é o erro mais comum quando isso falta.
+{% endhint %}
+
+{% hint style="info" %}
+Em imagens que já têm UID 1000 (ex.: `node:*`), o `getent` evita erro de `UID is not unique`. O importante é a pasta do código e o volume ficarem com dono **1000**.
 {% endhint %}
 
 ***
@@ -176,7 +180,7 @@ O volume **não** é o lugar do código que vai rodar. É o lugar onde a aplica�
 Exemplo de separação:
 
 ```dockerfile
-RUN useradd -u 1000 -m appuser \
+RUN (getent passwd 1000 >/dev/null || useradd -u 1000 -m appuser) \
   && mkdir -p /app /home/discloud \
   && chown -R 1000:1000 /app /home/discloud
 
@@ -210,7 +214,7 @@ Veja também [Variáveis de Ambiente](../platform-features/environment-variables
 ```dockerfile
 FROM node:20-slim
 
-RUN useradd -u 1000 -m appuser \
+RUN (getent passwd 1000 >/dev/null || useradd -u 1000 -m appuser) \
   && mkdir -p /app /home/discloud \
   && chown -R 1000:1000 /app /home/discloud
 
@@ -230,7 +234,7 @@ CMD ["node", "server.js"]
 ```dockerfile
 FROM python:3.12-slim
 
-RUN useradd -u 1000 -m appuser \
+RUN (getent passwd 1000 >/dev/null || useradd -u 1000 -m appuser) \
   && mkdir -p /app /home/discloud \
   && chown -R 1000:1000 /app /home/discloud
 
@@ -250,7 +254,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
 ```dockerfile
 FROM python:3.12-slim
 
-RUN useradd -u 1000 -m appuser \
+RUN (getent passwd 1000 >/dev/null || useradd -u 1000 -m appuser) \
   && mkdir -p /app /home/discloud \
   && chown -R 1000:1000 /app /home/discloud
 
