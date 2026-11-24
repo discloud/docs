@@ -41,6 +41,7 @@
 * [discloud.config](configurations/discloud.config/README.md)
   * [APT](configurations/discloud.config/apt.md)
   * [Versões](configurations/discloud.config/versions.md)
+* [Dockerfile](configurations/dockerfile.md)
 * [.discloudignore](configurations/.discloudignore.md)
 * [Puppeteer](configurations/puppeteer.md)
 
