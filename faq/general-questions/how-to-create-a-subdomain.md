@@ -17,20 +17,19 @@ Para permitir acesso externo ao seu app, a Discloud oferece a opção de criar u
 <figure><img src="../../.gitbook/assets/subdomain-flow.png" alt="Fluxo do subdomínio da Discloud"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-
 #### **`.discloud.app` ou `.discloud.dev`?**
 
 O seu subdomínio fica em `.discloud.app` ou em `.discloud.dev`. Não é você que escolhe: a Discloud escolhe o domínio automaticamente no momento da criação do subdomínio, conforme a demanda de cada domínio. No `discloud.config`, você usa sempre só o nome do subdomínio.
 {% endhint %}
 
----
+***
 
 ## ✅ Requisitos
 
 Para registrar e usar um subdomínio da Discloud, você precisa atender aos seguintes requisitos:
 
 {% hint style="success" %}
-[Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar sites ou APIs.
+[Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar sites ou APIs. O subdomínio Discloud está incluso em Platinum, Diamond e planos superiores.
 {% endhint %}
 
 {% hint style="success" %}
@@ -41,7 +40,7 @@ Para registrar e usar um subdomínio da Discloud, você precisa atender aos segu
 **Discloud Config** – Seu app deve incluir um arquivo [discloud.config](../../configurations/discloud.config/) devidamente configurado.
 {% endhint %}
 
----
+***
 
 ## 🚀 Registre o seu Subdomínio
 
@@ -66,21 +65,20 @@ Clique no botão `+ Criar subdomínio` para criar um novo subdomínio.
 Insira o nome desejado para o subdomínio (ex.: `meuapp`, `dashboard`, `api`).
 
 {% hint style="info" %}
-
 #### **Regras para nomear o subdomínio**
 
-- Entre **2 e 20 caracteres**
-- Apenas letras minúsculas (a–z), números (0–9) e hífens (-)
-- Não são permitidos espaços, underscores ou caracteres especiais
-  {% endhint %}
-  {% endstep %}
+* Entre **2 e 20 caracteres**
+* Apenas letras minúsculas (a–z), números (0–9) e hífens (-)
+* Não são permitidos espaços, underscores ou caracteres especiais
+{% endhint %}
+{% endstep %}
 
 {% step %}
 Seu subdomínio agora está registrado e seu estado aparecerá como **Livre**.
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 📝 Configure seu [discloud.config](../../configurations/discloud.config/)
 
@@ -93,7 +91,6 @@ ID=seusubdominio
 ```
 
 {% hint style="warning" %}
-
 #### **Como especificar o subdomínio no arquivo `discloud.config`?**
 
 Use apenas o nome do subdomínio, não o domínio completo (por exemplo, use `meuapp`, e não `meuapp.discloud.app` nem `meuapp.discloud.dev`).
@@ -104,7 +101,6 @@ Exemplo:
 </strong>TYPE=site
 <a data-footnote-ref href="#user-content-fn-1"># ...</a>
 </code></pre>
-
 {% endhint %}
 
 Após atualizar o `discloud.config`, **faça o deploy da sua aplicação** para que as alterações entrem em vigor.
@@ -113,31 +109,29 @@ Após atualizar o `discloud.config`, **faça o deploy da sua aplicação** para 
 [Formas de Deploy](https://app.gitbook.com/s/vUqkKIFudeQ2TQOirm35/deployment-methods)
 {% endcontent-ref %}
 
----
+***
 
 ## 🔄 Estados do Subdomínio
 
 Seu subdomínio registrado pode ter dois estados:
 
 {% hint style="info" %}
-
 #### **🔵 Em uso**
 
-- O subdomínio está **registrado e em uso**.
-- Uma aplicação está atualmente em deploy e acessível em `https://seusubdominio.discloud.app` ou `https://seusubdominio.discloud.dev`, conforme o domínio escolhido na criação do subdomínio.
-- O tráfego está sendo roteado para a sua aplicação na porta 8080.
-  {% endhint %}
+* O subdomínio está **registrado e em uso**.
+* Uma aplicação está atualmente em deploy e acessível em `https://seusubdominio.discloud.app` ou `https://seusubdominio.discloud.dev`, conforme o domínio escolhido na criação do subdomínio.
+* O tráfego está sendo roteado para a sua aplicação na porta 8080.
+{% endhint %}
 
 {% hint style="info" %}
-
 #### **🟢 Livre**
 
-- O subdomínio está **registrado e disponível**.
-- Nenhuma aplicação está usando ele no momento.
-- Você pode fazer o deploy de um app para ativá-lo a qualquer momento.
-  {% endhint %}
+* O subdomínio está **registrado e disponível**.
+* Nenhuma aplicação está usando ele no momento.
+* Você pode fazer o deploy de um app para ativá-lo a qualquer momento.
+{% endhint %}
 
----
+***
 
 ## 🌍 Acesse Seu Site
 
@@ -148,14 +142,16 @@ https://seusubdominio.discloud.app
 https://seusubdominio.discloud.dev
 ```
 
----
+***
 
 ## ⚙️ Domínio Personalizado
 
-Se você quiser usar seu próprio domínio (ex.: `seudominio.com`) em vez de um subdomínio da Discloud, veja:
+Se quiser **também** apontar o seu próprio domínio (ex.: `seudominio.com`) para a aplicação — **opcional**, a partir do Diamond —, veja:
 
 {% content-ref url="../../platform-features/custom-domain.md" %}
 [custom-domain.md](../../platform-features/custom-domain.md)
 {% endcontent-ref %}
+
+O subdomínio Discloud **não é removido** quando você adiciona um domínio personalizado.
 
 [^1]: **Nota:** Os **`...`** apenas indicam a continuação de outras opções anteriores ou subsequentes que não são relevantes para mencionar nesta página.

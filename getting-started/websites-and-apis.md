@@ -27,7 +27,11 @@ Para hospedar um site ou API, você deve atender a estes critérios:
 {% endhint %}
 
 {% hint style="success" %}
-[**Subdomínio**](../faq/general-questions/how-to-create-a-subdomain.md) – Você deve registrar um subdomínio único na Discloud.
+[**Subdomínio**](../faq/general-questions/how-to-create-a-subdomain.md) – Você deve registrar um subdomínio único na Discloud. Esse endereço gratuito continua disponível em Platinum, Diamond e planos superiores.
+{% endhint %}
+
+{% hint style="info" %}
+**Domínio personalizado (opcional).** Não substitui o subdomínio Discloud. Se quiser apontar o _seu_ domínio para o site, isso só está disponível a partir do [Diamond](https://discloud.com/plans) — veja [Domínio Personalizado](../platform-features/custom-domain.md).
 {% endhint %}
 
 {% hint style="danger" %}

@@ -80,12 +80,12 @@ Pró-rata e renovação seguem o fluxo de Assinatura do painel (cartão, PIX, et
 
 ## 🧭 Plano vs add-on — exemplos
 
-| Situação                                      | O que fazer                                                    |
-| --------------------------------------------- | -------------------------------------------------------------- |
-| Quer hospedar um site no subdomínio Discloud  | Plano **Platinum+** — não é add-on                             |
-| Quer domínio próprio no site                  | Plano **Diamond+** + [domínio personalizado](custom-domain.md) |
-| Quer servir imagens estáticas com URL pública | Add-on **CDN**                                                 |
-| Quer um Linux com root por SSH                | Add-on **cota VPS** + criar a máquina                          |
+| Situação                                      | O que fazer                                                                                                                                     |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Quer hospedar um site                         | Plano **Platinum+** (inclui o [subdomínio](../faq/general-questions/how-to-create-a-subdomain.md) Discloud — o mesmo no Diamond) — não é add-on |
+| Quer também domínio próprio no site           | **Opcional.** Plano **Diamond+** + [domínio personalizado](custom-domain.md)                                                                    |
+| Quer servir imagens estáticas com URL pública | Add-on **CDN**                                                                                                                                  |
+| Quer um Linux com root por SSH                | Add-on **cota VPS** + criar a máquina                                                                                                           |
 
 ***
 
