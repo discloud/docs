@@ -80,12 +80,12 @@ Proration and renewal follow the dashboard Subscription flow (card, PIX, etc., a
 
 ## 🧭 Plan vs add-on — examples
 
-| Situation                             | What to do                                            |
-| ------------------------------------- | ----------------------------------------------------- |
-| Host a site on a Discloud subdomain   | **Platinum+** plan — not an add-on                    |
-| Attach your own domain to the site    | **Diamond+** plan + [custom domain](custom-domain.md) |
-| Serve static images with a public URL | **CDN** add-on                                        |
-| Want Linux with root over SSH         | **VPS quota** add-on + create the machine             |
+| Situation                             | What to do                                                                                                                                          |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Host a site                           | **Platinum+** plan (includes the Discloud [subdomain](../faq/general-questions/how-to-create-a-subdomain.md) — the same on Diamond) — not an add-on |
+| Also want your own domain on the site | **Optional.** **Diamond+** plan + [custom domain](custom-domain.md)                                                                                 |
+| Serve static images with a public URL | **CDN** add-on                                                                                                                                      |
+| Want Linux with root over SSH         | **VPS quota** add-on + create the machine                                                                                                           |
 
 ***
 

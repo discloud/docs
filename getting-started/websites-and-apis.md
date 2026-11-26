@@ -27,7 +27,11 @@ To host a website or API, you must meet these criteria:
 {% endhint %}
 
 {% hint style="success" %}
-[**Subdomain**](../faq/general-questions/how-to-create-a-subdomain.md) – You must register a unique subdomain on Discloud.
+[**Subdomain**](../faq/general-questions/how-to-create-a-subdomain.md) – You must register a unique subdomain on Discloud. That free address stays available on Platinum, Diamond and higher.
+{% endhint %}
+
+{% hint style="info" %}
+**Custom domain (optional).** It does not replace the Discloud subdomain. If you want to point _your_ domain at the site, that is only available from [Diamond](https://discloud.com/plans) — see [Custom Domain](../platform-features/custom-domain.md).
 {% endhint %}
 
 {% hint style="danger" %}

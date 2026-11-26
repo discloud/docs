@@ -10,7 +10,9 @@ icon: globe
 You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's [Discloud subdomain](../faq/general-questions/how-to-create-a-subdomain.md) using two A records pointing to our IPv4 addresses.
 
 {% hint style="info" %}
-**Platinum vs Diamond.** With [Platinum or higher](https://discloud.com/plans) you already host websites and APIs using the [subdomain](../faq/general-questions/how-to-create-a-subdomain.md) Discloud provides (`.discloud.app`, `.discloud.dev`, and others in the future). A **custom domain** is the separate feature: pointing _your_ domain at the application. That requires [Diamond or higher](https://discloud.com/plans).
+**Subdomain and custom domain.** On [Platinum, Diamond and higher](https://discloud.com/plans), the site is already reachable on the [subdomain](../faq/general-questions/how-to-create-a-subdomain.md) Discloud provides (`.discloud.app`, `.discloud.dev`, and others in the future). That subdomain **stays available on Diamond** — it is not replaced by your own domain.
+
+A **custom domain** is **optional**: only if you want to point _your_ domain at the application, and that requires [Diamond or higher](https://discloud.com/plans).
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
@@ -20,11 +22,11 @@ You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.y
 ## 📋 Requirements
 
 {% hint style="success" %}
-[Platinum plan or higher](https://discloud.com/plans) – required to host websites or APIs (via a Discloud subdomain).
+[Platinum plan or higher](https://discloud.com/plans) – required to host websites or APIs (via a Discloud subdomain included with the plan).
 {% endhint %}
 
 {% hint style="success" %}
-[Diamond plan or higher](https://discloud.com/plans) – required to add a **custom domain** to the application.
+[Diamond plan or higher](https://discloud.com/plans) – required **only** if you add a **custom domain** (optional) to the application.
 {% endhint %}
 
 {% hint style="success" %}

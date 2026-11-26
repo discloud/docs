@@ -17,20 +17,19 @@ To allow external access to your app, Discloud offers the option to create a **c
 <figure><img src="../../.gitbook/assets/subdomain-flow.png" alt="Discloud subdomain flow"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-
 #### **`.discloud.app` or `.discloud.dev`?**
 
 Your subdomain ends up on `.discloud.app` or on `.discloud.dev`. You don't choose which: Discloud chooses the domain automatically when the subdomain is created, depending on the demand on each domain. In `discloud.config`, you always use only the subdomain name.
 {% endhint %}
 
----
+***
 
 ## ✅ Requirements
 
 To register and use a Discloud subdomain, you must meet the following requirements:
 
 {% hint style="success" %}
-[Platinum Plan or Higher](https://discloud.com/plans) is required to host websites or APIs.
+[Platinum Plan or Higher](https://discloud.com/plans) is required to host websites or APIs. The Discloud subdomain is included on Platinum, Diamond and higher.
 {% endhint %}
 
 {% hint style="success" %}
@@ -41,7 +40,7 @@ To register and use a Discloud subdomain, you must meet the following requiremen
 **Discloud Config** – Your app must include a properly configured [`discloud.config`](../../configurations/discloud.config/) file
 {% endhint %}
 
----
+***
 
 ## 🚀 Register Your Subdomain
 
@@ -66,21 +65,20 @@ Click the `+ Create subdomain` button to create a new subdomain.
 Enter your desired subdomain name (e.g., `myapp`, `dashboard`, `api`).
 
 {% hint style="info" %}
-
 #### **Subdomain naming rules**
 
-- Between **2 and 20 characters**
-- Only lowercase letters (a–z), numbers (0–9), and hyphens (-)
-- No spaces, underscores, or special characters allowed
-  {% endhint %}
-  {% endstep %}
+* Between **2 and 20 characters**
+* Only lowercase letters (a–z), numbers (0–9), and hyphens (-)
+* No spaces, underscores, or special characters allowed
+{% endhint %}
+{% endstep %}
 
 {% step %}
 Your subdomain is now registered and its state will show as **Free**.
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 📝 Configure Your [discloud.config](../../configurations/discloud.config/)
 
@@ -93,7 +91,6 @@ ID=yoursubdomain
 ```
 
 {% hint style="warning" %}
-
 #### **How to specify the subdomain in the `discloud.config` file?**
 
 Use only the subdomain name, **not** the full domain (e.g., use `myapp`, not `myapp.discloud.app` or `myapp.discloud.dev`).
@@ -104,7 +101,6 @@ Example:
 </strong>TYPE=site
 <a data-footnote-ref href="#user-content-fn-1"># ...</a>
 </code></pre>
-
 {% endhint %}
 
 After updating `discloud.config`, **deploy your application** for the changes to take effect.
@@ -113,31 +109,29 @@ After updating `discloud.config`, **deploy your application** for the changes to
 [Deployment Methods](https://app.gitbook.com/s/ETNoAt35DpCBhinHpaRx/deployment-methods)
 {% endcontent-ref %}
 
----
+***
 
 ## 🔄 Subdomain States
 
 Your registered subdomain can have two states:
 
 {% hint style="info" %}
-
 #### **🔵 In use**
 
-- The subdomain is **registered and in use**.
-- An app is currently deployed and accessible at `https://yoursubdomain.discloud.app` or `https://yoursubdomain.discloud.dev`, depending on the domain chosen when the subdomain was created.
-- Traffic is being routed to your app on port 8080.
-  {% endhint %}
+* The subdomain is **registered and in use**.
+* An app is currently deployed and accessible at `https://yoursubdomain.discloud.app` or `https://yoursubdomain.discloud.dev`, depending on the domain chosen when the subdomain was created.
+* Traffic is being routed to your app on port 8080.
+{% endhint %}
 
 {% hint style="info" %}
-
 #### **🟢 Free**
 
-- The subdomain is **registered and available**.
-- No app is currently using it.
-- You can deploy an app to activate it at any time.
-  {% endhint %}
+* The subdomain is **registered and available**.
+* No app is currently using it.
+* You can deploy an app to activate it at any time.
+{% endhint %}
 
----
+***
 
 ## 🌍 Access Your Site
 
@@ -148,14 +142,16 @@ https://yoursubdomain.discloud.app
 https://yoursubdomain.discloud.dev
 ```
 
----
+***
 
 ## ⚙️ Custom Domain
 
-If you want to use your own domain (e.g., `yourdomain.com`) instead of a Discloud subdomain, check:
+If you **also** want to point your own domain (e.g., `yourdomain.com`) at the application — **optional**, from Diamond up — see:
 
 {% content-ref url="../../platform-features/custom-domain.md" %}
 [custom-domain.md](../../platform-features/custom-domain.md)
 {% endcontent-ref %}
+
+The Discloud subdomain is **not removed** when you add a custom domain.
 
 [^1]: **Note:** The ... only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.
