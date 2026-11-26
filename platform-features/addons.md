@@ -2,6 +2,7 @@
 description: >-
   Add-ons são cobranças à parte do plano: cota extra que você contrata quando
   precisa, sem trocar de plano.
+icon: puzzle-piece
 tags:
   - novo
 ---

@@ -2,6 +2,7 @@
 description: >-
   Servidores Linux com root por SSH. A cota de RAM e SSD é um add-on à parte do
   plano de bots e sites.
+icon: server
 tags:
   - novo
 ---

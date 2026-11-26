@@ -2,6 +2,7 @@
 description: >-
   Armazene e sirva arquivos públicos pela CDN da Discloud. A cota é um add-on
   independente do plano de bots e sites.
+icon: cloud
 tags:
   - novo
 ---
