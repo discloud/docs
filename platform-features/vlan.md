@@ -89,14 +89,27 @@ If the dashboard and `discloud.config` have different values, what was applied o
 
 ## 🧵 Hostname rules
 
+### Applications
+
 | Rule       | Value                                                                       |
 | ---------- | --------------------------------------------------------------------------- |
-| Characters | `a-z`, `0-9` and hyphen (`-`)                                               |
-| Length     | 1 to 25 characters                                                          |
+| Characters | `a-z`, `A-Z`, `0-9`, underscore (`_`) and hyphen (`-`)                      |
+| Length     | Up to **25** characters                                                     |
 | Uniqueness | Don't use the same hostname on two applications. The behavior is undefined. |
 | Case       | Prefer all lowercase                                                        |
 
-On a database, if the hostname hasn't been set yet, the dashboard shows `{id}.discloud`. Prefer setting a clear and stable hostname.
+Valid examples: `billing-api`, `my_cache`, `internal_api`.
+
+### Databases (when editing the hostname)
+
+| Rule           | Value                                                                                 |
+| -------------- | ------------------------------------------------------------------------------------- |
+| Format         | **1 or 2** segments of `a-z`, `0-9` and `_`, joined by **at most one** hyphen (`-`)   |
+| Length         | Up to **25** characters (the value is normalized to lowercase)                        |
+| Valid examples | `postgres`, `my_db`, `cache-redis`                                                    |
+| Invalid        | `a-b-c` (more than one hyphen), special characters, empty hostname after sanitization |
+
+If the database hostname hasn't been set yet, the dashboard shows `{id}.discloud`. Prefer setting a clear and stable hostname.
 
 ***
 
