@@ -109,7 +109,7 @@ Após o DNS propagar, abra a aplicação vinculada e acione a Reconstrução par
 * Para verificar as mudanças em todo o mundo, confira [dnschecker.org](https://dnschecker.org/)
 * Se alguns POPs ainda exibirem registros antigos, aguarde e verifique novamente mais tarde.
 
-<figure><img src="/broken/files/2cc3bHRnuLJuXAOUL5gJ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
