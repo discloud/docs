@@ -35,6 +35,9 @@
 * [Rede Privada (VLAN)](platform-features/vlan.md)
 * [Edge](platform-features/edge.md)
 * [Domínio Personalizado](platform-features/custom-domain.md)
+* [CDN](platform-features/cdn.md)
+* [Add-ons](platform-features/addons.md)
+* [VPS](platform-features/vps.md)
 
 ## Configurações <a href="#configurations" id="configurations"></a>
 
