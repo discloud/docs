@@ -9,6 +9,10 @@ icon: globe
 
 Você pode mapear seu próprio domínio (ex. `seudominio.com`) ou um subdomínio (ex. `dash.seudominio.com`) para uma aplicação hospedada na Discloud. A plataforma serve o tráfego através do [subdomínio Discloud](../faq/general-questions/how-to-create-a-subdomain.md) da sua aplicação usando dois registros A apontando para nossos endereços IPv4.
 
+{% hint style="info" %}
+**Platinum vs Diamond.** Com [Platinum ou superior](https://discloud.com/plans) você já hospeda sites e APIs usando o [subdomínio](../faq/general-questions/how-to-create-a-subdomain.md) que a Discloud fornece (`.discloud.app`, `.discloud.dev` e outros no futuro). O **domínio personalizado** é o recurso à parte: apontar o _seu_ domínio para a aplicação. Isso exige [Diamond ou superior](https://discloud.com/plans).
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Diagrama de fluxo do domínio personalizado"><figcaption></figcaption></figure>
 
 ***
@@ -16,7 +20,11 @@ Você pode mapear seu próprio domínio (ex. `seudominio.com`) ou um subdomínio
 ## 📋 Requisitos
 
 {% hint style="success" %}
-[Plano Diamante ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.
+[Plano Platinum ou superior](https://discloud.com/plans) – necessário para hospedar websites ou APIs (via subdomínio Discloud).
+{% endhint %}
+
+{% hint style="success" %}
+[Plano Diamond ou superior](https://discloud.com/plans) – necessário para adicionar um **domínio personalizado** à aplicação.
 {% endhint %}
 
 {% hint style="success" %}
@@ -101,7 +109,7 @@ Após o DNS propagar, abra a aplicação vinculada e acione a Reconstrução par
 * Para verificar as mudanças em todo o mundo, confira [dnschecker.org](https://dnschecker.org/)
 * Se alguns POPs ainda exibirem registros antigos, aguarde e verifique novamente mais tarde.
 
-<figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/broken/files/2cc3bHRnuLJuXAOUL5gJ" alt=""><figcaption></figcaption></figure>
 
 ***
 

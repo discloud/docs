@@ -89,14 +89,27 @@ Se o painel e o `discloud.config` tiverem valores diferentes, vale o que foi apl
 
 ## 🧵 Regras do hostname
 
+### Aplicações
+
 | Regra      | Valor                                                                         |
 | ---------- | ----------------------------------------------------------------------------- |
-| Caracteres | `a-z`, `0-9` e hífen (`-`)                                                    |
-| Tamanho    | De 1 a 25 caracteres                                                          |
+| Caracteres | `a-z`, `A-Z`, `0-9`, underscore (`_`) e hífen (`-`)                           |
+| Tamanho    | Até **25** caracteres                                                         |
 | Unicidade  | Não use o mesmo hostname em duas aplicações. O comportamento fica indefinido. |
 | Maiúsculas | Prefira tudo em minúsculas                                                    |
 
-No banco de dados, se o hostname ainda não foi definido, o painel mostra `{id}.discloud`. Prefira definir um hostname claro e estável.
+Exemplos válidos: `billing-api`, `meu_cache`, `api_interna`.
+
+### Bancos de dados (ao editar o hostname)
+
+| Regra       | Valor                                                                                  |
+| ----------- | -------------------------------------------------------------------------------------- |
+| Formato     | **1 ou 2** segmentos de `a-z`, `0-9` e `_`, ligados por **no máximo um** hífen (`-`)   |
+| Tamanho     | Até **25** caracteres (o valor é normalizado para minúsculas)                          |
+| Exemplos OK | `postgres`, `meu_db`, `cache-redis`                                                    |
+| Inválidos   | `a-b-c` (mais de um hífen), caracteres especiais, hostname vazio depois da sanitização |
+
+Se o hostname do banco ainda não foi definido, o painel mostra `{id}.discloud`. Prefira definir um hostname claro e estável.
 
 ***
 
