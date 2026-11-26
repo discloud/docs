@@ -116,6 +116,7 @@
   * [How can I get my Discloud account ID?](faq/general-questions/how-can-i-get-my-discloud-account-id.md)
   * [How do I protect my tokens?](faq/general-questions/how-to-protect-my-tokens.md)
   * [How do I shard my bot?](faq/general-questions/how-to-shard-my-bot.md)
+  * [How to delete an application?](faq/general-questions/how-to-delete-an-application.md)
 * [Troubleshooting Solutions](faq/troubleshooting-solutions/README.md)
   * [Diagnosing Offline Applications](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
   * [Why isn't my bot responding?](faq/troubleshooting-solutions/bot-not-responding.md)
