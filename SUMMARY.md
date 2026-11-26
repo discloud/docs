@@ -123,6 +123,7 @@
   * [Bot Too Heavy](faq/troubleshooting-solutions/bot-too-heavy.md)
   * [Why won't my dependencies install?](faq/troubleshooting-solutions/dependencies-not-installing.md)
   * [Why can't I access my website?](faq/troubleshooting-solutions/why-cant-i-access-my-website.md)
+  * [Where to find things in the dashboard?](faq/troubleshooting-solutions/where-to-find-things-in-the-dashboard.md)
 
 ## About
 
