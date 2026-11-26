@@ -1,7 +1,7 @@
 ---
 description: >-
-  Exclua uma aplicação pelo Painel da Discloud: selecione na lista de apps, use
-  Excluir na barra de ações e confirme no modal.
+  Exclua uma aplicação no painel dash v4: selecione na AppsTable, use Excluir na
+  bulk-bar e confirme digitando excluir.
 icon: trash
 ---
 
@@ -9,47 +9,49 @@ icon: trash
 
 ## 🗑️ Visão geral
 
-No painel, a exclusão **não** fica dentro da página do app. Você exclui pela **lista de aplicações**: marca o(s) app(s) e usa a barra de ações em lote (**Excluir**).
+No [Dashboard](https://discloud.com/dashboard) (dash v4), a exclusão é pela **lista de aplicações** (`AppsTable`): você marca o(s) app(s) e usa a **bulk-bar** → **Excluir**.
 
 Dá para excluir **um ou vários** apps de uma vez.
 
 {% hint style="danger" %}
-A exclusão é **permanente**. Os dados da aplicação são perdidos. Em alguns casos ainda pode haver [Snapshots](../../platform-features/snapshots.md) na conta — não confunda com backup completo.
+A exclusão é **permanente e irreversível**. Para confirmar, o painel exige digitar a palavra **`excluir`**.
+
+Em alguns casos ainda pode haver [Snapshots](../../platform-features/snapshots.md) na conta — isso não é um backup completo dos arquivos.
 {% endhint %}
 
 ***
 
-## 🚀 Passo a passo
+## 🚀 Passo a passo (dash v4)
 
 {% stepper %}
 {% step %}
 **Abrir a lista de apps**
 
-No [Painel da Discloud](https://discloud.com/dashboard), vá até a área de **aplicações** (lista de apps da conta).
+Abra o [Dashboard](https://discloud.com/dashboard). A lista principal usa a `AppsTable` (busca, View, filtros Status/Tipo/Linguagem/Projeto, Upload).
 {% endstep %}
 
 {% step %}
 **Selecionar a aplicação**
 
-Na tabela, marque a **checkbox** à esquerda do app que quer excluir. O painel mostra algo como “1 app selecionado” e libera a barra de ações.
+Marque a **checkbox** à esquerda do app. Aparece a bulk-bar com “1 selecionado” e as ações Iniciar / Parar / Reiniciar / **Excluir**.
 
-<figure><img src="../../.gitbook/assets/delete-app-1-list.png" alt="Lista de apps com MeuBot selecionado e barra Iniciar Parar Reiniciar Excluir"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/v4-delete-1-list.png" alt="AppsTable dash v4 com MeuBot selecionado e bulk-bar"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Clicar em Excluir**
 
-Na barra de ações (Iniciar / Parar / Reiniciar / **Excluir**), clique em **Excluir** (ícone de lixeira).
+Na bulk-bar, clique em **Excluir** (ícone de lixeira).
 
-<figure><img src="../../.gitbook/assets/delete-app-2-actions.png" alt="Barra de ações em lote com o botão Excluir destacado"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/v4-delete-2-bulk.png" alt="Bulk-bar dash v4 com Excluir destacado"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Confirmar no modal**
+**Confirmar digitando excluir**
 
-Abre um modal pedindo confirmação. Ele lista o nome e o ID do(s) app(s). Leia o aviso e clique em **Sim, deletar** — ou **Cancelar** se mudou de ideia.
+O modal lista o nome e o ID do(s) app(s). Digite **`excluir`** no campo e clique em **Excluir** — ou **Cancelar**.
 
-<figure><img src="../../.gitbook/assets/delete-app-3-modal.png" alt="Modal de confirmação listando MeuBot para exclusão"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/v4-delete-3-modal.png" alt="Modal dash v4 pedindo para digitar excluir"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -57,8 +59,8 @@ Abre um modal pedindo confirmação. Ele lista o nome e o ID do(s) app(s). Leia 
 
 ## ✅ O que acontece depois
 
-* O painel chama a exclusão de cada app selecionado.
-* Se der certo, o app some da lista.
+* O painel exclui cada app selecionado.
+* Em sucesso, o app some da lista (e você permanece em `/dashboard`).
 * Se algum falhar, aparece um aviso; os outros podem ter sido excluídos mesmo assim.
 
 ***
@@ -73,5 +75,5 @@ Abre um modal pedindo confirmação. Ele lista o nome e o ID do(s) app(s). Leia 
 | Quer histórico depois | Veja [Snapshots](../../platform-features/snapshots.md)                   |
 
 {% hint style="info" %}
-As imagens desta página são **protótipos** fiéis ao fluxo do painel (sitev3). A UI real pode ter pequenos detalhes diferentes (idioma, tema, labels).
+As imagens seguem a **dash v4** (`/dashboard`, `AppsTable`). Também dá para excluir pela overview do app (`/dashboard/app/{id}`), digitando o **nome** do app no modal.
 {% endhint %}
