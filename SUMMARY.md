@@ -123,6 +123,7 @@
   * [Bot Muito Pesado](faq/troubleshooting-solutions/bot-too-heavy.md)
   * [Por que as dependências não instalam?](faq/troubleshooting-solutions/dependencies-not-installing.md)
   * [Por que não consigo acessar meu site?](faq/troubleshooting-solutions/why-cant-i-access-my-website.md)
+  * [Onde fica cada coisa no painel?](faq/troubleshooting-solutions/where-to-find-things-in-the-dashboard.md)
 
 ## Sobre <a href="#about" id="about"></a>
 
