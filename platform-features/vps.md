@@ -2,6 +2,7 @@
 description: >-
   Linux servers with root over SSH. RAM and SSD quota is an add-on separate from
   the bots and sites plan.
+icon: server
 tags:
   - new
 ---

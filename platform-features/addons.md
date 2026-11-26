@@ -2,6 +2,7 @@
 description: >-
   Add-ons are billed separately from your plan: extra quota you buy when you
   need it, without changing plans.
+icon: puzzle-piece
 tags:
   - new
 ---

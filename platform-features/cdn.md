@@ -2,6 +2,7 @@
 description: >-
   Store and serve public files through Discloud CDN. Quota is an add-on
   independent from the bots and sites plan.
+icon: cloud
 tags:
   - new
 ---
