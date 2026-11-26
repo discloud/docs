@@ -96,10 +96,6 @@
   * [\[EM ANDAMENTO\] Introdução](api-and-sdks/python-library/getting-started.md)
   * [\[EM ANDAMENTO\] Exemplos de Uso](api-and-sdks/python-library/usage-examples.md)
 
-***
-
-* [Guia do Painel](guia-do-painel.md)
-
 ## FAQ
 
 * [Onde Obter Ajuda](faq/where-to-get-help.md)
