@@ -98,30 +98,34 @@ Only continue here if the account already has enough **free quota** (typical min
 
 {% stepper %}
 {% step %}
-**Open New VPS**
+**Click New VPS**
 
-On **VPS**, click **New VPS**. The machine form opens.
+On **VPS**, top right, the white **New VPS** button (next to **Buy resources**). That is the button that opens machine creation — not the quota purchase.
+
+<figure><img src="../.gitbook/assets/vps-1-nova-btn-en.png" alt="VPS list with the New VPS button highlighted"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Fill in the configuration**
+**Fill in the New VPS sheet**
+
+The side sheet **New VPS** opens. At the top you see **Account quota** (free GB and what this create will reserve). Then fill in:
 
 | Field                | What it is                                                                                           |
 | -------------------- | ---------------------------------------------------------------------------------------------------- |
+| Name and description | Your labels; they don’t change price.                                                                |
 | RAM (GB)             | How much **free** quota this machine reserves. Minimum **4 GB** (create cap per machine: **32 GB**). |
 | Disk (GB)            | Reserved SSD. Minimum **50 GB** (create cap: **500 GB**).                                            |
-| vCPU                 | Calculated from RAM — you **don’t** choose it.                                                       |
+| vCPU                 | Calculated from RAM — you **don’t** choose it (the screen shows a preview).                          |
 | Region               | Currently: **North America** (needs a free IP).                                                      |
-| System               | Ubuntu and others available at the moment.                                                           |
-| Name and description | Your labels; they don’t change price.                                                                |
+| Operating system     | Ubuntu and others available at the moment.                                                           |
 
-The screen shows a vCPU preview and a quota summary (free vs what you’re requesting).
+<figure><img src="../.gitbook/assets/vps-2-create-sheet-en.png" alt="New VPS sheet with quota, name, RAM, disk, region and OS"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Confirm Create VPS**
 
-This does **not** open a new plan: it only reserves GB you already bought. Initial status: **Provisioning** (\~45 s). Then: **Online**, with IP.
+At the bottom of the sheet, click **Create VPS**. This does **not** open a new plan: it only reserves GB you already bought. Initial status: **Provisioning** (\~45 s). Then: **Online**, with IP.
 {% endstep %}
 
 {% step %}
