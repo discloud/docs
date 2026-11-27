@@ -98,30 +98,34 @@ Só continue aqui se a conta já tem **cota livre** suficiente (mínimo típico:
 
 {% stepper %}
 {% step %}
-**Abrir Nova VPS**
+**Clicar em Nova VPS**
 
-Em **VPS**, clique em **Nova VPS**. Abre o formulário da máquina.
+Em **VPS**, no topo à direita, o botão branco **Nova VPS** (ao lado de **Comprar recursos**). Esse é o botão que abre a criação da máquina — não o de comprar cota.
+
+<figure><img src="../.gitbook/assets/vps-1-nova-btn.png" alt="Lista de VPS com o botão Nova VPS destacado"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Preencher a configuração**
+**Preencher o sheet Nova VPS**
 
-| Campo            | O que é                                                                                                 |
-| ---------------- | ------------------------------------------------------------------------------------------------------- |
-| RAM (GB)         | Quanto da cota **livre** esta máquina reserva. Mínimo **4 GB** (teto por máquina no create: **32 GB**). |
-| Disco (GB)       | SSD reservado. Mínimo **50 GB** (teto no create: **500 GB**).                                           |
-| vCPU             | Calculado pela RAM — você **não** escolhe.                                                              |
-| Região           | Hoje: **América do Norte** (precisa de IP livre).                                                       |
-| Sistema          | Ubuntu e outros disponíveis no momento.                                                                 |
-| Nome e descrição | Rótulos seus; não mudam preço.                                                                          |
+Abre o painel lateral **Nova VPS**. No topo aparece a **Cota da conta** (quanto está livre e o que esta criação vai reservar). Depois preencha:
 
-A tela mostra preview de vCPU e o resumo da cota (livre vs o que você está pedindo).
+| Campo               | O que é                                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| Nome e descrição    | Rótulos seus; não mudam preço.                                                                          |
+| RAM (GB)            | Quanto da cota **livre** esta máquina reserva. Mínimo **4 GB** (teto por máquina no create: **32 GB**). |
+| Disco (GB)          | SSD reservado. Mínimo **50 GB** (teto no create: **500 GB**).                                           |
+| vCPU                | Calculado pela RAM — você **não** escolhe (a tela mostra o preview).                                    |
+| Região              | Hoje: **América do Norte** (precisa de IP livre).                                                       |
+| Sistema operacional | Ubuntu e outros disponíveis no momento.                                                                 |
+
+<figure><img src="../.gitbook/assets/vps-2-create-sheet.png" alt="Sheet Nova VPS com cota, nome, RAM, disco, região e sistema"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Confirmar Criar VPS**
 
-Isso **não** abre um plano novo: só reserva GB que você já comprou. Status inicial: **Provisionando** (cerca de \~45 s). Depois: **Online**, com IP.
+No rodapé do sheet, clique em **Criar VPS**. Isso **não** abre um plano novo: só reserva GB que você já comprou. Status inicial: **Provisionando** (cerca de \~45 s). Depois: **Online**, com IP.
 {% endstep %}
 
 {% step %}
