@@ -1,7 +1,7 @@
 ---
 description: >-
-  Linux servers with root over SSH. RAM and SSD quota is an add-on separate from
-  the bots and sites plan.
+  Linux servers with root over SSH. First buy RAM and SSD quota; then create the
+  machine with New VPS.
 icon: server
 tags:
   - new
@@ -13,156 +13,194 @@ tags:
 
 A VPS is a cloud computer that is yours alone, with **root** access over SSH. You install and run whatever you need on it.
 
-It does **not** use the RAM or disk of the bots and sites plan. Quota is a separate [add-on](/broken/pages/addons-product) (`vps_ram` + `vps_ssd`).
+It does **not** use the RAM or disk of the bots and sites plan. Quota is a separate [add-on](addons.md).
 
-There are two steps, in this order:
-
-1. **Buy a quota** of RAM and SSD.
-2. **Create one or more machines** that use that quota.
-
-{% hint style="info" %}
-Buying resources does not start a machine on its own. Creating a machine does not charge a new plan either: it only reserves gigabytes you already have.
+{% hint style="success" %}
+There are **two separate steps**. Buying quota does **not** create a machine. Creating a machine **only works** if you already have free quota.
 {% endhint %}
+
+| Order   | What to do                              | Dashboard button  |
+| ------- | --------------------------------------- | ----------------- |
+| **1st** | Buy (or increase) RAM + SSD quota       | **Buy resources** |
+| **2nd** | Create the machine that uses that quota | **New VPS**       |
 
 ***
 
 ## 📍 Where to find it
 
-In the [Discloud Dashboard](https://discloud.com/dashboard), open the **VPS** section.
+In the [Dashboard](https://discloud.com/dashboard) → sidebar → **VPS** (`/dashboard/vps`).
 
-* **Buy resources** opens the RAM + SSD purchase.
-* **New VPS** creates the machine, if there is enough free quota.
-* Each machine has an overview (access, IP, power, restart, recreate) and **Settings** (name, hardware, system, delete).
+At the top of the page:
 
-The same quota also shows up in **Subscription → Add-ons** (as VPS resources).
+* **Buy resources** — opens the quota purchase (RAM + SSD).
+* **New VPS** — opens the machine form (use only after quota is paid and free).
 
-There is a short intro under [Getting Started → VPS](../getting-started/vps.md).
+The same quota also appears under **Subscription / Billing → Add-ons**.
+
+Short intro: [Getting Started → VPS](../getting-started/vps.md).
 
 ***
 
-## 💾 1. RAM and SSD quota
+## 💾 Step 1 — Buy quota (RAM + SSD)
 
-RAM and SSD are purchased **together**. On the first purchase, both go into the same checkout. You choose how many gigabytes of each and see the monthly total before paying.
+Without quota, the VPS list is empty and the dashboard asks you to **buy resources** before creating a machine.
 
-| Resource | Purchase minimum | Step      |
-| -------- | ---------------- | --------- |
-| RAM      | **4 GB**         | **4 GB**  |
-| SSD NVMe | **50 GB**        | **50 GB** |
+{% stepper %}
+{% step %}
+**Open VPS**
 
-The quota is an **account pool**, not "a ready-made machine". Example: 16 GB of RAM and 200 GB of SSD can become one 16/200 machine, or two 8/100 machines, as long as the total fits in what you bought.
+Dashboard → **VPS**.
+{% endstep %}
+
+{% step %}
+**Click Buy resources**
+
+At the top of the page (or the empty-state **Buy resources** CTA).
+{% endstep %}
+
+{% step %}
+**Choose GB of RAM and SSD**
+
+Both are purchased **together** in the same checkout. You see the monthly total before paying.
+
+| Resource | Minimum   | Step            |
+| -------- | --------- | --------------- |
+| RAM      | **4 GB**  | 4 GB at a time  |
+| SSD NVMe | **50 GB** | 50 GB at a time |
+{% endstep %}
+
+{% step %}
+**Pay and return to VPS**
+
+After payment, quota is on the account. The dashboard shows **in use**, **free**, and **total**. With free quota, you can create a machine.
+{% endstep %}
+{% endstepper %}
+
+### What quota is (and is not)
+
+Quota is an **account pool**, not “a ready-made machine”. Example: 16 GB RAM and 200 GB SSD can become one 16/200 machine or two 8/100 machines, as long as the total fits.
 
 <figure><img src="../.gitbook/assets/vps-quota-pool.png" alt="Diagram of the RAM and SSD quota split between two VPS"><figcaption></figcaption></figure>
 
-What is already assigned to machines shows as **in use**. The rest is **free** and can go to a new machine or to upgrade an existing one.
-
-You can **increase** the quota whenever you want. You can **decrease** it only down to what your machines are already using. If 10 GB of RAM are in use, the RAM quota cannot go below 10 GB. To go lower, shrink or delete machines first.
+* You can **increase** quota later (again via **Buy resources**).
+* You can **decrease** it only down to what machines already use.
+* IPv4, IPv6 and unlimited traffic come **with the machine**, not with the quota purchase.
 
 {% hint style="danger" %}
-**Canceling the VPS quota subscription destroys every machine on the account.** Deleting a machine does not cancel the billing: the quota stays until you change or cancel the resources.
+**Canceling the VPS quota subscription destroys every machine on the account.** Deleting a machine does not cancel quota billing.
 {% endhint %}
-
-IPv4, IPv6 and unlimited traffic come with the machine. You don't buy an IP or a traffic allowance separately.
 
 ***
 
-## 🚀 2. Create the machine
+## 🚀 Step 2 — Create the machine (after quota)
 
-With free quota, **New VPS** asks for:
+Only continue here if the account already has enough **free quota** (typical minimum: 4 GB RAM + 50 GB SSD free).
 
-| Field                | What it is                                                                                                                    |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| RAM (GB)             | How much of the quota the machine reserves. Minimum **4 GB**, no more than free. On create, the per-machine cap is **32 GB**. |
-| Disk (GB)            | Reserved SSD NVMe. Minimum **50 GB**. On create, the per-machine cap is **500 GB**.                                           |
-| vCPU                 | Calculated from RAM. You don't choose it.                                                                                     |
-| Region               | Where the machine is created. Currently: **North America**. Needs a free IP in that region.                                   |
-| System               | Systems available at the moment (Ubuntu and others the platform offers).                                                      |
-| Name and description | Your own label. They don't change price or hardware.                                                                          |
+{% stepper %}
+{% step %}
+**Open New VPS**
 
-### 🧮 How the vCPU is set
+On **VPS**, click **New VPS**. The machine form opens.
+{% endstep %}
 
-| Machine RAM                  | vCPU                            |
-| ---------------------------- | ------------------------------- |
-| Less than 4 GB               | Not created. Below the minimum. |
-| From 4 GB to less than 8 GB  | 2 vCPU                          |
-| From 8 GB to less than 16 GB | 4 vCPU                          |
-| 16 GB or more                | 8 vCPU                          |
+{% step %}
+**Fill in the configuration**
 
-The screen shows a preview before you confirm. The final value is the one the platform sets at creation time.
+| Field                | What it is                                                                                           |
+| -------------------- | ---------------------------------------------------------------------------------------------------- |
+| RAM (GB)             | How much **free** quota this machine reserves. Minimum **4 GB** (create cap per machine: **32 GB**). |
+| Disk (GB)            | Reserved SSD. Minimum **50 GB** (create cap: **500 GB**).                                            |
+| vCPU                 | Calculated from RAM — you **don’t** choose it.                                                       |
+| Region               | Currently: **North America** (needs a free IP).                                                      |
+| System               | Ubuntu and others available at the moment.                                                           |
+| Name and description | Your labels; they don’t change price.                                                                |
 
-While the machine is starting up, its status is **Provisioning**. It is usually ready in about 45 seconds. When it finishes, the status changes to **Online** and the IP appears. If the region has no free IP, creation fails and the quota is not held by a machine that doesn't exist: try again later.
+The screen shows a vCPU preview and a quota summary (free vs what you’re requesting).
+{% endstep %}
 
-### 🚦 Machine status
+{% step %}
+**Confirm Create VPS**
 
-| Status           | Meaning                                               |
-| ---------------- | ----------------------------------------------------- |
-| Awaiting payment | The quota tied to this machine has not been paid yet. |
-| Provisioning     | The platform is creating the server.                  |
-| Online           | The machine is up.                                    |
-| Suspended        | Offline because of billing or an account block.       |
-| Error            | Creation or an operation failed.                      |
+This does **not** open a new plan: it only reserves GB you already bought. Initial status: **Provisioning** (\~45 s). Then: **Online**, with IP.
+{% endstep %}
+
+{% step %}
+**Copy SSH access**
+
+On the machine overview: IPv4/IPv6, user `root`, password and SSH command. Save the password — it’s also emailed to the account.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="warning" %}
+If **New VPS** asks you to buy resources or creation fails for quota, go back to **Step 1** and increase quota. Without free GB, the machine won’t start.
+{% endhint %}
+
+### 🧮 vCPU (from machine RAM)
+
+| Machine RAM     | vCPU        |
+| --------------- | ----------- |
+| Less than 4 GB  | Not created |
+| 4 GB to < 8 GB  | 2 vCPU      |
+| 8 GB to < 16 GB | 4 vCPU      |
+| 16 GB or more   | 8 vCPU      |
+
+### 🚦 Status
+
+| Status           | Meaning                 |
+| ---------------- | ----------------------- |
+| Awaiting payment | Quota not paid yet      |
+| Provisioning     | Creating the server     |
+| Online           | Up                      |
+| Suspended        | Offline (billing/block) |
+| Error            | Create/operation failed |
 
 ***
 
 ## 🔑 SSH access
 
-In the machine's overview:
-
-* **IPv4** and **IPv6**
-* **User** (root)
-* **Password**
-* A ready-to-copy **SSH** command
+On the machine overview: **IPv4**, **IPv6**, user **root**, **password**, and **SSH** command.
 
 {% hint style="warning" %}
-The password is **not stored in billing**. Copy it as soon as it appears. When the machine starts, Discloud also sends the IP, user and password to the account's email. If the password disappears from the screen, use that email.
-
-There is no way to "reveal again" a password you didn't save: the options are to recreate the machine (this wipes the disk) or to change the password yourself, from inside SSH.
-{% endhint %}
-
-Connect with any SSH client. From then on the server is yours: packages, firewall, services, users.
-
-***
-
-## 🛠️ What you can do afterwards
-
-| Action                 | What happens to the data                                                               | Quota and IP                                                                                                               |
-| ---------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Start / stop / restart | Disk is kept (except hard power ops as applicable).                                    | Kept.                                                                                                                      |
-| Increase RAM or disk   | Disk is kept. Only goes up, up to free quota.                                          | Machine takes more of the pool.                                                                                            |
-| Recreate               | **Wipes the whole disk** and reinstalls the same system (or another OS if you choose). | Quota and IP are kept.                                                                                                     |
-| Delete the machine     | The machine no longer exists.                                                          | Quota **stays on the account** and becomes free again. Monthly billing continues until you reduce or cancel the resources. |
-| Cancel the VPS quota   | **Every VPS on the account is destroyed.**                                             | The RAM/SSD subscription ends.                                                                                             |
-
-Name and description can be edited freely. This doesn't restart or charge anything.
-
-{% hint style="warning" %}
-You can't decrease the RAM or disk of a machine that already exists. If you need a smaller machine, delete this one (or shrink others) and create it again within the free quota.
-
-Recreating and changing the OS are reinstalls: backing up what matters on the disk beforehand is your responsibility.
+The password is **not stored in billing**. Copy it immediately. Discloud also emails IP, user and password. If you didn’t save it: recreate the machine (wipes the disk) or change the password yourself over SSH.
 {% endhint %}
 
 ***
 
-## 🔀 VPS and the rest of the platform
+## 🛠️ After creation
 
-| Item         | App plan                                       | VPS                    |
-| ------------ | ---------------------------------------------- | ---------------------- |
-| What you get | Managed bot or site (deploy, logs, app domain) | Linux server with root |
-| Billing      | Discloud plan                                  | RAM + SSD add-on       |
-| Limit        | Plan RAM, per app                              | The GB pool you bought |
-| Access       | Discloud Dashboard                             | SSH                    |
+| Action                 | Data                                     | Quota / IP                                                             |
+| ---------------------- | ---------------------------------------- | ---------------------------------------------------------------------- |
+| Start / stop / restart | Disk kept                                | Kept                                                                   |
+| Increase RAM or disk   | Disk kept; only up to free quota         | Uses more of the pool                                                  |
+| Recreate               | **Wipes the disk** and reinstalls the OS | Quota and IP kept                                                      |
+| Delete the machine     | Machine gone                             | Quota **stays on the account** (becomes free); quota billing continues |
+| Cancel VPS quota       | **Every VPS is destroyed**               | RAM/SSD subscription ends                                              |
 
-A VPS does **not** appear in the applications list. A site on Discloud does **not** turn into a VPS. They are independent products on the same account.
+{% hint style="warning" %}
+You can’t shrink RAM/disk on an existing machine. For a smaller one: delete (or free quota) and create again.
+{% endhint %}
 
-The VPS also does **not** use app [VLAN](vlan.md), [Edge](edge.md) or [CDN](/broken/pages/cdn-product) — unless you configure that yourself inside Linux.
+***
+
+## 🔀 VPS vs apps
+
+|         | App plan         | VPS              |
+| ------- | ---------------- | ---------------- |
+| Product | Managed bot/site | Linux with root  |
+| Billing | Discloud plan    | RAM + SSD add-on |
+| Limit   | Plan RAM         | Pool you bought  |
+| Access  | Dashboard        | SSH              |
+
+A VPS does **not** appear in the apps list. A Discloud site does **not** become a VPS.
 
 ***
 
 ## 🧭 Next steps
 
-{% content-ref url="/broken/pages/addons-product" %}
-[Broken link](/broken/pages/addons-product)
+{% content-ref url="addons.md" %}
+[addons.md](addons.md)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/cdn-product" %}
-[Broken link](/broken/pages/cdn-product)
+{% content-ref url="../faq/troubleshooting-solutions/where-to-find-things-in-the-dashboard.md" %}
+[where-to-find-things-in-the-dashboard.md](../faq/troubleshooting-solutions/where-to-find-things-in-the-dashboard.md)
 {% endcontent-ref %}
