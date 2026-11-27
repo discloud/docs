@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introdução rápida às VPS na Discloud: cota de RAM/SSD à parte do plano e
-  servidores Linux com root por SSH.
+  Introdução rápida às VPS: primeiro compre a cota (Comprar recursos), depois
+  crie a máquina (Nova VPS).
 icon: server
 tags:
   - novo
@@ -11,16 +11,23 @@ tags:
 
 ## 🖥️ Resumo
 
-A VPS é um Linux na nuvem com **root** por SSH. Ela **não** usa a RAM do plano de bots e sites: você compra uma **cota** de RAM + SSD (add-on) e depois cria uma ou mais máquinas que consomem esse pool.
+A VPS é um Linux na nuvem com **root** por SSH. Ela **não** usa a RAM do plano de bots e sites.
 
-| Passo         | Onde                                                                 |
-| ------------- | -------------------------------------------------------------------- |
-| Comprar cota  | Painel → **VPS** → Comprar recursos (também em Assinatura → Add-ons) |
-| Criar máquina | Painel → **VPS** → Nova VPS                                          |
-| Acessar       | SSH com IP, usuário `root` e senha mostrados na visão geral          |
+**Ordem obrigatória:**
+
+1. **Comprar recursos** — cota de RAM + SSD (add-on).
+2. **Nova VPS** — criar a máquina só **depois** que a cota estiver paga e com GB livres.
+
+Comprar cota **não** liga servidor. Criar máquina **não** abre plano novo: só usa a cota.
+
+| Passo            | Botão no painel      | Onde                |
+| ---------------- | -------------------- | ------------------- |
+| 1. Comprar cota  | **Comprar recursos** | Dashboard → **VPS** |
+| 2. Criar máquina | **Nova VPS**         | Dashboard → **VPS** |
+| 3. Acessar       | SSH (`root` + senha) | Overview da máquina |
 
 {% hint style="info" %}
-Mínimos atuais por máquina / cota: **4 GB** de RAM e **50 GB** de SSD. Detalhes de vCPU, status, recriar, cancelar cota e comparação com apps estão na página completa do produto.
+Mínimos usuais: **4 GB** RAM e **50 GB** SSD. Passo a passo completo (checkout, campos, vCPU, status, cancelar cota): página do produto.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -31,10 +38,10 @@ Cancelar a cota VPS **destrói todas as máquinas** da conta.
 
 ## 📖 Documentação completa
 
-{% content-ref url="/broken/pages/vps-product" %}
-[Broken link](/broken/pages/vps-product)
+{% content-ref url="../platform-features/vps.md" %}
+[vps.md](../platform-features/vps.md)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/addons-product" %}
-[Broken link](/broken/pages/addons-product)
+{% content-ref url="../platform-features/addons.md" %}
+[addons.md](../platform-features/addons.md)
 {% endcontent-ref %}
